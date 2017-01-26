@@ -1,0 +1,71 @@
+// Generated b6b519c8-b44b-487f-b84b-07b8a2be4df6
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+
+
+repositories {
+
+    maven {
+        url rootProject.file("mavenRepo").toURI().toURL()
+    }
+
+    mavenCentral()
+}
+
+
+    configurations {
+        compile.extendsFrom projectsConfiguration
+    }
+
+
+
+
+dependencies {
+    compile 'commons-lang:commons-lang:2.5'
+    compile "commons-httpclient:commons-httpclient:3.0"
+    compile "commons-codec:commons-codec:1.2"
+    compile "org.slf4j:jcl-over-slf4j:1.7.10"
+    compile "org.codehaus.groovy:groovy:2.4.7"
+    testCompile 'junit:junit:4.12'
+    runtime 'com.googlecode:reflectasm:1.01'
+
+    
+    compile "group:artifact0:1.0" 
+    compile "group:artifact6:1.0" 
+    
+    
+        projectsConfiguration project(":project2") 
+        projectsConfiguration project(":project4") 
+        projectsConfiguration project(":project5") 
+        projectsConfiguration project(":project6") 
+        
+}
+
+test {
+    if (!JavaVersion.current().java8Compatible) {
+        jvmArgs '-XX:MaxPermSize=512m'
+    }
+    jvmArgs '-XX:+HeapDumpOnOutOfMemoryError'
+    
+}
+
+
+
+
+
+
+task resolveDependencies {
+    dependsOn configurations.testRuntime
+    // Need this to ensure that configuration is actually resolved
+    doLast {
+        configurations.testRuntime.files.size()
+    }
+}
+
+
+task dependencyReport(type: DependencyReportTask) {
+    outputs.upToDateWhen { false }
+    outputFile = new File(buildDir, "dependencies.txt")
+}

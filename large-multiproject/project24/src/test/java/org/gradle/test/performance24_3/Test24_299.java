@@ -1,0 +1,12 @@
+package org.gradle.test.performance24_3;
+
+import static org.junit.Assert.*;
+
+public class Test24_299 {
+    private final Production24_299 production = new Production24_299("value");
+
+    @org.junit.Test
+    public void test() {
+        assertEquals(production.getProperty(), "value");
+    }
+}

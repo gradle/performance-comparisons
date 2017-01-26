@@ -1,0 +1,14 @@
+package org.gradle.test.performance45_1;
+
+public class Production45_7 extends org.gradle.test.performance14_1.Production14_7 {
+    private final String property;
+
+    public Production45_7() {
+        this.property = "foo";
+    }
+
+    public String getProperty() {
+        return property;
+    }
+
+}

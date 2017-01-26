@@ -1,0 +1,1205 @@
+<project>
+    <property name="lib.dir" location="lib/test"/>
+
+
+    <target name="clean">
+        
+            <ant dir="project1" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project2" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project3" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project4" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project5" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project6" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project7" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project8" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project9" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project10" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project11" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project12" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project13" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project14" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project15" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project16" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project17" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project18" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project19" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project20" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project21" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project22" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project23" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project24" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project25" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project26" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project27" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project28" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project29" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project30" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project31" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project32" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project33" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project34" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project35" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project36" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project37" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project38" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project39" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project40" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project41" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project42" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project43" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project44" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project45" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project46" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project47" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project48" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project49" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project50" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project51" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project52" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project53" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project54" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project55" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project56" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project57" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project58" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project59" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project60" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project61" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project62" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project63" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project64" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project65" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project66" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project67" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project68" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project69" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project70" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project71" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project72" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project73" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project74" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project75" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project76" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project77" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project78" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project79" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project80" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project81" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project82" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project83" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project84" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project85" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project86" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project87" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project88" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project89" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project90" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project91" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project92" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project93" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project94" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project95" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project96" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project97" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project98" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project99" target="clean">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+    </target>
+
+    <target name="jar">
+        
+            <ant dir="project1" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project2" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project3" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project4" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project5" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project6" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project7" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project8" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project9" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project10" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project11" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project12" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project13" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project14" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project15" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project16" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project17" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project18" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project19" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project20" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project21" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project22" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project23" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project24" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project25" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project26" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project27" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project28" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project29" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project30" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project31" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project32" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project33" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project34" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project35" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project36" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project37" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project38" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project39" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project40" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project41" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project42" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project43" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project44" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project45" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project46" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project47" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project48" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project49" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project50" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project51" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project52" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project53" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project54" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project55" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project56" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project57" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project58" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project59" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project60" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project61" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project62" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project63" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project64" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project65" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project66" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project67" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project68" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project69" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project70" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project71" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project72" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project73" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project74" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project75" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project76" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project77" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project78" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project79" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project80" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project81" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project82" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project83" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project84" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project85" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project86" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project87" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project88" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project89" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project90" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project91" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project92" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project93" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project94" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project95" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project96" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project97" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project98" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project99" target="jar">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+    </target>
+
+    <target name="build">
+        
+            <ant dir="project1" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project2" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project3" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project4" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project5" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project6" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project7" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project8" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project9" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project10" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project11" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project12" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project13" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project14" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project15" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project16" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project17" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project18" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project19" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project20" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project21" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project22" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project23" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project24" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project25" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project26" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project27" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project28" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project29" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project30" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project31" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project32" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project33" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project34" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project35" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project36" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project37" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project38" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project39" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project40" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project41" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project42" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project43" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project44" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project45" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project46" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project47" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project48" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project49" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project50" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project51" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project52" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project53" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project54" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project55" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project56" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project57" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project58" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project59" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project60" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project61" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project62" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project63" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project64" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project65" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project66" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project67" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project68" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project69" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project70" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project71" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project72" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project73" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project74" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project75" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project76" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project77" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project78" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project79" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project80" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project81" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project82" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project83" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project84" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project85" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project86" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project87" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project88" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project89" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project90" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project91" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project92" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project93" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project94" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project95" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project96" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project97" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project98" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+            <ant dir="project99" target="build">
+                <property name="lib.dir" location="${lib.dir}"/>
+            </ant>
+        
+    </target>
+
+</project>

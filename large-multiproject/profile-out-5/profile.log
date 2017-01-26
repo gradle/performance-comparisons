@@ -1,0 +1,5919 @@
+
+* Started at 2017-01-26T21:31:57.551Z
+
+* Settings
+Project dir: /home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject
+Output dir: profile-out-5
+Profiler: none
+Benchmark: true
+Versions: [/home/cchampeau/DEV/gradle-source-build]
+Gradle User Home: gradle-user-home
+Targets: []
+
+* Inspecting Gradle version '/home/cchampeau/DEV/gradle-source-build'
+Enabling incremental compiler
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project93/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project25/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project55/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project74/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project37/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project39/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project27/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project84/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project76/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project48/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project22/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project82/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project92/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project31/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project44/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project66/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project43/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project99/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project24/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project5/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project50/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project36/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project88/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project89/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project67/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project11/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project52/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project1/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project49/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project95/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project96/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project35/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project10/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project71/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project80/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project38/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project42/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project12/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project65/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project64/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project47/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project60/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project69/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project34/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project77/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project58/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project18/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project70/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project19/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project83/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project94/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project59/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project4/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project45/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project73/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project2/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project63/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project54/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project62/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project85/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project91/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project9/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project53/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project72/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project86/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project51/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project28/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project90/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project26/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project15/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project79/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project87/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project23/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project40/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project14/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project75/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project41/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project29/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project16/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project61/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project46/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project7/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project30/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project6/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project98/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project21/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project33/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project57/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project97/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project32/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project8/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project13/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project20/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project78/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project68/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project3/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project81/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project56/build/classes/main'
+Cleaned up directory '/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project17/build/classes/main'
+:help
+
+Welcome to Gradle 3.4-20170125131600+0000.
+
+To run a build, run gradle <task> ...
+
+To see a list of available tasks, run gradle tasks
+
+To see a list of command-line options, run gradle --help
+
+To see more detail about a task, run gradle help --task <task>
+
+BUILD SUCCESSFUL
+
+Total time: 18.387 secs
+
+* Stopping daemons
+Stopping Daemon(s)
+1 Daemon stopped
+
+* Scenarios
+Scenario: abiChange using Gradle 3.4-20170125131600+0000
+  Gradle version: 3.4-20170125131600+0000 (/home/cchampeau/DEV/gradle-source-build)
+  Run using: ToolingApi
+  Cleanup Tasks: []
+  Tasks: [compileJava]
+  Gradle args: []
+  Build changes: ApplyAbiChangeToJavaSourceFileMutator(/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project1/src/main/java/org/gradle/test/performance1_4/Production1_315.java)
+  Warm-ups: 6
+  Builds: 10
+Scenario: nonAbiChange using Gradle 3.4-20170125131600+0000
+  Gradle version: 3.4-20170125131600+0000 (/home/cchampeau/DEV/gradle-source-build)
+  Run using: ToolingApi
+  Cleanup Tasks: []
+  Tasks: [compileJava]
+  Gradle args: []
+  Build changes: ApplyNonAbiChangeToJavaSourceFileMutator(/home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/project1/src/main/java/org/gradle/test/performance1_4/Production1_315.java)
+  Warm-ups: 6
+  Builds: 10
+
+* Running scenario abiChange using Gradle 3.4-20170125131600+0000 (scenario 1/2)
+
+* Stopping daemons
+No Gradle daemons are running.
+
+* Build details
+Gradle version: 3.4-20170125131600+0000
+Java home: /opt/jdk1.8.0_91
+OS name: Linux 4.4.0-45-generic
+JVM args:
+  -Xms2g
+  -Xmx2g
+  -Dfile.encoding=UTF-8
+  -Duser.country=US
+  -Duser.language=en
+  -Duser.variant
+Gradle args:
+  -I
+  /tmp/gradleProfilerPidInstrumentation4279566150873126466.gradle
+  --gradle-user-home
+  /home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/gradle-user-home
+
+* Running initial clean build with tasks [clean, compileJava]
+Enabling incremental compiler
+:project1:clean
+:project10:clean
+:project11:clean
+:project12:clean
+:project13:clean
+:project14:clean
+:project15:clean
+:project16:clean
+:project17:clean
+:project18:clean
+:project19:clean
+:project2:clean
+:project20:clean
+:project21:clean
+:project22:clean
+:project23:clean
+:project24:clean
+:project25:clean
+:project26:clean
+:project27:clean
+:project28:clean
+:project29:clean
+:project3:clean
+:project30:clean
+:project31:clean
+:project32:clean
+:project33:clean
+:project34:clean
+:project35:clean
+:project36:clean
+:project37:clean
+:project38:clean
+:project39:clean
+:project4:clean
+:project40:clean
+:project41:clean
+:project42:clean
+:project43:clean
+:project44:clean
+:project45:clean
+:project46:clean
+:project47:clean
+:project48:clean
+:project49:clean
+:project5:clean
+:project50:clean
+:project51:clean
+:project52:clean
+:project53:clean
+:project54:clean
+:project55:clean
+:project56:clean
+:project57:clean
+:project58:clean
+:project59:clean
+:project6:clean
+:project60:clean
+:project61:clean
+:project62:clean
+:project63:clean
+:project64:clean
+:project65:clean
+:project66:clean
+:project67:clean
+:project68:clean
+:project69:clean
+:project7:clean
+:project70:clean
+:project71:clean
+:project72:clean
+:project73:clean
+:project74:clean
+:project75:clean
+:project76:clean
+:project77:clean
+:project78:clean
+:project79:clean
+:project8:clean
+:project80:clean
+:project81:clean
+:project82:clean
+:project83:clean
+:project84:clean
+:project85:clean
+:project86:clean
+:project87:clean
+:project88:clean
+:project89:clean
+:project9:clean
+:project90:clean
+:project91:clean
+:project92:clean
+:project93:clean
+:project94:clean
+:project95:clean
+:project96:clean
+:project97:clean
+:project98:clean
+:project99:clean
+:project1:compileJava
+:project1:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar
+:project4:compileJava
+:project4:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar
+:project5:compileJava
+:project5:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar
+:project6:compileJava
+:project6:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar
+:project7:compileJava
+:project7:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar
+:project8:compileJava
+:project8:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar
+:project10:compileJava
+:project10:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project11:compileJava
+:project11:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project9:compileJava
+:project9:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar
+:project12:compileJava
+:project12:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project13:compileJava
+:project13:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project14:compileJava
+:project14:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar
+:project15:compileJava
+:project15:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project16:compileJava
+:project16:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project17:compileJava
+:project17:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project18:compileJava
+:project18:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar
+:project19:compileJava
+:project19:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project20:compileJava
+:project20:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project21:compileJava
+:project21:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project22:compileJava
+:project22:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project23:compileJava
+:project23:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project24:compileJava
+:project24:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar
+:project25:compileJava
+:project25:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project26:compileJava
+:project26:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project27:compileJava
+:project27:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project28:compileJava
+:project28:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project29:compileJava
+:project29:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project3:compileJava
+:project3:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project30:compileJava
+:project30:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project31:compileJava
+:project31:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar
+:project32:compileJava
+:project32:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project33:compileJava
+:project33:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project34:compileJava
+:project34:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project35:compileJava
+:project35:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project36:compileJava
+:project36:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project37:compileJava
+:project37:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project38:compileJava
+:project38:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project39:compileJava
+:project39:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project40:compileJava
+:project40:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar
+:project41:compileJava
+:project41:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project42:compileJava
+:project42:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project43:compileJava
+:project43:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project44:compileJava
+:project44:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project45:compileJava
+:project45:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project46:compileJava
+:project46:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project47:compileJava
+:project47:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project48:compileJava
+:project48:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project49:compileJava
+:project49:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project50:compileJava
+:project50:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project51:compileJava
+:project51:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project52:compileJava
+:project52:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar
+:project53:compileJava
+:project53:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project54:compileJava
+:project54:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project55:compileJava
+:project55:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project56:compileJava
+:project56:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project57:compileJava
+:project57:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project58:compileJava
+:project58:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project59:compileJava
+:project59:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project60:compileJava
+:project60:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project61:compileJava
+:project61:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project62:compileJava
+:project62:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project63:compileJava
+:project63:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project64:compileJava
+:project64:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project65:compileJava
+:project65:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project66:compileJava
+:project66:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project67:compileJava
+:project67:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar
+:project68:compileJava
+:project68:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project69:compileJava
+:project69:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project70:compileJava
+:project70:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project71:compileJava
+:project71:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project72:compileJava
+:project72:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project73:compileJava
+:project73:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project74:compileJava
+:project74:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project75:compileJava
+:project75:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project76:compileJava
+:project76:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project77:compileJava
+:project77:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project78:compileJava
+:project78:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project79:compileJava
+:project79:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project80:compileJava
+:project80:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project81:compileJava
+:project81:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project82:compileJava
+:project82:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project83:compileJava
+:project83:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project84:compileJava
+:project84:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project85:compileJava
+:project85:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project86:compileJava
+:project86:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project87:compileJava
+:project87:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar
+:project88:compileJava
+:project88:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project89:compileJava
+:project89:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project90:compileJava
+:project90:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project91:compileJava
+:project91:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project92:compileJava
+:project92:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project93:compileJava
+:project93:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project94:compileJava
+:project94:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project95:compileJava
+:project95:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project96:compileJava
+:project96:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project97:compileJava
+:project97:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project98:compileJava
+:project98:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project99:compileJava
+:project99:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+
+BUILD SUCCESSFUL
+
+Total time: 52.708 secs
+Used daemon with pid 622
+Execution time 52747ms
+
+* Stopping daemons
+Stopping Daemon(s)
+1 Daemon stopped
+
+* Running warm-up build 1 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar UP-TO-DATE
+:project4:compileJava
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar UP-TO-DATE
+:project5:compileJava
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar UP-TO-DATE
+:project6:compileJava
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar UP-TO-DATE
+:project7:compileJava
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar UP-TO-DATE
+:project8:compileJava
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar UP-TO-DATE
+:project10:compileJava
+:project11:compileJava
+:project9:compileJava
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar UP-TO-DATE
+:project12:compileJava
+:project13:compileJava
+:project14:compileJava
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar UP-TO-DATE
+:project15:compileJava
+:project16:compileJava
+:project17:compileJava
+:project18:compileJava
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar UP-TO-DATE
+:project19:compileJava
+:project20:compileJava
+:project21:compileJava
+:project22:compileJava
+:project23:compileJava
+:project24:compileJava
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar UP-TO-DATE
+:project25:compileJava
+:project26:compileJava
+:project27:compileJava
+:project28:compileJava
+:project29:compileJava
+:project3:compileJava
+:project30:compileJava
+:project31:compileJava
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar UP-TO-DATE
+:project32:compileJava
+:project33:compileJava
+:project34:compileJava
+:project35:compileJava
+:project36:compileJava
+:project37:compileJava
+:project38:compileJava
+:project39:compileJava
+:project40:compileJava
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar UP-TO-DATE
+:project41:compileJava
+:project42:compileJava
+:project43:compileJava
+:project44:compileJava
+:project45:compileJava
+:project46:compileJava
+:project47:compileJava
+:project48:compileJava
+:project49:compileJava
+:project50:compileJava
+:project51:compileJava
+:project52:compileJava
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar UP-TO-DATE
+:project53:compileJava
+:project54:compileJava
+:project55:compileJava
+:project56:compileJava
+:project57:compileJava
+:project58:compileJava
+:project59:compileJava
+:project60:compileJava
+:project61:compileJava
+:project62:compileJava
+:project63:compileJava
+:project64:compileJava
+:project65:compileJava
+:project66:compileJava
+:project67:compileJava
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar UP-TO-DATE
+:project68:compileJava
+:project69:compileJava
+:project70:compileJava
+:project71:compileJava
+:project72:compileJava
+:project73:compileJava
+:project74:compileJava
+:project75:compileJava
+:project76:compileJava
+:project77:compileJava
+:project78:compileJava
+:project79:compileJava
+:project80:compileJava
+:project81:compileJava
+:project82:compileJava
+:project83:compileJava
+:project84:compileJava
+:project85:compileJava
+:project86:compileJava
+:project87:compileJava
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar UP-TO-DATE
+:project88:compileJava
+:project89:compileJava
+:project90:compileJava
+:project91:compileJava
+:project92:compileJava
+:project93:compileJava
+:project94:compileJava
+:project95:compileJava
+:project96:compileJava
+:project97:compileJava
+:project98:compileJava
+:project99:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 31.022 secs
+Used daemon with pid 725
+Execution time 31160ms
+
+* Running warm-up build 2 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar UP-TO-DATE
+:project4:compileJava
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar UP-TO-DATE
+:project5:compileJava
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar UP-TO-DATE
+:project6:compileJava
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar UP-TO-DATE
+:project7:compileJava
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar UP-TO-DATE
+:project8:compileJava
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar UP-TO-DATE
+:project10:compileJava
+:project11:compileJava
+:project9:compileJava
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar UP-TO-DATE
+:project12:compileJava
+:project13:compileJava
+:project14:compileJava
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar UP-TO-DATE
+:project15:compileJava
+:project16:compileJava
+:project17:compileJava
+:project18:compileJava
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar UP-TO-DATE
+:project19:compileJava
+:project20:compileJava
+:project21:compileJava
+:project22:compileJava
+:project23:compileJava
+:project24:compileJava
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar UP-TO-DATE
+:project25:compileJava
+:project26:compileJava
+:project27:compileJava
+:project28:compileJava
+:project29:compileJava
+:project3:compileJava
+:project30:compileJava
+:project31:compileJava
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar UP-TO-DATE
+:project32:compileJava
+:project33:compileJava
+:project34:compileJava
+:project35:compileJava
+:project36:compileJava
+:project37:compileJava
+:project38:compileJava
+:project39:compileJava
+:project40:compileJava
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar UP-TO-DATE
+:project41:compileJava
+:project42:compileJava
+:project43:compileJava
+:project44:compileJava
+:project45:compileJava
+:project46:compileJava
+:project47:compileJava
+:project48:compileJava
+:project49:compileJava
+:project50:compileJava
+:project51:compileJava
+:project52:compileJava
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar UP-TO-DATE
+:project53:compileJava
+:project54:compileJava
+:project55:compileJava
+:project56:compileJava
+:project57:compileJava
+:project58:compileJava
+:project59:compileJava
+:project60:compileJava
+:project61:compileJava
+:project62:compileJava
+:project63:compileJava
+:project64:compileJava
+:project65:compileJava
+:project66:compileJava
+:project67:compileJava
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar UP-TO-DATE
+:project68:compileJava
+:project69:compileJava
+:project70:compileJava
+:project71:compileJava
+:project72:compileJava
+:project73:compileJava
+:project74:compileJava
+:project75:compileJava
+:project76:compileJava
+:project77:compileJava
+:project78:compileJava
+:project79:compileJava
+:project80:compileJava
+:project81:compileJava
+:project82:compileJava
+:project83:compileJava
+:project84:compileJava
+:project85:compileJava
+:project86:compileJava
+:project87:compileJava
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar UP-TO-DATE
+:project88:compileJava
+:project89:compileJava
+:project90:compileJava
+:project91:compileJava
+:project92:compileJava
+:project93:compileJava
+:project94:compileJava
+:project95:compileJava
+:project96:compileJava
+:project97:compileJava
+:project98:compileJava
+:project99:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 5.015 secs
+Used daemon with pid 725
+Execution time 5029ms
+
+* Running warm-up build 3 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar UP-TO-DATE
+:project4:compileJava
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar UP-TO-DATE
+:project5:compileJava
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar UP-TO-DATE
+:project6:compileJava
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar UP-TO-DATE
+:project7:compileJava
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar UP-TO-DATE
+:project8:compileJava
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar UP-TO-DATE
+:project10:compileJava
+:project11:compileJava
+:project9:compileJava
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar UP-TO-DATE
+:project12:compileJava
+:project13:compileJava
+:project14:compileJava
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar UP-TO-DATE
+:project15:compileJava
+:project16:compileJava
+:project17:compileJava
+:project18:compileJava
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar UP-TO-DATE
+:project19:compileJava
+:project20:compileJava
+:project21:compileJava
+:project22:compileJava
+:project23:compileJava
+:project24:compileJava
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar UP-TO-DATE
+:project25:compileJava
+:project26:compileJava
+:project27:compileJava
+:project28:compileJava
+:project29:compileJava
+:project3:compileJava
+:project30:compileJava
+:project31:compileJava
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar UP-TO-DATE
+:project32:compileJava
+:project33:compileJava
+:project34:compileJava
+:project35:compileJava
+:project36:compileJava
+:project37:compileJava
+:project38:compileJava
+:project39:compileJava
+:project40:compileJava
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar UP-TO-DATE
+:project41:compileJava
+:project42:compileJava
+:project43:compileJava
+:project44:compileJava
+:project45:compileJava
+:project46:compileJava
+:project47:compileJava
+:project48:compileJava
+:project49:compileJava
+:project50:compileJava
+:project51:compileJava
+:project52:compileJava
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar UP-TO-DATE
+:project53:compileJava
+:project54:compileJava
+:project55:compileJava
+:project56:compileJava
+:project57:compileJava
+:project58:compileJava
+:project59:compileJava
+:project60:compileJava
+:project61:compileJava
+:project62:compileJava
+:project63:compileJava
+:project64:compileJava
+:project65:compileJava
+:project66:compileJava
+:project67:compileJava
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar UP-TO-DATE
+:project68:compileJava
+:project69:compileJava
+:project70:compileJava
+:project71:compileJava
+:project72:compileJava
+:project73:compileJava
+:project74:compileJava
+:project75:compileJava
+:project76:compileJava
+:project77:compileJava
+:project78:compileJava
+:project79:compileJava
+:project80:compileJava
+:project81:compileJava
+:project82:compileJava
+:project83:compileJava
+:project84:compileJava
+:project85:compileJava
+:project86:compileJava
+:project87:compileJava
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar UP-TO-DATE
+:project88:compileJava
+:project89:compileJava
+:project90:compileJava
+:project91:compileJava
+:project92:compileJava
+:project93:compileJava
+:project94:compileJava
+:project95:compileJava
+:project96:compileJava
+:project97:compileJava
+:project98:compileJava
+:project99:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 4.486 secs
+Used daemon with pid 725
+Execution time 4500ms
+
+* Running warm-up build 4 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar UP-TO-DATE
+:project4:compileJava
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar UP-TO-DATE
+:project5:compileJava
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar UP-TO-DATE
+:project6:compileJava
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar UP-TO-DATE
+:project7:compileJava
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar UP-TO-DATE
+:project8:compileJava
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar UP-TO-DATE
+:project10:compileJava
+:project11:compileJava
+:project9:compileJava
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar UP-TO-DATE
+:project12:compileJava
+:project13:compileJava
+:project14:compileJava
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar UP-TO-DATE
+:project15:compileJava
+:project16:compileJava
+:project17:compileJava
+:project18:compileJava
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar UP-TO-DATE
+:project19:compileJava
+:project20:compileJava
+:project21:compileJava
+:project22:compileJava
+:project23:compileJava
+:project24:compileJava
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar UP-TO-DATE
+:project25:compileJava
+:project26:compileJava
+:project27:compileJava
+:project28:compileJava
+:project29:compileJava
+:project3:compileJava
+:project30:compileJava
+:project31:compileJava
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar UP-TO-DATE
+:project32:compileJava
+:project33:compileJava
+:project34:compileJava
+:project35:compileJava
+:project36:compileJava
+:project37:compileJava
+:project38:compileJava
+:project39:compileJava
+:project40:compileJava
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar UP-TO-DATE
+:project41:compileJava
+:project42:compileJava
+:project43:compileJava
+:project44:compileJava
+:project45:compileJava
+:project46:compileJava
+:project47:compileJava
+:project48:compileJava
+:project49:compileJava
+:project50:compileJava
+:project51:compileJava
+:project52:compileJava
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar UP-TO-DATE
+:project53:compileJava
+:project54:compileJava
+:project55:compileJava
+:project56:compileJava
+:project57:compileJava
+:project58:compileJava
+:project59:compileJava
+:project60:compileJava
+:project61:compileJava
+:project62:compileJava
+:project63:compileJava
+:project64:compileJava
+:project65:compileJava
+:project66:compileJava
+:project67:compileJava
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar UP-TO-DATE
+:project68:compileJava
+:project69:compileJava
+:project70:compileJava
+:project71:compileJava
+:project72:compileJava
+:project73:compileJava
+:project74:compileJava
+:project75:compileJava
+:project76:compileJava
+:project77:compileJava
+:project78:compileJava
+:project79:compileJava
+:project80:compileJava
+:project81:compileJava
+:project82:compileJava
+:project83:compileJava
+:project84:compileJava
+:project85:compileJava
+:project86:compileJava
+:project87:compileJava
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar UP-TO-DATE
+:project88:compileJava
+:project89:compileJava
+:project90:compileJava
+:project91:compileJava
+:project92:compileJava
+:project93:compileJava
+:project94:compileJava
+:project95:compileJava
+:project96:compileJava
+:project97:compileJava
+:project98:compileJava
+:project99:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 4.706 secs
+Used daemon with pid 725
+Execution time 4719ms
+
+* Running warm-up build 5 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar UP-TO-DATE
+:project4:compileJava
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar UP-TO-DATE
+:project5:compileJava
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar UP-TO-DATE
+:project6:compileJava
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar UP-TO-DATE
+:project7:compileJava
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar UP-TO-DATE
+:project8:compileJava
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar UP-TO-DATE
+:project10:compileJava
+:project11:compileJava
+:project9:compileJava
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar UP-TO-DATE
+:project12:compileJava
+:project13:compileJava
+:project14:compileJava
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar UP-TO-DATE
+:project15:compileJava
+:project16:compileJava
+:project17:compileJava
+:project18:compileJava
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar UP-TO-DATE
+:project19:compileJava
+:project20:compileJava
+:project21:compileJava
+:project22:compileJava
+:project23:compileJava
+:project24:compileJava
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar UP-TO-DATE
+:project25:compileJava
+:project26:compileJava
+:project27:compileJava
+:project28:compileJava
+:project29:compileJava
+:project3:compileJava
+:project30:compileJava
+:project31:compileJava
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar UP-TO-DATE
+:project32:compileJava
+:project33:compileJava
+:project34:compileJava
+:project35:compileJava
+:project36:compileJava
+:project37:compileJava
+:project38:compileJava
+:project39:compileJava
+:project40:compileJava
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar UP-TO-DATE
+:project41:compileJava
+:project42:compileJava
+:project43:compileJava
+:project44:compileJava
+:project45:compileJava
+:project46:compileJava
+:project47:compileJava
+:project48:compileJava
+:project49:compileJava
+:project50:compileJava
+:project51:compileJava
+:project52:compileJava
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar UP-TO-DATE
+:project53:compileJava
+:project54:compileJava
+:project55:compileJava
+:project56:compileJava
+:project57:compileJava
+:project58:compileJava
+:project59:compileJava
+:project60:compileJava
+:project61:compileJava
+:project62:compileJava
+:project63:compileJava
+:project64:compileJava
+:project65:compileJava
+:project66:compileJava
+:project67:compileJava
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar UP-TO-DATE
+:project68:compileJava
+:project69:compileJava
+:project70:compileJava
+:project71:compileJava
+:project72:compileJava
+:project73:compileJava
+:project74:compileJava
+:project75:compileJava
+:project76:compileJava
+:project77:compileJava
+:project78:compileJava
+:project79:compileJava
+:project80:compileJava
+:project81:compileJava
+:project82:compileJava
+:project83:compileJava
+:project84:compileJava
+:project85:compileJava
+:project86:compileJava
+:project87:compileJava
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar UP-TO-DATE
+:project88:compileJava
+:project89:compileJava
+:project90:compileJava
+:project91:compileJava
+:project92:compileJava
+:project93:compileJava
+:project94:compileJava
+:project95:compileJava
+:project96:compileJava
+:project97:compileJava
+:project98:compileJava
+:project99:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 4.032 secs
+Used daemon with pid 725
+Execution time 4045ms
+
+* Running warm-up build 6 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar UP-TO-DATE
+:project4:compileJava
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar UP-TO-DATE
+:project5:compileJava
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar UP-TO-DATE
+:project6:compileJava
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar UP-TO-DATE
+:project7:compileJava
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar UP-TO-DATE
+:project8:compileJava
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar UP-TO-DATE
+:project10:compileJava
+:project11:compileJava
+:project9:compileJava
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar UP-TO-DATE
+:project12:compileJava
+:project13:compileJava
+:project14:compileJava
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar UP-TO-DATE
+:project15:compileJava
+:project16:compileJava
+:project17:compileJava
+:project18:compileJava
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar UP-TO-DATE
+:project19:compileJava
+:project20:compileJava
+:project21:compileJava
+:project22:compileJava
+:project23:compileJava
+:project24:compileJava
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar UP-TO-DATE
+:project25:compileJava
+:project26:compileJava
+:project27:compileJava
+:project28:compileJava
+:project29:compileJava
+:project3:compileJava
+:project30:compileJava
+:project31:compileJava
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar UP-TO-DATE
+:project32:compileJava
+:project33:compileJava
+:project34:compileJava
+:project35:compileJava
+:project36:compileJava
+:project37:compileJava
+:project38:compileJava
+:project39:compileJava
+:project40:compileJava
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar UP-TO-DATE
+:project41:compileJava
+:project42:compileJava
+:project43:compileJava
+:project44:compileJava
+:project45:compileJava
+:project46:compileJava
+:project47:compileJava
+:project48:compileJava
+:project49:compileJava
+:project50:compileJava
+:project51:compileJava
+:project52:compileJava
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar UP-TO-DATE
+:project53:compileJava
+:project54:compileJava
+:project55:compileJava
+:project56:compileJava
+:project57:compileJava
+:project58:compileJava
+:project59:compileJava
+:project60:compileJava
+:project61:compileJava
+:project62:compileJava
+:project63:compileJava
+:project64:compileJava
+:project65:compileJava
+:project66:compileJava
+:project67:compileJava
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar UP-TO-DATE
+:project68:compileJava
+:project69:compileJava
+:project70:compileJava
+:project71:compileJava
+:project72:compileJava
+:project73:compileJava
+:project74:compileJava
+:project75:compileJava
+:project76:compileJava
+:project77:compileJava
+:project78:compileJava
+:project79:compileJava
+:project80:compileJava
+:project81:compileJava
+:project82:compileJava
+:project83:compileJava
+:project84:compileJava
+:project85:compileJava
+:project86:compileJava
+:project87:compileJava
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar UP-TO-DATE
+:project88:compileJava
+:project89:compileJava
+:project90:compileJava
+:project91:compileJava
+:project92:compileJava
+:project93:compileJava
+:project94:compileJava
+:project95:compileJava
+:project96:compileJava
+:project97:compileJava
+:project98:compileJava
+:project99:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 4.395 secs
+Used daemon with pid 725
+Execution time 4408ms
+
+* Using args for instrumented builds:
+
+* Running build 1 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar UP-TO-DATE
+:project4:compileJava
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar UP-TO-DATE
+:project5:compileJava
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar UP-TO-DATE
+:project6:compileJava
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar UP-TO-DATE
+:project7:compileJava
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar UP-TO-DATE
+:project8:compileJava
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar UP-TO-DATE
+:project10:compileJava
+:project11:compileJava
+:project9:compileJava
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar UP-TO-DATE
+:project12:compileJava
+:project13:compileJava
+:project14:compileJava
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar UP-TO-DATE
+:project15:compileJava
+:project16:compileJava
+:project17:compileJava
+:project18:compileJava
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar UP-TO-DATE
+:project19:compileJava
+:project20:compileJava
+:project21:compileJava
+:project22:compileJava
+:project23:compileJava
+:project24:compileJava
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar UP-TO-DATE
+:project25:compileJava
+:project26:compileJava
+:project27:compileJava
+:project28:compileJava
+:project29:compileJava
+:project3:compileJava
+:project30:compileJava
+:project31:compileJava
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar UP-TO-DATE
+:project32:compileJava
+:project33:compileJava
+:project34:compileJava
+:project35:compileJava
+:project36:compileJava
+:project37:compileJava
+:project38:compileJava
+:project39:compileJava
+:project40:compileJava
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar UP-TO-DATE
+:project41:compileJava
+:project42:compileJava
+:project43:compileJava
+:project44:compileJava
+:project45:compileJava
+:project46:compileJava
+:project47:compileJava
+:project48:compileJava
+:project49:compileJava
+:project50:compileJava
+:project51:compileJava
+:project52:compileJava
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar UP-TO-DATE
+:project53:compileJava
+:project54:compileJava
+:project55:compileJava
+:project56:compileJava
+:project57:compileJava
+:project58:compileJava
+:project59:compileJava
+:project60:compileJava
+:project61:compileJava
+:project62:compileJava
+:project63:compileJava
+:project64:compileJava
+:project65:compileJava
+:project66:compileJava
+:project67:compileJava
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar UP-TO-DATE
+:project68:compileJava
+:project69:compileJava
+:project70:compileJava
+:project71:compileJava
+:project72:compileJava
+:project73:compileJava
+:project74:compileJava
+:project75:compileJava
+:project76:compileJava
+:project77:compileJava
+:project78:compileJava
+:project79:compileJava
+:project80:compileJava
+:project81:compileJava
+:project82:compileJava
+:project83:compileJava
+:project84:compileJava
+:project85:compileJava
+:project86:compileJava
+:project87:compileJava
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar UP-TO-DATE
+:project88:compileJava
+:project89:compileJava
+:project90:compileJava
+:project91:compileJava
+:project92:compileJava
+:project93:compileJava
+:project94:compileJava
+:project95:compileJava
+:project96:compileJava
+:project97:compileJava
+:project98:compileJava
+:project99:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 3.639 secs
+Used daemon with pid 725
+Execution time 3652ms
+
+* Running build 2 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar UP-TO-DATE
+:project4:compileJava
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar UP-TO-DATE
+:project5:compileJava
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar UP-TO-DATE
+:project6:compileJava
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar UP-TO-DATE
+:project7:compileJava
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar UP-TO-DATE
+:project8:compileJava
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar UP-TO-DATE
+:project10:compileJava
+:project11:compileJava
+:project9:compileJava
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar UP-TO-DATE
+:project12:compileJava
+:project13:compileJava
+:project14:compileJava
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar UP-TO-DATE
+:project15:compileJava
+:project16:compileJava
+:project17:compileJava
+:project18:compileJava
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar UP-TO-DATE
+:project19:compileJava
+:project20:compileJava
+:project21:compileJava
+:project22:compileJava
+:project23:compileJava
+:project24:compileJava
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar UP-TO-DATE
+:project25:compileJava
+:project26:compileJava
+:project27:compileJava
+:project28:compileJava
+:project29:compileJava
+:project3:compileJava
+:project30:compileJava
+:project31:compileJava
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar UP-TO-DATE
+:project32:compileJava
+:project33:compileJava
+:project34:compileJava
+:project35:compileJava
+:project36:compileJava
+:project37:compileJava
+:project38:compileJava
+:project39:compileJava
+:project40:compileJava
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar UP-TO-DATE
+:project41:compileJava
+:project42:compileJava
+:project43:compileJava
+:project44:compileJava
+:project45:compileJava
+:project46:compileJava
+:project47:compileJava
+:project48:compileJava
+:project49:compileJava
+:project50:compileJava
+:project51:compileJava
+:project52:compileJava
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar UP-TO-DATE
+:project53:compileJava
+:project54:compileJava
+:project55:compileJava
+:project56:compileJava
+:project57:compileJava
+:project58:compileJava
+:project59:compileJava
+:project60:compileJava
+:project61:compileJava
+:project62:compileJava
+:project63:compileJava
+:project64:compileJava
+:project65:compileJava
+:project66:compileJava
+:project67:compileJava
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar UP-TO-DATE
+:project68:compileJava
+:project69:compileJava
+:project70:compileJava
+:project71:compileJava
+:project72:compileJava
+:project73:compileJava
+:project74:compileJava
+:project75:compileJava
+:project76:compileJava
+:project77:compileJava
+:project78:compileJava
+:project79:compileJava
+:project80:compileJava
+:project81:compileJava
+:project82:compileJava
+:project83:compileJava
+:project84:compileJava
+:project85:compileJava
+:project86:compileJava
+:project87:compileJava
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar UP-TO-DATE
+:project88:compileJava
+:project89:compileJava
+:project90:compileJava
+:project91:compileJava
+:project92:compileJava
+:project93:compileJava
+:project94:compileJava
+:project95:compileJava
+:project96:compileJava
+:project97:compileJava
+:project98:compileJava
+:project99:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 3.451 secs
+Used daemon with pid 725
+Execution time 3464ms
+
+* Running build 3 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar UP-TO-DATE
+:project4:compileJava
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar UP-TO-DATE
+:project5:compileJava
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar UP-TO-DATE
+:project6:compileJava
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar UP-TO-DATE
+:project7:compileJava
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar UP-TO-DATE
+:project8:compileJava
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar UP-TO-DATE
+:project10:compileJava
+:project11:compileJava
+:project9:compileJava
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar UP-TO-DATE
+:project12:compileJava
+:project13:compileJava
+:project14:compileJava
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar UP-TO-DATE
+:project15:compileJava
+:project16:compileJava
+:project17:compileJava
+:project18:compileJava
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar UP-TO-DATE
+:project19:compileJava
+:project20:compileJava
+:project21:compileJava
+:project22:compileJava
+:project23:compileJava
+:project24:compileJava
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar UP-TO-DATE
+:project25:compileJava
+:project26:compileJava
+:project27:compileJava
+:project28:compileJava
+:project29:compileJava
+:project3:compileJava
+:project30:compileJava
+:project31:compileJava
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar UP-TO-DATE
+:project32:compileJava
+:project33:compileJava
+:project34:compileJava
+:project35:compileJava
+:project36:compileJava
+:project37:compileJava
+:project38:compileJava
+:project39:compileJava
+:project40:compileJava
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar UP-TO-DATE
+:project41:compileJava
+:project42:compileJava
+:project43:compileJava
+:project44:compileJava
+:project45:compileJava
+:project46:compileJava
+:project47:compileJava
+:project48:compileJava
+:project49:compileJava
+:project50:compileJava
+:project51:compileJava
+:project52:compileJava
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar UP-TO-DATE
+:project53:compileJava
+:project54:compileJava
+:project55:compileJava
+:project56:compileJava
+:project57:compileJava
+:project58:compileJava
+:project59:compileJava
+:project60:compileJava
+:project61:compileJava
+:project62:compileJava
+:project63:compileJava
+:project64:compileJava
+:project65:compileJava
+:project66:compileJava
+:project67:compileJava
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar UP-TO-DATE
+:project68:compileJava
+:project69:compileJava
+:project70:compileJava
+:project71:compileJava
+:project72:compileJava
+:project73:compileJava
+:project74:compileJava
+:project75:compileJava
+:project76:compileJava
+:project77:compileJava
+:project78:compileJava
+:project79:compileJava
+:project80:compileJava
+:project81:compileJava
+:project82:compileJava
+:project83:compileJava
+:project84:compileJava
+:project85:compileJava
+:project86:compileJava
+:project87:compileJava
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar UP-TO-DATE
+:project88:compileJava
+:project89:compileJava
+:project90:compileJava
+:project91:compileJava
+:project92:compileJava
+:project93:compileJava
+:project94:compileJava
+:project95:compileJava
+:project96:compileJava
+:project97:compileJava
+:project98:compileJava
+:project99:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 3.498 secs
+Used daemon with pid 725
+Execution time 3512ms
+
+* Running build 4 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar UP-TO-DATE
+:project4:compileJava
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar UP-TO-DATE
+:project5:compileJava
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar UP-TO-DATE
+:project6:compileJava
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar UP-TO-DATE
+:project7:compileJava
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar UP-TO-DATE
+:project8:compileJava
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar UP-TO-DATE
+:project10:compileJava
+:project11:compileJava
+:project9:compileJava
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar UP-TO-DATE
+:project12:compileJava
+:project13:compileJava
+:project14:compileJava
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar UP-TO-DATE
+:project15:compileJava
+:project16:compileJava
+:project17:compileJava
+:project18:compileJava
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar UP-TO-DATE
+:project19:compileJava
+:project20:compileJava
+:project21:compileJava
+:project22:compileJava
+:project23:compileJava
+:project24:compileJava
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar UP-TO-DATE
+:project25:compileJava
+:project26:compileJava
+:project27:compileJava
+:project28:compileJava
+:project29:compileJava
+:project3:compileJava
+:project30:compileJava
+:project31:compileJava
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar UP-TO-DATE
+:project32:compileJava
+:project33:compileJava
+:project34:compileJava
+:project35:compileJava
+:project36:compileJava
+:project37:compileJava
+:project38:compileJava
+:project39:compileJava
+:project40:compileJava
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar UP-TO-DATE
+:project41:compileJava
+:project42:compileJava
+:project43:compileJava
+:project44:compileJava
+:project45:compileJava
+:project46:compileJava
+:project47:compileJava
+:project48:compileJava
+:project49:compileJava
+:project50:compileJava
+:project51:compileJava
+:project52:compileJava
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar UP-TO-DATE
+:project53:compileJava
+:project54:compileJava
+:project55:compileJava
+:project56:compileJava
+:project57:compileJava
+:project58:compileJava
+:project59:compileJava
+:project60:compileJava
+:project61:compileJava
+:project62:compileJava
+:project63:compileJava
+:project64:compileJava
+:project65:compileJava
+:project66:compileJava
+:project67:compileJava
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar UP-TO-DATE
+:project68:compileJava
+:project69:compileJava
+:project70:compileJava
+:project71:compileJava
+:project72:compileJava
+:project73:compileJava
+:project74:compileJava
+:project75:compileJava
+:project76:compileJava
+:project77:compileJava
+:project78:compileJava
+:project79:compileJava
+:project80:compileJava
+:project81:compileJava
+:project82:compileJava
+:project83:compileJava
+:project84:compileJava
+:project85:compileJava
+:project86:compileJava
+:project87:compileJava
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar UP-TO-DATE
+:project88:compileJava
+:project89:compileJava
+:project90:compileJava
+:project91:compileJava
+:project92:compileJava
+:project93:compileJava
+:project94:compileJava
+:project95:compileJava
+:project96:compileJava
+:project97:compileJava
+:project98:compileJava
+:project99:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 3.332 secs
+Used daemon with pid 725
+Execution time 3345ms
+
+* Running build 5 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar UP-TO-DATE
+:project4:compileJava
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar UP-TO-DATE
+:project5:compileJava
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar UP-TO-DATE
+:project6:compileJava
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar UP-TO-DATE
+:project7:compileJava
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar UP-TO-DATE
+:project8:compileJava
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar UP-TO-DATE
+:project10:compileJava
+:project11:compileJava
+:project9:compileJava
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar UP-TO-DATE
+:project12:compileJava
+:project13:compileJava
+:project14:compileJava
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar UP-TO-DATE
+:project15:compileJava
+:project16:compileJava
+:project17:compileJava
+:project18:compileJava
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar UP-TO-DATE
+:project19:compileJava
+:project20:compileJava
+:project21:compileJava
+:project22:compileJava
+:project23:compileJava
+:project24:compileJava
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar UP-TO-DATE
+:project25:compileJava
+:project26:compileJava
+:project27:compileJava
+:project28:compileJava
+:project29:compileJava
+:project3:compileJava
+:project30:compileJava
+:project31:compileJava
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar UP-TO-DATE
+:project32:compileJava
+:project33:compileJava
+:project34:compileJava
+:project35:compileJava
+:project36:compileJava
+:project37:compileJava
+:project38:compileJava
+:project39:compileJava
+:project40:compileJava
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar UP-TO-DATE
+:project41:compileJava
+:project42:compileJava
+:project43:compileJava
+:project44:compileJava
+:project45:compileJava
+:project46:compileJava
+:project47:compileJava
+:project48:compileJava
+:project49:compileJava
+:project50:compileJava
+:project51:compileJava
+:project52:compileJava
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar UP-TO-DATE
+:project53:compileJava
+:project54:compileJava
+:project55:compileJava
+:project56:compileJava
+:project57:compileJava
+:project58:compileJava
+:project59:compileJava
+:project60:compileJava
+:project61:compileJava
+:project62:compileJava
+:project63:compileJava
+:project64:compileJava
+:project65:compileJava
+:project66:compileJava
+:project67:compileJava
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar UP-TO-DATE
+:project68:compileJava
+:project69:compileJava
+:project70:compileJava
+:project71:compileJava
+:project72:compileJava
+:project73:compileJava
+:project74:compileJava
+:project75:compileJava
+:project76:compileJava
+:project77:compileJava
+:project78:compileJava
+:project79:compileJava
+:project80:compileJava
+:project81:compileJava
+:project82:compileJava
+:project83:compileJava
+:project84:compileJava
+:project85:compileJava
+:project86:compileJava
+:project87:compileJava
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar UP-TO-DATE
+:project88:compileJava
+:project89:compileJava
+:project90:compileJava
+:project91:compileJava
+:project92:compileJava
+:project93:compileJava
+:project94:compileJava
+:project95:compileJava
+:project96:compileJava
+:project97:compileJava
+:project98:compileJava
+:project99:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 3.605 secs
+Used daemon with pid 725
+Execution time 3621ms
+
+* Running build 6 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar UP-TO-DATE
+:project4:compileJava
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar UP-TO-DATE
+:project5:compileJava
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar UP-TO-DATE
+:project6:compileJava
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar UP-TO-DATE
+:project7:compileJava
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar UP-TO-DATE
+:project8:compileJava
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar UP-TO-DATE
+:project10:compileJava
+:project11:compileJava
+:project9:compileJava
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar UP-TO-DATE
+:project12:compileJava
+:project13:compileJava
+:project14:compileJava
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar UP-TO-DATE
+:project15:compileJava
+:project16:compileJava
+:project17:compileJava
+:project18:compileJava
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar UP-TO-DATE
+:project19:compileJava
+:project20:compileJava
+:project21:compileJava
+:project22:compileJava
+:project23:compileJava
+:project24:compileJava
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar UP-TO-DATE
+:project25:compileJava
+:project26:compileJava
+:project27:compileJava
+:project28:compileJava
+:project29:compileJava
+:project3:compileJava
+:project30:compileJava
+:project31:compileJava
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar UP-TO-DATE
+:project32:compileJava
+:project33:compileJava
+:project34:compileJava
+:project35:compileJava
+:project36:compileJava
+:project37:compileJava
+:project38:compileJava
+:project39:compileJava
+:project40:compileJava
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar UP-TO-DATE
+:project41:compileJava
+:project42:compileJava
+:project43:compileJava
+:project44:compileJava
+:project45:compileJava
+:project46:compileJava
+:project47:compileJava
+:project48:compileJava
+:project49:compileJava
+:project50:compileJava
+:project51:compileJava
+:project52:compileJava
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar UP-TO-DATE
+:project53:compileJava
+:project54:compileJava
+:project55:compileJava
+:project56:compileJava
+:project57:compileJava
+:project58:compileJava
+:project59:compileJava
+:project60:compileJava
+:project61:compileJava
+:project62:compileJava
+:project63:compileJava
+:project64:compileJava
+:project65:compileJava
+:project66:compileJava
+:project67:compileJava
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar UP-TO-DATE
+:project68:compileJava
+:project69:compileJava
+:project70:compileJava
+:project71:compileJava
+:project72:compileJava
+:project73:compileJava
+:project74:compileJava
+:project75:compileJava
+:project76:compileJava
+:project77:compileJava
+:project78:compileJava
+:project79:compileJava
+:project80:compileJava
+:project81:compileJava
+:project82:compileJava
+:project83:compileJava
+:project84:compileJava
+:project85:compileJava
+:project86:compileJava
+:project87:compileJava
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar UP-TO-DATE
+:project88:compileJava
+:project89:compileJava
+:project90:compileJava
+:project91:compileJava
+:project92:compileJava
+:project93:compileJava
+:project94:compileJava
+:project95:compileJava
+:project96:compileJava
+:project97:compileJava
+:project98:compileJava
+:project99:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 3.7 secs
+Used daemon with pid 725
+Execution time 3714ms
+
+* Running build 7 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar UP-TO-DATE
+:project4:compileJava
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar UP-TO-DATE
+:project5:compileJava
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar UP-TO-DATE
+:project6:compileJava
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar UP-TO-DATE
+:project7:compileJava
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar UP-TO-DATE
+:project8:compileJava
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar UP-TO-DATE
+:project10:compileJava
+:project11:compileJava
+:project9:compileJava
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar UP-TO-DATE
+:project12:compileJava
+:project13:compileJava
+:project14:compileJava
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar UP-TO-DATE
+:project15:compileJava
+:project16:compileJava
+:project17:compileJava
+:project18:compileJava
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar UP-TO-DATE
+:project19:compileJava
+:project20:compileJava
+:project21:compileJava
+:project22:compileJava
+:project23:compileJava
+:project24:compileJava
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar UP-TO-DATE
+:project25:compileJava
+:project26:compileJava
+:project27:compileJava
+:project28:compileJava
+:project29:compileJava
+:project3:compileJava
+:project30:compileJava
+:project31:compileJava
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar UP-TO-DATE
+:project32:compileJava
+:project33:compileJava
+:project34:compileJava
+:project35:compileJava
+:project36:compileJava
+:project37:compileJava
+:project38:compileJava
+:project39:compileJava
+:project40:compileJava
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar UP-TO-DATE
+:project41:compileJava
+:project42:compileJava
+:project43:compileJava
+:project44:compileJava
+:project45:compileJava
+:project46:compileJava
+:project47:compileJava
+:project48:compileJava
+:project49:compileJava
+:project50:compileJava
+:project51:compileJava
+:project52:compileJava
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar UP-TO-DATE
+:project53:compileJava
+:project54:compileJava
+:project55:compileJava
+:project56:compileJava
+:project57:compileJava
+:project58:compileJava
+:project59:compileJava
+:project60:compileJava
+:project61:compileJava
+:project62:compileJava
+:project63:compileJava
+:project64:compileJava
+:project65:compileJava
+:project66:compileJava
+:project67:compileJava
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar UP-TO-DATE
+:project68:compileJava
+:project69:compileJava
+:project70:compileJava
+:project71:compileJava
+:project72:compileJava
+:project73:compileJava
+:project74:compileJava
+:project75:compileJava
+:project76:compileJava
+:project77:compileJava
+:project78:compileJava
+:project79:compileJava
+:project80:compileJava
+:project81:compileJava
+:project82:compileJava
+:project83:compileJava
+:project84:compileJava
+:project85:compileJava
+:project86:compileJava
+:project87:compileJava
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar UP-TO-DATE
+:project88:compileJava
+:project89:compileJava
+:project90:compileJava
+:project91:compileJava
+:project92:compileJava
+:project93:compileJava
+:project94:compileJava
+:project95:compileJava
+:project96:compileJava
+:project97:compileJava
+:project98:compileJava
+:project99:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 4.011 secs
+Used daemon with pid 725
+Execution time 4024ms
+
+* Running build 8 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar UP-TO-DATE
+:project4:compileJava
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar UP-TO-DATE
+:project5:compileJava
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar UP-TO-DATE
+:project6:compileJava
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar UP-TO-DATE
+:project7:compileJava
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar UP-TO-DATE
+:project8:compileJava
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar UP-TO-DATE
+:project10:compileJava
+:project11:compileJava
+:project9:compileJava
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar UP-TO-DATE
+:project12:compileJava
+:project13:compileJava
+:project14:compileJava
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar UP-TO-DATE
+:project15:compileJava
+:project16:compileJava
+:project17:compileJava
+:project18:compileJava
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar UP-TO-DATE
+:project19:compileJava
+:project20:compileJava
+:project21:compileJava
+:project22:compileJava
+:project23:compileJava
+:project24:compileJava
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar UP-TO-DATE
+:project25:compileJava
+:project26:compileJava
+:project27:compileJava
+:project28:compileJava
+:project29:compileJava
+:project3:compileJava
+:project30:compileJava
+:project31:compileJava
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar UP-TO-DATE
+:project32:compileJava
+:project33:compileJava
+:project34:compileJava
+:project35:compileJava
+:project36:compileJava
+:project37:compileJava
+:project38:compileJava
+:project39:compileJava
+:project40:compileJava
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar UP-TO-DATE
+:project41:compileJava
+:project42:compileJava
+:project43:compileJava
+:project44:compileJava
+:project45:compileJava
+:project46:compileJava
+:project47:compileJava
+:project48:compileJava
+:project49:compileJava
+:project50:compileJava
+:project51:compileJava
+:project52:compileJava
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar UP-TO-DATE
+:project53:compileJava
+:project54:compileJava
+:project55:compileJava
+:project56:compileJava
+:project57:compileJava
+:project58:compileJava
+:project59:compileJava
+:project60:compileJava
+:project61:compileJava
+:project62:compileJava
+:project63:compileJava
+:project64:compileJava
+:project65:compileJava
+:project66:compileJava
+:project67:compileJava
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar UP-TO-DATE
+:project68:compileJava
+:project69:compileJava
+:project70:compileJava
+:project71:compileJava
+:project72:compileJava
+:project73:compileJava
+:project74:compileJava
+:project75:compileJava
+:project76:compileJava
+:project77:compileJava
+:project78:compileJava
+:project79:compileJava
+:project80:compileJava
+:project81:compileJava
+:project82:compileJava
+:project83:compileJava
+:project84:compileJava
+:project85:compileJava
+:project86:compileJava
+:project87:compileJava
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar UP-TO-DATE
+:project88:compileJava
+:project89:compileJava
+:project90:compileJava
+:project91:compileJava
+:project92:compileJava
+:project93:compileJava
+:project94:compileJava
+:project95:compileJava
+:project96:compileJava
+:project97:compileJava
+:project98:compileJava
+:project99:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 3.773 secs
+Used daemon with pid 725
+Execution time 3786ms
+
+* Running build 9 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar UP-TO-DATE
+:project4:compileJava
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar UP-TO-DATE
+:project5:compileJava
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar UP-TO-DATE
+:project6:compileJava
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar UP-TO-DATE
+:project7:compileJava
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar UP-TO-DATE
+:project8:compileJava
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar UP-TO-DATE
+:project10:compileJava
+:project11:compileJava
+:project9:compileJava
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar UP-TO-DATE
+:project12:compileJava
+:project13:compileJava
+:project14:compileJava
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar UP-TO-DATE
+:project15:compileJava
+:project16:compileJava
+:project17:compileJava
+:project18:compileJava
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar UP-TO-DATE
+:project19:compileJava
+:project20:compileJava
+:project21:compileJava
+:project22:compileJava
+:project23:compileJava
+:project24:compileJava
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar UP-TO-DATE
+:project25:compileJava
+:project26:compileJava
+:project27:compileJava
+:project28:compileJava
+:project29:compileJava
+:project3:compileJava
+:project30:compileJava
+:project31:compileJava
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar UP-TO-DATE
+:project32:compileJava
+:project33:compileJava
+:project34:compileJava
+:project35:compileJava
+:project36:compileJava
+:project37:compileJava
+:project38:compileJava
+:project39:compileJava
+:project40:compileJava
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar UP-TO-DATE
+:project41:compileJava
+:project42:compileJava
+:project43:compileJava
+:project44:compileJava
+:project45:compileJava
+:project46:compileJava
+:project47:compileJava
+:project48:compileJava
+:project49:compileJava
+:project50:compileJava
+:project51:compileJava
+:project52:compileJava
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar UP-TO-DATE
+:project53:compileJava
+:project54:compileJava
+:project55:compileJava
+:project56:compileJava
+:project57:compileJava
+:project58:compileJava
+:project59:compileJava
+:project60:compileJava
+:project61:compileJava
+:project62:compileJava
+:project63:compileJava
+:project64:compileJava
+:project65:compileJava
+:project66:compileJava
+:project67:compileJava
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar UP-TO-DATE
+:project68:compileJava
+:project69:compileJava
+:project70:compileJava
+:project71:compileJava
+:project72:compileJava
+:project73:compileJava
+:project74:compileJava
+:project75:compileJava
+:project76:compileJava
+:project77:compileJava
+:project78:compileJava
+:project79:compileJava
+:project80:compileJava
+:project81:compileJava
+:project82:compileJava
+:project83:compileJava
+:project84:compileJava
+:project85:compileJava
+:project86:compileJava
+:project87:compileJava
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar UP-TO-DATE
+:project88:compileJava
+:project89:compileJava
+:project90:compileJava
+:project91:compileJava
+:project92:compileJava
+:project93:compileJava
+:project94:compileJava
+:project95:compileJava
+:project96:compileJava
+:project97:compileJava
+:project98:compileJava
+:project99:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 3.645 secs
+Used daemon with pid 725
+Execution time 3658ms
+
+* Running build 10 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar UP-TO-DATE
+:project4:compileJava
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar UP-TO-DATE
+:project5:compileJava
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar UP-TO-DATE
+:project6:compileJava
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar UP-TO-DATE
+:project7:compileJava
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar UP-TO-DATE
+:project8:compileJava
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar UP-TO-DATE
+:project10:compileJava
+:project11:compileJava
+:project9:compileJava
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar UP-TO-DATE
+:project12:compileJava
+:project13:compileJava
+:project14:compileJava
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar UP-TO-DATE
+:project15:compileJava
+:project16:compileJava
+:project17:compileJava
+:project18:compileJava
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar UP-TO-DATE
+:project19:compileJava
+:project20:compileJava
+:project21:compileJava
+:project22:compileJava
+:project23:compileJava
+:project24:compileJava
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar UP-TO-DATE
+:project25:compileJava
+:project26:compileJava
+:project27:compileJava
+:project28:compileJava
+:project29:compileJava
+:project3:compileJava
+:project30:compileJava
+:project31:compileJava
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar UP-TO-DATE
+:project32:compileJava
+:project33:compileJava
+:project34:compileJava
+:project35:compileJava
+:project36:compileJava
+:project37:compileJava
+:project38:compileJava
+:project39:compileJava
+:project40:compileJava
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar UP-TO-DATE
+:project41:compileJava
+:project42:compileJava
+:project43:compileJava
+:project44:compileJava
+:project45:compileJava
+:project46:compileJava
+:project47:compileJava
+:project48:compileJava
+:project49:compileJava
+:project50:compileJava
+:project51:compileJava
+:project52:compileJava
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar UP-TO-DATE
+:project53:compileJava
+:project54:compileJava
+:project55:compileJava
+:project56:compileJava
+:project57:compileJava
+:project58:compileJava
+:project59:compileJava
+:project60:compileJava
+:project61:compileJava
+:project62:compileJava
+:project63:compileJava
+:project64:compileJava
+:project65:compileJava
+:project66:compileJava
+:project67:compileJava
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar UP-TO-DATE
+:project68:compileJava
+:project69:compileJava
+:project70:compileJava
+:project71:compileJava
+:project72:compileJava
+:project73:compileJava
+:project74:compileJava
+:project75:compileJava
+:project76:compileJava
+:project77:compileJava
+:project78:compileJava
+:project79:compileJava
+:project80:compileJava
+:project81:compileJava
+:project82:compileJava
+:project83:compileJava
+:project84:compileJava
+:project85:compileJava
+:project86:compileJava
+:project87:compileJava
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar UP-TO-DATE
+:project88:compileJava
+:project89:compileJava
+:project90:compileJava
+:project91:compileJava
+:project92:compileJava
+:project93:compileJava
+:project94:compileJava
+:project95:compileJava
+:project96:compileJava
+:project97:compileJava
+:project98:compileJava
+:project99:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 3.648 secs
+Used daemon with pid 725
+Execution time 3663ms
+
+* Stopping daemons
+Stopping Daemon(s)
+1 Daemon stopped
+
+* Running scenario nonAbiChange using Gradle 3.4-20170125131600+0000 (scenario 2/2)
+
+* Stopping daemons
+No Gradle daemons are running.
+
+* Build details
+Gradle version: 3.4-20170125131600+0000
+Java home: /opt/jdk1.8.0_91
+OS name: Linux 4.4.0-45-generic
+JVM args:
+  -Xms2g
+  -Xmx2g
+  -Dfile.encoding=UTF-8
+  -Duser.country=US
+  -Duser.language=en
+  -Duser.variant
+Gradle args:
+  -I
+  /tmp/gradleProfilerPidInstrumentation4279566150873126466.gradle
+  --gradle-user-home
+  /home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/gradle-user-home
+
+* Running initial clean build with tasks [clean, compileJava]
+Enabling incremental compiler
+:project1:clean
+:project10:clean
+:project11:clean
+:project12:clean
+:project13:clean
+:project14:clean
+:project15:clean
+:project16:clean
+:project17:clean
+:project18:clean
+:project19:clean
+:project2:clean
+:project20:clean
+:project21:clean
+:project22:clean
+:project23:clean
+:project24:clean
+:project25:clean
+:project26:clean
+:project27:clean
+:project28:clean
+:project29:clean
+:project3:clean
+:project30:clean
+:project31:clean
+:project32:clean
+:project33:clean
+:project34:clean
+:project35:clean
+:project36:clean
+:project37:clean
+:project38:clean
+:project39:clean
+:project4:clean
+:project40:clean
+:project41:clean
+:project42:clean
+:project43:clean
+:project44:clean
+:project45:clean
+:project46:clean
+:project47:clean
+:project48:clean
+:project49:clean
+:project5:clean
+:project50:clean
+:project51:clean
+:project52:clean
+:project53:clean
+:project54:clean
+:project55:clean
+:project56:clean
+:project57:clean
+:project58:clean
+:project59:clean
+:project6:clean
+:project60:clean
+:project61:clean
+:project62:clean
+:project63:clean
+:project64:clean
+:project65:clean
+:project66:clean
+:project67:clean
+:project68:clean
+:project69:clean
+:project7:clean
+:project70:clean
+:project71:clean
+:project72:clean
+:project73:clean
+:project74:clean
+:project75:clean
+:project76:clean
+:project77:clean
+:project78:clean
+:project79:clean
+:project8:clean
+:project80:clean
+:project81:clean
+:project82:clean
+:project83:clean
+:project84:clean
+:project85:clean
+:project86:clean
+:project87:clean
+:project88:clean
+:project89:clean
+:project9:clean
+:project90:clean
+:project91:clean
+:project92:clean
+:project93:clean
+:project94:clean
+:project95:clean
+:project96:clean
+:project97:clean
+:project98:clean
+:project99:clean
+:project1:compileJava
+:project1:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar
+:project4:compileJava
+:project4:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar
+:project5:compileJava
+:project5:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar
+:project6:compileJava
+:project6:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar
+:project7:compileJava
+:project7:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar
+:project8:compileJava
+:project8:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar
+:project10:compileJava
+:project10:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project11:compileJava
+:project11:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project9:compileJava
+:project9:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar
+:project12:compileJava
+:project12:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project13:compileJava
+:project13:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project14:compileJava
+:project14:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar
+:project15:compileJava
+:project15:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project16:compileJava
+:project16:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project17:compileJava
+:project17:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project18:compileJava
+:project18:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar
+:project19:compileJava
+:project19:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project20:compileJava
+:project20:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project21:compileJava
+:project21:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project22:compileJava
+:project22:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project23:compileJava
+:project23:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project24:compileJava
+:project24:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar
+:project25:compileJava
+:project25:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project26:compileJava
+:project26:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project27:compileJava
+:project27:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project28:compileJava
+:project28:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project29:compileJava
+:project29:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project3:compileJava
+:project3:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project30:compileJava
+:project30:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project31:compileJava
+:project31:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar
+:project32:compileJava
+:project32:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project33:compileJava
+:project33:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project34:compileJava
+:project34:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project35:compileJava
+:project35:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project36:compileJava
+:project36:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project37:compileJava
+:project37:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project38:compileJava
+:project38:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project39:compileJava
+:project39:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project40:compileJava
+:project40:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar
+:project41:compileJava
+:project41:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project42:compileJava
+:project42:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project43:compileJava
+:project43:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project44:compileJava
+:project44:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project45:compileJava
+:project45:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project46:compileJava
+:project46:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project47:compileJava
+:project47:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project48:compileJava
+:project48:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project49:compileJava
+:project49:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project50:compileJava
+:project50:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project51:compileJava
+:project51:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project52:compileJava
+:project52:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar
+:project53:compileJava
+:project53:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project54:compileJava
+:project54:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project55:compileJava
+:project55:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project56:compileJava
+:project56:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project57:compileJava
+:project57:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project58:compileJava
+:project58:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project59:compileJava
+:project59:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project60:compileJava
+:project60:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project61:compileJava
+:project61:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project62:compileJava
+:project62:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project63:compileJava
+:project63:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project64:compileJava
+:project64:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project65:compileJava
+:project65:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project66:compileJava
+:project66:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project67:compileJava
+:project67:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar
+:project68:compileJava
+:project68:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project69:compileJava
+:project69:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project70:compileJava
+:project70:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project71:compileJava
+:project71:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project72:compileJava
+:project72:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project73:compileJava
+:project73:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project74:compileJava
+:project74:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project75:compileJava
+:project75:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project76:compileJava
+:project76:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project77:compileJava
+:project77:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project78:compileJava
+:project78:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project79:compileJava
+:project79:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project80:compileJava
+:project80:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project81:compileJava
+:project81:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project82:compileJava
+:project82:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project83:compileJava
+:project83:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project84:compileJava
+:project84:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project85:compileJava
+:project85:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project86:compileJava
+:project86:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project87:compileJava
+:project87:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar
+:project88:compileJava
+:project88:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project89:compileJava
+:project89:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project90:compileJava
+:project90:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project91:compileJava
+:project91:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project92:compileJava
+:project92:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project93:compileJava
+:project93:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project94:compileJava
+:project94:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project95:compileJava
+:project95:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project96:compileJava
+:project96:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project97:compileJava
+:project97:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project98:compileJava
+:project98:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:project99:compileJava
+:project99:compileJava - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+
+BUILD SUCCESSFUL
+
+Total time: 46.078 secs
+Used daemon with pid 1054
+Execution time 46117ms
+
+* Stopping daemons
+Stopping Daemon(s)
+1 Daemon stopped
+
+* Running warm-up build 1 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava
+:project2:processResources NO-SOURCE
+:project2:classes
+:project2:jar UP-TO-DATE
+:project4:compileJava
+:project4:processResources NO-SOURCE
+:project4:classes
+:project4:jar UP-TO-DATE
+:project5:compileJava
+:project5:processResources NO-SOURCE
+:project5:classes
+:project5:jar UP-TO-DATE
+:project6:compileJava
+:project6:processResources NO-SOURCE
+:project6:classes
+:project6:jar UP-TO-DATE
+:project7:compileJava
+:project7:processResources NO-SOURCE
+:project7:classes
+:project7:jar UP-TO-DATE
+:project8:compileJava
+:project8:processResources NO-SOURCE
+:project8:classes
+:project8:jar UP-TO-DATE
+:project10:compileJava
+:project11:compileJava
+:project9:compileJava
+:project9:processResources NO-SOURCE
+:project9:classes
+:project9:jar UP-TO-DATE
+:project12:compileJava
+:project13:compileJava
+:project14:compileJava
+:project10:processResources NO-SOURCE
+:project10:classes
+:project10:jar UP-TO-DATE
+:project15:compileJava
+:project16:compileJava
+:project17:compileJava
+:project18:compileJava
+:project11:processResources NO-SOURCE
+:project11:classes
+:project11:jar UP-TO-DATE
+:project19:compileJava
+:project20:compileJava
+:project21:compileJava
+:project22:compileJava
+:project23:compileJava
+:project24:compileJava
+:project12:processResources NO-SOURCE
+:project12:classes
+:project12:jar UP-TO-DATE
+:project25:compileJava
+:project26:compileJava
+:project27:compileJava
+:project28:compileJava
+:project29:compileJava
+:project3:compileJava
+:project30:compileJava
+:project31:compileJava
+:project13:processResources NO-SOURCE
+:project13:classes
+:project13:jar UP-TO-DATE
+:project32:compileJava
+:project33:compileJava
+:project34:compileJava
+:project35:compileJava
+:project36:compileJava
+:project37:compileJava
+:project38:compileJava
+:project39:compileJava
+:project40:compileJava
+:project14:processResources NO-SOURCE
+:project14:classes
+:project14:jar UP-TO-DATE
+:project41:compileJava
+:project42:compileJava
+:project43:compileJava
+:project44:compileJava
+:project45:compileJava
+:project46:compileJava
+:project47:compileJava
+:project48:compileJava
+:project49:compileJava
+:project50:compileJava
+:project51:compileJava
+:project52:compileJava
+:project15:processResources NO-SOURCE
+:project15:classes
+:project15:jar UP-TO-DATE
+:project53:compileJava
+:project54:compileJava
+:project55:compileJava
+:project56:compileJava
+:project57:compileJava
+:project58:compileJava
+:project59:compileJava
+:project60:compileJava
+:project61:compileJava
+:project62:compileJava
+:project63:compileJava
+:project64:compileJava
+:project65:compileJava
+:project66:compileJava
+:project67:compileJava
+:project16:processResources NO-SOURCE
+:project16:classes
+:project16:jar UP-TO-DATE
+:project68:compileJava
+:project69:compileJava
+:project70:compileJava
+:project71:compileJava
+:project72:compileJava
+:project73:compileJava
+:project74:compileJava
+:project75:compileJava
+:project76:compileJava
+:project77:compileJava
+:project78:compileJava
+:project79:compileJava
+:project80:compileJava
+:project81:compileJava
+:project82:compileJava
+:project83:compileJava
+:project84:compileJava
+:project85:compileJava
+:project86:compileJava
+:project87:compileJava
+:project17:processResources NO-SOURCE
+:project17:classes
+:project17:jar UP-TO-DATE
+:project88:compileJava
+:project89:compileJava
+:project90:compileJava
+:project91:compileJava
+:project92:compileJava
+:project93:compileJava
+:project94:compileJava
+:project95:compileJava
+:project96:compileJava
+:project97:compileJava
+:project98:compileJava
+:project99:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 23.959 secs
+Used daemon with pid 1177
+Execution time 24005ms
+
+* Running warm-up build 2 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava UP-TO-DATE
+:project2:processResources NO-SOURCE
+:project2:classes UP-TO-DATE
+:project2:jar UP-TO-DATE
+:project4:compileJava UP-TO-DATE
+:project4:processResources NO-SOURCE
+:project4:classes UP-TO-DATE
+:project4:jar UP-TO-DATE
+:project5:compileJava UP-TO-DATE
+:project5:processResources NO-SOURCE
+:project5:classes UP-TO-DATE
+:project5:jar UP-TO-DATE
+:project6:compileJava UP-TO-DATE
+:project6:processResources NO-SOURCE
+:project6:classes UP-TO-DATE
+:project6:jar UP-TO-DATE
+:project7:compileJava UP-TO-DATE
+:project7:processResources NO-SOURCE
+:project7:classes UP-TO-DATE
+:project7:jar UP-TO-DATE
+:project8:compileJava UP-TO-DATE
+:project8:processResources NO-SOURCE
+:project8:classes UP-TO-DATE
+:project8:jar UP-TO-DATE
+:project10:compileJava UP-TO-DATE
+:project11:compileJava UP-TO-DATE
+:project9:compileJava UP-TO-DATE
+:project9:processResources NO-SOURCE
+:project9:classes UP-TO-DATE
+:project9:jar UP-TO-DATE
+:project12:compileJava UP-TO-DATE
+:project13:compileJava UP-TO-DATE
+:project14:compileJava UP-TO-DATE
+:project10:processResources NO-SOURCE
+:project10:classes UP-TO-DATE
+:project10:jar UP-TO-DATE
+:project15:compileJava UP-TO-DATE
+:project16:compileJava UP-TO-DATE
+:project17:compileJava UP-TO-DATE
+:project18:compileJava UP-TO-DATE
+:project11:processResources NO-SOURCE
+:project11:classes UP-TO-DATE
+:project11:jar UP-TO-DATE
+:project19:compileJava UP-TO-DATE
+:project20:compileJava UP-TO-DATE
+:project21:compileJava UP-TO-DATE
+:project22:compileJava UP-TO-DATE
+:project23:compileJava UP-TO-DATE
+:project24:compileJava UP-TO-DATE
+:project12:processResources NO-SOURCE
+:project12:classes UP-TO-DATE
+:project12:jar UP-TO-DATE
+:project25:compileJava UP-TO-DATE
+:project26:compileJava UP-TO-DATE
+:project27:compileJava UP-TO-DATE
+:project28:compileJava UP-TO-DATE
+:project29:compileJava UP-TO-DATE
+:project3:compileJava UP-TO-DATE
+:project30:compileJava UP-TO-DATE
+:project31:compileJava UP-TO-DATE
+:project13:processResources NO-SOURCE
+:project13:classes UP-TO-DATE
+:project13:jar UP-TO-DATE
+:project32:compileJava UP-TO-DATE
+:project33:compileJava UP-TO-DATE
+:project34:compileJava UP-TO-DATE
+:project35:compileJava UP-TO-DATE
+:project36:compileJava UP-TO-DATE
+:project37:compileJava UP-TO-DATE
+:project38:compileJava UP-TO-DATE
+:project39:compileJava UP-TO-DATE
+:project40:compileJava UP-TO-DATE
+:project14:processResources NO-SOURCE
+:project14:classes UP-TO-DATE
+:project14:jar UP-TO-DATE
+:project41:compileJava UP-TO-DATE
+:project42:compileJava UP-TO-DATE
+:project43:compileJava UP-TO-DATE
+:project44:compileJava UP-TO-DATE
+:project45:compileJava UP-TO-DATE
+:project46:compileJava UP-TO-DATE
+:project47:compileJava UP-TO-DATE
+:project48:compileJava UP-TO-DATE
+:project49:compileJava UP-TO-DATE
+:project50:compileJava UP-TO-DATE
+:project51:compileJava UP-TO-DATE
+:project52:compileJava UP-TO-DATE
+:project15:processResources NO-SOURCE
+:project15:classes UP-TO-DATE
+:project15:jar UP-TO-DATE
+:project53:compileJava UP-TO-DATE
+:project54:compileJava UP-TO-DATE
+:project55:compileJava UP-TO-DATE
+:project56:compileJava UP-TO-DATE
+:project57:compileJava UP-TO-DATE
+:project58:compileJava UP-TO-DATE
+:project59:compileJava UP-TO-DATE
+:project60:compileJava UP-TO-DATE
+:project61:compileJava UP-TO-DATE
+:project62:compileJava UP-TO-DATE
+:project63:compileJava UP-TO-DATE
+:project64:compileJava UP-TO-DATE
+:project65:compileJava UP-TO-DATE
+:project66:compileJava UP-TO-DATE
+:project67:compileJava UP-TO-DATE
+:project16:processResources NO-SOURCE
+:project16:classes UP-TO-DATE
+:project16:jar UP-TO-DATE
+:project68:compileJava UP-TO-DATE
+:project69:compileJava UP-TO-DATE
+:project70:compileJava UP-TO-DATE
+:project71:compileJava UP-TO-DATE
+:project72:compileJava UP-TO-DATE
+:project73:compileJava UP-TO-DATE
+:project74:compileJava UP-TO-DATE
+:project75:compileJava UP-TO-DATE
+:project76:compileJava UP-TO-DATE
+:project77:compileJava UP-TO-DATE
+:project78:compileJava UP-TO-DATE
+:project79:compileJava UP-TO-DATE
+:project80:compileJava UP-TO-DATE
+:project81:compileJava UP-TO-DATE
+:project82:compileJava UP-TO-DATE
+:project83:compileJava UP-TO-DATE
+:project84:compileJava UP-TO-DATE
+:project85:compileJava UP-TO-DATE
+:project86:compileJava UP-TO-DATE
+:project87:compileJava UP-TO-DATE
+:project17:processResources NO-SOURCE
+:project17:classes UP-TO-DATE
+:project17:jar UP-TO-DATE
+:project88:compileJava UP-TO-DATE
+:project89:compileJava UP-TO-DATE
+:project90:compileJava UP-TO-DATE
+:project91:compileJava UP-TO-DATE
+:project92:compileJava UP-TO-DATE
+:project93:compileJava UP-TO-DATE
+:project94:compileJava UP-TO-DATE
+:project95:compileJava UP-TO-DATE
+:project96:compileJava UP-TO-DATE
+:project97:compileJava UP-TO-DATE
+:project98:compileJava UP-TO-DATE
+:project99:compileJava UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 2.176 secs
+Used daemon with pid 1177
+Execution time 2192ms
+
+* Running warm-up build 3 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava UP-TO-DATE
+:project2:processResources NO-SOURCE
+:project2:classes UP-TO-DATE
+:project2:jar UP-TO-DATE
+:project4:compileJava UP-TO-DATE
+:project4:processResources NO-SOURCE
+:project4:classes UP-TO-DATE
+:project4:jar UP-TO-DATE
+:project5:compileJava UP-TO-DATE
+:project5:processResources NO-SOURCE
+:project5:classes UP-TO-DATE
+:project5:jar UP-TO-DATE
+:project6:compileJava UP-TO-DATE
+:project6:processResources NO-SOURCE
+:project6:classes UP-TO-DATE
+:project6:jar UP-TO-DATE
+:project7:compileJava UP-TO-DATE
+:project7:processResources NO-SOURCE
+:project7:classes UP-TO-DATE
+:project7:jar UP-TO-DATE
+:project8:compileJava UP-TO-DATE
+:project8:processResources NO-SOURCE
+:project8:classes UP-TO-DATE
+:project8:jar UP-TO-DATE
+:project10:compileJava UP-TO-DATE
+:project11:compileJava UP-TO-DATE
+:project9:compileJava UP-TO-DATE
+:project9:processResources NO-SOURCE
+:project9:classes UP-TO-DATE
+:project9:jar UP-TO-DATE
+:project12:compileJava UP-TO-DATE
+:project13:compileJava UP-TO-DATE
+:project14:compileJava UP-TO-DATE
+:project10:processResources NO-SOURCE
+:project10:classes UP-TO-DATE
+:project10:jar UP-TO-DATE
+:project15:compileJava UP-TO-DATE
+:project16:compileJava UP-TO-DATE
+:project17:compileJava UP-TO-DATE
+:project18:compileJava UP-TO-DATE
+:project11:processResources NO-SOURCE
+:project11:classes UP-TO-DATE
+:project11:jar UP-TO-DATE
+:project19:compileJava UP-TO-DATE
+:project20:compileJava UP-TO-DATE
+:project21:compileJava UP-TO-DATE
+:project22:compileJava UP-TO-DATE
+:project23:compileJava UP-TO-DATE
+:project24:compileJava UP-TO-DATE
+:project12:processResources NO-SOURCE
+:project12:classes UP-TO-DATE
+:project12:jar UP-TO-DATE
+:project25:compileJava UP-TO-DATE
+:project26:compileJava UP-TO-DATE
+:project27:compileJava UP-TO-DATE
+:project28:compileJava UP-TO-DATE
+:project29:compileJava UP-TO-DATE
+:project3:compileJava UP-TO-DATE
+:project30:compileJava UP-TO-DATE
+:project31:compileJava UP-TO-DATE
+:project13:processResources NO-SOURCE
+:project13:classes UP-TO-DATE
+:project13:jar UP-TO-DATE
+:project32:compileJava UP-TO-DATE
+:project33:compileJava UP-TO-DATE
+:project34:compileJava UP-TO-DATE
+:project35:compileJava UP-TO-DATE
+:project36:compileJava UP-TO-DATE
+:project37:compileJava UP-TO-DATE
+:project38:compileJava UP-TO-DATE
+:project39:compileJava UP-TO-DATE
+:project40:compileJava UP-TO-DATE
+:project14:processResources NO-SOURCE
+:project14:classes UP-TO-DATE
+:project14:jar UP-TO-DATE
+:project41:compileJava UP-TO-DATE
+:project42:compileJava UP-TO-DATE
+:project43:compileJava UP-TO-DATE
+:project44:compileJava UP-TO-DATE
+:project45:compileJava UP-TO-DATE
+:project46:compileJava UP-TO-DATE
+:project47:compileJava UP-TO-DATE
+:project48:compileJava UP-TO-DATE
+:project49:compileJava UP-TO-DATE
+:project50:compileJava UP-TO-DATE
+:project51:compileJava UP-TO-DATE
+:project52:compileJava UP-TO-DATE
+:project15:processResources NO-SOURCE
+:project15:classes UP-TO-DATE
+:project15:jar UP-TO-DATE
+:project53:compileJava UP-TO-DATE
+:project54:compileJava UP-TO-DATE
+:project55:compileJava UP-TO-DATE
+:project56:compileJava UP-TO-DATE
+:project57:compileJava UP-TO-DATE
+:project58:compileJava UP-TO-DATE
+:project59:compileJava UP-TO-DATE
+:project60:compileJava UP-TO-DATE
+:project61:compileJava UP-TO-DATE
+:project62:compileJava UP-TO-DATE
+:project63:compileJava UP-TO-DATE
+:project64:compileJava UP-TO-DATE
+:project65:compileJava UP-TO-DATE
+:project66:compileJava UP-TO-DATE
+:project67:compileJava UP-TO-DATE
+:project16:processResources NO-SOURCE
+:project16:classes UP-TO-DATE
+:project16:jar UP-TO-DATE
+:project68:compileJava UP-TO-DATE
+:project69:compileJava UP-TO-DATE
+:project70:compileJava UP-TO-DATE
+:project71:compileJava UP-TO-DATE
+:project72:compileJava UP-TO-DATE
+:project73:compileJava UP-TO-DATE
+:project74:compileJava UP-TO-DATE
+:project75:compileJava UP-TO-DATE
+:project76:compileJava UP-TO-DATE
+:project77:compileJava UP-TO-DATE
+:project78:compileJava UP-TO-DATE
+:project79:compileJava UP-TO-DATE
+:project80:compileJava UP-TO-DATE
+:project81:compileJava UP-TO-DATE
+:project82:compileJava UP-TO-DATE
+:project83:compileJava UP-TO-DATE
+:project84:compileJava UP-TO-DATE
+:project85:compileJava UP-TO-DATE
+:project86:compileJava UP-TO-DATE
+:project87:compileJava UP-TO-DATE
+:project17:processResources NO-SOURCE
+:project17:classes UP-TO-DATE
+:project17:jar UP-TO-DATE
+:project88:compileJava UP-TO-DATE
+:project89:compileJava UP-TO-DATE
+:project90:compileJava UP-TO-DATE
+:project91:compileJava UP-TO-DATE
+:project92:compileJava UP-TO-DATE
+:project93:compileJava UP-TO-DATE
+:project94:compileJava UP-TO-DATE
+:project95:compileJava UP-TO-DATE
+:project96:compileJava UP-TO-DATE
+:project97:compileJava UP-TO-DATE
+:project98:compileJava UP-TO-DATE
+:project99:compileJava UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 2.081 secs
+Used daemon with pid 1177
+Execution time 2107ms
+
+* Running warm-up build 4 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava UP-TO-DATE
+:project2:processResources NO-SOURCE
+:project2:classes UP-TO-DATE
+:project2:jar UP-TO-DATE
+:project4:compileJava UP-TO-DATE
+:project4:processResources NO-SOURCE
+:project4:classes UP-TO-DATE
+:project4:jar UP-TO-DATE
+:project5:compileJava UP-TO-DATE
+:project5:processResources NO-SOURCE
+:project5:classes UP-TO-DATE
+:project5:jar UP-TO-DATE
+:project6:compileJava UP-TO-DATE
+:project6:processResources NO-SOURCE
+:project6:classes UP-TO-DATE
+:project6:jar UP-TO-DATE
+:project7:compileJava UP-TO-DATE
+:project7:processResources NO-SOURCE
+:project7:classes UP-TO-DATE
+:project7:jar UP-TO-DATE
+:project8:compileJava UP-TO-DATE
+:project8:processResources NO-SOURCE
+:project8:classes UP-TO-DATE
+:project8:jar UP-TO-DATE
+:project10:compileJava UP-TO-DATE
+:project11:compileJava UP-TO-DATE
+:project9:compileJava UP-TO-DATE
+:project9:processResources NO-SOURCE
+:project9:classes UP-TO-DATE
+:project9:jar UP-TO-DATE
+:project12:compileJava UP-TO-DATE
+:project13:compileJava UP-TO-DATE
+:project14:compileJava UP-TO-DATE
+:project10:processResources NO-SOURCE
+:project10:classes UP-TO-DATE
+:project10:jar UP-TO-DATE
+:project15:compileJava UP-TO-DATE
+:project16:compileJava UP-TO-DATE
+:project17:compileJava UP-TO-DATE
+:project18:compileJava UP-TO-DATE
+:project11:processResources NO-SOURCE
+:project11:classes UP-TO-DATE
+:project11:jar UP-TO-DATE
+:project19:compileJava UP-TO-DATE
+:project20:compileJava UP-TO-DATE
+:project21:compileJava UP-TO-DATE
+:project22:compileJava UP-TO-DATE
+:project23:compileJava UP-TO-DATE
+:project24:compileJava UP-TO-DATE
+:project12:processResources NO-SOURCE
+:project12:classes UP-TO-DATE
+:project12:jar UP-TO-DATE
+:project25:compileJava UP-TO-DATE
+:project26:compileJava UP-TO-DATE
+:project27:compileJava UP-TO-DATE
+:project28:compileJava UP-TO-DATE
+:project29:compileJava UP-TO-DATE
+:project3:compileJava UP-TO-DATE
+:project30:compileJava UP-TO-DATE
+:project31:compileJava UP-TO-DATE
+:project13:processResources NO-SOURCE
+:project13:classes UP-TO-DATE
+:project13:jar UP-TO-DATE
+:project32:compileJava UP-TO-DATE
+:project33:compileJava UP-TO-DATE
+:project34:compileJava UP-TO-DATE
+:project35:compileJava UP-TO-DATE
+:project36:compileJava UP-TO-DATE
+:project37:compileJava UP-TO-DATE
+:project38:compileJava UP-TO-DATE
+:project39:compileJava UP-TO-DATE
+:project40:compileJava UP-TO-DATE
+:project14:processResources NO-SOURCE
+:project14:classes UP-TO-DATE
+:project14:jar UP-TO-DATE
+:project41:compileJava UP-TO-DATE
+:project42:compileJava UP-TO-DATE
+:project43:compileJava UP-TO-DATE
+:project44:compileJava UP-TO-DATE
+:project45:compileJava UP-TO-DATE
+:project46:compileJava UP-TO-DATE
+:project47:compileJava UP-TO-DATE
+:project48:compileJava UP-TO-DATE
+:project49:compileJava UP-TO-DATE
+:project50:compileJava UP-TO-DATE
+:project51:compileJava UP-TO-DATE
+:project52:compileJava UP-TO-DATE
+:project15:processResources NO-SOURCE
+:project15:classes UP-TO-DATE
+:project15:jar UP-TO-DATE
+:project53:compileJava UP-TO-DATE
+:project54:compileJava UP-TO-DATE
+:project55:compileJava UP-TO-DATE
+:project56:compileJava UP-TO-DATE
+:project57:compileJava UP-TO-DATE
+:project58:compileJava UP-TO-DATE
+:project59:compileJava UP-TO-DATE
+:project60:compileJava UP-TO-DATE
+:project61:compileJava UP-TO-DATE
+:project62:compileJava UP-TO-DATE
+:project63:compileJava UP-TO-DATE
+:project64:compileJava UP-TO-DATE
+:project65:compileJava UP-TO-DATE
+:project66:compileJava UP-TO-DATE
+:project67:compileJava UP-TO-DATE
+:project16:processResources NO-SOURCE
+:project16:classes UP-TO-DATE
+:project16:jar UP-TO-DATE
+:project68:compileJava UP-TO-DATE
+:project69:compileJava UP-TO-DATE
+:project70:compileJava UP-TO-DATE
+:project71:compileJava UP-TO-DATE
+:project72:compileJava UP-TO-DATE
+:project73:compileJava UP-TO-DATE
+:project74:compileJava UP-TO-DATE
+:project75:compileJava UP-TO-DATE
+:project76:compileJava UP-TO-DATE
+:project77:compileJava UP-TO-DATE
+:project78:compileJava UP-TO-DATE
+:project79:compileJava UP-TO-DATE
+:project80:compileJava UP-TO-DATE
+:project81:compileJava UP-TO-DATE
+:project82:compileJava UP-TO-DATE
+:project83:compileJava UP-TO-DATE
+:project84:compileJava UP-TO-DATE
+:project85:compileJava UP-TO-DATE
+:project86:compileJava UP-TO-DATE
+:project87:compileJava UP-TO-DATE
+:project17:processResources NO-SOURCE
+:project17:classes UP-TO-DATE
+:project17:jar UP-TO-DATE
+:project88:compileJava UP-TO-DATE
+:project89:compileJava UP-TO-DATE
+:project90:compileJava UP-TO-DATE
+:project91:compileJava UP-TO-DATE
+:project92:compileJava UP-TO-DATE
+:project93:compileJava UP-TO-DATE
+:project94:compileJava UP-TO-DATE
+:project95:compileJava UP-TO-DATE
+:project96:compileJava UP-TO-DATE
+:project97:compileJava UP-TO-DATE
+:project98:compileJava UP-TO-DATE
+:project99:compileJava UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.786 secs
+Used daemon with pid 1177
+Execution time 1800ms
+
+* Running warm-up build 5 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava UP-TO-DATE
+:project2:processResources NO-SOURCE
+:project2:classes UP-TO-DATE
+:project2:jar UP-TO-DATE
+:project4:compileJava UP-TO-DATE
+:project4:processResources NO-SOURCE
+:project4:classes UP-TO-DATE
+:project4:jar UP-TO-DATE
+:project5:compileJava UP-TO-DATE
+:project5:processResources NO-SOURCE
+:project5:classes UP-TO-DATE
+:project5:jar UP-TO-DATE
+:project6:compileJava UP-TO-DATE
+:project6:processResources NO-SOURCE
+:project6:classes UP-TO-DATE
+:project6:jar UP-TO-DATE
+:project7:compileJava UP-TO-DATE
+:project7:processResources NO-SOURCE
+:project7:classes UP-TO-DATE
+:project7:jar UP-TO-DATE
+:project8:compileJava UP-TO-DATE
+:project8:processResources NO-SOURCE
+:project8:classes UP-TO-DATE
+:project8:jar UP-TO-DATE
+:project10:compileJava UP-TO-DATE
+:project11:compileJava UP-TO-DATE
+:project9:compileJava UP-TO-DATE
+:project9:processResources NO-SOURCE
+:project9:classes UP-TO-DATE
+:project9:jar UP-TO-DATE
+:project12:compileJava UP-TO-DATE
+:project13:compileJava UP-TO-DATE
+:project14:compileJava UP-TO-DATE
+:project10:processResources NO-SOURCE
+:project10:classes UP-TO-DATE
+:project10:jar UP-TO-DATE
+:project15:compileJava UP-TO-DATE
+:project16:compileJava UP-TO-DATE
+:project17:compileJava UP-TO-DATE
+:project18:compileJava UP-TO-DATE
+:project11:processResources NO-SOURCE
+:project11:classes UP-TO-DATE
+:project11:jar UP-TO-DATE
+:project19:compileJava UP-TO-DATE
+:project20:compileJava UP-TO-DATE
+:project21:compileJava UP-TO-DATE
+:project22:compileJava UP-TO-DATE
+:project23:compileJava UP-TO-DATE
+:project24:compileJava UP-TO-DATE
+:project12:processResources NO-SOURCE
+:project12:classes UP-TO-DATE
+:project12:jar UP-TO-DATE
+:project25:compileJava UP-TO-DATE
+:project26:compileJava UP-TO-DATE
+:project27:compileJava UP-TO-DATE
+:project28:compileJava UP-TO-DATE
+:project29:compileJava UP-TO-DATE
+:project3:compileJava UP-TO-DATE
+:project30:compileJava UP-TO-DATE
+:project31:compileJava UP-TO-DATE
+:project13:processResources NO-SOURCE
+:project13:classes UP-TO-DATE
+:project13:jar UP-TO-DATE
+:project32:compileJava UP-TO-DATE
+:project33:compileJava UP-TO-DATE
+:project34:compileJava UP-TO-DATE
+:project35:compileJava UP-TO-DATE
+:project36:compileJava UP-TO-DATE
+:project37:compileJava UP-TO-DATE
+:project38:compileJava UP-TO-DATE
+:project39:compileJava UP-TO-DATE
+:project40:compileJava UP-TO-DATE
+:project14:processResources NO-SOURCE
+:project14:classes UP-TO-DATE
+:project14:jar UP-TO-DATE
+:project41:compileJava UP-TO-DATE
+:project42:compileJava UP-TO-DATE
+:project43:compileJava UP-TO-DATE
+:project44:compileJava UP-TO-DATE
+:project45:compileJava UP-TO-DATE
+:project46:compileJava UP-TO-DATE
+:project47:compileJava UP-TO-DATE
+:project48:compileJava UP-TO-DATE
+:project49:compileJava UP-TO-DATE
+:project50:compileJava UP-TO-DATE
+:project51:compileJava UP-TO-DATE
+:project52:compileJava UP-TO-DATE
+:project15:processResources NO-SOURCE
+:project15:classes UP-TO-DATE
+:project15:jar UP-TO-DATE
+:project53:compileJava UP-TO-DATE
+:project54:compileJava UP-TO-DATE
+:project55:compileJava UP-TO-DATE
+:project56:compileJava UP-TO-DATE
+:project57:compileJava UP-TO-DATE
+:project58:compileJava UP-TO-DATE
+:project59:compileJava UP-TO-DATE
+:project60:compileJava UP-TO-DATE
+:project61:compileJava UP-TO-DATE
+:project62:compileJava UP-TO-DATE
+:project63:compileJava UP-TO-DATE
+:project64:compileJava UP-TO-DATE
+:project65:compileJava UP-TO-DATE
+:project66:compileJava UP-TO-DATE
+:project67:compileJava UP-TO-DATE
+:project16:processResources NO-SOURCE
+:project16:classes UP-TO-DATE
+:project16:jar UP-TO-DATE
+:project68:compileJava UP-TO-DATE
+:project69:compileJava UP-TO-DATE
+:project70:compileJava UP-TO-DATE
+:project71:compileJava UP-TO-DATE
+:project72:compileJava UP-TO-DATE
+:project73:compileJava UP-TO-DATE
+:project74:compileJava UP-TO-DATE
+:project75:compileJava UP-TO-DATE
+:project76:compileJava UP-TO-DATE
+:project77:compileJava UP-TO-DATE
+:project78:compileJava UP-TO-DATE
+:project79:compileJava UP-TO-DATE
+:project80:compileJava UP-TO-DATE
+:project81:compileJava UP-TO-DATE
+:project82:compileJava UP-TO-DATE
+:project83:compileJava UP-TO-DATE
+:project84:compileJava UP-TO-DATE
+:project85:compileJava UP-TO-DATE
+:project86:compileJava UP-TO-DATE
+:project87:compileJava UP-TO-DATE
+:project17:processResources NO-SOURCE
+:project17:classes UP-TO-DATE
+:project17:jar UP-TO-DATE
+:project88:compileJava UP-TO-DATE
+:project89:compileJava UP-TO-DATE
+:project90:compileJava UP-TO-DATE
+:project91:compileJava UP-TO-DATE
+:project92:compileJava UP-TO-DATE
+:project93:compileJava UP-TO-DATE
+:project94:compileJava UP-TO-DATE
+:project95:compileJava UP-TO-DATE
+:project96:compileJava UP-TO-DATE
+:project97:compileJava UP-TO-DATE
+:project98:compileJava UP-TO-DATE
+:project99:compileJava UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.687 secs
+Used daemon with pid 1177
+Execution time 1701ms
+
+* Running warm-up build 6 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava UP-TO-DATE
+:project2:processResources NO-SOURCE
+:project2:classes UP-TO-DATE
+:project2:jar UP-TO-DATE
+:project4:compileJava UP-TO-DATE
+:project4:processResources NO-SOURCE
+:project4:classes UP-TO-DATE
+:project4:jar UP-TO-DATE
+:project5:compileJava UP-TO-DATE
+:project5:processResources NO-SOURCE
+:project5:classes UP-TO-DATE
+:project5:jar UP-TO-DATE
+:project6:compileJava UP-TO-DATE
+:project6:processResources NO-SOURCE
+:project6:classes UP-TO-DATE
+:project6:jar UP-TO-DATE
+:project7:compileJava UP-TO-DATE
+:project7:processResources NO-SOURCE
+:project7:classes UP-TO-DATE
+:project7:jar UP-TO-DATE
+:project8:compileJava UP-TO-DATE
+:project8:processResources NO-SOURCE
+:project8:classes UP-TO-DATE
+:project8:jar UP-TO-DATE
+:project10:compileJava UP-TO-DATE
+:project11:compileJava UP-TO-DATE
+:project9:compileJava UP-TO-DATE
+:project9:processResources NO-SOURCE
+:project9:classes UP-TO-DATE
+:project9:jar UP-TO-DATE
+:project12:compileJava UP-TO-DATE
+:project13:compileJava UP-TO-DATE
+:project14:compileJava UP-TO-DATE
+:project10:processResources NO-SOURCE
+:project10:classes UP-TO-DATE
+:project10:jar UP-TO-DATE
+:project15:compileJava UP-TO-DATE
+:project16:compileJava UP-TO-DATE
+:project17:compileJava UP-TO-DATE
+:project18:compileJava UP-TO-DATE
+:project11:processResources NO-SOURCE
+:project11:classes UP-TO-DATE
+:project11:jar UP-TO-DATE
+:project19:compileJava UP-TO-DATE
+:project20:compileJava UP-TO-DATE
+:project21:compileJava UP-TO-DATE
+:project22:compileJava UP-TO-DATE
+:project23:compileJava UP-TO-DATE
+:project24:compileJava UP-TO-DATE
+:project12:processResources NO-SOURCE
+:project12:classes UP-TO-DATE
+:project12:jar UP-TO-DATE
+:project25:compileJava UP-TO-DATE
+:project26:compileJava UP-TO-DATE
+:project27:compileJava UP-TO-DATE
+:project28:compileJava UP-TO-DATE
+:project29:compileJava UP-TO-DATE
+:project3:compileJava UP-TO-DATE
+:project30:compileJava UP-TO-DATE
+:project31:compileJava UP-TO-DATE
+:project13:processResources NO-SOURCE
+:project13:classes UP-TO-DATE
+:project13:jar UP-TO-DATE
+:project32:compileJava UP-TO-DATE
+:project33:compileJava UP-TO-DATE
+:project34:compileJava UP-TO-DATE
+:project35:compileJava UP-TO-DATE
+:project36:compileJava UP-TO-DATE
+:project37:compileJava UP-TO-DATE
+:project38:compileJava UP-TO-DATE
+:project39:compileJava UP-TO-DATE
+:project40:compileJava UP-TO-DATE
+:project14:processResources NO-SOURCE
+:project14:classes UP-TO-DATE
+:project14:jar UP-TO-DATE
+:project41:compileJava UP-TO-DATE
+:project42:compileJava UP-TO-DATE
+:project43:compileJava UP-TO-DATE
+:project44:compileJava UP-TO-DATE
+:project45:compileJava UP-TO-DATE
+:project46:compileJava UP-TO-DATE
+:project47:compileJava UP-TO-DATE
+:project48:compileJava UP-TO-DATE
+:project49:compileJava UP-TO-DATE
+:project50:compileJava UP-TO-DATE
+:project51:compileJava UP-TO-DATE
+:project52:compileJava UP-TO-DATE
+:project15:processResources NO-SOURCE
+:project15:classes UP-TO-DATE
+:project15:jar UP-TO-DATE
+:project53:compileJava UP-TO-DATE
+:project54:compileJava UP-TO-DATE
+:project55:compileJava UP-TO-DATE
+:project56:compileJava UP-TO-DATE
+:project57:compileJava UP-TO-DATE
+:project58:compileJava UP-TO-DATE
+:project59:compileJava UP-TO-DATE
+:project60:compileJava UP-TO-DATE
+:project61:compileJava UP-TO-DATE
+:project62:compileJava UP-TO-DATE
+:project63:compileJava UP-TO-DATE
+:project64:compileJava UP-TO-DATE
+:project65:compileJava UP-TO-DATE
+:project66:compileJava UP-TO-DATE
+:project67:compileJava UP-TO-DATE
+:project16:processResources NO-SOURCE
+:project16:classes UP-TO-DATE
+:project16:jar UP-TO-DATE
+:project68:compileJava UP-TO-DATE
+:project69:compileJava UP-TO-DATE
+:project70:compileJava UP-TO-DATE
+:project71:compileJava UP-TO-DATE
+:project72:compileJava UP-TO-DATE
+:project73:compileJava UP-TO-DATE
+:project74:compileJava UP-TO-DATE
+:project75:compileJava UP-TO-DATE
+:project76:compileJava UP-TO-DATE
+:project77:compileJava UP-TO-DATE
+:project78:compileJava UP-TO-DATE
+:project79:compileJava UP-TO-DATE
+:project80:compileJava UP-TO-DATE
+:project81:compileJava UP-TO-DATE
+:project82:compileJava UP-TO-DATE
+:project83:compileJava UP-TO-DATE
+:project84:compileJava UP-TO-DATE
+:project85:compileJava UP-TO-DATE
+:project86:compileJava UP-TO-DATE
+:project87:compileJava UP-TO-DATE
+:project17:processResources NO-SOURCE
+:project17:classes UP-TO-DATE
+:project17:jar UP-TO-DATE
+:project88:compileJava UP-TO-DATE
+:project89:compileJava UP-TO-DATE
+:project90:compileJava UP-TO-DATE
+:project91:compileJava UP-TO-DATE
+:project92:compileJava UP-TO-DATE
+:project93:compileJava UP-TO-DATE
+:project94:compileJava UP-TO-DATE
+:project95:compileJava UP-TO-DATE
+:project96:compileJava UP-TO-DATE
+:project97:compileJava UP-TO-DATE
+:project98:compileJava UP-TO-DATE
+:project99:compileJava UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.801 secs
+Used daemon with pid 1177
+Execution time 1815ms
+
+* Using args for instrumented builds:
+
+* Running build 1 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava UP-TO-DATE
+:project2:processResources NO-SOURCE
+:project2:classes UP-TO-DATE
+:project2:jar UP-TO-DATE
+:project4:compileJava UP-TO-DATE
+:project4:processResources NO-SOURCE
+:project4:classes UP-TO-DATE
+:project4:jar UP-TO-DATE
+:project5:compileJava UP-TO-DATE
+:project5:processResources NO-SOURCE
+:project5:classes UP-TO-DATE
+:project5:jar UP-TO-DATE
+:project6:compileJava UP-TO-DATE
+:project6:processResources NO-SOURCE
+:project6:classes UP-TO-DATE
+:project6:jar UP-TO-DATE
+:project7:compileJava UP-TO-DATE
+:project7:processResources NO-SOURCE
+:project7:classes UP-TO-DATE
+:project7:jar UP-TO-DATE
+:project8:compileJava UP-TO-DATE
+:project8:processResources NO-SOURCE
+:project8:classes UP-TO-DATE
+:project8:jar UP-TO-DATE
+:project10:compileJava UP-TO-DATE
+:project11:compileJava UP-TO-DATE
+:project9:compileJava UP-TO-DATE
+:project9:processResources NO-SOURCE
+:project9:classes UP-TO-DATE
+:project9:jar UP-TO-DATE
+:project12:compileJava UP-TO-DATE
+:project13:compileJava UP-TO-DATE
+:project14:compileJava UP-TO-DATE
+:project10:processResources NO-SOURCE
+:project10:classes UP-TO-DATE
+:project10:jar UP-TO-DATE
+:project15:compileJava UP-TO-DATE
+:project16:compileJava UP-TO-DATE
+:project17:compileJava UP-TO-DATE
+:project18:compileJava UP-TO-DATE
+:project11:processResources NO-SOURCE
+:project11:classes UP-TO-DATE
+:project11:jar UP-TO-DATE
+:project19:compileJava UP-TO-DATE
+:project20:compileJava UP-TO-DATE
+:project21:compileJava UP-TO-DATE
+:project22:compileJava UP-TO-DATE
+:project23:compileJava UP-TO-DATE
+:project24:compileJava UP-TO-DATE
+:project12:processResources NO-SOURCE
+:project12:classes UP-TO-DATE
+:project12:jar UP-TO-DATE
+:project25:compileJava UP-TO-DATE
+:project26:compileJava UP-TO-DATE
+:project27:compileJava UP-TO-DATE
+:project28:compileJava UP-TO-DATE
+:project29:compileJava UP-TO-DATE
+:project3:compileJava UP-TO-DATE
+:project30:compileJava UP-TO-DATE
+:project31:compileJava UP-TO-DATE
+:project13:processResources NO-SOURCE
+:project13:classes UP-TO-DATE
+:project13:jar UP-TO-DATE
+:project32:compileJava UP-TO-DATE
+:project33:compileJava UP-TO-DATE
+:project34:compileJava UP-TO-DATE
+:project35:compileJava UP-TO-DATE
+:project36:compileJava UP-TO-DATE
+:project37:compileJava UP-TO-DATE
+:project38:compileJava UP-TO-DATE
+:project39:compileJava UP-TO-DATE
+:project40:compileJava UP-TO-DATE
+:project14:processResources NO-SOURCE
+:project14:classes UP-TO-DATE
+:project14:jar UP-TO-DATE
+:project41:compileJava UP-TO-DATE
+:project42:compileJava UP-TO-DATE
+:project43:compileJava UP-TO-DATE
+:project44:compileJava UP-TO-DATE
+:project45:compileJava UP-TO-DATE
+:project46:compileJava UP-TO-DATE
+:project47:compileJava UP-TO-DATE
+:project48:compileJava UP-TO-DATE
+:project49:compileJava UP-TO-DATE
+:project50:compileJava UP-TO-DATE
+:project51:compileJava UP-TO-DATE
+:project52:compileJava UP-TO-DATE
+:project15:processResources NO-SOURCE
+:project15:classes UP-TO-DATE
+:project15:jar UP-TO-DATE
+:project53:compileJava UP-TO-DATE
+:project54:compileJava UP-TO-DATE
+:project55:compileJava UP-TO-DATE
+:project56:compileJava UP-TO-DATE
+:project57:compileJava UP-TO-DATE
+:project58:compileJava UP-TO-DATE
+:project59:compileJava UP-TO-DATE
+:project60:compileJava UP-TO-DATE
+:project61:compileJava UP-TO-DATE
+:project62:compileJava UP-TO-DATE
+:project63:compileJava UP-TO-DATE
+:project64:compileJava UP-TO-DATE
+:project65:compileJava UP-TO-DATE
+:project66:compileJava UP-TO-DATE
+:project67:compileJava UP-TO-DATE
+:project16:processResources NO-SOURCE
+:project16:classes UP-TO-DATE
+:project16:jar UP-TO-DATE
+:project68:compileJava UP-TO-DATE
+:project69:compileJava UP-TO-DATE
+:project70:compileJava UP-TO-DATE
+:project71:compileJava UP-TO-DATE
+:project72:compileJava UP-TO-DATE
+:project73:compileJava UP-TO-DATE
+:project74:compileJava UP-TO-DATE
+:project75:compileJava UP-TO-DATE
+:project76:compileJava UP-TO-DATE
+:project77:compileJava UP-TO-DATE
+:project78:compileJava UP-TO-DATE
+:project79:compileJava UP-TO-DATE
+:project80:compileJava UP-TO-DATE
+:project81:compileJava UP-TO-DATE
+:project82:compileJava UP-TO-DATE
+:project83:compileJava UP-TO-DATE
+:project84:compileJava UP-TO-DATE
+:project85:compileJava UP-TO-DATE
+:project86:compileJava UP-TO-DATE
+:project87:compileJava UP-TO-DATE
+:project17:processResources NO-SOURCE
+:project17:classes UP-TO-DATE
+:project17:jar UP-TO-DATE
+:project88:compileJava UP-TO-DATE
+:project89:compileJava UP-TO-DATE
+:project90:compileJava UP-TO-DATE
+:project91:compileJava UP-TO-DATE
+:project92:compileJava UP-TO-DATE
+:project93:compileJava UP-TO-DATE
+:project94:compileJava UP-TO-DATE
+:project95:compileJava UP-TO-DATE
+:project96:compileJava UP-TO-DATE
+:project97:compileJava UP-TO-DATE
+:project98:compileJava UP-TO-DATE
+:project99:compileJava UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.525 secs
+Used daemon with pid 1177
+Execution time 1538ms
+
+* Running build 2 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava UP-TO-DATE
+:project2:processResources NO-SOURCE
+:project2:classes UP-TO-DATE
+:project2:jar UP-TO-DATE
+:project4:compileJava UP-TO-DATE
+:project4:processResources NO-SOURCE
+:project4:classes UP-TO-DATE
+:project4:jar UP-TO-DATE
+:project5:compileJava UP-TO-DATE
+:project5:processResources NO-SOURCE
+:project5:classes UP-TO-DATE
+:project5:jar UP-TO-DATE
+:project6:compileJava UP-TO-DATE
+:project6:processResources NO-SOURCE
+:project6:classes UP-TO-DATE
+:project6:jar UP-TO-DATE
+:project7:compileJava UP-TO-DATE
+:project7:processResources NO-SOURCE
+:project7:classes UP-TO-DATE
+:project7:jar UP-TO-DATE
+:project8:compileJava UP-TO-DATE
+:project8:processResources NO-SOURCE
+:project8:classes UP-TO-DATE
+:project8:jar UP-TO-DATE
+:project10:compileJava UP-TO-DATE
+:project11:compileJava UP-TO-DATE
+:project9:compileJava UP-TO-DATE
+:project9:processResources NO-SOURCE
+:project9:classes UP-TO-DATE
+:project9:jar UP-TO-DATE
+:project12:compileJava UP-TO-DATE
+:project13:compileJava UP-TO-DATE
+:project14:compileJava UP-TO-DATE
+:project10:processResources NO-SOURCE
+:project10:classes UP-TO-DATE
+:project10:jar UP-TO-DATE
+:project15:compileJava UP-TO-DATE
+:project16:compileJava UP-TO-DATE
+:project17:compileJava UP-TO-DATE
+:project18:compileJava UP-TO-DATE
+:project11:processResources NO-SOURCE
+:project11:classes UP-TO-DATE
+:project11:jar UP-TO-DATE
+:project19:compileJava UP-TO-DATE
+:project20:compileJava UP-TO-DATE
+:project21:compileJava UP-TO-DATE
+:project22:compileJava UP-TO-DATE
+:project23:compileJava UP-TO-DATE
+:project24:compileJava UP-TO-DATE
+:project12:processResources NO-SOURCE
+:project12:classes UP-TO-DATE
+:project12:jar UP-TO-DATE
+:project25:compileJava UP-TO-DATE
+:project26:compileJava UP-TO-DATE
+:project27:compileJava UP-TO-DATE
+:project28:compileJava UP-TO-DATE
+:project29:compileJava UP-TO-DATE
+:project3:compileJava UP-TO-DATE
+:project30:compileJava UP-TO-DATE
+:project31:compileJava UP-TO-DATE
+:project13:processResources NO-SOURCE
+:project13:classes UP-TO-DATE
+:project13:jar UP-TO-DATE
+:project32:compileJava UP-TO-DATE
+:project33:compileJava UP-TO-DATE
+:project34:compileJava UP-TO-DATE
+:project35:compileJava UP-TO-DATE
+:project36:compileJava UP-TO-DATE
+:project37:compileJava UP-TO-DATE
+:project38:compileJava UP-TO-DATE
+:project39:compileJava UP-TO-DATE
+:project40:compileJava UP-TO-DATE
+:project14:processResources NO-SOURCE
+:project14:classes UP-TO-DATE
+:project14:jar UP-TO-DATE
+:project41:compileJava UP-TO-DATE
+:project42:compileJava UP-TO-DATE
+:project43:compileJava UP-TO-DATE
+:project44:compileJava UP-TO-DATE
+:project45:compileJava UP-TO-DATE
+:project46:compileJava UP-TO-DATE
+:project47:compileJava UP-TO-DATE
+:project48:compileJava UP-TO-DATE
+:project49:compileJava UP-TO-DATE
+:project50:compileJava UP-TO-DATE
+:project51:compileJava UP-TO-DATE
+:project52:compileJava UP-TO-DATE
+:project15:processResources NO-SOURCE
+:project15:classes UP-TO-DATE
+:project15:jar UP-TO-DATE
+:project53:compileJava UP-TO-DATE
+:project54:compileJava UP-TO-DATE
+:project55:compileJava UP-TO-DATE
+:project56:compileJava UP-TO-DATE
+:project57:compileJava UP-TO-DATE
+:project58:compileJava UP-TO-DATE
+:project59:compileJava UP-TO-DATE
+:project60:compileJava UP-TO-DATE
+:project61:compileJava UP-TO-DATE
+:project62:compileJava UP-TO-DATE
+:project63:compileJava UP-TO-DATE
+:project64:compileJava UP-TO-DATE
+:project65:compileJava UP-TO-DATE
+:project66:compileJava UP-TO-DATE
+:project67:compileJava UP-TO-DATE
+:project16:processResources NO-SOURCE
+:project16:classes UP-TO-DATE
+:project16:jar UP-TO-DATE
+:project68:compileJava UP-TO-DATE
+:project69:compileJava UP-TO-DATE
+:project70:compileJava UP-TO-DATE
+:project71:compileJava UP-TO-DATE
+:project72:compileJava UP-TO-DATE
+:project73:compileJava UP-TO-DATE
+:project74:compileJava UP-TO-DATE
+:project75:compileJava UP-TO-DATE
+:project76:compileJava UP-TO-DATE
+:project77:compileJava UP-TO-DATE
+:project78:compileJava UP-TO-DATE
+:project79:compileJava UP-TO-DATE
+:project80:compileJava UP-TO-DATE
+:project81:compileJava UP-TO-DATE
+:project82:compileJava UP-TO-DATE
+:project83:compileJava UP-TO-DATE
+:project84:compileJava UP-TO-DATE
+:project85:compileJava UP-TO-DATE
+:project86:compileJava UP-TO-DATE
+:project87:compileJava UP-TO-DATE
+:project17:processResources NO-SOURCE
+:project17:classes UP-TO-DATE
+:project17:jar UP-TO-DATE
+:project88:compileJava UP-TO-DATE
+:project89:compileJava UP-TO-DATE
+:project90:compileJava UP-TO-DATE
+:project91:compileJava UP-TO-DATE
+:project92:compileJava UP-TO-DATE
+:project93:compileJava UP-TO-DATE
+:project94:compileJava UP-TO-DATE
+:project95:compileJava UP-TO-DATE
+:project96:compileJava UP-TO-DATE
+:project97:compileJava UP-TO-DATE
+:project98:compileJava UP-TO-DATE
+:project99:compileJava UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.519 secs
+Used daemon with pid 1177
+Execution time 1532ms
+
+* Running build 3 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava UP-TO-DATE
+:project2:processResources NO-SOURCE
+:project2:classes UP-TO-DATE
+:project2:jar UP-TO-DATE
+:project4:compileJava UP-TO-DATE
+:project4:processResources NO-SOURCE
+:project4:classes UP-TO-DATE
+:project4:jar UP-TO-DATE
+:project5:compileJava UP-TO-DATE
+:project5:processResources NO-SOURCE
+:project5:classes UP-TO-DATE
+:project5:jar UP-TO-DATE
+:project6:compileJava UP-TO-DATE
+:project6:processResources NO-SOURCE
+:project6:classes UP-TO-DATE
+:project6:jar UP-TO-DATE
+:project7:compileJava UP-TO-DATE
+:project7:processResources NO-SOURCE
+:project7:classes UP-TO-DATE
+:project7:jar UP-TO-DATE
+:project8:compileJava UP-TO-DATE
+:project8:processResources NO-SOURCE
+:project8:classes UP-TO-DATE
+:project8:jar UP-TO-DATE
+:project10:compileJava UP-TO-DATE
+:project11:compileJava UP-TO-DATE
+:project9:compileJava UP-TO-DATE
+:project9:processResources NO-SOURCE
+:project9:classes UP-TO-DATE
+:project9:jar UP-TO-DATE
+:project12:compileJava UP-TO-DATE
+:project13:compileJava UP-TO-DATE
+:project14:compileJava UP-TO-DATE
+:project10:processResources NO-SOURCE
+:project10:classes UP-TO-DATE
+:project10:jar UP-TO-DATE
+:project15:compileJava UP-TO-DATE
+:project16:compileJava UP-TO-DATE
+:project17:compileJava UP-TO-DATE
+:project18:compileJava UP-TO-DATE
+:project11:processResources NO-SOURCE
+:project11:classes UP-TO-DATE
+:project11:jar UP-TO-DATE
+:project19:compileJava UP-TO-DATE
+:project20:compileJava UP-TO-DATE
+:project21:compileJava UP-TO-DATE
+:project22:compileJava UP-TO-DATE
+:project23:compileJava UP-TO-DATE
+:project24:compileJava UP-TO-DATE
+:project12:processResources NO-SOURCE
+:project12:classes UP-TO-DATE
+:project12:jar UP-TO-DATE
+:project25:compileJava UP-TO-DATE
+:project26:compileJava UP-TO-DATE
+:project27:compileJava UP-TO-DATE
+:project28:compileJava UP-TO-DATE
+:project29:compileJava UP-TO-DATE
+:project3:compileJava UP-TO-DATE
+:project30:compileJava UP-TO-DATE
+:project31:compileJava UP-TO-DATE
+:project13:processResources NO-SOURCE
+:project13:classes UP-TO-DATE
+:project13:jar UP-TO-DATE
+:project32:compileJava UP-TO-DATE
+:project33:compileJava UP-TO-DATE
+:project34:compileJava UP-TO-DATE
+:project35:compileJava UP-TO-DATE
+:project36:compileJava UP-TO-DATE
+:project37:compileJava UP-TO-DATE
+:project38:compileJava UP-TO-DATE
+:project39:compileJava UP-TO-DATE
+:project40:compileJava UP-TO-DATE
+:project14:processResources NO-SOURCE
+:project14:classes UP-TO-DATE
+:project14:jar UP-TO-DATE
+:project41:compileJava UP-TO-DATE
+:project42:compileJava UP-TO-DATE
+:project43:compileJava UP-TO-DATE
+:project44:compileJava UP-TO-DATE
+:project45:compileJava UP-TO-DATE
+:project46:compileJava UP-TO-DATE
+:project47:compileJava UP-TO-DATE
+:project48:compileJava UP-TO-DATE
+:project49:compileJava UP-TO-DATE
+:project50:compileJava UP-TO-DATE
+:project51:compileJava UP-TO-DATE
+:project52:compileJava UP-TO-DATE
+:project15:processResources NO-SOURCE
+:project15:classes UP-TO-DATE
+:project15:jar UP-TO-DATE
+:project53:compileJava UP-TO-DATE
+:project54:compileJava UP-TO-DATE
+:project55:compileJava UP-TO-DATE
+:project56:compileJava UP-TO-DATE
+:project57:compileJava UP-TO-DATE
+:project58:compileJava UP-TO-DATE
+:project59:compileJava UP-TO-DATE
+:project60:compileJava UP-TO-DATE
+:project61:compileJava UP-TO-DATE
+:project62:compileJava UP-TO-DATE
+:project63:compileJava UP-TO-DATE
+:project64:compileJava UP-TO-DATE
+:project65:compileJava UP-TO-DATE
+:project66:compileJava UP-TO-DATE
+:project67:compileJava UP-TO-DATE
+:project16:processResources NO-SOURCE
+:project16:classes UP-TO-DATE
+:project16:jar UP-TO-DATE
+:project68:compileJava UP-TO-DATE
+:project69:compileJava UP-TO-DATE
+:project70:compileJava UP-TO-DATE
+:project71:compileJava UP-TO-DATE
+:project72:compileJava UP-TO-DATE
+:project73:compileJava UP-TO-DATE
+:project74:compileJava UP-TO-DATE
+:project75:compileJava UP-TO-DATE
+:project76:compileJava UP-TO-DATE
+:project77:compileJava UP-TO-DATE
+:project78:compileJava UP-TO-DATE
+:project79:compileJava UP-TO-DATE
+:project80:compileJava UP-TO-DATE
+:project81:compileJava UP-TO-DATE
+:project82:compileJava UP-TO-DATE
+:project83:compileJava UP-TO-DATE
+:project84:compileJava UP-TO-DATE
+:project85:compileJava UP-TO-DATE
+:project86:compileJava UP-TO-DATE
+:project87:compileJava UP-TO-DATE
+:project17:processResources NO-SOURCE
+:project17:classes UP-TO-DATE
+:project17:jar UP-TO-DATE
+:project88:compileJava UP-TO-DATE
+:project89:compileJava UP-TO-DATE
+:project90:compileJava UP-TO-DATE
+:project91:compileJava UP-TO-DATE
+:project92:compileJava UP-TO-DATE
+:project93:compileJava UP-TO-DATE
+:project94:compileJava UP-TO-DATE
+:project95:compileJava UP-TO-DATE
+:project96:compileJava UP-TO-DATE
+:project97:compileJava UP-TO-DATE
+:project98:compileJava UP-TO-DATE
+:project99:compileJava UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.386 secs
+Used daemon with pid 1177
+Execution time 1399ms
+
+* Running build 4 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava UP-TO-DATE
+:project2:processResources NO-SOURCE
+:project2:classes UP-TO-DATE
+:project2:jar UP-TO-DATE
+:project4:compileJava UP-TO-DATE
+:project4:processResources NO-SOURCE
+:project4:classes UP-TO-DATE
+:project4:jar UP-TO-DATE
+:project5:compileJava UP-TO-DATE
+:project5:processResources NO-SOURCE
+:project5:classes UP-TO-DATE
+:project5:jar UP-TO-DATE
+:project6:compileJava UP-TO-DATE
+:project6:processResources NO-SOURCE
+:project6:classes UP-TO-DATE
+:project6:jar UP-TO-DATE
+:project7:compileJava UP-TO-DATE
+:project7:processResources NO-SOURCE
+:project7:classes UP-TO-DATE
+:project7:jar UP-TO-DATE
+:project8:compileJava UP-TO-DATE
+:project8:processResources NO-SOURCE
+:project8:classes UP-TO-DATE
+:project8:jar UP-TO-DATE
+:project10:compileJava UP-TO-DATE
+:project11:compileJava UP-TO-DATE
+:project9:compileJava UP-TO-DATE
+:project9:processResources NO-SOURCE
+:project9:classes UP-TO-DATE
+:project9:jar UP-TO-DATE
+:project12:compileJava UP-TO-DATE
+:project13:compileJava UP-TO-DATE
+:project14:compileJava UP-TO-DATE
+:project10:processResources NO-SOURCE
+:project10:classes UP-TO-DATE
+:project10:jar UP-TO-DATE
+:project15:compileJava UP-TO-DATE
+:project16:compileJava UP-TO-DATE
+:project17:compileJava UP-TO-DATE
+:project18:compileJava UP-TO-DATE
+:project11:processResources NO-SOURCE
+:project11:classes UP-TO-DATE
+:project11:jar UP-TO-DATE
+:project19:compileJava UP-TO-DATE
+:project20:compileJava UP-TO-DATE
+:project21:compileJava UP-TO-DATE
+:project22:compileJava UP-TO-DATE
+:project23:compileJava UP-TO-DATE
+:project24:compileJava UP-TO-DATE
+:project12:processResources NO-SOURCE
+:project12:classes UP-TO-DATE
+:project12:jar UP-TO-DATE
+:project25:compileJava UP-TO-DATE
+:project26:compileJava UP-TO-DATE
+:project27:compileJava UP-TO-DATE
+:project28:compileJava UP-TO-DATE
+:project29:compileJava UP-TO-DATE
+:project3:compileJava UP-TO-DATE
+:project30:compileJava UP-TO-DATE
+:project31:compileJava UP-TO-DATE
+:project13:processResources NO-SOURCE
+:project13:classes UP-TO-DATE
+:project13:jar UP-TO-DATE
+:project32:compileJava UP-TO-DATE
+:project33:compileJava UP-TO-DATE
+:project34:compileJava UP-TO-DATE
+:project35:compileJava UP-TO-DATE
+:project36:compileJava UP-TO-DATE
+:project37:compileJava UP-TO-DATE
+:project38:compileJava UP-TO-DATE
+:project39:compileJava UP-TO-DATE
+:project40:compileJava UP-TO-DATE
+:project14:processResources NO-SOURCE
+:project14:classes UP-TO-DATE
+:project14:jar UP-TO-DATE
+:project41:compileJava UP-TO-DATE
+:project42:compileJava UP-TO-DATE
+:project43:compileJava UP-TO-DATE
+:project44:compileJava UP-TO-DATE
+:project45:compileJava UP-TO-DATE
+:project46:compileJava UP-TO-DATE
+:project47:compileJava UP-TO-DATE
+:project48:compileJava UP-TO-DATE
+:project49:compileJava UP-TO-DATE
+:project50:compileJava UP-TO-DATE
+:project51:compileJava UP-TO-DATE
+:project52:compileJava UP-TO-DATE
+:project15:processResources NO-SOURCE
+:project15:classes UP-TO-DATE
+:project15:jar UP-TO-DATE
+:project53:compileJava UP-TO-DATE
+:project54:compileJava UP-TO-DATE
+:project55:compileJava UP-TO-DATE
+:project56:compileJava UP-TO-DATE
+:project57:compileJava UP-TO-DATE
+:project58:compileJava UP-TO-DATE
+:project59:compileJava UP-TO-DATE
+:project60:compileJava UP-TO-DATE
+:project61:compileJava UP-TO-DATE
+:project62:compileJava UP-TO-DATE
+:project63:compileJava UP-TO-DATE
+:project64:compileJava UP-TO-DATE
+:project65:compileJava UP-TO-DATE
+:project66:compileJava UP-TO-DATE
+:project67:compileJava UP-TO-DATE
+:project16:processResources NO-SOURCE
+:project16:classes UP-TO-DATE
+:project16:jar UP-TO-DATE
+:project68:compileJava UP-TO-DATE
+:project69:compileJava UP-TO-DATE
+:project70:compileJava UP-TO-DATE
+:project71:compileJava UP-TO-DATE
+:project72:compileJava UP-TO-DATE
+:project73:compileJava UP-TO-DATE
+:project74:compileJava UP-TO-DATE
+:project75:compileJava UP-TO-DATE
+:project76:compileJava UP-TO-DATE
+:project77:compileJava UP-TO-DATE
+:project78:compileJava UP-TO-DATE
+:project79:compileJava UP-TO-DATE
+:project80:compileJava UP-TO-DATE
+:project81:compileJava UP-TO-DATE
+:project82:compileJava UP-TO-DATE
+:project83:compileJava UP-TO-DATE
+:project84:compileJava UP-TO-DATE
+:project85:compileJava UP-TO-DATE
+:project86:compileJava UP-TO-DATE
+:project87:compileJava UP-TO-DATE
+:project17:processResources NO-SOURCE
+:project17:classes UP-TO-DATE
+:project17:jar UP-TO-DATE
+:project88:compileJava UP-TO-DATE
+:project89:compileJava UP-TO-DATE
+:project90:compileJava UP-TO-DATE
+:project91:compileJava UP-TO-DATE
+:project92:compileJava UP-TO-DATE
+:project93:compileJava UP-TO-DATE
+:project94:compileJava UP-TO-DATE
+:project95:compileJava UP-TO-DATE
+:project96:compileJava UP-TO-DATE
+:project97:compileJava UP-TO-DATE
+:project98:compileJava UP-TO-DATE
+:project99:compileJava UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.68 secs
+Used daemon with pid 1177
+Execution time 1693ms
+
+* Running build 5 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava UP-TO-DATE
+:project2:processResources NO-SOURCE
+:project2:classes UP-TO-DATE
+:project2:jar UP-TO-DATE
+:project4:compileJava UP-TO-DATE
+:project4:processResources NO-SOURCE
+:project4:classes UP-TO-DATE
+:project4:jar UP-TO-DATE
+:project5:compileJava UP-TO-DATE
+:project5:processResources NO-SOURCE
+:project5:classes UP-TO-DATE
+:project5:jar UP-TO-DATE
+:project6:compileJava UP-TO-DATE
+:project6:processResources NO-SOURCE
+:project6:classes UP-TO-DATE
+:project6:jar UP-TO-DATE
+:project7:compileJava UP-TO-DATE
+:project7:processResources NO-SOURCE
+:project7:classes UP-TO-DATE
+:project7:jar UP-TO-DATE
+:project8:compileJava UP-TO-DATE
+:project8:processResources NO-SOURCE
+:project8:classes UP-TO-DATE
+:project8:jar UP-TO-DATE
+:project10:compileJava UP-TO-DATE
+:project11:compileJava UP-TO-DATE
+:project9:compileJava UP-TO-DATE
+:project9:processResources NO-SOURCE
+:project9:classes UP-TO-DATE
+:project9:jar UP-TO-DATE
+:project12:compileJava UP-TO-DATE
+:project13:compileJava UP-TO-DATE
+:project14:compileJava UP-TO-DATE
+:project10:processResources NO-SOURCE
+:project10:classes UP-TO-DATE
+:project10:jar UP-TO-DATE
+:project15:compileJava UP-TO-DATE
+:project16:compileJava UP-TO-DATE
+:project17:compileJava UP-TO-DATE
+:project18:compileJava UP-TO-DATE
+:project11:processResources NO-SOURCE
+:project11:classes UP-TO-DATE
+:project11:jar UP-TO-DATE
+:project19:compileJava UP-TO-DATE
+:project20:compileJava UP-TO-DATE
+:project21:compileJava UP-TO-DATE
+:project22:compileJava UP-TO-DATE
+:project23:compileJava UP-TO-DATE
+:project24:compileJava UP-TO-DATE
+:project12:processResources NO-SOURCE
+:project12:classes UP-TO-DATE
+:project12:jar UP-TO-DATE
+:project25:compileJava UP-TO-DATE
+:project26:compileJava UP-TO-DATE
+:project27:compileJava UP-TO-DATE
+:project28:compileJava UP-TO-DATE
+:project29:compileJava UP-TO-DATE
+:project3:compileJava UP-TO-DATE
+:project30:compileJava UP-TO-DATE
+:project31:compileJava UP-TO-DATE
+:project13:processResources NO-SOURCE
+:project13:classes UP-TO-DATE
+:project13:jar UP-TO-DATE
+:project32:compileJava UP-TO-DATE
+:project33:compileJava UP-TO-DATE
+:project34:compileJava UP-TO-DATE
+:project35:compileJava UP-TO-DATE
+:project36:compileJava UP-TO-DATE
+:project37:compileJava UP-TO-DATE
+:project38:compileJava UP-TO-DATE
+:project39:compileJava UP-TO-DATE
+:project40:compileJava UP-TO-DATE
+:project14:processResources NO-SOURCE
+:project14:classes UP-TO-DATE
+:project14:jar UP-TO-DATE
+:project41:compileJava UP-TO-DATE
+:project42:compileJava UP-TO-DATE
+:project43:compileJava UP-TO-DATE
+:project44:compileJava UP-TO-DATE
+:project45:compileJava UP-TO-DATE
+:project46:compileJava UP-TO-DATE
+:project47:compileJava UP-TO-DATE
+:project48:compileJava UP-TO-DATE
+:project49:compileJava UP-TO-DATE
+:project50:compileJava UP-TO-DATE
+:project51:compileJava UP-TO-DATE
+:project52:compileJava UP-TO-DATE
+:project15:processResources NO-SOURCE
+:project15:classes UP-TO-DATE
+:project15:jar UP-TO-DATE
+:project53:compileJava UP-TO-DATE
+:project54:compileJava UP-TO-DATE
+:project55:compileJava UP-TO-DATE
+:project56:compileJava UP-TO-DATE
+:project57:compileJava UP-TO-DATE
+:project58:compileJava UP-TO-DATE
+:project59:compileJava UP-TO-DATE
+:project60:compileJava UP-TO-DATE
+:project61:compileJava UP-TO-DATE
+:project62:compileJava UP-TO-DATE
+:project63:compileJava UP-TO-DATE
+:project64:compileJava UP-TO-DATE
+:project65:compileJava UP-TO-DATE
+:project66:compileJava UP-TO-DATE
+:project67:compileJava UP-TO-DATE
+:project16:processResources NO-SOURCE
+:project16:classes UP-TO-DATE
+:project16:jar UP-TO-DATE
+:project68:compileJava UP-TO-DATE
+:project69:compileJava UP-TO-DATE
+:project70:compileJava UP-TO-DATE
+:project71:compileJava UP-TO-DATE
+:project72:compileJava UP-TO-DATE
+:project73:compileJava UP-TO-DATE
+:project74:compileJava UP-TO-DATE
+:project75:compileJava UP-TO-DATE
+:project76:compileJava UP-TO-DATE
+:project77:compileJava UP-TO-DATE
+:project78:compileJava UP-TO-DATE
+:project79:compileJava UP-TO-DATE
+:project80:compileJava UP-TO-DATE
+:project81:compileJava UP-TO-DATE
+:project82:compileJava UP-TO-DATE
+:project83:compileJava UP-TO-DATE
+:project84:compileJava UP-TO-DATE
+:project85:compileJava UP-TO-DATE
+:project86:compileJava UP-TO-DATE
+:project87:compileJava UP-TO-DATE
+:project17:processResources NO-SOURCE
+:project17:classes UP-TO-DATE
+:project17:jar UP-TO-DATE
+:project88:compileJava UP-TO-DATE
+:project89:compileJava UP-TO-DATE
+:project90:compileJava UP-TO-DATE
+:project91:compileJava UP-TO-DATE
+:project92:compileJava UP-TO-DATE
+:project93:compileJava UP-TO-DATE
+:project94:compileJava UP-TO-DATE
+:project95:compileJava UP-TO-DATE
+:project96:compileJava UP-TO-DATE
+:project97:compileJava UP-TO-DATE
+:project98:compileJava UP-TO-DATE
+:project99:compileJava UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.591 secs
+Used daemon with pid 1177
+Execution time 1604ms
+
+* Running build 6 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava UP-TO-DATE
+:project2:processResources NO-SOURCE
+:project2:classes UP-TO-DATE
+:project2:jar UP-TO-DATE
+:project4:compileJava UP-TO-DATE
+:project4:processResources NO-SOURCE
+:project4:classes UP-TO-DATE
+:project4:jar UP-TO-DATE
+:project5:compileJava UP-TO-DATE
+:project5:processResources NO-SOURCE
+:project5:classes UP-TO-DATE
+:project5:jar UP-TO-DATE
+:project6:compileJava UP-TO-DATE
+:project6:processResources NO-SOURCE
+:project6:classes UP-TO-DATE
+:project6:jar UP-TO-DATE
+:project7:compileJava UP-TO-DATE
+:project7:processResources NO-SOURCE
+:project7:classes UP-TO-DATE
+:project7:jar UP-TO-DATE
+:project8:compileJava UP-TO-DATE
+:project8:processResources NO-SOURCE
+:project8:classes UP-TO-DATE
+:project8:jar UP-TO-DATE
+:project10:compileJava UP-TO-DATE
+:project11:compileJava UP-TO-DATE
+:project9:compileJava UP-TO-DATE
+:project9:processResources NO-SOURCE
+:project9:classes UP-TO-DATE
+:project9:jar UP-TO-DATE
+:project12:compileJava UP-TO-DATE
+:project13:compileJava UP-TO-DATE
+:project14:compileJava UP-TO-DATE
+:project10:processResources NO-SOURCE
+:project10:classes UP-TO-DATE
+:project10:jar UP-TO-DATE
+:project15:compileJava UP-TO-DATE
+:project16:compileJava UP-TO-DATE
+:project17:compileJava UP-TO-DATE
+:project18:compileJava UP-TO-DATE
+:project11:processResources NO-SOURCE
+:project11:classes UP-TO-DATE
+:project11:jar UP-TO-DATE
+:project19:compileJava UP-TO-DATE
+:project20:compileJava UP-TO-DATE
+:project21:compileJava UP-TO-DATE
+:project22:compileJava UP-TO-DATE
+:project23:compileJava UP-TO-DATE
+:project24:compileJava UP-TO-DATE
+:project12:processResources NO-SOURCE
+:project12:classes UP-TO-DATE
+:project12:jar UP-TO-DATE
+:project25:compileJava UP-TO-DATE
+:project26:compileJava UP-TO-DATE
+:project27:compileJava UP-TO-DATE
+:project28:compileJava UP-TO-DATE
+:project29:compileJava UP-TO-DATE
+:project3:compileJava UP-TO-DATE
+:project30:compileJava UP-TO-DATE
+:project31:compileJava UP-TO-DATE
+:project13:processResources NO-SOURCE
+:project13:classes UP-TO-DATE
+:project13:jar UP-TO-DATE
+:project32:compileJava UP-TO-DATE
+:project33:compileJava UP-TO-DATE
+:project34:compileJava UP-TO-DATE
+:project35:compileJava UP-TO-DATE
+:project36:compileJava UP-TO-DATE
+:project37:compileJava UP-TO-DATE
+:project38:compileJava UP-TO-DATE
+:project39:compileJava UP-TO-DATE
+:project40:compileJava UP-TO-DATE
+:project14:processResources NO-SOURCE
+:project14:classes UP-TO-DATE
+:project14:jar UP-TO-DATE
+:project41:compileJava UP-TO-DATE
+:project42:compileJava UP-TO-DATE
+:project43:compileJava UP-TO-DATE
+:project44:compileJava UP-TO-DATE
+:project45:compileJava UP-TO-DATE
+:project46:compileJava UP-TO-DATE
+:project47:compileJava UP-TO-DATE
+:project48:compileJava UP-TO-DATE
+:project49:compileJava UP-TO-DATE
+:project50:compileJava UP-TO-DATE
+:project51:compileJava UP-TO-DATE
+:project52:compileJava UP-TO-DATE
+:project15:processResources NO-SOURCE
+:project15:classes UP-TO-DATE
+:project15:jar UP-TO-DATE
+:project53:compileJava UP-TO-DATE
+:project54:compileJava UP-TO-DATE
+:project55:compileJava UP-TO-DATE
+:project56:compileJava UP-TO-DATE
+:project57:compileJava UP-TO-DATE
+:project58:compileJava UP-TO-DATE
+:project59:compileJava UP-TO-DATE
+:project60:compileJava UP-TO-DATE
+:project61:compileJava UP-TO-DATE
+:project62:compileJava UP-TO-DATE
+:project63:compileJava UP-TO-DATE
+:project64:compileJava UP-TO-DATE
+:project65:compileJava UP-TO-DATE
+:project66:compileJava UP-TO-DATE
+:project67:compileJava UP-TO-DATE
+:project16:processResources NO-SOURCE
+:project16:classes UP-TO-DATE
+:project16:jar UP-TO-DATE
+:project68:compileJava UP-TO-DATE
+:project69:compileJava UP-TO-DATE
+:project70:compileJava UP-TO-DATE
+:project71:compileJava UP-TO-DATE
+:project72:compileJava UP-TO-DATE
+:project73:compileJava UP-TO-DATE
+:project74:compileJava UP-TO-DATE
+:project75:compileJava UP-TO-DATE
+:project76:compileJava UP-TO-DATE
+:project77:compileJava UP-TO-DATE
+:project78:compileJava UP-TO-DATE
+:project79:compileJava UP-TO-DATE
+:project80:compileJava UP-TO-DATE
+:project81:compileJava UP-TO-DATE
+:project82:compileJava UP-TO-DATE
+:project83:compileJava UP-TO-DATE
+:project84:compileJava UP-TO-DATE
+:project85:compileJava UP-TO-DATE
+:project86:compileJava UP-TO-DATE
+:project87:compileJava UP-TO-DATE
+:project17:processResources NO-SOURCE
+:project17:classes UP-TO-DATE
+:project17:jar UP-TO-DATE
+:project88:compileJava UP-TO-DATE
+:project89:compileJava UP-TO-DATE
+:project90:compileJava UP-TO-DATE
+:project91:compileJava UP-TO-DATE
+:project92:compileJava UP-TO-DATE
+:project93:compileJava UP-TO-DATE
+:project94:compileJava UP-TO-DATE
+:project95:compileJava UP-TO-DATE
+:project96:compileJava UP-TO-DATE
+:project97:compileJava UP-TO-DATE
+:project98:compileJava UP-TO-DATE
+:project99:compileJava UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.531 secs
+Used daemon with pid 1177
+Execution time 1544ms
+
+* Running build 7 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava UP-TO-DATE
+:project2:processResources NO-SOURCE
+:project2:classes UP-TO-DATE
+:project2:jar UP-TO-DATE
+:project4:compileJava UP-TO-DATE
+:project4:processResources NO-SOURCE
+:project4:classes UP-TO-DATE
+:project4:jar UP-TO-DATE
+:project5:compileJava UP-TO-DATE
+:project5:processResources NO-SOURCE
+:project5:classes UP-TO-DATE
+:project5:jar UP-TO-DATE
+:project6:compileJava UP-TO-DATE
+:project6:processResources NO-SOURCE
+:project6:classes UP-TO-DATE
+:project6:jar UP-TO-DATE
+:project7:compileJava UP-TO-DATE
+:project7:processResources NO-SOURCE
+:project7:classes UP-TO-DATE
+:project7:jar UP-TO-DATE
+:project8:compileJava UP-TO-DATE
+:project8:processResources NO-SOURCE
+:project8:classes UP-TO-DATE
+:project8:jar UP-TO-DATE
+:project10:compileJava UP-TO-DATE
+:project11:compileJava UP-TO-DATE
+:project9:compileJava UP-TO-DATE
+:project9:processResources NO-SOURCE
+:project9:classes UP-TO-DATE
+:project9:jar UP-TO-DATE
+:project12:compileJava UP-TO-DATE
+:project13:compileJava UP-TO-DATE
+:project14:compileJava UP-TO-DATE
+:project10:processResources NO-SOURCE
+:project10:classes UP-TO-DATE
+:project10:jar UP-TO-DATE
+:project15:compileJava UP-TO-DATE
+:project16:compileJava UP-TO-DATE
+:project17:compileJava UP-TO-DATE
+:project18:compileJava UP-TO-DATE
+:project11:processResources NO-SOURCE
+:project11:classes UP-TO-DATE
+:project11:jar UP-TO-DATE
+:project19:compileJava UP-TO-DATE
+:project20:compileJava UP-TO-DATE
+:project21:compileJava UP-TO-DATE
+:project22:compileJava UP-TO-DATE
+:project23:compileJava UP-TO-DATE
+:project24:compileJava UP-TO-DATE
+:project12:processResources NO-SOURCE
+:project12:classes UP-TO-DATE
+:project12:jar UP-TO-DATE
+:project25:compileJava UP-TO-DATE
+:project26:compileJava UP-TO-DATE
+:project27:compileJava UP-TO-DATE
+:project28:compileJava UP-TO-DATE
+:project29:compileJava UP-TO-DATE
+:project3:compileJava UP-TO-DATE
+:project30:compileJava UP-TO-DATE
+:project31:compileJava UP-TO-DATE
+:project13:processResources NO-SOURCE
+:project13:classes UP-TO-DATE
+:project13:jar UP-TO-DATE
+:project32:compileJava UP-TO-DATE
+:project33:compileJava UP-TO-DATE
+:project34:compileJava UP-TO-DATE
+:project35:compileJava UP-TO-DATE
+:project36:compileJava UP-TO-DATE
+:project37:compileJava UP-TO-DATE
+:project38:compileJava UP-TO-DATE
+:project39:compileJava UP-TO-DATE
+:project40:compileJava UP-TO-DATE
+:project14:processResources NO-SOURCE
+:project14:classes UP-TO-DATE
+:project14:jar UP-TO-DATE
+:project41:compileJava UP-TO-DATE
+:project42:compileJava UP-TO-DATE
+:project43:compileJava UP-TO-DATE
+:project44:compileJava UP-TO-DATE
+:project45:compileJava UP-TO-DATE
+:project46:compileJava UP-TO-DATE
+:project47:compileJava UP-TO-DATE
+:project48:compileJava UP-TO-DATE
+:project49:compileJava UP-TO-DATE
+:project50:compileJava UP-TO-DATE
+:project51:compileJava UP-TO-DATE
+:project52:compileJava UP-TO-DATE
+:project15:processResources NO-SOURCE
+:project15:classes UP-TO-DATE
+:project15:jar UP-TO-DATE
+:project53:compileJava UP-TO-DATE
+:project54:compileJava UP-TO-DATE
+:project55:compileJava UP-TO-DATE
+:project56:compileJava UP-TO-DATE
+:project57:compileJava UP-TO-DATE
+:project58:compileJava UP-TO-DATE
+:project59:compileJava UP-TO-DATE
+:project60:compileJava UP-TO-DATE
+:project61:compileJava UP-TO-DATE
+:project62:compileJava UP-TO-DATE
+:project63:compileJava UP-TO-DATE
+:project64:compileJava UP-TO-DATE
+:project65:compileJava UP-TO-DATE
+:project66:compileJava UP-TO-DATE
+:project67:compileJava UP-TO-DATE
+:project16:processResources NO-SOURCE
+:project16:classes UP-TO-DATE
+:project16:jar UP-TO-DATE
+:project68:compileJava UP-TO-DATE
+:project69:compileJava UP-TO-DATE
+:project70:compileJava UP-TO-DATE
+:project71:compileJava UP-TO-DATE
+:project72:compileJava UP-TO-DATE
+:project73:compileJava UP-TO-DATE
+:project74:compileJava UP-TO-DATE
+:project75:compileJava UP-TO-DATE
+:project76:compileJava UP-TO-DATE
+:project77:compileJava UP-TO-DATE
+:project78:compileJava UP-TO-DATE
+:project79:compileJava UP-TO-DATE
+:project80:compileJava UP-TO-DATE
+:project81:compileJava UP-TO-DATE
+:project82:compileJava UP-TO-DATE
+:project83:compileJava UP-TO-DATE
+:project84:compileJava UP-TO-DATE
+:project85:compileJava UP-TO-DATE
+:project86:compileJava UP-TO-DATE
+:project87:compileJava UP-TO-DATE
+:project17:processResources NO-SOURCE
+:project17:classes UP-TO-DATE
+:project17:jar UP-TO-DATE
+:project88:compileJava UP-TO-DATE
+:project89:compileJava UP-TO-DATE
+:project90:compileJava UP-TO-DATE
+:project91:compileJava UP-TO-DATE
+:project92:compileJava UP-TO-DATE
+:project93:compileJava UP-TO-DATE
+:project94:compileJava UP-TO-DATE
+:project95:compileJava UP-TO-DATE
+:project96:compileJava UP-TO-DATE
+:project97:compileJava UP-TO-DATE
+:project98:compileJava UP-TO-DATE
+:project99:compileJava UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.517 secs
+Used daemon with pid 1177
+Execution time 1530ms
+
+* Running build 8 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava UP-TO-DATE
+:project2:processResources NO-SOURCE
+:project2:classes UP-TO-DATE
+:project2:jar UP-TO-DATE
+:project4:compileJava UP-TO-DATE
+:project4:processResources NO-SOURCE
+:project4:classes UP-TO-DATE
+:project4:jar UP-TO-DATE
+:project5:compileJava UP-TO-DATE
+:project5:processResources NO-SOURCE
+:project5:classes UP-TO-DATE
+:project5:jar UP-TO-DATE
+:project6:compileJava UP-TO-DATE
+:project6:processResources NO-SOURCE
+:project6:classes UP-TO-DATE
+:project6:jar UP-TO-DATE
+:project7:compileJava UP-TO-DATE
+:project7:processResources NO-SOURCE
+:project7:classes UP-TO-DATE
+:project7:jar UP-TO-DATE
+:project8:compileJava UP-TO-DATE
+:project8:processResources NO-SOURCE
+:project8:classes UP-TO-DATE
+:project8:jar UP-TO-DATE
+:project10:compileJava UP-TO-DATE
+:project11:compileJava UP-TO-DATE
+:project9:compileJava UP-TO-DATE
+:project9:processResources NO-SOURCE
+:project9:classes UP-TO-DATE
+:project9:jar UP-TO-DATE
+:project12:compileJava UP-TO-DATE
+:project13:compileJava UP-TO-DATE
+:project14:compileJava UP-TO-DATE
+:project10:processResources NO-SOURCE
+:project10:classes UP-TO-DATE
+:project10:jar UP-TO-DATE
+:project15:compileJava UP-TO-DATE
+:project16:compileJava UP-TO-DATE
+:project17:compileJava UP-TO-DATE
+:project18:compileJava UP-TO-DATE
+:project11:processResources NO-SOURCE
+:project11:classes UP-TO-DATE
+:project11:jar UP-TO-DATE
+:project19:compileJava UP-TO-DATE
+:project20:compileJava UP-TO-DATE
+:project21:compileJava UP-TO-DATE
+:project22:compileJava UP-TO-DATE
+:project23:compileJava UP-TO-DATE
+:project24:compileJava UP-TO-DATE
+:project12:processResources NO-SOURCE
+:project12:classes UP-TO-DATE
+:project12:jar UP-TO-DATE
+:project25:compileJava UP-TO-DATE
+:project26:compileJava UP-TO-DATE
+:project27:compileJava UP-TO-DATE
+:project28:compileJava UP-TO-DATE
+:project29:compileJava UP-TO-DATE
+:project3:compileJava UP-TO-DATE
+:project30:compileJava UP-TO-DATE
+:project31:compileJava UP-TO-DATE
+:project13:processResources NO-SOURCE
+:project13:classes UP-TO-DATE
+:project13:jar UP-TO-DATE
+:project32:compileJava UP-TO-DATE
+:project33:compileJava UP-TO-DATE
+:project34:compileJava UP-TO-DATE
+:project35:compileJava UP-TO-DATE
+:project36:compileJava UP-TO-DATE
+:project37:compileJava UP-TO-DATE
+:project38:compileJava UP-TO-DATE
+:project39:compileJava UP-TO-DATE
+:project40:compileJava UP-TO-DATE
+:project14:processResources NO-SOURCE
+:project14:classes UP-TO-DATE
+:project14:jar UP-TO-DATE
+:project41:compileJava UP-TO-DATE
+:project42:compileJava UP-TO-DATE
+:project43:compileJava UP-TO-DATE
+:project44:compileJava UP-TO-DATE
+:project45:compileJava UP-TO-DATE
+:project46:compileJava UP-TO-DATE
+:project47:compileJava UP-TO-DATE
+:project48:compileJava UP-TO-DATE
+:project49:compileJava UP-TO-DATE
+:project50:compileJava UP-TO-DATE
+:project51:compileJava UP-TO-DATE
+:project52:compileJava UP-TO-DATE
+:project15:processResources NO-SOURCE
+:project15:classes UP-TO-DATE
+:project15:jar UP-TO-DATE
+:project53:compileJava UP-TO-DATE
+:project54:compileJava UP-TO-DATE
+:project55:compileJava UP-TO-DATE
+:project56:compileJava UP-TO-DATE
+:project57:compileJava UP-TO-DATE
+:project58:compileJava UP-TO-DATE
+:project59:compileJava UP-TO-DATE
+:project60:compileJava UP-TO-DATE
+:project61:compileJava UP-TO-DATE
+:project62:compileJava UP-TO-DATE
+:project63:compileJava UP-TO-DATE
+:project64:compileJava UP-TO-DATE
+:project65:compileJava UP-TO-DATE
+:project66:compileJava UP-TO-DATE
+:project67:compileJava UP-TO-DATE
+:project16:processResources NO-SOURCE
+:project16:classes UP-TO-DATE
+:project16:jar UP-TO-DATE
+:project68:compileJava UP-TO-DATE
+:project69:compileJava UP-TO-DATE
+:project70:compileJava UP-TO-DATE
+:project71:compileJava UP-TO-DATE
+:project72:compileJava UP-TO-DATE
+:project73:compileJava UP-TO-DATE
+:project74:compileJava UP-TO-DATE
+:project75:compileJava UP-TO-DATE
+:project76:compileJava UP-TO-DATE
+:project77:compileJava UP-TO-DATE
+:project78:compileJava UP-TO-DATE
+:project79:compileJava UP-TO-DATE
+:project80:compileJava UP-TO-DATE
+:project81:compileJava UP-TO-DATE
+:project82:compileJava UP-TO-DATE
+:project83:compileJava UP-TO-DATE
+:project84:compileJava UP-TO-DATE
+:project85:compileJava UP-TO-DATE
+:project86:compileJava UP-TO-DATE
+:project87:compileJava UP-TO-DATE
+:project17:processResources NO-SOURCE
+:project17:classes UP-TO-DATE
+:project17:jar UP-TO-DATE
+:project88:compileJava UP-TO-DATE
+:project89:compileJava UP-TO-DATE
+:project90:compileJava UP-TO-DATE
+:project91:compileJava UP-TO-DATE
+:project92:compileJava UP-TO-DATE
+:project93:compileJava UP-TO-DATE
+:project94:compileJava UP-TO-DATE
+:project95:compileJava UP-TO-DATE
+:project96:compileJava UP-TO-DATE
+:project97:compileJava UP-TO-DATE
+:project98:compileJava UP-TO-DATE
+:project99:compileJava UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.28 secs
+Used daemon with pid 1177
+Execution time 1293ms
+
+* Running build 9 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava UP-TO-DATE
+:project2:processResources NO-SOURCE
+:project2:classes UP-TO-DATE
+:project2:jar UP-TO-DATE
+:project4:compileJava UP-TO-DATE
+:project4:processResources NO-SOURCE
+:project4:classes UP-TO-DATE
+:project4:jar UP-TO-DATE
+:project5:compileJava UP-TO-DATE
+:project5:processResources NO-SOURCE
+:project5:classes UP-TO-DATE
+:project5:jar UP-TO-DATE
+:project6:compileJava UP-TO-DATE
+:project6:processResources NO-SOURCE
+:project6:classes UP-TO-DATE
+:project6:jar UP-TO-DATE
+:project7:compileJava UP-TO-DATE
+:project7:processResources NO-SOURCE
+:project7:classes UP-TO-DATE
+:project7:jar UP-TO-DATE
+:project8:compileJava UP-TO-DATE
+:project8:processResources NO-SOURCE
+:project8:classes UP-TO-DATE
+:project8:jar UP-TO-DATE
+:project10:compileJava UP-TO-DATE
+:project11:compileJava UP-TO-DATE
+:project9:compileJava UP-TO-DATE
+:project9:processResources NO-SOURCE
+:project9:classes UP-TO-DATE
+:project9:jar UP-TO-DATE
+:project12:compileJava UP-TO-DATE
+:project13:compileJava UP-TO-DATE
+:project14:compileJava UP-TO-DATE
+:project10:processResources NO-SOURCE
+:project10:classes UP-TO-DATE
+:project10:jar UP-TO-DATE
+:project15:compileJava UP-TO-DATE
+:project16:compileJava UP-TO-DATE
+:project17:compileJava UP-TO-DATE
+:project18:compileJava UP-TO-DATE
+:project11:processResources NO-SOURCE
+:project11:classes UP-TO-DATE
+:project11:jar UP-TO-DATE
+:project19:compileJava UP-TO-DATE
+:project20:compileJava UP-TO-DATE
+:project21:compileJava UP-TO-DATE
+:project22:compileJava UP-TO-DATE
+:project23:compileJava UP-TO-DATE
+:project24:compileJava UP-TO-DATE
+:project12:processResources NO-SOURCE
+:project12:classes UP-TO-DATE
+:project12:jar UP-TO-DATE
+:project25:compileJava UP-TO-DATE
+:project26:compileJava UP-TO-DATE
+:project27:compileJava UP-TO-DATE
+:project28:compileJava UP-TO-DATE
+:project29:compileJava UP-TO-DATE
+:project3:compileJava UP-TO-DATE
+:project30:compileJava UP-TO-DATE
+:project31:compileJava UP-TO-DATE
+:project13:processResources NO-SOURCE
+:project13:classes UP-TO-DATE
+:project13:jar UP-TO-DATE
+:project32:compileJava UP-TO-DATE
+:project33:compileJava UP-TO-DATE
+:project34:compileJava UP-TO-DATE
+:project35:compileJava UP-TO-DATE
+:project36:compileJava UP-TO-DATE
+:project37:compileJava UP-TO-DATE
+:project38:compileJava UP-TO-DATE
+:project39:compileJava UP-TO-DATE
+:project40:compileJava UP-TO-DATE
+:project14:processResources NO-SOURCE
+:project14:classes UP-TO-DATE
+:project14:jar UP-TO-DATE
+:project41:compileJava UP-TO-DATE
+:project42:compileJava UP-TO-DATE
+:project43:compileJava UP-TO-DATE
+:project44:compileJava UP-TO-DATE
+:project45:compileJava UP-TO-DATE
+:project46:compileJava UP-TO-DATE
+:project47:compileJava UP-TO-DATE
+:project48:compileJava UP-TO-DATE
+:project49:compileJava UP-TO-DATE
+:project50:compileJava UP-TO-DATE
+:project51:compileJava UP-TO-DATE
+:project52:compileJava UP-TO-DATE
+:project15:processResources NO-SOURCE
+:project15:classes UP-TO-DATE
+:project15:jar UP-TO-DATE
+:project53:compileJava UP-TO-DATE
+:project54:compileJava UP-TO-DATE
+:project55:compileJava UP-TO-DATE
+:project56:compileJava UP-TO-DATE
+:project57:compileJava UP-TO-DATE
+:project58:compileJava UP-TO-DATE
+:project59:compileJava UP-TO-DATE
+:project60:compileJava UP-TO-DATE
+:project61:compileJava UP-TO-DATE
+:project62:compileJava UP-TO-DATE
+:project63:compileJava UP-TO-DATE
+:project64:compileJava UP-TO-DATE
+:project65:compileJava UP-TO-DATE
+:project66:compileJava UP-TO-DATE
+:project67:compileJava UP-TO-DATE
+:project16:processResources NO-SOURCE
+:project16:classes UP-TO-DATE
+:project16:jar UP-TO-DATE
+:project68:compileJava UP-TO-DATE
+:project69:compileJava UP-TO-DATE
+:project70:compileJava UP-TO-DATE
+:project71:compileJava UP-TO-DATE
+:project72:compileJava UP-TO-DATE
+:project73:compileJava UP-TO-DATE
+:project74:compileJava UP-TO-DATE
+:project75:compileJava UP-TO-DATE
+:project76:compileJava UP-TO-DATE
+:project77:compileJava UP-TO-DATE
+:project78:compileJava UP-TO-DATE
+:project79:compileJava UP-TO-DATE
+:project80:compileJava UP-TO-DATE
+:project81:compileJava UP-TO-DATE
+:project82:compileJava UP-TO-DATE
+:project83:compileJava UP-TO-DATE
+:project84:compileJava UP-TO-DATE
+:project85:compileJava UP-TO-DATE
+:project86:compileJava UP-TO-DATE
+:project87:compileJava UP-TO-DATE
+:project17:processResources NO-SOURCE
+:project17:classes UP-TO-DATE
+:project17:jar UP-TO-DATE
+:project88:compileJava UP-TO-DATE
+:project89:compileJava UP-TO-DATE
+:project90:compileJava UP-TO-DATE
+:project91:compileJava UP-TO-DATE
+:project92:compileJava UP-TO-DATE
+:project93:compileJava UP-TO-DATE
+:project94:compileJava UP-TO-DATE
+:project95:compileJava UP-TO-DATE
+:project96:compileJava UP-TO-DATE
+:project97:compileJava UP-TO-DATE
+:project98:compileJava UP-TO-DATE
+:project99:compileJava UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 1.429 secs
+Used daemon with pid 1177
+Execution time 1442ms
+
+* Running build 10 with tasks [compileJava]
+Enabling incremental compiler
+:project1:compileJava
+:project1:processResources NO-SOURCE
+:project1:classes
+:project1:jar
+:project2:compileJava UP-TO-DATE
+:project2:processResources NO-SOURCE
+:project2:classes UP-TO-DATE
+:project2:jar UP-TO-DATE
+:project4:compileJava UP-TO-DATE
+:project4:processResources NO-SOURCE
+:project4:classes UP-TO-DATE
+:project4:jar UP-TO-DATE
+:project5:compileJava UP-TO-DATE
+:project5:processResources NO-SOURCE
+:project5:classes UP-TO-DATE
+:project5:jar UP-TO-DATE
+:project6:compileJava UP-TO-DATE
+:project6:processResources NO-SOURCE
+:project6:classes UP-TO-DATE
+:project6:jar UP-TO-DATE
+:project7:compileJava UP-TO-DATE
+:project7:processResources NO-SOURCE
+:project7:classes UP-TO-DATE
+:project7:jar UP-TO-DATE
+:project8:compileJava UP-TO-DATE
+:project8:processResources NO-SOURCE
+:project8:classes UP-TO-DATE
+:project8:jar UP-TO-DATE
+:project10:compileJava UP-TO-DATE
+:project11:compileJava UP-TO-DATE
+:project9:compileJava UP-TO-DATE
+:project9:processResources NO-SOURCE
+:project9:classes UP-TO-DATE
+:project9:jar UP-TO-DATE
+:project12:compileJava UP-TO-DATE
+:project13:compileJava UP-TO-DATE
+:project14:compileJava UP-TO-DATE
+:project10:processResources NO-SOURCE
+:project10:classes UP-TO-DATE
+:project10:jar UP-TO-DATE
+:project15:compileJava UP-TO-DATE
+:project16:compileJava UP-TO-DATE
+:project17:compileJava UP-TO-DATE
+:project18:compileJava UP-TO-DATE
+:project11:processResources NO-SOURCE
+:project11:classes UP-TO-DATE
+:project11:jar UP-TO-DATE
+:project19:compileJava UP-TO-DATE
+:project20:compileJava UP-TO-DATE
+:project21:compileJava UP-TO-DATE
+:project22:compileJava UP-TO-DATE
+:project23:compileJava UP-TO-DATE
+:project24:compileJava UP-TO-DATE
+:project12:processResources NO-SOURCE
+:project12:classes UP-TO-DATE
+:project12:jar UP-TO-DATE
+:project25:compileJava UP-TO-DATE
+:project26:compileJava UP-TO-DATE
+:project27:compileJava UP-TO-DATE
+:project28:compileJava UP-TO-DATE
+:project29:compileJava UP-TO-DATE
+:project3:compileJava UP-TO-DATE
+:project30:compileJava UP-TO-DATE
+:project31:compileJava UP-TO-DATE
+:project13:processResources NO-SOURCE
+:project13:classes UP-TO-DATE
+:project13:jar UP-TO-DATE
+:project32:compileJava UP-TO-DATE
+:project33:compileJava UP-TO-DATE
+:project34:compileJava UP-TO-DATE
+:project35:compileJava UP-TO-DATE
+:project36:compileJava UP-TO-DATE
+:project37:compileJava UP-TO-DATE
+:project38:compileJava UP-TO-DATE
+:project39:compileJava UP-TO-DATE
+:project40:compileJava UP-TO-DATE
+:project14:processResources NO-SOURCE
+:project14:classes UP-TO-DATE
+:project14:jar UP-TO-DATE
+:project41:compileJava UP-TO-DATE
+:project42:compileJava UP-TO-DATE
+:project43:compileJava UP-TO-DATE
+:project44:compileJava UP-TO-DATE
+:project45:compileJava UP-TO-DATE
+:project46:compileJava UP-TO-DATE
+:project47:compileJava UP-TO-DATE
+:project48:compileJava UP-TO-DATE
+:project49:compileJava UP-TO-DATE
+:project50:compileJava UP-TO-DATE
+:project51:compileJava UP-TO-DATE
+:project52:compileJava UP-TO-DATE
+:project15:processResources NO-SOURCE
+:project15:classes UP-TO-DATE
+:project15:jar UP-TO-DATE
+:project53:compileJava UP-TO-DATE
+:project54:compileJava UP-TO-DATE
+:project55:compileJava UP-TO-DATE
+:project56:compileJava UP-TO-DATE
+:project57:compileJava UP-TO-DATE
+:project58:compileJava UP-TO-DATE
+:project59:compileJava UP-TO-DATE
+:project60:compileJava UP-TO-DATE
+:project61:compileJava UP-TO-DATE
+:project62:compileJava UP-TO-DATE
+:project63:compileJava UP-TO-DATE
+:project64:compileJava UP-TO-DATE
+:project65:compileJava UP-TO-DATE
+:project66:compileJava UP-TO-DATE
+:project67:compileJava UP-TO-DATE
+:project16:processResources NO-SOURCE
+:project16:classes UP-TO-DATE
+:project16:jar UP-TO-DATE
+:project68:compileJava UP-TO-DATE
+:project69:compileJava UP-TO-DATE
+:project70:compileJava UP-TO-DATE
+:project71:compileJava UP-TO-DATE
+:project72:compileJava UP-TO-DATE
+:project73:compileJava UP-TO-DATE
+:project74:compileJava UP-TO-DATE
+:project75:compileJava UP-TO-DATE
+:project76:compileJava UP-TO-DATE
+:project77:compileJava UP-TO-DATE
+:project78:compileJava UP-TO-DATE
+:project79:compileJava UP-TO-DATE
+:project80:compileJava UP-TO-DATE
+:project81:compileJava UP-TO-DATE
+:project82:compileJava UP-TO-DATE
+:project83:compileJava UP-TO-DATE
+:project84:compileJava UP-TO-DATE
+:project85:compileJava UP-TO-DATE
+:project86:compileJava UP-TO-DATE
+:project87:compileJava UP-TO-DATE
+:project17:processResources NO-SOURCE
+:project17:classes UP-TO-DATE
+:project17:jar UP-TO-DATE
+:project88:compileJava UP-TO-DATE
+:project89:compileJava UP-TO-DATE
+:project90:compileJava UP-TO-DATE
+:project91:compileJava UP-TO-DATE
+:project92:compileJava UP-TO-DATE
+:project93:compileJava UP-TO-DATE
+:project94:compileJava UP-TO-DATE
+:project95:compileJava UP-TO-DATE
+:project96:compileJava UP-TO-DATE
+:project97:compileJava UP-TO-DATE
+:project98:compileJava UP-TO-DATE
+:project99:compileJava UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 2.163 secs
+Used daemon with pid 1177
+Execution time 2177ms
+
+* Stopping daemons
+Stopping Daemon(s)
+1 Daemon stopped
+
+* Results written to /home/cchampeau/DEV/PROJECTS/GITHUB/performance-comparisons/large-multiproject/profile-out-5
+

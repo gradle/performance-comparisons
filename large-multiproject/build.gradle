@@ -1,0 +1,12 @@
+// Generated 06f156c8-cc50-4b29-b5c2-fd49e1b761fb
+
+import org.gradle.util.GradleVersion
+
+if (GradleVersion.current() > GradleVersion.version('3.3')) {
+   println "Enabling incremental compiler"
+   allprojects {
+      tasks.withType(JavaCompile) {
+         options.incremental = true
+      }  
+   }
+}

@@ -1,0 +1,16 @@
+nonAbiChange {
+  tasks = ["compileJava"]
+  apply-non-abi-change-to = "project1/src/main/java/org/gradle/test/performance1_4/Production1_315.java"
+  maven {
+    targets = ["compile"]
+  }
+}
+
+abiChange {
+  tasks = ["compileJava"]
+  apply-abi-change-to = "project1/src/main/java/org/gradle/test/performance1_4/Production1_315.java"
+  maven {
+    targets = ["compile"]
+  }
+}
+

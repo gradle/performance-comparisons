@@ -1,0 +1,22 @@
+build,abiChange 3.3,nonAbiChange 3.3
+tasks,compileJava,compileJava
+initial clean build,36434,46163
+warm-up build 1,34890,37731
+warm-up build 2,18451,18868
+warm-up build 3,17903,19173
+warm-up build 4,18506,17983
+warm-up build 5,17433,17866
+warm-up build 6,19131,17579
+build 1,17455,17715
+build 2,16855,17533
+build 3,18989,17587
+build 4,19774,17785
+build 5,20225,17487
+build 6,17392,17689
+build 7,20517,17408
+build 8,19391,17651
+build 9,20837,17303
+build 10,19381,17630
+mean,19081.6,17578.8
+median,19386.0,17608.5
+stddev,1397.6508227101008,147.90297119696035

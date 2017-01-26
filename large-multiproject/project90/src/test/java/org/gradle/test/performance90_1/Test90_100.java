@@ -1,0 +1,12 @@
+package org.gradle.test.performance90_1;
+
+import static org.junit.Assert.*;
+
+public class Test90_100 {
+    private final Production90_100 production = new Production90_100("value");
+
+    @org.junit.Test
+    public void test() {
+        assertEquals(production.getProperty(), "value");
+    }
+}

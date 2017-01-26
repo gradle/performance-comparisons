@@ -1,0 +1,158 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.gradle</groupId>
+    <artifactId>root</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    <modules>
+        <module>project1</module>
+<module>project2</module>
+<module>project3</module>
+<module>project4</module>
+<module>project5</module>
+<module>project6</module>
+<module>project7</module>
+<module>project8</module>
+<module>project9</module>
+<module>project10</module>
+<module>project11</module>
+<module>project12</module>
+<module>project13</module>
+<module>project14</module>
+<module>project15</module>
+<module>project16</module>
+<module>project17</module>
+<module>project18</module>
+<module>project19</module>
+<module>project20</module>
+<module>project21</module>
+<module>project22</module>
+<module>project23</module>
+<module>project24</module>
+<module>project25</module>
+<module>project26</module>
+<module>project27</module>
+<module>project28</module>
+<module>project29</module>
+<module>project30</module>
+<module>project31</module>
+<module>project32</module>
+<module>project33</module>
+<module>project34</module>
+<module>project35</module>
+<module>project36</module>
+<module>project37</module>
+<module>project38</module>
+<module>project39</module>
+<module>project40</module>
+<module>project41</module>
+<module>project42</module>
+<module>project43</module>
+<module>project44</module>
+<module>project45</module>
+<module>project46</module>
+<module>project47</module>
+<module>project48</module>
+<module>project49</module>
+<module>project50</module>
+<module>project51</module>
+<module>project52</module>
+<module>project53</module>
+<module>project54</module>
+<module>project55</module>
+<module>project56</module>
+<module>project57</module>
+<module>project58</module>
+<module>project59</module>
+<module>project60</module>
+<module>project61</module>
+<module>project62</module>
+<module>project63</module>
+<module>project64</module>
+<module>project65</module>
+<module>project66</module>
+<module>project67</module>
+<module>project68</module>
+<module>project69</module>
+<module>project70</module>
+<module>project71</module>
+<module>project72</module>
+<module>project73</module>
+<module>project74</module>
+<module>project75</module>
+<module>project76</module>
+<module>project77</module>
+<module>project78</module>
+<module>project79</module>
+<module>project80</module>
+<module>project81</module>
+<module>project82</module>
+<module>project83</module>
+<module>project84</module>
+<module>project85</module>
+<module>project86</module>
+<module>project87</module>
+<module>project88</module>
+<module>project89</module>
+<module>project90</module>
+<module>project91</module>
+<module>project92</module>
+<module>project93</module>
+<module>project94</module>
+<module>project95</module>
+<module>project96</module>
+<module>project97</module>
+<module>project98</module>
+<module>project99</module>
+
+    </modules>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.groovy.maven</groupId>
+                <artifactId>gmaven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>heap-capture</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>execute</goal>
+                        </goals>
+                        <configuration>
+                            <source>
+                                import java.lang.management.ManagementFactory
+                                import java.math.RoundingMode
+
+                                String format(def value) {
+                                    value = value / (1024 * 1024)
+                                    value = value.setScale(4, RoundingMode.DOWN)
+                                    "${value}MB"
+                                }
+
+                                def buildDir = new File(project.delegate.basedir, "build")
+                                def heap = ManagementFactory.memoryMXBean.heapMemoryUsage
+                                def nonHeap = ManagementFactory.memoryMXBean.nonHeapMemoryUsage
+                                println "BEFORE GC"
+                                println "heap: ${format(heap.used)} (initial ${format(heap.init)}, committed ${format(heap.committed)}, max ${format(heap.max)}"
+                                println "nonHeap: ${format(nonHeap.used)} (initial ${format(nonHeap.init)}, committed ${format(nonHeap.committed)}, max ${format(nonHeap.max)}"
+
+                                ManagementFactory.memoryMXBean.gc()
+
+                                heap = ManagementFactory.memoryMXBean.heapMemoryUsage
+                                nonHeap = ManagementFactory.memoryMXBean.nonHeapMemoryUsage
+                                println "AFTER GC"
+                                println "heap: ${format(heap.used)} (initial ${format(heap.init)}, committed ${format(heap.committed)}, max ${format(heap.max)}"
+                                println "nonHeap: ${format(nonHeap.used)} (initial ${format(nonHeap.init)}, committed ${format(nonHeap.committed)}, max ${format(nonHeap.max)}"
+                                buildDir.mkdirs()
+                                new File(buildDir, "totalMemoryUsed.txt").text = heap.used
+                                new File(buildDir, "buildEventTimestamps.txt").text = "0\n"*3
+
+                            </source>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
