@@ -10,4 +10,5 @@ Follow the instructions required to install the [Gradle profiler](https://github
 
 - A [single, large project](single-large-project)
 - A [single, medium project](single-medium-project)
+- A [large multi-project build](large-multiproject)
 
