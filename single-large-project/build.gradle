@@ -44,9 +44,13 @@ task dependencyReport(type: DependencyReportTask) {
     outputFile = new File(buildDir, "dependencies.txt")
 }
 
-allprojects {
-   tasks.withType(JavaCompile) {
-      options.incremental = true
+import org.gradle.util.GradleVersion
+
+if (GradleVersion.current() > GradleVersion.version('3.3')) {
+   println "Enabling incremental compiler"
+   allprojects {
+      tasks.withType(JavaCompile) {
+         options.incremental = true
+      }  
    }
 }
-
