@@ -1,0 +1,12 @@
+package org.gradle.test.performancenull_327;
+
+import static org.junit.Assert.*;
+
+public class Testnull_32683 {
+    private final Productionnull_32683 production = new Productionnull_32683("value");
+
+    @org.junit.Test
+    public void test() {
+        assertEquals(production.getProperty(), "value");
+    }
+}
