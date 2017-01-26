@@ -8,6 +8,6 @@ Follow the instructions required to install the [Gradle profiler](https://github
 
 ## Available projects
 
-- [A single, large project](single-large-project)
-
+- A [single, large project](single-large-project)
+- A [single, medium project](single-medium-project)
 
