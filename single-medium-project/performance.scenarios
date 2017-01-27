@@ -2,7 +2,7 @@ nonAbiChange {
   tasks = ["compileJava"]
   apply-non-abi-change-to = "src/main/java/org/gradle/test/performancenull_45/Productionnull_4494.java"
   maven {
-    targets = ["compile"]
+    targets = ["clean", "compile"]
   }
 }
 

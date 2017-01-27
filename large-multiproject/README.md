@@ -1,7 +1,7 @@
 # Multi-project build
 
 This test project is a "hierarchical" multi-project (or multi-module in the Maven world) build:
-   - 50 projects
+   - 100 projects
    - each project has 500 source files
    - inter-project dependencies simulate "real world" projects with "upper" projects depending on up-to 3 "lower level" projects
    
