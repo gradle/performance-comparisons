@@ -1,0 +1,15 @@
+import org.gradle.util.GradleVersion
+
+println "Enabling Java library plugin"
+subprojects { project ->
+   if (GradleVersion.current() > GradleVersion.version('3.3')) {
+      project.ext.pluginToUse = 'java-library'
+      project.ext.implementationConfig = 'implementation'
+      project.ext.apiConfig = 'api'
+      //tasks.withType(JavaCompile) { options.incremental = true }
+   } else {
+      project.ext.pluginToUse = 'java'
+      project.ext.implementationConfig = 'compile'
+      project.ext.apiConfig = 'compile'
+   }
+}

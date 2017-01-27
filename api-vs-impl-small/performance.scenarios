@@ -1,0 +1,16 @@
+nonAbiChange {
+  tasks = ["compileJava"]
+  apply-non-abi-change-to = "utils/src/main/java/Utils.java"
+  maven {
+     targets = ["clean", "compile"]
+  }
+}
+
+abiChange {
+  tasks = ["compileJava"]
+  apply-abi-change-to = "utils/src/main/java/Utils.java"
+  maven {
+     targets = ["clean", "compile"]
+  }
+}
+

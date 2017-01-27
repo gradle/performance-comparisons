@@ -1,0 +1,7 @@
+apply plugin: ext.pluginToUse
+
+dependencies {
+   add(apiConfig, project(':domain'))
+   add(implementationConfig, project(':utils'))
+}
+
