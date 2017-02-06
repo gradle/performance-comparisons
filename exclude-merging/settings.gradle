@@ -1,0 +1,13 @@
+rootProject.name='apiserver'
+
+include 'apiPlatform', 'apiDependencies', 'apiServiceLayerEndpoints', 'apiServiceLayer', 'apiServiceLayerImpl', 'apiServiceLayerRuntime', 'apiGroovyExtensions','apiTraceAgent', 'apiTest', 'apiweb'
+project(":apiGroovyExtensions").name = 'api-groovy-extensions'
+project(":apiServiceLayerEndpoints").name= 'api-service-layer-endpoints'
+project(":apiServiceLayer").name= 'api-service-layer'
+project(":apiServiceLayerRuntime").name= 'api-service-layer-run'
+project(":apiTraceAgent").name= 'api-trace-agent'
+project(":apiweb").name= 'api'
+project(":apiPlatform").name= 'api-platform'
+project(":apiDependencies").name= 'api-dependencies'
+project(":apiServiceLayerImpl").name= 'api-service-layer-impl'
+project(":apiTest").name= 'api-test'

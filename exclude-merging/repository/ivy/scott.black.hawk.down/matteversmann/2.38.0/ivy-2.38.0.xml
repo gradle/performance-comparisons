@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra" xmlns:n="http://dummycorp.com">
+    <info organisation="scott.black.hawk.down" module="matteversmann" revision="2.38.0" status="release" publication="20130314024732"></info>
+    <configurations>
+        <conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+		<conf name="webapp" visibility="public" description="web application wars not normally depended upon."/>
+		<conf name="webresource" visibility="public" description="web application resource bundle zips."/>
+		<conf name="resources" visibility="public" description="resource bundle zips."/>
+    </configurations>
+    <publications defaultconf="master">
+        <artifact name="matteversmann" type="jar" ext="jar"/>
+        <artifact name="matteversmann" type="javadoc" e:classifier="javadoc" ext="jar" conf="javadoc"/>
+        <artifact name="matteversmann" type="sources" e:classifier="sources" ext="jar" conf="sources"/>
+    </publications>
+    <dependencies defaultconfmapping="compile->default;runtime->default;test->default;provided->default">
+        
+        <dependency org="com.google.code.findbugs" name="annotations" rev="2.0.0" revConstraint="1.3.+" conf="provided"/>
+
+        
+        
+        <dependency org="commons-httpclient" name="commons-httpclient" rev="3.1" revConstraint="[3.1,)" conf="compile"/>
+
+        
+        <dependency org="scott.black.hawk.down" name="character151" rev="1.49.0" revConstraint="[1.29.0,)" conf="compile"/>
+        <dependency org="scott.black.hawk.down" name="character178" rev="1.60.0" revConstraint="[1.51.0,)" conf="compile"/>
+        <dependency org="scott.black.hawk.down" name="character338" rev="2.152" revConstraint="[1.17.0,)" conf="compile"/>
+        <dependency org="scott.black.hawk.down" name="character200" rev="2.152" revConstraint="[1.31.0,)" conf="compile"/>
+        <dependency org="scott.black.hawk.down" name="character265" rev="2.7.0" revConstraint="latest.release" conf="compile"/>
+        <dependency org="scott.black.hawk.down" name="character378" rev="1.37.0" revConstraint="[1.0.0,)" conf="compile"/>
+        <dependency org="scott.black.hawk.down" name="character64" rev="1.48.0" revConstraint="[1.14.0,)" conf="compile"/>
+        <dependency org="scott.black.hawk.down" name="character81" rev="1.42.0" revConstraint="[1.3.0,)" conf="compile"/>
+        <dependency org="scott.black.hawk.down" name="character117" rev="1.31.0" revConstraint="[1.4.0,)" conf="compile"/>
+        <dependency org="scott.black.hawk.down" name="character286" rev="2.16.0" revConstraint="[2.0.0,)" conf="compile"/>
+        <dependency org="scott.black.hawk.down" name="character400" rev="1.88.0" revConstraint="[1.30.0,)" conf="compile"/>
+        <dependency org="scott.black.hawk.down" name="character153" rev="1.23.0" revConstraint="[1.1.0,)" conf="compile"/>
+        <dependency org="scott.black.hawk.down" name="character357" rev="1.0.0" revConstraint="latest.release" conf="compile"/>
+        <dependency org="scott.black.hawk.down" name="character395" rev="1.0.0" revConstraint="latest.release" conf="compile"/>
+
+
+        
+        <dependency org="org.testng" name="testng" rev="6.8" revConstraint="6.+" conf="test"/>
+        <dependency org="scott.black.hawk.down" name="webqa" rev="1.5.0" revConstraint="[1.2.0,)" conf="test"/>
+        <dependency org="com.oracle" name="ojdbc14" rev="10.1.0.5.0" conf="test"/>
+
+        
+        <dependency org="scott.black.hawk.down" name="character196" rev="1.24" revConstraint="[1.0,2)" force="true" conf="test"/>
+        <dependency org="scott.black.hawk.down" name="character142" rev="1.1" revConstraint="[1.1,2)" force="true" conf="test"/>
+
+        <exclude org="org.codehaus.jackson" module="jackson-core-asl"/>
+    </dependencies>
+</ivy-module>

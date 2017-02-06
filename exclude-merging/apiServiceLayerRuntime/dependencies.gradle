@@ -1,0 +1,30 @@
+dependencies {
+    compileOnly group:"javax.servlet", name:"javax.servlet-api", version:"latest.${dependencyReleaseStatus}"
+    compileOnly group:"org.codehaus.groovy", name:"groovy-all", version:"latest.${dependencyReleaseStatus}"
+
+    compile group: 'com.amazonaws', name: 'aws-java-sdk-sns', version: "latest.${dependencyReleaseStatus}"
+    compile group: 'scott.black.hawk.down', name: 'character274', version:"latest.${dependencyReleaseStatus}"
+    compile group:"org.spockframework", name:"spock-core", version:"latest.${dependencyReleaseStatus}"
+    compile group:"cglib", name:"cglib", version:"latest.${dependencyReleaseStatus}"
+    compile group:'tarantino.pulp.fiction', name:'vincentvega', version:"latest.${dependencyReleaseStatus}"
+    compile group:'tarantino.pulp.fiction', name:'pumpkin', version:"latest.${dependencyReleaseStatus}"
+    compile group:'tarantino.pulp.fiction', name:'honeybunny', version:"latest.${dependencyReleaseStatus}"
+    compile "scott.black.hawk.down:character366:latest.${dependencyReleaseStatus}"
+    compile group: "net.sourceforge.cobertura", name:"cobertura", version:"latest.${dependencyReleaseStatus}"
+    compile group: "commons-io", name:"commons-io", version:"latest.${dependencyReleaseStatus}"
+
+    compile group: 'io.reactivex', name: 'rxjava', version:"latest.${dependencyReleaseStatus}"
+    compile group: 'io.reactivex', name: 'rxgroovy', version:"latest.${dependencyReleaseStatus}"
+    compile group: 'io.reactivex', name: 'rxclojure', version:"latest.${dependencyReleaseStatus}"
+
+    compile group:'scott.thelma.and.louise', name:'louiseelizabethsawyer', version:"latest.${dependencyReleaseStatus}"
+    compile group:'scott.thelma.and.louise', name:'thelmayvonnedickinson', version:"latest.${dependencyReleaseStatus}"
+    compile group:'scott.thelma.and.louise', name:'detectivehalslocumb', version:"latest.${dependencyReleaseStatus}"
+    compile group:'scott.black.hawk.down', name :'character278', version:"latest.${dependencyReleaseStatus}"
+    compile group: 'scott.black.hawk.down', name: 'character23', version:"latest.${dependencyReleaseStatus}"
+    compile group: 'scott.black.hawk.down', name: 'character49', version:"latest.${dependencyReleaseStatus}"
+    compile group: 'scott.black.hawk.down', name: 'character105', version:"latest.${dependencyReleaseStatus}"
+    compile group: 'scott.black.hawk.down', name: 'character302', version:"latest.${dependencyReleaseStatus}"
+    compile group: 'scott.black.hawk.down', name: 'edyurek', version:"latest.${dependencyReleaseStatus}"
+}
+

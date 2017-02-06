@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="scott.black.hawk.down" module="character363" revision="59.146" status="release" publication="20160901155556"></info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" extends="runtime" name="test"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character363" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character363" type="sources" ext="jar" conf="sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+    <artifact name="character363" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc" xmlns:m="http://ant.apache.org/ivy/maven"/>
+    <artifact name="character363" type="jar" ext="jar" conf="test" m:classifier="tests" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies>
+    <dependency org="scott.black.hawk.down" name="character200" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character65" rev="55.23" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character251" rev="59.146" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character47" rev="59.146" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character258" rev="59.146" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character102" rev="59.146" conf="runtime-&gt;default"/>
+    <dependency org="abrams.star.wars.the.force.awakens" name="hansolo" rev="2.22.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="avro" name="avro" rev="1.6.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="com.google.code.findbugs" name="annotations" rev="3.0.1" conf="provided" revConstraint="latest.release"/>
+    <dependency org="com.google.guava" name="guava" rev="18.0" conf="runtime-&gt;default" revConstraint="18.+"/>
+    <dependency org="com.ibm.icu" name="icu4j" rev="54.1.1" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="com.sun.jersey" name="jersey-client" rev="1.19" conf="runtime-&gt;default"/>
+    <dependency org="com.sun.jersey" name="jersey-core" rev="1.19" conf="runtime-&gt;default"/>
+    <dependency org="commons-codec" name="commons-codec" rev="1.9" conf="runtime-&gt;default"/>
+    <dependency org="commons-configuration" name="commons-configuration" rev="1.10" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="commons-lang" name="commons-lang" rev="2.6" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="commons-logging" name="commons-logging" rev="1.2" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="javax.ws.rs" name="jsr311-api" rev="1.1.1" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="javax.xml.bind" name="jaxb-api" rev="2.2.11" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="joda-time" name="joda-time" rev="2.9.4" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="junit" name="junit-dep" rev="4.10" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="log4j" name="log4j" rev="1.2.17" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="net.java.dev.jets3t" name="jets3t" rev="0.9.0" conf="runtime-&gt;default"/>
+    <dependency org="org.codehaus.jackson" name="jackson-core-asl" rev="1.9.13" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.codehaus.jackson" name="jackson-mapper-asl" rev="1.9.13" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.hamcrest" name="hamcrest-core" rev="1.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.testng" name="testng" rev="6.9.11" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="net.jpountz.lz4" name="lz4" rev="1.3.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character386" rev="1.5.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character201" rev="3.12" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.mockito" name="mockito-all" rev="1.10.19" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character405" rev="1.52.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character151" rev="1.50.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character64" rev="1.70.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="johngrimes" rev="1.55.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character176" rev="1.3.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character395" rev="1.0.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character383" rev="1.6.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character94" rev="1.4.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="caseyjoyce" rev="1.55.21" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character265" rev="2.10.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character81" rev="2.45" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character172" rev="1.0.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character378" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character289" rev="2.910.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character286" rev="2.17.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character194" rev="1.15" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="com.esotericsoftware.kryo" name="kryo" rev="2.24.0" conf="runtime-&gt;default"/>
+    <dependency org="scott.matchstick.men" name="roywaller" rev="1.16" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character7" rev="0.13" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character181" rev="1.1.44" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character338" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character143" rev="1.176.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.legend" name="darkness" rev="1.22" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="com.sun.jersey.jersey-test-framework" name="jersey-test-framework-core" rev="1.9.1" conf="provided"/>
+    <dependency org="com.sun.jersey.jersey-test-framework" name="jersey-test-framework-inmemory" rev="1.9.1" conf="provided"/>
+  </dependencies>
+</ivy-module>

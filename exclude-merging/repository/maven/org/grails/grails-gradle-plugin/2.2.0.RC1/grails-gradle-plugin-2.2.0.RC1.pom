@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails</groupId>
+  <artifactId>grails-gradle-plugin</artifactId>
+  <version>2.2.0.RC1</version>
+  <name>Grails Gradle Plugin</name>
+  
+  
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  
+  <dependencies>
+    <dependency>
+      <groupId>org.spockframework</groupId>
+      <artifactId>spock-core</artifactId>
+      <version>0.7-groovy-1.8</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.grails</groupId>
+      <artifactId>grails-launcher</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

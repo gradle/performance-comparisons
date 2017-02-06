@@ -1,0 +1,15 @@
+<?xml version="1.0"?><project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>javax.activation</groupId>
+  <artifactId>activation</artifactId>
+  <name>JavaBeans(TM) Activation Framework</name>
+  <version>1.1.1</version>
+  
+  
+  <licenses>
+    <license>
+      <name>COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0</name>
+      
+    </license>
+  </licenses>
+</project>

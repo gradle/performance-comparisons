@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.reactivex</groupId>
+  <artifactId>rxnetty-common</artifactId>
+  <version>0.5.2-rc.3</version>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.1.5</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-handler</artifactId>
+      <version>4.1.0.Final</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-transport-native-epoll</artifactId>
+      <version>4.1.0.Final</version>
+      <scope>runtime</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.6</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>rxnetty-common</name>
+  
+  
+  <properties>
+    <nebula_Manifest_Version>1.0</nebula_Manifest_Version>
+    <nebula_Implementation_Title>io.reactivex#rxnetty-common;0.5.2-rc.3</nebula_Implementation_Title>
+    <nebula_Implementation_Version>0.5.2-rc.3</nebula_Implementation_Version>
+    <nebula_Built_Status>integration</nebula_Built_Status>
+    <nebula_Built_By>travis</nebula_Built_By>
+    <nebula_Built_OS>Linux</nebula_Built_OS>
+    <nebula_Build_Date>2016-06-23_00:50:02</nebula_Build_Date>
+    <nebula_Gradle_Version>2.13</nebula_Gradle_Version>
+    <nebula_Module_Owner>benjchristensen@netflix.com,benjchristensen@netflix.com</nebula_Module_Owner>
+    <nebula_Module_Email>benjchristensen@netflix.com,benjchristensen@netflix.com</nebula_Module_Email>
+    <nebula_Module_Source>/rxnetty-common</nebula_Module_Source>
+    <nebula_Module_Origin>https://github.com/ReactiveX/RxNetty.git</nebula_Module_Origin>
+    <nebula_Change>6c7d0d4</nebula_Change>
+    <nebula_Branch>6c7d0d457e9580a7efdb7db70490ca7e9a6dac3e</nebula_Branch>
+    <nebula_Build_Host>testing-worker-linux-docker-adb41555-3373-linux-7</nebula_Build_Host>
+    <nebula_Build_Job>LOCAL</nebula_Build_Job>
+    <nebula_Build_Number>LOCAL</nebula_Build_Number>
+    <nebula_Build_Id>LOCAL</nebula_Build_Id>
+    <nebula_Created_By>1.8.0_31-b13 (Oracle Corporation)</nebula_Created_By>
+    <nebula_Build_Java_Version>1.8.0_31</nebula_Build_Java_Version>
+    <nebula_X_Compile_Target_JDK>1.7</nebula_X_Compile_Target_JDK>
+    <nebula_X_Compile_Source_JDK>1.7</nebula_X_Compile_Source_JDK>
+  </properties>
+  
+  
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+</project>

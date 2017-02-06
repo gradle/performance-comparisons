@@ -1,0 +1,12 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>javax.jms</groupId>
+  <artifactId>jms</artifactId>
+  <version>1.1</version>
+  <name>Java Message Service</name>
+  
+  
+  <distributionManagement>
+    <downloadUrl>http://java.sun.com/products/jms/docs.html</downloadUrl>
+  </distributionManagement>
+</project>

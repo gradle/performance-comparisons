@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="scott.black.hawk.down" module="character149" revision="4.68.0" status="release" publication="20160825001545"></info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" extends="runtime" name="test"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character149" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character149" type="sources" ext="jar" conf="sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies>
+    <dependency org="scott.exodus.gods.and.kings" name="moses" rev="4.45.0" conf="runtime-&gt;default" revConstraint="latest.candidate"/>
+    <dependency org="net.spy" name="spymemcached" rev="2.11.4+4" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character226" rev="1.66.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character274" rev="1.143" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character200" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character14" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="com.google.code.findbugs" name="annotations" rev="3.0.1" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="tarantino.jackie.brown" name="jackiebrown" rev="0.7.4" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="abrams.super.eight" name="josephfrancislamb" rev="1.4.11" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.gladiator" name="antoniusproximo" rev="1.65" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="javax.jms" name="jms" rev="1.1" conf="runtime-&gt;default" revConstraint="latest.release"/>
+  </dependencies>
+</ivy-module>

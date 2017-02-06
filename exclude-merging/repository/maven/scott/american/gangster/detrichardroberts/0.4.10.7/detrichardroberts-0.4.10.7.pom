@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>scott.american.gangster</groupId>
+  <artifactId>detrichardroberts</artifactId>
+  <version>0.4.10.7</version>
+  <name>detrichardroberts</name>
+  
+  
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  <issueManagement>
+    <system>github</system>
+    
+  </issueManagement>
+  
+  <dependencies>
+    <dependency>
+      <groupId>scott.robin.hood</groupId>
+      <artifactId>sirwalterloxley</artifactId>
+      <version>0.26.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>scott.american.gangster</groupId>
+      <artifactId>hueylucas</artifactId>
+      <version>0.4.10.7</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxnetty-spectator</artifactId>
+      <version>0.4.10</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>

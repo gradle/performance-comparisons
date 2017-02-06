@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<metadata>
+	<groupId>com.thoughtworks.xstream</groupId>
+	<artifactId>xstream-parent</artifactId>
+	<version>1.4.9-propergol1</version>
+	<versioning>
+		<release>1.4.9-propergol1</release>
+		<versions>
+ 			<version>1.3.1</version>
+			<version>1.4.9-propergol1</version>
+		</versions>
+		<lastUpdated>20160912145755</lastUpdated>
+	</versioning>
+</metadata>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="scott.black.hawk.down" module="character85" revision="142.0" status="candidate" publication="20160912173535"></info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" extends="runtime" name="test"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character85" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character85" type="sources" ext="jar" conf="sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+    <artifact name="character85" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies>
+    <dependency org="scott.black.hawk.down" name="character397" rev="142.0" conf="runtime-&gt;default"/>
+    <dependency org="tarantino.pulp.fiction" name="pumpkin" rev="1.5.4" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="tarantino.pulp.fiction" name="vincentvega" rev="1.5.4" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character168" rev="1.16" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character200" rev="3.2.4-rc.14" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character108" rev="1.1452.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="lorenzoruiz" rev="34.83" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character327" rev="1.16" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character310" rev="59.146" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character306" rev="1.116.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character149" rev="4.68.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="tarantino.boulevard.de.la.mort" name="stuntmanmike" rev="0.12.11" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character273" rev="23.82" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="kurtschmid" rev="2.111" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character130" rev="30.6.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character50" rev="1.38.4" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character243" rev="2.30" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="commons-codec" name="commons-codec" rev="1.9" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character410" rev="24.25" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character124" rev="46.76" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character43" rev="46.76" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character326" rev="46.76" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character262" rev="46.76" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character90" rev="3.1.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character268" rev="5.194" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="junit" name="junit-dep" rev="4.10" conf="runtime-&gt;default" revConstraint="4.+"/>
+    <dependency org="org.mockito" name="mockito-all" rev="1.10.19" conf="runtime-&gt;default" revConstraint="latest.release"/>
+  </dependencies>
+</ivy-module>

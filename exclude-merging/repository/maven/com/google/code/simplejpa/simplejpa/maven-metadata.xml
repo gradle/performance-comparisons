@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<metadata>
+	<groupId>com.google.code.simplejpa</groupId>
+	<artifactId>simplejpa</artifactId>
+	<version>alpha-0.7</version>
+	<versioning>
+		<release>alpha-0.7</release>
+		<versions>
+ 			<version>alpha-0.7</version>
+		</versions>
+		<lastUpdated>20160912145752</lastUpdated>
+	</versioning>
+</metadata>

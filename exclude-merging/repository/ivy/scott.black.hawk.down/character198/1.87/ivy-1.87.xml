@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="scott.black.hawk.down" module="character198" revision="1.87" status="release" publication="20160721165128"></info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" extends="runtime" name="test"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character198" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character198" type="sources" ext="jar" conf="sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+    <artifact name="character198" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies>
+    <dependency org="scott.black.hawk.down" name="character200" rev="3.0.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="johngrimes" rev="1.54.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="lorenzoruiz" rev="34.76" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character149" rev="4.55.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character160" rev="1.218.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.8.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+  </dependencies>
+</ivy-module>

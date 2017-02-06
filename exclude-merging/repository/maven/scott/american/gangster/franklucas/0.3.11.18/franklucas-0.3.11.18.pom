@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>scott.american.gangster</groupId>
+  <artifactId>franklucas</artifactId>
+  <version>0.3.11.18</version>
+  <name>franklucas</name>
+  
+  
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  <issueManagement>
+    <system>github</system>
+    
+  </issueManagement>
+  
+  <dependencies>
+    <dependency>
+      <groupId>scott.american.gangster</groupId>
+      <artifactId>detnicktrupo</artifactId>
+      <version>0.3.11.18</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>scott.american.gangster</groupId>
+      <artifactId>leroynicholasbarnes</artifactId>
+      <version>0.4.15.18</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.inject</groupId>
+      <artifactId>guice</artifactId>
+      <version>4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>scott.robin.hood</groupId>
+      <artifactId>sirwalterloxley</artifactId>
+      <version>0.35.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.jcraft</groupId>
+      <artifactId>jzlib</artifactId>
+      <version>1.1.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.13</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>tarantino.jackie.brown</groupId>
+      <artifactId>jackiebrown</artifactId>
+      <version>0.7.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>scott.robin.hood</groupId>
+      <artifactId>marionloxley</artifactId>
+      <version>0.35.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>auto.dawn</groupId>
+      <artifactId>iep-module-rxnetty</artifactId>
+      <version>0.3.11</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>scott.american.gangster</groupId>
+      <artifactId>hueylucas</artifactId>
+      <version>0.4.15.18</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>scott.american.gangster</groupId>
+      <artifactId>detrichardroberts</artifactId>
+      <version>0.4.15.18</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>abrams.super.eight</groupId>
+      <artifactId>josephfrancislamb</artifactId>
+      <version>1.3.7</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

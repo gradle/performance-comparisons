@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!--
+*******************************************************************************
+* Copyright (C) 2010-2014, International Business Machines Corporation and    *
+* others. All Rights Reserved.                                                *
+*******************************************************************************
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.ibm.icu</groupId>
+  <artifactId>icu4j</artifactId>
+  <version>54.1.1</version>
+
+  <name>ICU4J</name>
+  
+  
+  <inceptionYear>2001</inceptionYear>
+  <licenses>
+    <license>
+      <name>ICU License</name>
+      
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  
+
+  <mailingLists>
+    <mailingList>
+      <name>icu-support</name>
+      <subscribe>https://lists.sourceforge.net/lists/listinfo/icu-support</subscribe>
+      <unsubscribe>https://lists.sourceforge.net/lists/listinfo/icu-support</unsubscribe>
+      <post>icu-support@lists.sourceforge.net</post>
+      <archive>http://sourceforge.net/mailarchive/forum.php?forum_name=icu-support</archive>
+    </mailingList>
+    <mailingList>
+      <name>icu-announce</name>
+      <subscribe>https://lists.sourceforge.net/lists/listinfo/icu-announce</subscribe>
+      <unsubscribe>https://lists.sourceforge.net/lists/listinfo/icu-announce</unsubscribe>
+      <post>icu-announce@lists.sourceforge.net</post>
+      <archive>http://sourceforge.net/mailarchive/forum.php?forum_name=icu-announce</archive>
+    </mailingList>
+    <mailingList>
+      <name>icu-design</name>
+      <subscribe>https://lists.sourceforge.net/lists/listinfo/icu-design</subscribe>
+      <unsubscribe>https://lists.sourceforge.net/lists/listinfo/icu-design</unsubscribe>
+      <post>icu-design@lists.sourceforge.net</post>
+      <archive>http://sourceforge.net/mailarchive/forum.php?forum_name=icu-design</archive>
+    </mailingList>
+  </mailingLists>
+
+  
+  <issueManagement>
+    <system>Trac</system>
+    
+  </issueManagement>
+
+  <distributionManagement>
+    <repository>
+      <id>icu4j-releases</id>
+      <name>ICU4J Central Repository</name>
+      
+    </repository>
+    <snapshotRepository>
+      <id>icu4j-snapshots</id>
+      <name>ICU4J Central Development Repository</name>
+      
+    </snapshotRepository>
+  </distributionManagement>
+</project>

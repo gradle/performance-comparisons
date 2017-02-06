@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>scott.g.i.jane</groupId>
+  <artifactId>commandmasterchiefjohnjamesurgayle</artifactId>
+  <version>1.0.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.grails</groupId>
+      <artifactId>grails-launcher</artifactId>
+      <version>1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>commandmasterchiefjohnjamesurgayle</name>
+  
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  
+  
+  
+</project>

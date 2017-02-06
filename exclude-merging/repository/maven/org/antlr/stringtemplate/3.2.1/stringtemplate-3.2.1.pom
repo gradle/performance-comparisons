@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.antlr</groupId>
+    <artifactId>stringtemplate</artifactId>
+    <packaging>jar</packaging>
+    
+    <!--
+        The version number defined here in the version tag indicates how the
+        jar is named and released. When it ends with SNAPSHOT, it will be stored
+        in your local repository (~/m2 on UNIX) as stringtemplate-X.Y-SNAPSHOT, but
+        will be deplyed to the ANTLR snapshot repository at antlr.org with the word
+        SNAPSHOT replaced with the the data, time and unique number.
+    -->
+    <version>3.2.1</version>
+    
+    <!--
+        The name of the project as seen by IDEs and release documentation etc.
+    -->
+    <name>ANTLR StringTemplate</name>
+    
+    
+    
+    <!--
+        The URL of the ANTLR base project
+      -->
+    
+    
+        
+    <licenses>
+        <license>
+            <name>BSD licence</name>
+            
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    
+    
+  <!--
+    Definition of the ANTLR repositories. Note that you can only deploy
+    to the repositories via scp, and so the server must already know about
+    your public key. ONly ANTLR developers are allowed to deploy to the 
+    release and snapshot repositories, which are synced with the Maven central
+    repository.
+  -->
+  <distributionManagement>
+      <repository>
+          <id>antlr-repo</id>
+          <name>ANTLR Testing repository</name>
+          
+      </repository>
+      
+      <snapshotRepository>
+            <id>antlr-snapshot</id>
+            <name>ANTLR Testing Snapshot Repository</name>
+            
+      </snapshotRepository>
+  </distributionManagement>
+  
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>antlr</groupId>
+            <artifactId>antlr</artifactId>
+            <version>2.7.7</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+
+        <defaultGoal>install</defaultGoal>
+
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-ssh-external</artifactId>
+                <version>1.0-beta-2</version>
+            </extension>
+        </extensions>
+      
+        
+        <!--
+            The root of the source code for StringTemplate
+        -->
+        <sourceDirectory>src</sourceDirectory>
+        
+        <!--
+            The root of the test source code for StringTemplate.
+        -->
+        <testSourceDirectory>test</testSourceDirectory>
+        
+        <!--
+            All the resources that should be on the classpath, when 
+            the junit tests are run. Here we need to include the test
+            source code directory as the .st files loaded dynamically
+            by the tests, are located underneath this tree.
+        -->
+        <testResources>
+            <testResource>
+                <directory>test</directory>
+            </testResource>
+        </testResources>
+        
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>antlr-maven-plugin</artifactId>
+                <configuration>
+                    <sourceDirectory>src/org/antlr/stringtemplate/language</sourceDirectory>
+                    <grammars>template.g, angle.bracket.template.g, action.g, eval.g, group.g, interface.g</grammars>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.4</source>
+                    <target>jsr14</target>
+                    <sourceDirectory>src</sourceDirectory>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <additionalClasspathElements>
+                        <additionalClasspathElement>${basedir}/src</additionalClasspathElement>
+                    </additionalClasspathElements>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>findbugs-maven-plugin</artifactId>
+                <configuration>
+                    <findbugsXmlOutput>true</findbugsXmlOutput>
+                    <findbugsXmlWithMessages>true</findbugsXmlWithMessages>
+                    <xmlOutput>true</xmlOutput>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>net.objectlab.kit</groupId>
+  <artifactId>kit-parent</artifactId>
+  <version>1.2.0</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>datecalc-common</module>
+    <module>datecalc-jdk</module>
+    <module>datecalc-joda</module>
+  </modules>
+
+  <name>ObjectLab Kit</name>
+
+  
+
+  <inceptionYear>2006</inceptionYear>
+  
+
+  <organization>
+    <name>Appendium - Portfolio Financing Platform</name>
+    
+  </organization>
+
+  
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <mailingLists>
+    <mailingList>
+      <name>News about ObjectLab's projects (Alerts online)</name>
+      <subscribe>http://lists.sourceforge.net/lists/listinfo/objectlabkit-news</subscribe>
+      <unsubscribe>http://lists.sourceforge.net/lists/listinfo/objectlabkit-news</unsubscribe>
+      <post />
+      <archive>http://sourceforge.net/mailarchive/forum.php?forum=objectlabkit-news</archive>
+    </mailingList>
+    <mailingList>
+      <name>Kit Announcements</name>
+      <subscribe>http://lists.sourceforge.net/lists/listinfo/objectlabkit-announce</subscribe>
+      <unsubscribe>http://lists.sourceforge.net/lists/listinfo/objectlabkit-announce</unsubscribe>
+      <post />
+      <archive>http://sourceforge.net/mailarchive/forum.php?forum=objectlabkit-announce</archive>
+    </mailingList>
+    <mailingList>
+      <name>Kit User</name>
+      <subscribe>http://lists.sourceforge.net/lists/listinfo/objectlabkit-user</subscribe>
+      <unsubscribe>http://lists.sourceforge.net/lists/listinfo/objectlabkit-user</unsubscribe>
+      <post>objectlabkit-user@lists.sourceforge.net</post>
+      <archive>http://sourceforge.net/mailarchive/forum.php?forum=objectlabkit-user</archive>
+    </mailingList>
+    <mailingList>
+      <name>Kit Developers (SVN checkins)</name>
+      <subscribe>http://lists.sourceforge.net/lists/listinfo/objectlabkit-svn</subscribe>
+      <unsubscribe>http://lists.sourceforge.net/lists/listinfo/objectlabkit-svn</unsubscribe>
+      <post />
+      <archive>http://sourceforge.net/mailarchive/forum.php?forum=objectlabkit-svn</archive>
+    </mailingList>
+  </mailingLists>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.5</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junitperf</groupId>
+      <artifactId>junitperf</artifactId>
+      <version>1.8</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>net.objectlab.kit</groupId>
+        <artifactId>datecalc-common</artifactId>
+        <version>${pom.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.objectlab.kit</groupId>
+        <artifactId>datecalc-common</artifactId>
+        <version>${pom.version}</version>
+        <scope>test</scope>
+        <classifier>tests</classifier>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>org.osgi.core</artifactId>
+        <version>1.0.0</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+          <configuration>
+            <remoteTagging>true</remoteTagging>
+            <preparationGoals>clean install</preparationGoals>
+            <autoVersionSubmodules>true</autoVersionSubmodules>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.5</source>
+          <target>1.5</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <configuration>
+          <source>1.5</source>
+          <doclet>gr.spinellis.umlgraph.doclet.UmlGraphDoc</doclet>
+          <docletArtifact>
+            <groupId>gr.spinellis</groupId>
+            <artifactId>UmlGraph</artifactId>
+            <version>4.6</version>
+          </docletArtifact>
+          <additionalparam>
+            -inferrel -inferdep -quiet -constructors -visibility -types -postfixpackage
+            -nodefontsize 9 -nodefontpackagesize 7 -hide java.* -collpackages java.util.*
+            -link http://java.sun.com/j2se/1.5.0/docs/api/ -link http://joda-time.sourceforge.net/api-release/
+          </additionalparam>
+        </configuration>
+        <executions>
+          <execution>
+            <id>aggregate</id>
+            <goals>
+              <goal>aggregate</goal>
+            </goals>
+            <phase>site</phase>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <site.deploy.url>file:///tmp/site</site.deploy.url>
+  </properties>
+
+  <profiles>
+    <profile>
+      <id>code-sign</id>
+      <activation>
+        <property>
+          <name>performRelease</name>
+          <value>true</value>
+        </property>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>sign-artifacts</id>
+                <phase>verify</phase>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+              </execution>
+            </executions>
+            <configuration>
+              <source>1.5</source>
+              <target>1.5</target>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>stat-scm</id>
+      <activation>
+        <property>
+          <name>performRelease</name>
+          <value>true</value>
+        </property>
+      </activation>
+      <reporting>
+        <plugins>
+          <plugin>
+            <groupId>net.sf</groupId>
+            <artifactId>stat-scm</artifactId>
+            <inherited>false</inherited>
+          </plugin>
+        </plugins>
+      </reporting>
+    </profile>
+    <profile>
+      <id>deploy-site</id>
+      <activation>
+        <property>
+          <name>performRelease</name>
+          <value>true</value>
+        </property>
+      </activation>
+      <properties>
+        <!-- the real site deploy url, this is a hack because site:stage (v2.1) doesn't work properly -->
+        <site.deploy.url>scp://shell.sourceforge.net/home/groups/o/ob/objectlabkit/htdocs</site.deploy.url>
+      </properties>
+    </profile>
+    <profile>
+      <id>stage-site</id>
+      <properties>
+        <!-- stage the site in the /test folder on sourceforge -->
+        <site.deploy.url>scp://shell.sourceforge.net/home/groups/o/ob/objectlabkit/htdocs/test</site.deploy.url>
+      </properties>
+    </profile>    
+  </profiles>
+
+  
+
+  <issueManagement>
+    <system>sourceforge</system>
+    
+  </issueManagement>
+
+  <distributionManagement>
+    <repository>
+      <id>sonatype-nexus-staging</id>
+      <name>Sonatype Nexus Staging Repository</name>
+      
+    </repository>
+    <snapshotRepository>
+      <id>sonatype-nexus-snapshots</id>
+      <name>Sonatype Nexus Snapshots Repository</name>
+      
+    </snapshotRepository>
+    <site>
+      <id>objectlabkit.sf.net</id>
+      
+    </site>
+  </distributionManagement>
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>cobertura-maven-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <artifactId>maven-changes-plugin</artifactId>
+        <configuration>
+          <issueLinkTemplatePerSystem>
+            <default>%URL%/?group_id=175139&amp;func=detail&amp;%ISSUE%</default>
+          </issueLinkTemplatePerSystem>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jxr-plugin</artifactId>
+        <configuration>
+          <aggregate>true</aggregate>
+          <linkJavadoc>true</linkJavadoc>
+          <javadocDir>apidocs</javadocDir>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-report-plugin</artifactId>
+        <inherited>false</inherited>
+        <configuration>
+          <aggregate>true</aggregate>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <configuration>
+          <targetJdk>1.5</targetJdk>
+          <rulesets>
+            <ruleset>/rulesets/basic.xml</ruleset>
+          </rulesets> 
+          <minimumTokens>100</minimumTokens>
+          <linkXref>true</linkXref>
+          <xrefLocation>${project.reporting.outputDirectory}/../xref</xrefLocation>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>findbugs-maven-plugin</artifactId>
+        <version>2.0</version>
+        <configuration>
+          <effort>Max</effort>
+          <threshold>Low</threshold>
+          <includeFilterFile>${project.basedir}/../src/source-checks/findbugs-filter.xml</includeFilterFile>
+          <xrefLocation>${project.reporting.outputDirectory}/../xref</xrefLocation>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <configuration>
+          <!-- these do not currently work as they are in the old format
+          <configLocation>${project.basedir}/../src/source-checks/checkstyle-checks.xml</configLocation>
+          <configLocation>${project.basedir}/../src/source-checks/objectlab-checks.xml</configLocation>
+          -->
+          <xrefLocation>${project.reporting.outputDirectory}/../xref</xrefLocation>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>dashboard-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </reporting>
+
+</project>

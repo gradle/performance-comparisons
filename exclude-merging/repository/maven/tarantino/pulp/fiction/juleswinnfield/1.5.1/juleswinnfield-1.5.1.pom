@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tarantino.pulp.fiction</groupId>
+  <artifactId>juleswinnfield</artifactId>
+  <version>1.5.1</version>
+  <dependencies>
+    <dependency>
+      <groupId>tarantino.pulp.fiction</groupId>
+      <artifactId>vincentvega</artifactId>
+      <version>1.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>tarantino.boulevard.de.la.mort</groupId>
+      <artifactId>stuntmanmike</artifactId>
+      <version>0.7.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>juleswinnfield</name>
+  
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  
+  
+  
+</project>

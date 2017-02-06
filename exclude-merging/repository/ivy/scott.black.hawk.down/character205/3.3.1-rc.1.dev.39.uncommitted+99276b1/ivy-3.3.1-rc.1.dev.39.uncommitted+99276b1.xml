@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="scott.black.hawk.down" module="character205" revision="3.3.1-rc.1.dev.39.uncommitted+99276b1" status="snapshot" publication="20160912201149"></info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" extends="runtime" name="test"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character205" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character205" type="sources" ext="jar" conf="sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+    <artifact name="character205" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies>
+    <dependency org="scott.black.hawk.down" name="character15" rev="3.3.1-rc.1.dev.39.uncommitted+99276b1" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character338" rev="3.3.1-rc.1.dev.39.uncommitted+99276b1" conf="runtime-&gt;default"/>
+    <dependency org="com.google.guava" name="guava" conf="runtime-&gt;default" rev="18.0"/>
+    <dependency org="com.sun.jersey" name="jersey-core" conf="runtime-&gt;default" rev="1.19.1"/>
+    <dependency org="commons-httpclient" name="commons-httpclient" conf="runtime-&gt;default" rev="3.1"/>
+    <dependency org="commons-lang" name="commons-lang" conf="runtime-&gt;default" rev="2.6"/>
+    <dependency org="joda-time" name="joda-time" conf="runtime-&gt;default" rev="2.9.3"/>
+    <dependency org="org.slf4j" name="slf4j-api" conf="runtime-&gt;default" rev="1.7.21"/>
+  </dependencies>
+</ivy-module>

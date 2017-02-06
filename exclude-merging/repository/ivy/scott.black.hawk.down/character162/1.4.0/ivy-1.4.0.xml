@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="scott.black.hawk.down" module="character162" revision="1.4.0" status="release" publication="20160817202339"></info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" extends="runtime" name="test"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character162" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character162" type="sources" ext="jar" conf="sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+    <artifact name="character162" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies>
+    <dependency org="scott.black.hawk.down" name="character215" rev="1.4.0" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character146" rev="1.4.0" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character21" rev="1.54.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="com.google.inject" name="guice" rev="4.0" conf="runtime-&gt;default"/>
+    <dependency org="com.google.inject.extensions" name="guice-multibindings" rev="4.0" conf="runtime-&gt;default"/>
+    <dependency org="com.google.protobuf" name="protobuf-java" rev="3.0.0-beta-3" conf="runtime-&gt;default"/>
+  </dependencies>
+</ivy-module>

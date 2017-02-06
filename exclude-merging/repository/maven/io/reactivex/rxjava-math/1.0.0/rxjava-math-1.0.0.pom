@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.reactivex</groupId>
+  <artifactId>rxjava-math</artifactId>
+  <version>1.0.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>io.reactivex</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>1.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>rxjava-math</name>
+  
+  
+  <properties>
+    <nebula_Manifest_Version>1.0</nebula_Manifest_Version>
+    <nebula_Implementation_Title>io.reactivex#rxjava-math;1.0.0</nebula_Implementation_Title>
+    <nebula_Implementation_Version>1.0.0</nebula_Implementation_Version>
+    <nebula_Built_Status>release</nebula_Built_Status>
+    <nebula_Built_By>jenkins</nebula_Built_By>
+    <nebula_Built_OS>Linux</nebula_Built_OS>
+    <nebula_Build_Date>2014-12-01_16:01:40</nebula_Build_Date>
+    <nebula_Gradle_Version>1.12</nebula_Gradle_Version>
+    <nebula_Module_Owner>benjchristensen@netflix.com</nebula_Module_Owner>
+    <nebula_Module_Email>benjchristensen@netflix.com</nebula_Module_Email>
+    <nebula_Module_Source></nebula_Module_Source>
+    <nebula_Module_Origin>git@github.com:ReactiveX/RxJavaMath.git</nebula_Module_Origin>
+    <nebula_Change>1a5a495</nebula_Change>
+    <nebula_Build_Host>https://netflixoss.ci.cloudbees.com/</nebula_Build_Host>
+    <nebula_Build_Job>ReactiveX/RxJavaMath/RxJavaMath-0.x-release</nebula_Build_Job>
+    <nebula_Build_Number>5</nebula_Build_Number>
+    <nebula_Build_Id>2014-12-02_00-00-53</nebula_Build_Id>
+    <nebula_Created_By>1.7.0_65-b17 (Oracle Corporation)</nebula_Created_By>
+    <nebula_Build_Java_Version>1.7.0_65</nebula_Build_Java_Version>
+    <nebula_X_Compile_Target_JDK>1.6</nebula_X_Compile_Target_JDK>
+    <nebula_X_Compile_Source_JDK>1.6</nebula_X_Compile_Source_JDK>
+  </properties>
+  
+  
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+</project>

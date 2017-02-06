@@ -1,0 +1,49 @@
+<project
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.scala-lang</groupId>
+	<artifactId>scalap</artifactId>
+	<packaging>jar</packaging>
+	<version>2.10.1</version>
+  <name>Scalap</name>
+  
+	
+	<inceptionYear>2002</inceptionYear>
+	<organization>
+		<name>LAMP/EPFL</name>
+		
+	</organization>
+	<licenses>
+		<license>
+			<name>BSD-like</name>
+			
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	
+	<issueManagement>
+                <system>JIRA</system>
+                
+	</issueManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-compiler</artifactId>
+			<version>2.10.1</version>
+		</dependency>
+	</dependencies>
+	<distributionManagement>
+		<repository>
+			<id>scala-tools.org</id>
+			
+		</repository>
+		<snapshotRepository>
+			<id>scala-tools.org</id>
+			
+			<uniqueVersion>false</uniqueVersion>
+		</snapshotRepository>
+	</distributionManagement>
+  
+</project>

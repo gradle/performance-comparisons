@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="scott.black.hawk.down" module="character15" revision="3.3.1-rc.1.dev.39.uncommitted+99276b1" status="snapshot" publication="20160912201158"></info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" extends="runtime" name="test"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character15" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character15" type="sources" ext="jar" conf="sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+    <artifact name="character15" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies>
+    <dependency org="scott.black.hawk.down" name="character403" rev="3.3.1-rc.1.dev.39.uncommitted+99276b1" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character387" rev="3.3.1-rc.1.dev.39.uncommitted+99276b1" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character0" rev="3.3.1-rc.1.dev.39.uncommitted+99276b1" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character385" rev="3.3.1-rc.1.dev.39.uncommitted+99276b1" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character25" rev="3.3.1-rc.1.dev.39.uncommitted+99276b1" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character378" rev="3.3.1-rc.1.dev.39.uncommitted+99276b1" conf="runtime-&gt;default"/>
+    <dependency org="com.amazonaws" name="aws-java-sdk-route53" conf="runtime-&gt;default" rev="1.11.9"/>
+    <dependency org="com.google.guava" name="guava" conf="runtime-&gt;default" rev="18.0"/>
+    <dependency org="abrams.super.eight" name="josephfrancislamb" conf="runtime-&gt;default" rev="1.4.11"/>
+    <dependency org="abrams.mission.impossible.three" name="lindseyfarris" conf="runtime-&gt;default" rev="1.0.28"/>
+    <dependency org="scott.blade.runner" name="rickdeckard" conf="runtime-&gt;default" rev="2.2.0">
+      <exclude org="com.netflix.rxjava" module="rxjava-core"/>
+    </dependency>
+    <dependency org="commons-codec" name="commons-codec" conf="runtime-&gt;default" rev="1.7"/>
+    <dependency org="commons-collections" name="commons-collections" conf="runtime-&gt;default" rev="3.2.2"/>
+    <dependency org="commons-configuration" name="commons-configuration" conf="runtime-&gt;default" rev="1.8"/>
+    <dependency org="commons-httpclient" name="commons-httpclient" conf="runtime-&gt;default" rev="3.1"/>
+    <dependency org="commons-io" name="commons-io" conf="runtime-&gt;default" rev="2.4"/>
+    <dependency org="commons-lang" name="commons-lang" conf="runtime-&gt;default" rev="2.6"/>
+    <dependency org="scott.blade.runner" name="roybatty" conf="runtime-&gt;default" rev="2.2.0"/>
+    <dependency org="scott.blade.runner" name="harrybryant" conf="runtime-&gt;default" rev="2.2.0"/>
+    <dependency org="com.sun.jersey.contribs" name="jersey-apache-client" conf="runtime-&gt;default" rev="1.19.1"/>
+    <dependency org="com.sun.jersey.contribs" name="jersey-multipart" conf="runtime-&gt;default" rev="1.19.1"/>
+    <dependency org="com.sun.jersey" name="jersey-client" conf="runtime-&gt;default" rev="1.19.1"/>
+    <dependency org="com.sun.jersey" name="jersey-core" conf="runtime-&gt;default" rev="1.19.1"/>
+    <dependency org="com.sun.jersey" name="jersey-server" conf="runtime-&gt;default" rev="1.19.1"/>
+    <dependency org="com.thoughtworks.xstream" name="xstream" conf="runtime-&gt;default" rev="1.4.2"/>
+    <dependency org="io.reactivex" name="rxjava" conf="runtime-&gt;default" rev="1.1.10"/>
+    <dependency org="scott.black.hawk.down" name="character226" conf="runtime-&gt;default" rev="1.66.0"/>
+    <dependency org="scott.black.hawk.down" name="scottgalentine" conf="runtime-&gt;default" rev="1.24"/>
+    <dependency org="scott.black.hawk.down" name="character31" conf="runtime-&gt;default" rev="1.198.0"/>
+    <dependency org="scott.black.hawk.down" name="character364" conf="runtime-&gt;default" rev="1.12.0"/>
+    <dependency org="scott.black.hawk.down" name="character300" conf="runtime-&gt;default" rev="1.17.0"/>
+    <dependency org="scott.black.hawk.down" name="character33" conf="runtime-&gt;default" rev="1.7.0"/>
+    <dependency org="scott.white.squall" name="alicesheldon" conf="runtime-&gt;default" rev="1.4"/>
+    <dependency org="scott.white.squall" name="christophersheldon" conf="runtime-&gt;default" rev="1.4"/>
+    <dependency org="org.apache.httpcomponents" name="httpclient" conf="runtime-&gt;default" rev="4.5.2"/>
+    <dependency org="org.codehaus.jackson" name="jackson-core-asl" conf="runtime-&gt;default" rev="1.9.13"/>
+    <dependency org="org.codehaus.jackson" name="jackson-mapper-asl" conf="runtime-&gt;default" rev="1.9.13"/>
+    <dependency org="org.codehaus.jackson" name="jackson-xc" conf="runtime-&gt;default" rev="1.9.13"/>
+    <dependency org="javax.servlet" name="javax.servlet-api" conf="runtime-&gt;default" rev="3.0.1"/>
+  </dependencies>
+</ivy-module>

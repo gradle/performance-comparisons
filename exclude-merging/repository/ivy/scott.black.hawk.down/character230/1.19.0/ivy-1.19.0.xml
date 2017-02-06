@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module xmlns:e="http://ant.apache.org/ivy/extra" xmlns:n="http://dummycorp.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+  <info organisation="scott.black.hawk.down" module="character230" revision="1.19.0" status="snapshot" publication="20150115202537"></info>
+  <configurations>
+    <conf visibility="public" extends="runtime,master" description="runtime dependencies and master artifact can be used with this conf" name="default"/>
+    <conf visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies" name="master"/>
+    <conf visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths." name="compile"/>
+    <conf visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive." name="provided"/>
+    <conf visibility="public" extends="compile" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." name="runtime"/>
+    <conf visibility="private" extends="runtime" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." name="test"/>
+    <conf visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository." name="system"/>
+    <conf visibility="public" description="this configuration contains the source artifact of this module, if any." name="sources"/>
+    <conf visibility="public" description="this configuration contains the javadoc artifact of this module, if any." name="javadoc"/>
+    <conf visibility="public" description="contains all optional dependencies" name="optional"/>
+    <conf visibility="public" description="web application wars not normally depended upon." name="webapp"/>
+    <conf visibility="public" description="web application resource bundle zips." name="webresource"/>
+    <conf visibility="public" description="resource bundle zips." name="resources"/>
+  </configurations>
+  <publications defaultconf="master">
+    <artifact name="character230" type="jar" ext="jar"/>
+    <artifact e:classifier="javadoc" name="character230" conf="javadoc" type="javadoc" ext="jar"/>
+    <artifact e:classifier="sources" name="character230" conf="sources" type="sources" ext="jar"/>
+  </publications>
+  <dependencies defaultconfmapping="compile->default;runtime->default;test->default;provided->default">
+    <dependency org="scott.black.hawk.down" name="character200" revConstraint="latest.release" conf="compile->default" rev="2.1183"/>
+    <dependency org="scott.black.hawk.down" name="character338" revConstraint="latest.release" conf="compile->default" rev="2.1183"/>
+    <dependency org="junit" name="junit-dep" revConstraint="4.+" conf="test->default" rev="4.10"/>
+    <override module="character200" rev="2.1183" org="scott.black.hawk.down"/>
+    <override module="character338" rev="2.1183" org="scott.black.hawk.down"/>
+    <override module="junit-dep" rev="4.10" org="junit"/>
+  </dependencies>
+</ivy-module>

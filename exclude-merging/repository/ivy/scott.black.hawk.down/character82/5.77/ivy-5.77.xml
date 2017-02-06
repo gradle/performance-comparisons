@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module xmlns:e="http://ant.apache.org/ivy/extra" xmlns:n="http://dummycorp.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd" version="2.0">
+  <info organisation="scott.black.hawk.down" module="character82" revision="5.77" status="release" publication="20140827164857"></info>
+  <configurations>
+    <conf visibility="public" extends="runtime,master" description="runtime dependencies and master artifact can be used with this conf" name="default"/>
+    <conf visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies" name="master"/>
+    <conf visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths." name="compile"/>
+    <conf visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive." name="provided"/>
+    <conf visibility="public" extends="compile" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." name="runtime"/>
+    <conf visibility="private" extends="runtime" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." name="test"/>
+    <conf visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository." name="system"/>
+    <conf visibility="public" description="this configuration contains the source artifact of this module, if any." name="sources"/>
+    <conf visibility="public" description="this configuration contains the javadoc artifact of this module, if any." name="javadoc"/>
+    <conf visibility="public" description="contains all optional dependencies" name="optional"/>
+    <conf visibility="public" description="web application wars not normally depended upon." name="webapp"/>
+    <conf visibility="public" description="web application resource bundle zips." name="webresource"/>
+    <conf visibility="public" description="resource bundle zips." name="resources"/>
+    <conf visibility="private" extends="test,provided" description="local configuration" name="local"/>
+  </configurations>
+  <publications defaultconf="master">
+    <artifact name="character82" type="jar" ext="jar"/>
+    <artifact name="character82" conf="javadoc" type="javadoc" ext="zip"/>
+  </publications>
+  <dependencies defaultconfmapping="compile->default;runtime->default;test->default;provided->default">
+    <dependency org="scott.black.hawk.down" name="character200" revConstraint="latest.release" conf="compile->default" rev="2.738.3"/>
+    <dependency org="com.google.guava" name="guava" conf="compile->default" rev="14.0.1"/>
+    <dependency org="com.google.inject" name="guice" conf="compile->default" rev="3.0"/>
+    <dependency org="com.google.inject" name="guice-assistedinject" conf="compile->default" rev="3.0"/>
+    <dependency org="javax.inject" name="javax.inject" revConstraint="latest.release" conf="compile->default" rev="1"/>
+    <dependency org="scott.black.hawk.down" name="character158" revConstraint="5.+" conf="compile->default" rev="5.77"/>
+    <dependency org="scott.black.hawk.down" name="character154" revConstraint="5.+" conf="compile->default" rev="5.77"/>
+    <dependency org="javax.servlet" name="javax.servlet-api" revConstraint="latest.release" conf="compile->default" rev="3.0.1"/>
+    <exclude module="servlet-api" org="javax.servlet"/>
+    <override rev="1.11.1" module="jersey-bundle" org="com.sun.jersey"/>
+    <override module="character200" rev="2.738.3" org="scott.black.hawk.down"/>
+    <override module="guava" rev="14.0.1" org="com.google.guava"/>
+    <override module="guice" rev="3.0" org="com.google.inject"/>
+    <override module="guice-assistedinject" rev="3.0" org="com.google.inject"/>
+    <override module="javax.inject" rev="1" org="javax.inject"/>
+    <override module="character158" rev="5.77" org="scott.black.hawk.down"/>
+    <override module="character154" rev="5.77" org="scott.black.hawk.down"/>
+    <override module="javax.servlet-api" rev="3.0.1" org="javax.servlet"/>
+  </dependencies>
+</ivy-module>

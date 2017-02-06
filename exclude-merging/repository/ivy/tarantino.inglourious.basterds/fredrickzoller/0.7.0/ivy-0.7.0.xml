@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+  <info organisation="tarantino.inglourious.basterds" module="fredrickzoller" revision="0.7.0" status="release" publication="20160504161243"></info>
+  <configurations>
+    <conf name="archives" visibility="public" description="Configuration for archive artifacts." extends="javadoc,sources"/>
+    <conf name="compile" visibility="private" description="Compile classpath for source set 'main'."/>
+    <conf name="default" visibility="public" description="Configuration for default artifacts." extends="master,runtime"/>
+    <conf name="javadoc" visibility="public"/>
+    <conf name="master" visibility="public"/>
+    <conf name="provided" visibility="public" description="much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+    <conf name="runtime" visibility="private" description="Runtime classpath for source set 'main'." extends="compile"/>
+    <conf name="signatures" visibility="public"/>
+    <conf name="sources" visibility="public"/>
+    <conf name="testCompile" visibility="private" description="Compile classpath for source set 'test'." extends="compile"/>
+    <conf name="testRuntime" visibility="private" description="Runtime classpath for source set 'test'." extends="runtime,testCompile"/>
+  </configurations>
+  <publications>
+    <artifact name="fredrickzoller" type="jar" ext="jar" conf="archives,runtime"/>
+    <artifact name="fredrickzoller" type="jar.asc" ext="asc" conf="archives,signatures"/>
+    <artifact name="fredrickzoller" type="jar.asc" ext="asc" conf="archives,signatures" m:classifier="sources"/>
+    <artifact name="fredrickzoller" type="jar.asc" ext="asc" conf="archives,signatures" m:classifier="javadoc"/>
+    <artifact name="fredrickzoller" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc"/>
+    <artifact name="fredrickzoller" type="sources" ext="jar" conf="sources" m:classifier="sources"/>
+  </publications>
+  <dependencies>
+    <dependency org="io.reactivex" name="rxjava" rev="1.1.3" conf="compile-&gt;default"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.4.1" conf="compile-&gt;default"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.4.1" conf="compile-&gt;default"/>
+    <dependency org="scott.body.of.lies" name="hanisalaam" rev="1.7.+" conf="compile-&gt;default"/>
+    <dependency org="tarantino.jackie.brown" name="jackiebrown" rev="0.6.2" conf="compile-&gt;default"/>
+    <dependency org="tarantino.boulevard.de.la.mort" name="stuntmanmike" rev="0.7.6" conf="compile-&gt;default"/>
+    <dependency org="tarantino.kill.bill.vol.two" name="orenishii" rev="0.1.1" conf="compile-&gt;default"/>
+    <dependency org="tarantino.kill.bill.vol.two" name="bill" rev="0.1.1" conf="compile-&gt;default"/>
+    <dependency org="tarantino.kill.bill.vol.two" name="blackmamba" rev="0.1.1" conf="compile-&gt;default"/>
+    <dependency org="javax.ws.rs" name="jsr311-api" rev="1.1.1" conf="compile-&gt;default"/>
+    <dependency org="org.xerial.snappy" name="snappy-java" rev="1.1.0-M3" conf="compile-&gt;default"/>
+    <dependency org="org.slf4j" name="slf4j-api" rev="1.7.2" conf="compile-&gt;default"/>
+    <dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.2" conf="compile-&gt;default">
+      <exclude org="org.hibernate" module="*" name="*" type="*" ext="*" conf="compile" matcher="exact"/>
+    </dependency>
+    <dependency org="log4j" name="log4j" rev="1.2.17" conf="compile-&gt;default"/>
+    <dependency org="commons-codec" name="commons-codec" rev="1.3" conf="compile-&gt;default"/>
+    <dependency org="tarantino.inglourious.basterds" name="edfenech" rev="0.7.0" conf="compile-&gt;default"/>
+    <dependency org="com.amazonaws" name="aws-java-sdk-sqs" rev="1.9.16" conf="compile-&gt;default"/>
+    <dependency org="junit" name="junit" rev="4.12" conf="testCompile-&gt;default"/>
+    <dependency org="org.hamcrest" name="hamcrest-library" rev="1.3" conf="testCompile-&gt;default"/>
+    <dependency org="org.mockito" name="mockito-core" rev="1.8.5" conf="testCompile-&gt;default"/>
+    <dependency org="org.elasticmq" name="elasticmq-rest-sqs_2.11" rev="0.8.5" conf="testCompile-&gt;default"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="archives" matcher="exact"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="compile" matcher="exact"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="default" matcher="exact"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="javadoc" matcher="exact"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="master" matcher="exact"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="provided" matcher="exact"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="runtime" matcher="exact"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="signatures" matcher="exact"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="sources" matcher="exact"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="testCompile" matcher="exact"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="testRuntime" matcher="exact"/>
+  </dependencies>
+</ivy-module>

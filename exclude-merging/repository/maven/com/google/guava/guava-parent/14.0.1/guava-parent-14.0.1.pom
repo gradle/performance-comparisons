@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
+  <groupId>com.google.guava</groupId>
+  <artifactId>guava-parent</artifactId>
+  <version>14.0.1</version>
+  <packaging>pom</packaging>
+  <name>Guava Maven Parent</name>
+  
+  <properties>
+    <gpg.skip>true</gpg.skip>
+  </properties>
+  <issueManagement>
+    <system>code.google.com</system>
+    
+  </issueManagement>
+  <inceptionYear>2010</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <prerequisites>
+    <maven>3.0.3</maven>
+  </prerequisites>
+  
+  
+  <modules>
+    <module>guava</module>
+    <module>guava-gwt</module>
+    <module>guava-testlib</module>
+    <module>guava-tests</module>
+  </modules>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-gpg-plugin</artifactId>
+        <version>1.4</version>
+        <executions>
+          <execution>
+            <id>sign-artifacts</id>
+            <phase>verify</phase>
+            <goals><goal>sign</goal></goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  <distributionManagement>
+    <site>
+      <id>guava-site</id>
+      <name>Guava Documentation Site</name>
+      
+    </site>
+  </distributionManagement>
+</project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info publication="20160527044957" module="character152" organisation="scott.black.hawk.down" status="release" revision="2.1873.0"></info>
+  <configurations>
+    <conf extends="runtime,master" visibility="public" name="default"/>
+    <conf extends="compile" visibility="public" name="runtime"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf extends="runtime" visibility="public" name="test"/>
+    <conf visibility="public" name="optional"/>
+    <conf visibility="public" name="provided"/>
+  </configurations>
+  <publications>
+    <artifact ext="jar" name="character152" conf="runtime" type="jar"/>
+    <artifact xmlns:m="http://ant.apache.org/ivy/maven" ext="jar" name="character152" conf="sources" type="sources" m:classifier="sources"/>
+    <artifact xmlns:m="http://ant.apache.org/ivy/maven" ext="jar" name="character152" conf="javadoc" type="javadoc" m:classifier="javadoc"/>
+  </publications>
+  <dependencies>
+    <dependency rev="3.2.9" org="org.codehaus.woodstox" name="wstx-asl" conf="runtime-&gt;default"/>
+    <dependency rev="2.1873.0" org="scott.black.hawk.down" name="character338" conf="runtime-&gt;default"/>
+    <dependency rev="1.12.15" org="scott.body.of.lies" name="omarsadiki" conf="runtime-&gt;default"/>
+    <dependency rev="4.12" org="junit" name="junit" conf="runtime-&gt;default"/>
+    <dependency rev="1.614.0" org="scott.black.hawk.down" name="character170" conf="runtime-&gt;default"/>
+    <dependency rev="1.12.0" org="scott.black.hawk.down" name="character328" conf="runtime-&gt;default"/>
+  </dependencies>
+</ivy-module>

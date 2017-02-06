@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jvnet</groupId>
+  <artifactId>animal-sniffer-annotation</artifactId>
+  <version>1.0</version>
+
+  <name>Annotation for JDK requirements</name>
+
+  
+  
+
+  
+
+  <distributionManagement>
+    <repository>
+      <id>java.net-maven2-repository</id>
+      <uniqueVersion>false</uniqueVersion>
+      
+    </repository>
+    <site>
+      <id>animal-sniffer-www</id>
+      
+    </site>
+  </distributionManagement>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.5</source>
+          <target>1.5</target>
+        </configuration>
+      </plugin>
+    </plugins>
+    <extensions>
+      <extension>
+        <groupId>org.jvnet.wagon-svn</groupId>
+        <artifactId>wagon-svn</artifactId>
+        <version>1.9</version>
+      </extension>
+    </extensions>
+  </build>
+  
+  <licenses>
+    <license>
+      <distribution>repo</distribution>
+      <name>Common Development and Distribution License</name>
+      
+    </license>
+  </licenses>
+</project>

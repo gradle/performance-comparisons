@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra" xmlns:n="http://dummycorp.com">
+  <info organisation="scott.black.hawk.down" module="character296" revision="1.3.0" status="release" publication="20150612194045"></info>
+  <configurations>
+    <conf name="compile" visibility="public"/>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="dependencyReport" visibility="public"/>
+    <conf name="javadoc" visibility="public"/>
+    <conf name="master" visibility="public"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+    <conf name="resources" visibility="public"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf name="sources" visibility="public"/>
+    <conf name="system" visibility="public"/>
+    <conf name="test" visibility="public" extends="runtime"/>
+    <conf name="webapp" visibility="public"/>
+    <conf name="webresource" visibility="public"/>
+    <conf name="optional" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character296" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character296" type="sources" ext="jar" conf="sources" e:classifier="sources"/>
+    <artifact name="character296" type="javadoc" ext="jar" conf="javadoc" e:classifier="javadoc"/>
+    <artifact name="character296" type="txt" ext="txt" conf="dependencyReport" e:classifier="dependencyreport"/>
+  </publications>
+  <dependencies defaultconfmapping="%-&gt;default">
+    <dependency org="scott.black.hawk.down" name="character200" rev="2.1386.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.slf4j" name="slf4j-api" rev="1.7.12" conf="runtime-&gt;default" revConstraint="1.6.4"/>
+    <dependency org="tarantino.boulevard.de.la.mort" name="stuntmanmike" rev="0.9.2" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.apache.zookeeper" name="zookeeper" rev="3.4.5" conf="runtime-&gt;default"/>
+    <dependency org="auto.blackbird" name="curator-client" rev="1.3.6" conf="provided-&gt;default"/>
+    <dependency org="auto.blackbird" name="curator-framework" rev="1.3.6" conf="provided-&gt;default"/>
+    <dependency org="auto.blackbird" name="curator-recipes" rev="1.3.6" conf="provided-&gt;default"/>
+  </dependencies>
+</ivy-module>

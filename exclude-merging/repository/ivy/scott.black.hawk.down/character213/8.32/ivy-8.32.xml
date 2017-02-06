@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra" xmlns:n="http://dummycorp.com">
+  <info organisation="scott.black.hawk.down" module="character213" revision="8.32" status="release" publication="20150702212441"></info>
+  <configurations>
+    <conf name="compile" visibility="public"/>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="dependencyReport" visibility="public"/>
+    <conf name="javadoc" visibility="public"/>
+    <conf name="master" visibility="public"/>
+    <conf name="resources" visibility="public"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf name="sources" visibility="public"/>
+    <conf name="system" visibility="public"/>
+    <conf name="test" visibility="public" extends="runtime"/>
+    <conf name="webapp" visibility="public"/>
+    <conf name="webresource" visibility="public"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character213" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character213" type="sources" ext="jar" conf="sources" e:classifier="sources"/>
+    <artifact name="character213" type="javadoc" ext="jar" conf="javadoc" e:classifier="javadoc"/>
+    <artifact name="character213" type="txt" ext="txt" conf="dependencyReport" e:classifier="dependencyreport"/>
+  </publications>
+  <dependencies defaultconfmapping="%-&gt;default">
+    <dependency org="scott.black.hawk.down" name="character360" rev="1.339.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character200" rev="2.1423.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="johngrimes" rev="1.49.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character120" rev="8.32" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="dannymcknight" rev="51.2" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character81" rev="1.84.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character97" rev="1.120.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character292" rev="1.14" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character149" rev="2.99.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+  </dependencies>
+</ivy-module>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module xmlns:e="http://ant.apache.org/ivy/extra" xmlns:n="http://dummycorp.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+  <info organisation="scott.black.hawk.down" module="character386" revision="1.5.0" status="release" publication="20130929234220"></info>
+  <configurations>
+    <conf visibility="public" extends="runtime,master" description="runtime dependencies and master artifact can be used with this conf" name="default"/>
+    <conf visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies" name="master"/>
+    <conf visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths." name="compile"/>
+    <conf visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive." name="provided"/>
+    <conf visibility="public" extends="compile" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." name="runtime"/>
+    <conf visibility="private" extends="runtime" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." name="test"/>
+    <conf visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository." name="system"/>
+    <conf visibility="public" description="this configuration contains the source artifact of this module, if any." name="sources"/>
+    <conf visibility="public" description="this configuration contains the javadoc artifact of this module, if any." name="javadoc"/>
+    <conf visibility="public" description="contains all optional dependencies" name="optional"/>
+    <conf visibility="public" description="web application wars not normally depended upon." name="webapp"/>
+    <conf visibility="public" description="web application resource bundle zips." name="webresource"/>
+    <conf visibility="public" description="resource bundle zips." name="resources"/>
+  </configurations>
+  <publications defaultconf="master">
+    <artifact name="character386" type="jar" ext="jar"/>
+    <artifact e:classifier="javadoc" name="character386" conf="javadoc" type="javadoc" ext="jar"/>
+    <artifact e:classifier="sources" name="character386" conf="sources" type="sources" ext="jar"/>
+  </publications>
+  <dependencies defaultconfmapping="compile->default;runtime->default;test->default;provided->default">
+    <dependency org="scott.black.hawk.down" name="character200" revConstraint="latest.release" conf="compile->default" rev="2.320"/>
+    <dependency org="com.google.guava" name="guava" revConstraint="latest.release" conf="compile->default" rev="14.0.1"/>
+    <dependency org="org.codehaus.jackson" name="jackson-core-asl" conf="compile->default" rev="1.8.3"/>
+    <dependency org="org.codehaus.jackson" name="jackson-mapper-asl" conf="compile->default" rev="1.8.3"/>
+    <dependency org="org.testng" name="testng" revConstraint="6.+" conf="test->default" rev="6.8.5"/>
+    <dependency org="scott.black.hawk.down" name="character143" revConstraint="latest.release" conf="compile->default" rev="1.84.0"/>
+    <dependency org="com.google.code.findbugs" name="annotations" revConstraint="latest.release" conf="provided->default" rev="2.0.0"/>
+    <override module="character200" rev="2.320" org="scott.black.hawk.down"/>
+    <override module="guava" rev="14.0.1" org="com.google.guava"/>
+    <override module="jackson-core-asl" rev="1.8.3" org="org.codehaus.jackson"/>
+    <override module="jackson-mapper-asl" rev="1.8.3" org="org.codehaus.jackson"/>
+    <override module="testng" rev="6.8.5" org="org.testng"/>
+    <override module="character143" rev="1.84.0" org="scott.black.hawk.down"/>
+    <override module="annotations" rev="2.0.0" org="com.google.code.findbugs"/>
+  </dependencies>
+</ivy-module>

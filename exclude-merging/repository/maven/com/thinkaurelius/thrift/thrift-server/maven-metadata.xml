@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<metadata>
+	<groupId>com.thinkaurelius.thrift</groupId>
+	<artifactId>thrift-server</artifactId>
+	<version>0.3.7</version>
+	<versioning>
+		<release>0.3.7</release>
+		<versions>
+ 			<version>0.3.7</version>
+		</versions>
+		<lastUpdated>20160912145755</lastUpdated>
+	</versioning>
+</metadata>

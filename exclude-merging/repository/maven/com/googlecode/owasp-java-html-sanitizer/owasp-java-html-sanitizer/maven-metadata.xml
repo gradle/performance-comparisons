@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<metadata>
+	<groupId>com.googlecode.owasp-java-html-sanitizer</groupId>
+	<artifactId>owasp-java-html-sanitizer</artifactId>
+	<version>r136</version>
+	<versioning>
+		<release>r136</release>
+		<versions>
+ 			<version>r136</version>
+		</versions>
+		<lastUpdated>20160912145753</lastUpdated>
+	</versioning>
+</metadata>

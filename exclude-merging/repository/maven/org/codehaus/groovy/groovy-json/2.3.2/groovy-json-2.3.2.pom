@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.codehaus.groovy</groupId>
+  <artifactId>groovy-json</artifactId>
+  <version>2.3.2</version>
+  <packaging>jar</packaging>
+  <name>Groovy</name>
+  
+  
+  <inceptionYear>2003</inceptionYear>
+  <organization>
+    <name>The Codehaus</name>
+    
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <mailingLists>
+    <mailingList>
+      <name>Groovy JSR Discussion List</name>
+      <archive>http://dir.gmane.org/gmane.comp.lang.groovy.jsr</archive>
+    </mailingList>
+    <mailingList>
+      <name>Groovy Developer List</name>
+      <archive>http://dir.gmane.org/gmane.comp.lang.groovy.devel</archive>
+    </mailingList>
+    <mailingList>
+      <name>Groovy User List</name>
+      <archive>http://dir.gmane.org/gmane.comp.lang.groovy.user</archive>
+    </mailingList>
+  </mailingLists>
+  
+  <contributors>
+    <contributor>
+      <name>Joern Eyrich</name>
+    </contributor>
+    <contributor>
+      <name>Robert Kuzelj</name>
+    </contributor>
+    <contributor>
+      <name>Rod Cope</name>
+    </contributor>
+    <contributor>
+      <name>Yuri Schimke</name>
+    </contributor>
+    <contributor>
+      <name>James Birchfield</name>
+    </contributor>
+    <contributor>
+      <name>Robert Fuller</name>
+    </contributor>
+    <contributor>
+      <name>Sergey Udovenko</name>
+    </contributor>
+    <contributor>
+      <name>Hallvard Traetteberg</name>
+    </contributor>
+    <contributor>
+      <name>Peter Reilly</name>
+    </contributor>
+    <contributor>
+      <name>Brian McCallister</name>
+    </contributor>
+    <contributor>
+      <name>Richard Monson-Haefel</name>
+    </contributor>
+    <contributor>
+      <name>Brian Larson</name>
+    </contributor>
+    <contributor>
+      <name>Artur Biesiadowski</name>
+      <email>abies@pg.gda.pl</email>
+    </contributor>
+    <contributor>
+      <name>Ivan Z. Ganza</name>
+    </contributor>
+    <contributor>
+      <name>Arjun Nayyar</name>
+    </contributor>
+    <contributor>
+      <name>Mark Chu-Carroll</name>
+    </contributor>
+    <contributor>
+      <name>Mark Turansky</name>
+    </contributor>
+    <contributor>
+      <name>Jean-Louis Berliet</name>
+    </contributor>
+    <contributor>
+      <name>Graham Miller</name>
+    </contributor>
+    <contributor>
+      <name>Marc Palmer</name>
+    </contributor>
+    <contributor>
+      <name>Tugdual Grall</name>
+    </contributor>
+    <contributor>
+      <name>Edwin Tellman</name>
+    </contributor>
+    <contributor>
+      <name>Evan A Slatis</name>
+    </contributor>
+    <contributor>
+      <name>Mike Dillon</name>
+    </contributor>
+    <contributor>
+      <name>Bernhard Huber</name>
+    </contributor>
+    <contributor>
+      <name>Marc DeXeT</name>
+    </contributor>
+    <contributor>
+      <name>Dejan Bosanac</name>
+      <email>dejan@nighttale.net</email>
+    </contributor>
+    <contributor>
+      <name>Denver Dino</name>
+    </contributor>
+    <contributor>
+      <name>Ted Naleid</name>
+    </contributor>
+    <contributor>
+      <name>Chanwit Kaewkasi</name>
+    </contributor>
+    <contributor>
+      <name>Brad Long</name>
+    </contributor>
+    <contributor>
+      <name>John Bito</name>
+    </contributor>
+    <contributor>
+      <name>Jim Jagielski</name>
+    </contributor>
+    <contributor>
+      <name>John Hurst</name>
+    </contributor>
+    <contributor>
+      <name>Merlyn Albery-Speyer</name>
+    </contributor>
+    <contributor>
+      <name>jeremi Joslin</name>
+    </contributor>
+    <contributor>
+      <name>UEHARA Junji</name>
+    </contributor>
+    <contributor>
+      <name>NAKANO Yasuharu</name>
+    </contributor>
+    <contributor>
+      <name>Dinko Srkoc</name>
+    </contributor>
+    <contributor>
+      <name>Raffaele Cigni</name>
+    </contributor>
+    <contributor>
+      <name>Alberto Vilches Raton</name>
+    </contributor>
+    <contributor>
+      <name>Paulo Poiati</name>
+    </contributor>
+    <contributor>
+      <name>Alexander Klein</name>
+    </contributor>
+    <contributor>
+      <name>Adam Murdoch</name>
+    </contributor>
+    <contributor>
+      <name>David Durham</name>
+    </contributor>
+    <contributor>
+      <name>Daniel Henrique Alves Lima</name>
+    </contributor>
+    <contributor>
+      <name>John Wagenleitner</name>
+    </contributor>
+    <contributor>
+      <name>Colin Harrington</name>
+    </contributor>
+    <contributor>
+      <name>Brian Alexander</name>
+    </contributor>
+    <contributor>
+      <name>Jan Weitz</name>
+    </contributor>
+    <contributor>
+      <name>Joachim Baumann</name>
+    </contributor>
+    <contributor>
+      <name>David Sutherland</name>
+    </contributor>
+    <contributor>
+      <name>Mattias Reichel</name>
+    </contributor>
+    <contributor>
+      <name>David Lee</name>
+    </contributor>
+  </contributors>
+  
+  <dependencies>
+    <dependency>
+      <groupId>org.codehaus.groovy</groupId>
+      <artifactId>groovy</artifactId>
+      <version>2.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

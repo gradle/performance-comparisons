@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info publication="20160901180054" module="character276" organisation="scott.black.hawk.down" status="release" revision="2.155.0"></info>
+  <configurations>
+    <conf extends="runtime,master" visibility="public" name="default"/>
+    <conf extends="compile" visibility="public" name="runtime"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf extends="runtime" visibility="public" name="test"/>
+    <conf visibility="public" name="optional"/>
+    <conf visibility="public" name="provided"/>
+  </configurations>
+  <publications>
+    <artifact ext="jar" name="character276" conf="runtime" type="jar"/>
+    <artifact xmlns:m="http://ant.apache.org/ivy/maven" ext="jar" name="character276" conf="sources" type="sources" m:classifier="sources"/>
+    <artifact xmlns:m="http://ant.apache.org/ivy/maven" ext="jar" name="character276" conf="javadoc" type="javadoc" m:classifier="javadoc"/>
+  </publications>
+  <dependencies>
+    <dependency rev="54.1.1" org="com.ibm.icu" name="icu4j" conf="runtime-&gt;default"/>
+    <dependency rev="1.66.0" org="scott.black.hawk.down" name="character226" conf="runtime-&gt;default"/>
+    <dependency rev="1.145.0" org="scott.black.hawk.down" name="character97" conf="runtime-&gt;default"/>
+    <dependency rev="2.45" org="scott.black.hawk.down" name="character81" conf="runtime-&gt;default"/>
+    <dependency rev="1.12.0" org="scott.black.hawk.down" name="character364" conf="runtime-&gt;default"/>
+  </dependencies>
+</ivy-module>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module xmlns:e="http://ant.apache.org/ivy/extra" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n="http://dummycorp.com" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd" version="2.0">
+  <info organisation="scott.black.hawk.down" module="character118" revision="999.26" status="release" publication="20130804070805"></info>
+  <configurations>
+    <conf visibility="public" extends="runtime,master" description="runtime dependencies and master artifact can be used with this conf" name="default"/>
+    <conf visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies" name="master"/>
+    <conf visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths." name="compile"/>
+    <conf visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive." name="provided"/>
+    <conf visibility="public" extends="compile" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." name="runtime"/>
+    <conf visibility="private" extends="runtime" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." name="test"/>
+    <conf visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository." name="system"/>
+    <conf visibility="public" description="this configuration contains the source artifact of this module, if any." name="sources"/>
+    <conf visibility="public" description="this configuration contains the javadoc artifact of this module, if any." name="javadoc"/>
+    <conf visibility="public" description="contains all optional dependencies" name="optional"/>
+    <conf visibility="public" description="web application wars not normally depended upon." name="webapp"/>
+    <conf visibility="public" description="web application resource bundle zips." name="webresource"/>
+    <conf visibility="public" description="resource bundle zips." name="resources"/>
+  </configurations>
+  <publications defaultconf="master">
+    <artifact name="character118" type="jar" ext="jar"/>
+    <artifact e:classifier="javadoc" name="character118" conf="javadoc" type="javadoc" ext="jar"/>
+  </publications>
+  <dependencies defaultconfmapping="compile->default;runtime->default;test->default;provided->default">
+    <dependency org="com.google.code.findbugs" name="annotations" revConstraint="latest.release" conf="provided->default" rev="2.0.0"/>
+    <dependency org="javax.jms" name="jms" revConstraint="latest.release" conf="runtime->default" rev="1.1"/>
+    <dependency org="javax.servlet" name="servlet-api" revConstraint="latest.release" conf="provided->default" rev="2.5"/>
+    <dependency org="scott.black.hawk.down" name="character280" revConstraint="latest.release" conf="compile->default;runtime->default;test->default;provided->default" rev="1.1.0"/>
+    <dependency org="scott.black.hawk.down" name="character151" revConstraint="latest.release" conf="compile->default;runtime->default;test->default;provided->default" rev="1.49.0"/>
+    <dependency org="scott.black.hawk.down" name="johngrimes" revConstraint="latest.release" conf="compile->default;runtime->default;test->default;provided->default" rev="1.43.0"/>
+    <dependency org="scott.black.hawk.down" name="matteversmann" revConstraint="latest.release" conf="compile->default;runtime->default;test->default;provided->default" rev="2.38.0"/>
+    <dependency org="scott.black.hawk.down" name="character178" revConstraint="latest.release" conf="compile->default;runtime->default;test->default;provided->default" rev="1.60.0"/>
+    <dependency org="scott.black.hawk.down" name="character338" revConstraint="latest.release" conf="compile->default;runtime->default;test->default;provided->default" rev="2.256"/>
+    <dependency org="scott.black.hawk.down" name="character393" revConstraint="latest.release" conf="compile->default;runtime->default;test->default;provided->default" rev="2.250"/>
+    <dependency org="scott.black.hawk.down" name="character387" revConstraint="latest.release" conf="compile->default;runtime->default;test->default;provided->default" rev="2.256"/>
+    <dependency org="scott.black.hawk.down" name="character318" revConstraint="latest.release" conf="compile->default;runtime->default;test->default;provided->default" rev="2.256"/>
+    <dependency org="scott.black.hawk.down" name="character15" revConstraint="latest.release" conf="compile->default;runtime->default;test->default;provided->default" rev="2.256"/>
+    <dependency org="scott.black.hawk.down" name="character25" revConstraint="latest.release" conf="compile->default;runtime->default;test->default;provided->default" rev="2.256"/>
+    <dependency org="scott.black.hawk.down" name="character172" revConstraint="latest.release" conf="compile->default;runtime->default;test->default;provided->default" rev="1.0.0"/>
+    <dependency org="scott.black.hawk.down" name="character378" revConstraint="latest.release" conf="compile->default;runtime->default;test->default;provided->default" rev="1.44.0"/>
+    <dependency org="org.testng" name="testng" revConstraint="6.+" conf="compile->default;runtime->default;test->default;provided->default" rev="6.8.1"/>
+    <override org="com.google.code.findbugs" module="annotations" rev="2.0.0"/>
+    <override org="javax.jms" module="jms" rev="1.1"/>
+    <override org="javax.servlet" module="servlet-api" rev="2.5"/>
+    <override org="scott.black.hawk.down" module="character280" rev="1.1.0"/>
+    <override org="scott.black.hawk.down" module="character151" rev="1.49.0"/>
+    <override org="scott.black.hawk.down" module="johngrimes" rev="1.43.0"/>
+    <override org="scott.black.hawk.down" module="matteversmann" rev="2.38.0"/>
+    <override org="scott.black.hawk.down" module="character178" rev="1.60.0"/>
+    <override org="scott.black.hawk.down" module="character338" rev="2.256"/>
+    <override org="scott.black.hawk.down" module="character393" rev="2.250"/>
+    <override org="scott.black.hawk.down" module="character387" rev="2.256"/>
+    <override org="scott.black.hawk.down" module="character318" rev="2.256"/>
+    <override org="scott.black.hawk.down" module="character15" rev="2.256"/>
+    <override org="scott.black.hawk.down" module="character25" rev="2.256"/>
+    <override org="scott.black.hawk.down" module="character172" rev="1.0.0"/>
+    <override org="scott.black.hawk.down" module="character378" rev="1.44.0"/>
+    <override org="org.testng" module="testng" rev="6.8.1"/>
+  </dependencies>
+</ivy-module>

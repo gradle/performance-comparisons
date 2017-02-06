@@ -1,0 +1,30 @@
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mozilla</groupId>
+  <artifactId>rhino</artifactId>
+  <name>Mozilla Rhino</name>
+  <version>1.7R4</version>
+  <packaging>jar</packaging>
+  
+  
+
+  <licenses>
+    <license>
+      <name>Mozilla Public License, Version 2.0</name>
+      
+    </license>
+  </licenses>
+
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
+
+  
+
+  <organization>
+    <name>The Mozilla Foundation</name>
+    
+  </organization>
+</project>

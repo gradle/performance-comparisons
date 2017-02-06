@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="scott.black.hawk.down" module="character31" revision="1.195.0" status="release" publication="20160303221510"></info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" extends="runtime" name="test"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character31" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character31" type="sources" ext="jar" conf="sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+    <artifact name="character31" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies>
+    <dependency org="tarantino.pulp.fiction" name="vincentvega" rev="1.5.1" conf="runtime-&gt;default"/>
+    <dependency org="tarantino.pulp.fiction" name="pumpkin" rev="1.5.1" conf="runtime-&gt;default"/>
+    <dependency org="tarantino.pulp.fiction" name="juleswinnfield" rev="1.5.1" conf="runtime-&gt;default"/>
+    <dependency org="tarantino.boulevard.de.la.mort" name="stuntmanmike" rev="0.12.3" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character387" rev="2.1747.0" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character25" rev="2.1747.0" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character378" rev="2.1747.0" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character263" rev="1.35.0" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character226" rev="1.64.0" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character283" rev="1.12.0" conf="runtime-&gt;default"/>
+    <dependency org="net.sf.scannotation" name="scannotation" rev="1.0.2" conf="runtime-&gt;default">
+      <exclude org="javassist" module="javassist"/>
+    </dependency>
+    <dependency org="org.javassist" name="javassist" rev="3.20.0-GA" conf="runtime-&gt;default"/>
+    <dependency org="commons-beanutils" name="commons-beanutils" rev="1.9.2" conf="runtime-&gt;default"/>
+  </dependencies>
+</ivy-module>

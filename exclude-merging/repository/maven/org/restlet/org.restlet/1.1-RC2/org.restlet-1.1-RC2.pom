@@ -1,0 +1,21 @@
+<project>
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>org.restlet</groupId>
+   <artifactId>org.restlet</artifactId>
+   <version>1.1-RC2</version>
+
+   <name>Restlet API</name>
+   
+   
+   <inceptionYear>2005</inceptionYear>
+   <licenses>
+      <license>
+         <name>CDDL license</name>
+         
+      </license>
+      <license>
+         <name>GPL license</name>
+         
+      </license>
+   </licenses>
+</project>

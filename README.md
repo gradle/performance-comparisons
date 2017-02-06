@@ -12,6 +12,7 @@ Follow the instructions required to install the [Gradle profiler](https://github
 - A [single, medium project](single-medium-project)
 - A [large multi-project build](large-multiproject)
 - A [small, multi-project build with libraries](api-vs-impl-small)
+- A [small, multi-project build with a lot of exclusion rules](exclude-merging)
 
 ## Note about Maven performance scenarios
 

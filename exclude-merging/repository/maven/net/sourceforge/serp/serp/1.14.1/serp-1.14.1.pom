@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To build, you need to have Maven 2 installed.
+
+To compile, run:
+    mvn compile
+
+To run tests, run:
+    mvn test
+
+To run one particular test, e.g. serp.bytecode.TestBCClass, run:
+    mvn test -Dtest=TestBCClass
+
+To build the jars, run:
+    mvn package
+
+To create and upload a release, run:
+    mvn deploy
+
+To build the site and upload it, run:
+    mvn site:deploy
+
+To perform a complete release, run:
+    mvn clean compile package assembly:assembly deploy site site:deploy
+
+--><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0     http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.sourceforge.serp</groupId>
+  <artifactId>serp</artifactId>
+  <packaging>jar</packaging>
+  <name>Serp</name>
+  <version>1.14.1</version>
+  
+  
+  <issueManagement>
+    <system>sourceforge</system>
+    
+  </issueManagement>
+  <inceptionYear>2002</inceptionYear>
+  
+  <contributors>
+    <contributor>
+      <name>Marc Prud'hommeaux</name>
+      <email>mwp1@cornell.edu</email>
+    </contributor>
+  </contributors>
+  <licenses>
+    <license>
+      <name>BSD</name>
+      
+    </license>
+  </licenses>
+  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <testFailureIgnore>true</testFailureIgnore>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.3</source>
+          <target>1.3</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-site-plugin</artifactId>
+        <configuration>
+          <stagingDirectory>../site-staging</stagingDirectory>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <descriptorId>bin</descriptorId>
+          <finalName>serp-${pom.version}</finalName>
+        </configuration>
+      </plugin>
+      <plugin>
+          <artifactId>maven-source-plugin</artifactId>
+          <executions>
+            <execution>
+                <id>attach-sources</id>
+                <goals>
+                    <goal>jar</goal>
+                </goals>
+            </execution>
+         </executions>
+      </plugin>
+      <plugin>
+          <artifactId>maven-javadoc-plugin</artifactId>
+          <executions>
+            <execution>
+                <id>attach-javadoc</id>
+                <goals>
+                    <goal>jar</goal>
+                </goals>
+            </execution>
+         </executions>
+      </plugin>
+    </plugins>
+  </build>
+  
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>jxr-maven-plugin</artifactId>
+        <configuration>
+          <aggregate>true</aggregate>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <configuration>
+          <aggregate>true</aggregate>
+          <linksource>true</linksource>
+          <links>
+            <link>http://java.sun.com/j2se/1.5.0/docs/api</link>
+          </links>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-pmd-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>surefire-report-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </reporting>
+  <distributionManagement>
+    <!-- needs userid,project@shell.sourceforge.net login -->
+    <repository>
+      <id>serp</id>
+      <!--   -->
+      
+    </repository>
+    <site>
+      <id>serp</id>
+      <name>serp</name>
+      <!--   -->
+      
+    </site>
+  </distributionManagement>
+</project>

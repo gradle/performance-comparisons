@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="scott.gladiator" module="antoniusproximo" revision="1.65" status="release" publication="20160801224224"></info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" extends="runtime" name="test"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="antoniusproximo" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="antoniusproximo" type="sources" ext="jar" conf="sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+    <artifact name="antoniusproximo" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies>
+    <dependency org="tarantino.inglourious.basterds" name="edfenech" rev="0.7.2" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.gladiator" name="maximusdecimusmeridius" rev="1.65" conf="runtime-&gt;default"/>
+    <dependency org="tarantino.inglourious.basterds" name="bridgetvonhammersmark" rev="0.7.2" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.apache.kafka" name="kafka-clients" rev="0.8.2.2-nflx.8" conf="runtime-&gt;default"/>
+  </dependencies>
+</ivy-module>

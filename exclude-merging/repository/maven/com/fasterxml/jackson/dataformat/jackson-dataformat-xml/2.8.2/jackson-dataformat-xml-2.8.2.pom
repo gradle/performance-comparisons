@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion> 
+  <parent>
+    <groupId>com.fasterxml.jackson</groupId>
+    <artifactId>jackson-parent</artifactId>
+    <version>2.8</version>
+  </parent>
+  <groupId>com.fasterxml.jackson.dataformat</groupId>
+  <artifactId>jackson-dataformat-xml</artifactId>
+  <version>2.8.2</version>
+  <name>Jackson-dataformat-XML</name>
+  <packaging>bundle</packaging>
+  
+  
+  
+  <properties>
+    <version.jackson.core>2.8.2</version.jackson.core>
+    <version.jackson.jaxb>${version.jackson.core}</version.jackson.jaxb>
+
+    <packageVersion.dir>com/fasterxml/jackson/dataformat/xml</packageVersion.dir>
+    <packageVersion.package>${project.groupId}.xml</packageVersion.package>
+
+    <!-- Default export should work fine... -->
+    <!-- And presumably import too? -->
+  </properties>
+
+  <dependencies>
+    <!-- Extends Jackson (jackson-mapper); requires Stax API (and implementation on deploy time), Stax2 API.
+         Also requires JAXB annotations module
+      -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>${version.jackson.core}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>${version.jackson.core}</version>
+    </dependency>
+    <!--  JAXB annotation introspector is needed too? -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.module</groupId>
+      <artifactId>jackson-module-jaxb-annotations</artifactId>
+      <version>${version.jackson.jaxb}</version>
+    </dependency>
+    <!-- JDK 1.6 provides stax-api (javax.xml.stream), but let's add this for documentation
+      -->
+    <dependency>
+      <groupId>javax.xml.stream</groupId>
+      <artifactId>stax-api</artifactId>
+      <version>1.0-2</version>
+      <scope>provided</scope>
+    </dependency>
+    <!--  But Stax2 API must be included -->
+    <dependency>
+      <groupId>org.codehaus.woodstox</groupId>
+      <artifactId>stax2-api</artifactId>
+      <!-- 01-Jan-2010, Stupid Maven Release plug-in mandates a non-range
+            version
+        -->
+<!--
+      <version>[3.0.4, 3.5.0)</version>
+-->
+      <version>3.1.4</version>
+    </dependency>
+    <!--  and a Stax impl is needed: SJSXP (from JDK 1.6) might work, but always   
+          has odd issues. Let's default to Woodstox: caller can upgrade to Aalto
+         (needs to block this dep)
+      -->
+    <!-- 09-May-2016, tatu: With Jackson 2.8, let's make this compile-dep to make it
+        less likely users accidentally try to use Sjsxp from JDK, which leads to probs
+      -->
+    <dependency>
+      <groupId>com.fasterxml.woodstox</groupId>
+      <artifactId>woodstox-core</artifactId>
+      <version>5.0.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <!-- Inherited from oss-base. Generate PackageVersion.java.-->
+        <groupId>com.google.code.maven-replacer-plugin</groupId>
+        <artifactId>replacer</artifactId>
+        <executions>
+          <execution>
+            <id>process-packageVersion</id>
+            <phase>generate-sources</phase>
+          </execution>
+        </executions>
+      </plugin>
+      <!--  Need to skip known-failing tests for build... -->
+      <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>${version.plugin.surefire}</version>
+          <configuration>
+            <excludes>
+              <exclude>com/fasterxml/jackson/dataformat/xml/failing/*.java</exclude>
+            </excludes>
+            <includes>
+              <include>**/Test*.java</include>
+              <include>**/*Test.java</include>
+            </includes>
+          </configuration>
+        </plugin>
+    </plugins>
+  </build>
+
+  <profiles>
+    <!--  19-Feb-2012, tatu: Since we have some failing tests, may need to force release -->
+    <profile>
+      <id>force-release</id>
+      <properties>
+        <maven.test.skip>true</maven.test.skip>
+        <skipTests>true</skipTests>
+      </properties>
+    </profile>
+  </profiles>
+  <!-- NOTE: repositories from parent POM -->
+
+</project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="scott.black.hawk.down" module="character390" revision="1.3" status="release" publication="20160909170103"></info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" extends="runtime" name="test"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character390" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character390" type="sources" ext="jar" conf="sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies>
+    <dependency org="com.google.code.findbugs" name="annotations" rev="3.0.0" conf="runtime-&gt;default"/>
+    <dependency org="com.google.code.gson" name="gson" rev="2.6.2" conf="runtime-&gt;default"/>
+    <dependency org="com.google.guava" name="guava" rev="19.0" conf="runtime-&gt;default"/>
+    <dependency org="abrams.super.eight" name="josephfrancislamb" rev="1.4.11" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="com.sun.jersey" name="jersey-client" rev="1.19" conf="runtime-&gt;default"/>
+    <dependency org="com.thoughtworks.xstream" name="xstream" rev="1.4.9-propergol1" conf="runtime-&gt;default"/>
+    <dependency org="commons-collections" name="commons-collections" rev="3.2.2" conf="runtime-&gt;default"/>
+    <dependency org="commons-configuration" name="commons-configuration" rev="1.8" conf="runtime-&gt;default"/>
+    <dependency org="commons-io" name="commons-io" rev="2.4" conf="runtime-&gt;default"/>
+    <dependency org="commons-lang" name="commons-lang" rev="2.6" conf="runtime-&gt;default"/>
+    <dependency org="javax.inject" name="javax.inject" rev="1" conf="runtime-&gt;default"/>
+    <dependency org="javax.ws.rs" name="jsr311-api" rev="1.1.1" conf="runtime-&gt;default"/>
+    <dependency org="joda-time" name="joda-time" rev="2.9.4" conf="runtime-&gt;default"/>
+    <dependency org="log4j" name="log4j" rev="1.2.17" conf="runtime-&gt;default"/>
+    <dependency org="net.java.dev.jets3t" name="jets3t" rev="0.9.0" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="caseyjoyce" rev="1.55.21" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character274" rev="1.145" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character400" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="johngrimes" rev="1.55.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character341" rev="1.69" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character143" rev="1.179.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character200" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character214" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character205" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character231" rev="2.1573.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character20" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character371" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character81" rev="2.47" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character338" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character39" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character387" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character31" rev="1.198.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character15" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character203" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character385" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character25" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character378" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="tarantino.boulevard.de.la.mort" name="stuntmanmike" rev="0.12.11" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="net.sf.json-lib" name="json-lib" rev="2.2.3" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character53" rev="1.3" conf="runtime-&gt;default"/>
+    <dependency org="javax.servlet" name="javax.servlet-api" rev="3.1.0" conf="runtime-&gt;default"/>
+  </dependencies>
+</ivy-module>

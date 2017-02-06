@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info publication="20151104002341" module="character279" organisation="scott.black.hawk.down" status="release" revision="2.1573.0"></info>
+  <configurations>
+    <conf visibility="public" name="compile"/>
+    <conf extends="runtime,master" visibility="public" name="default"/>
+    <conf visibility="public" name="dependencyReport"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="resources"/>
+    <conf extends="compile" visibility="public" name="runtime"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" name="system"/>
+    <conf extends="runtime" visibility="public" name="test"/>
+    <conf visibility="public" name="webapp"/>
+    <conf visibility="public" name="webresource"/>
+    <conf visibility="public" name="optional"/>
+    <conf visibility="public" name="provided"/>
+  </configurations>
+  <publications>
+    <artifact ext="jar" name="character279" conf="runtime" type="jar"/>
+    <artifact xmlns:e="http://ant.apache.org/ivy/extra" ext="jar" name="character279" conf="sources" type="sources" e:classifier="sources"/>
+    <artifact xmlns:e="http://ant.apache.org/ivy/extra" ext="jar" name="character279" conf="javadoc" type="javadoc" e:classifier="javadoc"/>
+    <artifact xmlns:e="http://ant.apache.org/ivy/extra" ext="txt" name="character279" conf="dependencyReport" type="txt" e:classifier="dependencyreport"/>
+  </publications>
+  <dependencies defaultconfmapping="%-&gt;default"/>
+</ivy-module>

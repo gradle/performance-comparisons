@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra" xmlns:n="http://dummycorp.com">
+  <info organisation="scott.black.hawk.down" module="character115" revision="1.25.0" status="candidate" publication="20150211000357"></info>
+  <configurations>
+    <conf name="compile" visibility="public"/>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="dependencyReport" visibility="public"/>
+    <conf name="javadoc" visibility="public"/>
+    <conf name="master" visibility="public"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+    <conf name="resources" visibility="public"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf name="sources" visibility="public"/>
+    <conf name="system" visibility="public"/>
+    <conf name="test" visibility="public" extends="runtime"/>
+    <conf name="webapp" visibility="public"/>
+    <conf name="webresource" visibility="public"/>
+    <conf name="optional" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character115" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character115" type="sources" ext="jar" conf="sources" e:classifier="sources"/>
+    <artifact name="character115" type="javadoc" ext="jar" conf="javadoc" e:classifier="javadoc"/>
+    <artifact name="character115" type="txt" ext="txt" conf="dependencyReport" e:classifier="dependencyreport"/>
+  </publications>
+  <dependencies defaultconfmapping="%-&gt;default">
+    <dependency org="scott.black.hawk.down" name="character200" rev="2.1227" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character318" rev="2.401" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character338" rev="2.1227" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character151" rev="1.50.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="aopalliance" name="aopalliance" rev="1.0" conf="runtime-&gt;default"/>
+    <dependency org="commons-lang" name="commons-lang" rev="2.6" conf="runtime-&gt;default" revConstraint="2.3"/>
+    <dependency org="com.oracle" name="ojdbc14" rev="10.1.0.5.0" conf="runtime-&gt;default"/>
+    <dependency org="javax.persistence" name="persistence-api" rev="1.0" conf="runtime-&gt;default"/>
+    <dependency org="org.aspectj" name="aspectjweaver" rev="1.6.8" conf="runtime-&gt;default"/>
+    <dependency org="org.springframework" name="spring-jdbc" rev="3.2.0.RELEASE" conf="runtime-&gt;default"/>
+    <dependency org="org.springframework" name="spring-tx" rev="3.2.0.RELEASE" conf="runtime-&gt;default"/>
+  </dependencies>
+</ivy-module>

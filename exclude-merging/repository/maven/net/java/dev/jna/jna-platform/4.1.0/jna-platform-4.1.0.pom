@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+  http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>net.java.dev.jna</groupId>
+  <artifactId>jna-platform</artifactId>
+  <version>4.1.0</version>
+  <packaging>jar</packaging>
+
+  <name>Java Native Access Platform</name>
+  
+  
+
+  <licenses>
+      <license>
+          <name>LGPL, version 2.1</name>
+          
+          <distribution>repo</distribution>
+      </license>
+      <license>
+          <name>ASL, version 2</name>
+          
+          <distribution>repo</distribution>
+      </license>
+  </licenses>
+
+  
+
+  
+
+  <dependencies>
+    <dependency>
+      <groupId>net.java.dev.jna</groupId>
+      <artifactId>jna</artifactId>
+      <version>4.1.0</version>
+    </dependency>
+  </dependencies>
+
+</project>

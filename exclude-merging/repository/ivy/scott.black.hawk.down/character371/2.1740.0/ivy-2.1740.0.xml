@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info publication="20160217005718" module="character371" organisation="scott.black.hawk.down" status="release" revision="2.1740.0"></info>
+  <configurations>
+    <conf extends="runtime,master" visibility="public" name="default"/>
+    <conf extends="compile" visibility="public" name="runtime"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf extends="runtime" visibility="public" name="test"/>
+    <conf visibility="public" name="optional"/>
+    <conf visibility="public" name="provided"/>
+  </configurations>
+  <publications>
+    <artifact ext="jar" name="character371" conf="runtime" type="jar"/>
+    <artifact xmlns:m="http://ant.apache.org/ivy/maven" ext="jar" name="character371" conf="sources" type="sources" m:classifier="sources"/>
+    <artifact xmlns:m="http://ant.apache.org/ivy/maven" ext="jar" name="character371" conf="javadoc" type="javadoc" m:classifier="javadoc"/>
+  </publications>
+  <dependencies>
+    <dependency rev="2.1740.0" org="scott.black.hawk.down" name="character338" conf="runtime-&gt;default"/>
+    <dependency rev="2.1740.0" org="scott.black.hawk.down" name="character39" conf="runtime-&gt;default"/>
+    <dependency rev="2.1740.0" org="scott.black.hawk.down" name="character387" conf="runtime-&gt;default"/>
+    <dependency rev="2.1740.0" org="scott.black.hawk.down" name="character15" conf="runtime-&gt;default"/>
+    <dependency rev="2.1740.0" org="scott.black.hawk.down" name="character203" conf="runtime-&gt;default"/>
+    <dependency rev="2.1740.0" org="scott.black.hawk.down" name="character208" conf="runtime-&gt;default"/>
+    <dependency rev="2.1740.0" org="scott.black.hawk.down" name="character0" conf="runtime-&gt;default"/>
+    <dependency rev="2.1740.0" org="scott.black.hawk.down" name="character25" conf="runtime-&gt;default"/>
+    <dependency rev="2.1740.0" org="scott.black.hawk.down" name="character20" conf="runtime-&gt;default"/>
+    <dependency rev="2.7.5" org="abrams.mission.impossible.three" name="declangormley" conf="runtime-&gt;default"/>
+    <dependency rev="alpha-0.7" org="com.google.code.simplejpa" name="simplejpa" conf="runtime-&gt;default"/>
+    <dependency rev="1.5.2a" org="com.google.code.typica" name="typica" conf="runtime-&gt;default"/>
+    <dependency rev="18.0" org="com.google.guava" name="guava" conf="runtime-&gt;default"/>
+    <dependency rev="2.1.0" org="com.google.protobuf" name="protobuf-java" conf="runtime-&gt;default"/>
+    <dependency rev="1.36.1" org="scott.prometheus" name="elizabethshaw" conf="runtime-&gt;default"/>
+    <dependency rev="1.19" org="com.sun.jersey.contribs" name="jersey-apache-client" conf="runtime-&gt;default"/>
+    <dependency rev="1.4.2" org="com.thoughtworks.xstream" name="xstream" conf="runtime-&gt;default"/>
+    <dependency rev="0.9.0" org="net.java.dev.jets3t" name="jets3t" conf="runtime-&gt;default"/>
+    <dependency rev="1.0.2" org="net.sf.scannotation" name="scannotation" conf="runtime-&gt;default"/>
+    <dependency rev="1.9.13" org="org.codehaus.jackson" name="jackson-core-asl" conf="runtime-&gt;default"/>
+    <dependency rev="1.9.13" org="org.codehaus.jackson" name="jackson-mapper-asl" conf="runtime-&gt;default"/>
+    <dependency rev="3.2.1" org="commons-collections" name="commons-collections" conf="runtime-&gt;default"/>
+    <dependency rev="1.8" org="commons-configuration" name="commons-configuration" conf="runtime-&gt;default"/>
+    <dependency rev="3.1" org="commons-httpclient" name="commons-httpclient" conf="runtime-&gt;default"/>
+    <dependency rev="2.6" org="commons-lang" name="commons-lang" conf="runtime-&gt;default"/>
+    <dependency rev="1.0" org="jdom" name="jdom" conf="runtime-&gt;default"/>
+    <dependency rev="1.16.0" org="scott.black.hawk.down" name="character334" conf="runtime-&gt;default"/>
+    <dependency rev="1.49.0" org="scott.black.hawk.down" name="character29" conf="runtime-&gt;default"/>
+    <dependency rev="1.4.0" org="scott.black.hawk.down" name="character57" conf="runtime-&gt;default"/>
+    <dependency rev="1.1" org="javax.jms" name="jms" conf="provided"/>
+    <dependency rev="10.0.1.0" org="weblogic" name="wlfullclient" conf="provided"/>
+  </dependencies>
+</ivy-module>

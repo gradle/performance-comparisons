@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module xmlns:e="http://ant.apache.org/ivy/extra" xmlns:n="http://dummycorp.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+  <info organisation="scott.black.hawk.down" module="character66" revision="1.78.0" status="release" publication="20141009171707"></info>
+  <configurations>
+    <conf visibility="public" extends="runtime,master" description="runtime dependencies and master artifact can be used with this conf" name="default"/>
+    <conf visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies" name="master"/>
+    <conf visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths." name="compile"/>
+    <conf visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive." name="provided"/>
+    <conf visibility="public" extends="compile" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." name="runtime"/>
+    <conf visibility="private" extends="runtime" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." name="test"/>
+    <conf visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository." name="system"/>
+    <conf visibility="public" description="this configuration contains the source artifact of this module, if any." name="sources"/>
+    <conf visibility="public" description="this configuration contains the javadoc artifact of this module, if any." name="javadoc"/>
+    <conf visibility="public" description="contains all optional dependencies" name="optional"/>
+    <conf visibility="public" description="web application wars not normally depended upon." name="webapp"/>
+    <conf visibility="public" description="web application resource bundle zips." name="webresource"/>
+    <conf visibility="public" description="resource bundle zips." name="resources"/>
+  </configurations>
+  <publications defaultconf="master">
+    <artifact name="character66" type="jar" ext="jar"/>
+    <artifact e:classifier="javadoc" name="character66" conf="javadoc" type="javadoc" ext="jar"/>
+    <artifact e:classifier="sources" name="character66" conf="sources" type="sources" ext="jar"/>
+  </publications>
+  <dependencies defaultconfmapping="compile->default;runtime->default;test->default;provided->default">
+    <dependency org="scott.black.hawk.down" name="character310" revConstraint="latest.release" conf="compile->default" rev="54.136"/>
+    <dependency org="scott.black.hawk.down" name="character200" revConstraint="latest.release" conf="compile->default" rev="2.849"/>
+    <dependency org="scott.black.hawk.down" name="character116" revConstraint="latest.release" conf="compile->default" rev="1.11.0"/>
+    <dependency org="scott.black.hawk.down" name="character42" revConstraint="latest.release" conf="compile->default" rev="1.42.0"/>
+    <dependency org="scott.black.hawk.down" name="character58" revConstraint="latest.release" conf="compile->default" rev="1.48.0"/>
+    <dependency org="scott.black.hawk.down" name="character12" revConstraint="latest.release" conf="compile->default" rev="1.70.0"/>
+    <dependency org="scott.black.hawk.down" name="character400" revConstraint="latest.release" conf="compile->default" rev="1.343.0"/>
+    <dependency org="scott.black.hawk.down" name="character378" revConstraint="latest.release" conf="compile->default" rev="2.849"/>
+    <dependency org="scott.black.hawk.down" name="character33" revConstraint="latest.release" conf="compile->default" rev="1.7.0"/>
+    <dependency org="org.apache.solr" name="solr-solrj" conf="compile->default" rev="3.1.0"/>
+    <dependency org="scott.black.hawk.down" name="character149" revConstraint="latest.release" conf="compile->default" rev="2.26.0"/>
+    <dependency org="scott.black.hawk.down" name="character307" revConstraint="latest.release" conf="compile->default" rev="1.16.0"/>
+    <dependency org="org.slf4j" name="slf4j-log4j12" revConstraint="latest.release" conf="runtime->default" rev="1.7.7"/>
+    <dependency org="org.testng" name="testng" revConstraint="latest.release" conf="test->default" rev="6.8.5"/>
+    <override module="character310" rev="54.136" org="scott.black.hawk.down"/>
+    <override module="character200" rev="2.849" org="scott.black.hawk.down"/>
+    <override module="character116" rev="1.11.0" org="scott.black.hawk.down"/>
+    <override module="character42" rev="1.42.0" org="scott.black.hawk.down"/>
+    <override module="character58" rev="1.48.0" org="scott.black.hawk.down"/>
+    <override module="character12" rev="1.70.0" org="scott.black.hawk.down"/>
+    <override module="character400" rev="1.343.0" org="scott.black.hawk.down"/>
+    <override module="character378" rev="2.849" org="scott.black.hawk.down"/>
+    <override module="character33" rev="1.7.0" org="scott.black.hawk.down"/>
+    <override module="solr-solrj" rev="3.1.0" org="org.apache.solr"/>
+    <override module="character149" rev="2.26.0" org="scott.black.hawk.down"/>
+    <override module="character307" rev="1.16.0" org="scott.black.hawk.down"/>
+    <override module="slf4j-log4j12" rev="1.7.7" org="org.slf4j"/>
+    <override module="testng" rev="6.8.5" org="org.testng"/>
+  </dependencies>
+</ivy-module>

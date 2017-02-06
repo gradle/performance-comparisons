@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="scott.black.hawk.down" module="character235" revision="2.0.0" status="release" publication="20160108205844"></info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" extends="runtime" name="test"/>
+    <conf name="all" visibility="public"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character235" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character235" type="sources" ext="jar" conf="sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+    <artifact name="character235" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc" xmlns:m="http://ant.apache.org/ivy/maven"/>
+    <artifact name="character235" type="jar" ext="jar" conf="all" m:classifier="all" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies>
+    <dependency org="org.codehaus.groovy" name="groovy-all" rev="2.4.4" conf="runtime-&gt;default"/>
+    <dependency org="javax.mail" name="mail" rev="1.4.4" conf="runtime-&gt;default">
+      <exclude org="javax.activation" module="activation"/>
+    </dependency>
+    <dependency org="scott.black.rain" name="nickconklin" rev="0.13" conf="runtime-&gt;default"/>
+    <dependency org="org.apache.httpcomponents" name="httpclient" rev="4.2.2" conf="runtime-&gt;default"/>
+    <dependency org="org.apache.httpcomponents" name="httpcore" rev="4.2.2" conf="runtime-&gt;default"/>
+    <dependency org="org.codehaus.groovy.modules.http-builder" name="http-builder" rev="0.6" conf="runtime-&gt;default">
+      <exclude module="groovy-all"/>
+    </dependency>
+    <dependency org="com.jcraft" name="jsch" rev="0.1.50" conf="runtime-&gt;default"/>
+    <dependency org="org.slf4j" name="slf4j-api" rev="1.7.5" conf="runtime-&gt;default"/>
+    <dependency org="org.slf4j" name="slf4j-simple" rev="1.7.0" conf="runtime-&gt;default"/>
+    <dependency org="com.perforce" name="p4java" rev="2012.3.551082" conf="runtime-&gt;default"/>
+    <dependency org="net.sourceforge.nekohtml" name="nekohtml" rev="1.9.17" conf="runtime-&gt;default"/>
+    <dependency org="xerces" name="xercesImpl" rev="2.9.1" conf="runtime-&gt;default"/>
+  </dependencies>
+</ivy-module>

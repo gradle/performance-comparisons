@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<metadata>
+	<groupId>com.esotericsoftware.kryo</groupId>
+	<artifactId>kryo</artifactId>
+	<version>2.24.0</version>
+	<versioning>
+		<release>2.24.0</release>
+		<versions>
+ 			<version>2.24.0</version>
+		</versions>
+		<lastUpdated>20160912145752</lastUpdated>
+	</versioning>
+</metadata>

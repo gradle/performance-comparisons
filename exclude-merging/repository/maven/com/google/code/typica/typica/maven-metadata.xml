@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<metadata>
+	<groupId>com.google.code.typica</groupId>
+	<artifactId>typica</artifactId>
+	<version>1.5.2a</version>
+	<versioning>
+		<release>1.5.2a</release>
+		<versions>
+ 			<version>1.5.1</version>
+			<version>1.5.2a</version>
+		</versions>
+		<lastUpdated>20160912145752</lastUpdated>
+	</versioning>
+</metadata>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="scott.black.hawk.down" module="character320" revision="119.96" status="release" publication="20160518203559"></info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" extends="runtime" name="test"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character320" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character320" type="sources" ext="jar" conf="sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+    <artifact name="character320" type="jar" ext="jar" conf="test" m:classifier="tests" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies>
+    <dependency org="scott.black.hawk.down" name="character200" conf="runtime-&gt;default" rev="2.1774.0"/>
+    <dependency org="scott.black.hawk.down" name="character400" conf="runtime-&gt;default" rev="1.1582.0"/>
+    <dependency org="commons-beanutils" name="commons-beanutils" rev="1.9.2" conf="runtime-&gt;default"/>
+    <dependency org="commons-lang" name="commons-lang" rev="2.6" conf="runtime-&gt;default"/>
+    <dependency org="com.google.guava" name="guava" conf="runtime-&gt;default" rev="18.0"/>
+    <dependency org="log4j" name="log4j" conf="runtime-&gt;default" rev="1.2.17"/>
+    <dependency org="scott.black.hawk.down" name="character387" conf="runtime-&gt;default" rev="2.1774.0"/>
+    <dependency org="tarantino.jackie.brown" name="jackiebrown" conf="runtime-&gt;default" rev="0.7.4"/>
+    <dependency org="scott.black.hawk.down" name="edelivery-test" rev="1.0" revConstraint="1.0" conf="test-&gt;default"/>
+    <dependency org="junit" name="junit-dep" rev="4.+" revConstraint="4.+" conf="test-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character160" rev="latest.release" revConstraint="latest.release" conf="test-&gt;default"/>
+    <dependency org="xalan" name="xalan" rev="2.7.1" revConstraint="2.7.1" conf="test-&gt;default"/>
+  </dependencies>
+</ivy-module>

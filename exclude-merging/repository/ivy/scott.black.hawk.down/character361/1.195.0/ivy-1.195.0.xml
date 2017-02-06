@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module xmlns:e="http://ant.apache.org/ivy/extra" xmlns:n="http://dummycorp.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+  <info organisation="scott.black.hawk.down" module="character361" revision="1.195.0" status="candidate" publication="20130806202832"></info>
+  <configurations>
+    <conf visibility="public" extends="runtime,master" description="runtime dependencies and master artifact can be used with this conf" name="default"/>
+    <conf visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies" name="master"/>
+    <conf visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths." name="compile"/>
+    <conf visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive." name="provided"/>
+    <conf visibility="public" extends="compile" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." name="runtime"/>
+    <conf visibility="private" extends="runtime" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." name="test"/>
+    <conf visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository." name="system"/>
+    <conf visibility="public" description="this configuration contains the source artifact of this module, if any." name="sources"/>
+    <conf visibility="public" description="this configuration contains the javadoc artifact of this module, if any." name="javadoc"/>
+    <conf visibility="public" description="contains all optional dependencies" name="optional"/>
+    <conf visibility="public" description="web application wars not normally depended upon." name="webapp"/>
+    <conf visibility="public" description="web application resource bundle zips." name="webresource"/>
+    <conf visibility="public" description="resource bundle zips." name="resources"/>
+  </configurations>
+  <publications defaultconf="master">
+    <artifact name="character361" type="jar" ext="jar"/>
+    <artifact e:classifier="javadoc" name="character361" conf="javadoc" type="javadoc" ext="jar"/>
+    <artifact e:classifier="sources" name="character361" conf="sources" type="sources" ext="jar"/>
+  </publications>
+  <dependencies defaultconfmapping="compile->default;runtime->default;test->default;provided->default">
+    <dependency org="com.google.code.findbugs" name="annotations" conf="test->default;compile->default;runtime->default" rev="1.3.9"/>
+    <dependency org="tarantino.boulevard.de.la.mort" name="stuntmanmike" revConstraint="latest.release" conf="compile->default;runtime->default" rev="0.4.43"/>
+    <dependency org="com.sun.jdmk" name="jmxtools" conf="compile->default" rev="1.2.1"/>
+    <dependency org="junit" name="junit-dep" revConstraint="4.+" conf="provided->default;test->default" rev="4.10"/>
+    <dependency org="scott.black.hawk.down" name="character151" revConstraint="latest.release" conf="compile->default" rev="1.49.0"/>
+    <dependency org="scott.black.hawk.down" name="character400" revConstraint="latest.release" conf="compile->default" rev="1.116.0"/>
+    <dependency org="scott.black.hawk.down" name="character283" revConstraint="latest.release" conf="compile->default;runtime->default" rev="1.5.0"/>
+    <dependency org="scott.black.hawk.down" name="character200" revConstraint="latest.release" conf="compile->default" rev="2.265"/>
+    <dependency org="org.apache.httpcomponents" name="httpclient" conf="compile->default" rev="4.1.2"/>
+    <dependency org="org.apache.httpcomponents" name="httpcore" conf="compile->default" rev="4.1.2"/>
+    <dependency org="org.json" name="json" revConstraint="latest.release" conf="compile->default" rev="1.0"/>
+    <dependency org="org.mockito" name="mockito-core" conf="provided->default;test->default" rev="1.8.5"/>
+    <dependency org="org.powermock" name="powermock-core-mockito" conf="provided->default;test->default" rev="1.4.10"/>
+    <exclude module="mockito-all"/>
+    <override org="com.google.code.findbugs" module="annotations" rev="1.3.9"/>
+    <override org="tarantino.boulevard.de.la.mort" module="stuntmanmike" rev="0.4.43"/>
+    <override org="com.sun.jdmk" module="jmxtools" rev="1.2.1"/>
+    <override org="junit" module="junit-dep" rev="4.10"/>
+    <override org="scott.black.hawk.down" module="character151" rev="1.49.0"/>
+    <override org="scott.black.hawk.down" module="character400" rev="1.116.0"/>
+    <override org="scott.black.hawk.down" module="character283" rev="1.5.0"/>
+    <override org="scott.black.hawk.down" module="character200" rev="2.265"/>
+    <override org="org.apache.httpcomponents" module="httpclient" rev="4.1.2"/>
+    <override org="org.apache.httpcomponents" module="httpcore" rev="4.1.2"/>
+    <override org="org.json" module="json" rev="1.0"/>
+    <override org="org.mockito" module="mockito-core" rev="1.8.5"/>
+    <override org="org.powermock" module="powermock-core-mockito" rev="1.4.10"/>
+  </dependencies>
+</ivy-module>

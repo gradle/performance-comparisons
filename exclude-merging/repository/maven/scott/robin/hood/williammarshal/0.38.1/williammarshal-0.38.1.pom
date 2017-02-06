@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>scott.robin.hood</groupId>
+  <artifactId>williammarshal</artifactId>
+  <version>0.38.1</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <scope>runtime</scope>
+      <version>1.7.20</version>
+    </dependency>
+    <dependency>
+      <groupId>scott.robin.hood</groupId>
+      <artifactId>sirwalterloxley</artifactId>
+      <version>0.38.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>tarantino.boulevard.de.la.mort</groupId>
+      <artifactId>stuntmanmike</artifactId>
+      <scope>runtime</scope>
+      <version>0.12.4</version>
+    </dependency>
+  </dependencies>
+  <name>williammarshal</name>
+  
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  
+  
+  
+</project>

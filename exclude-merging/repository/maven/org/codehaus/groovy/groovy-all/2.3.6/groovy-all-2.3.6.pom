@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.codehaus.groovy</groupId>
+  <artifactId>groovy-all</artifactId>
+  <version>2.3.6</version>
+  <packaging>jar</packaging>
+  <name>Groovy</name>
+  
+  
+  <inceptionYear>2003</inceptionYear>
+  <organization>
+    <name>The Codehaus</name>
+    
+  </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <mailingLists>
+    <mailingList>
+      <name>Groovy JSR Discussion List</name>
+      <archive>http://dir.gmane.org/gmane.comp.lang.groovy.jsr</archive>
+    </mailingList>
+    <mailingList>
+      <name>Groovy Developer List</name>
+      <archive>http://dir.gmane.org/gmane.comp.lang.groovy.devel</archive>
+    </mailingList>
+    <mailingList>
+      <name>Groovy User List</name>
+      <archive>http://dir.gmane.org/gmane.comp.lang.groovy.user</archive>
+    </mailingList>
+  </mailingLists>
+  
+  <contributors>
+    <contributor>
+      <name>Joern Eyrich</name>
+    </contributor>
+    <contributor>
+      <name>Robert Kuzelj</name>
+    </contributor>
+    <contributor>
+      <name>Rod Cope</name>
+    </contributor>
+    <contributor>
+      <name>Yuri Schimke</name>
+    </contributor>
+    <contributor>
+      <name>James Birchfield</name>
+    </contributor>
+    <contributor>
+      <name>Robert Fuller</name>
+    </contributor>
+    <contributor>
+      <name>Sergey Udovenko</name>
+    </contributor>
+    <contributor>
+      <name>Hallvard Traetteberg</name>
+    </contributor>
+    <contributor>
+      <name>Peter Reilly</name>
+    </contributor>
+    <contributor>
+      <name>Brian McCallister</name>
+    </contributor>
+    <contributor>
+      <name>Richard Monson-Haefel</name>
+    </contributor>
+    <contributor>
+      <name>Brian Larson</name>
+    </contributor>
+    <contributor>
+      <name>Artur Biesiadowski</name>
+      <email>abies@pg.gda.pl</email>
+    </contributor>
+    <contributor>
+      <name>Ivan Z. Ganza</name>
+    </contributor>
+    <contributor>
+      <name>Arjun Nayyar</name>
+    </contributor>
+    <contributor>
+      <name>Mark Chu-Carroll</name>
+    </contributor>
+    <contributor>
+      <name>Mark Turansky</name>
+    </contributor>
+    <contributor>
+      <name>Jean-Louis Berliet</name>
+    </contributor>
+    <contributor>
+      <name>Graham Miller</name>
+    </contributor>
+    <contributor>
+      <name>Marc Palmer</name>
+    </contributor>
+    <contributor>
+      <name>Tugdual Grall</name>
+    </contributor>
+    <contributor>
+      <name>Edwin Tellman</name>
+    </contributor>
+    <contributor>
+      <name>Evan A Slatis</name>
+    </contributor>
+    <contributor>
+      <name>Mike Dillon</name>
+    </contributor>
+    <contributor>
+      <name>Bernhard Huber</name>
+    </contributor>
+    <contributor>
+      <name>Marc DeXeT</name>
+    </contributor>
+    <contributor>
+      <name>Dejan Bosanac</name>
+      <email>dejan@nighttale.net</email>
+    </contributor>
+    <contributor>
+      <name>Denver Dino</name>
+    </contributor>
+    <contributor>
+      <name>Ted Naleid</name>
+    </contributor>
+    <contributor>
+      <name>Chanwit Kaewkasi</name>
+    </contributor>
+    <contributor>
+      <name>Brad Long</name>
+    </contributor>
+    <contributor>
+      <name>John Bito</name>
+    </contributor>
+    <contributor>
+      <name>Jim Jagielski</name>
+    </contributor>
+    <contributor>
+      <name>John Hurst</name>
+    </contributor>
+    <contributor>
+      <name>Merlyn Albery-Speyer</name>
+    </contributor>
+    <contributor>
+      <name>jeremi Joslin</name>
+    </contributor>
+    <contributor>
+      <name>UEHARA Junji</name>
+    </contributor>
+    <contributor>
+      <name>NAKANO Yasuharu</name>
+    </contributor>
+    <contributor>
+      <name>Dinko Srkoc</name>
+    </contributor>
+    <contributor>
+      <name>Raffaele Cigni</name>
+    </contributor>
+    <contributor>
+      <name>Alberto Vilches Raton</name>
+    </contributor>
+    <contributor>
+      <name>Paulo Poiati</name>
+    </contributor>
+    <contributor>
+      <name>Alexander Klein</name>
+    </contributor>
+    <contributor>
+      <name>Adam Murdoch</name>
+    </contributor>
+    <contributor>
+      <name>David Durham</name>
+    </contributor>
+    <contributor>
+      <name>Daniel Henrique Alves Lima</name>
+    </contributor>
+    <contributor>
+      <name>John Wagenleitner</name>
+    </contributor>
+    <contributor>
+      <name>Colin Harrington</name>
+    </contributor>
+    <contributor>
+      <name>Brian Alexander</name>
+    </contributor>
+    <contributor>
+      <name>Jan Weitz</name>
+    </contributor>
+    <contributor>
+      <name>Joachim Baumann</name>
+    </contributor>
+    <contributor>
+      <name>David Sutherland</name>
+    </contributor>
+    <contributor>
+      <name>Mattias Reichel</name>
+    </contributor>
+    <contributor>
+      <name>David Lee</name>
+    </contributor>
+  </contributors>
+  
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.ant</groupId>
+      <artifactId>ant-antlr</artifactId>
+      <version>1.9.3</version>
+      <scope>runtime</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.ant</groupId>
+      <artifactId>ant</artifactId>
+      <version>1.9.3</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.ant</groupId>
+      <artifactId>ant-launcher</artifactId>
+      <version>1.9.3</version>
+      <scope>runtime</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.ant</groupId>
+      <artifactId>ant-junit</artifactId>
+      <version>1.9.3</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>junit</artifactId>
+          <groupId>junit</groupId>
+        </exclusion>
+      </exclusions>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.1.1</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>bsf</groupId>
+      <artifactId>bsf</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>commons-logging</artifactId>
+          <groupId>commons-logging</groupId>
+        </exclusion>
+      </exclusions>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.thoughtworks.qdox</groupId>
+      <artifactId>qdox</artifactId>
+      <version>1.12.1</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>jline</groupId>
+      <artifactId>jline</artifactId>
+      <version>2.11</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>junit</artifactId>
+          <groupId>junit</groupId>
+        </exclusion>
+      </exclusions>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jsp-api</artifactId>
+      <version>2.0</version>
+      <scope>provided</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.4</version>
+      <scope>provided</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.beust</groupId>
+      <artifactId>jcommander</artifactId>
+      <version>1.35</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.8.8</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>jcommander</artifactId>
+          <groupId>com.beust</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>bsh</artifactId>
+          <groupId>org.beanshell</groupId>
+        </exclusion>
+      </exclusions>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.ant</groupId>
+      <artifactId>ant</artifactId>
+      <version>1.9.3</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.thoughtworks.xstream</groupId>
+      <artifactId>xstream</artifactId>
+      <version>1.4.7</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>jmock</artifactId>
+          <groupId>jmock</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>junit</artifactId>
+          <groupId>junit</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>xpp3_min</artifactId>
+          <groupId>xpp3</groupId>
+        </exclusion>
+      </exclusions>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.gpars</groupId>
+      <artifactId>gpars</artifactId>
+      <version>1.2.1</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>groovy-all</artifactId>
+          <groupId>org.codehaus.groovy</groupId>
+        </exclusion>
+      </exclusions>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.ivy</groupId>
+      <artifactId>ivy</artifactId>
+      <version>2.3.0</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.fusesource.jansi</groupId>
+      <artifactId>jansi</artifactId>
+      <version>1.11</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+</project>

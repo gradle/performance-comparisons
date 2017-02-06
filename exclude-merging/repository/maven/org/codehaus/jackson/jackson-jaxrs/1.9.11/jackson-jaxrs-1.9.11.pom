@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+
+ <!-- General information -->
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.codehaus.jackson</groupId>
+  <artifactId>jackson-jaxrs</artifactId>
+  <packaging>jar</packaging>
+  <name>JAX-RS provider for JSON content type</name>
+  <version>1.9.11</version>
+  
+
+ <!-- Contact information -->
+
+  
+  <issueManagement>
+    
+  </issueManagement>
+
+ <!-- Dependency information -->
+ 
+  <dependencies>
+    <!-- need the core Jackson core and mapper jars
+      -->
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-core-asl</artifactId>
+      <version>1.9.11</version>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-mapper-asl</artifactId>
+      <version>1.9.11</version>
+    </dependency>
+  </dependencies>
+
+  <!-- Licensing: ASL or GPL -->
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      
+      <distribution>repo</distribution>
+    </license>
+    <license>
+      <name>GNU Lesser General Public License (LGPL), Version 2.1</name>
+      
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <organization>
+    <name>FasterXML</name>
+    
+  </organization>
+
+</project>

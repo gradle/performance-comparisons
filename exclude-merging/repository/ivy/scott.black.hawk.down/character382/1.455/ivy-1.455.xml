@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra" xmlns:n="http://dummycorp.com">
+  <info organisation="scott.black.hawk.down" module="character382" revision="1.455" status="candidate" publication="20151014152926"></info>
+  <configurations>
+    <conf name="compile" visibility="public"/>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="dependencyReport" visibility="public"/>
+    <conf name="javadoc" visibility="public"/>
+    <conf name="master" visibility="public"/>
+    <conf name="resources" visibility="public"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf name="sources" visibility="public"/>
+    <conf name="system" visibility="public"/>
+    <conf name="test" visibility="public" extends="runtime"/>
+    <conf name="webapp" visibility="public"/>
+    <conf name="webresource" visibility="public"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character382" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character382" type="sources" ext="jar" conf="sources" e:classifier="sources"/>
+    <artifact name="character382" type="javadoc" ext="jar" conf="javadoc" e:classifier="javadoc"/>
+    <artifact name="character382" type="txt" ext="txt" conf="dependencyReport" e:classifier="dependencyreport"/>
+  </publications>
+  <dependencies defaultconfmapping="%-&gt;default">
+    <dependency org="com.google.code.findbugs" name="annotations" rev="3.0.0" conf="runtime-&gt;default"/>
+    <dependency org="com.google.guava" name="guava" rev="18.0" conf="runtime-&gt;default" revConstraint="16.0.1"/>
+    <dependency org="commons-collections" name="commons-collections" rev="3.2.1" conf="runtime-&gt;default"/>
+    <dependency org="commons-lang" name="commons-lang" rev="2.6" conf="runtime-&gt;default"/>
+    <dependency org="commons-io" name="commons-io" rev="2.4" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character200" rev="2.1531.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.slf4j" name="slf4j-api" rev="1.7.12" conf="runtime-&gt;default" revConstraint="1.7.0"/>
+    <dependency org="scott.black.hawk.down" name="character237" rev="1.227" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character160" rev="1.206.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+  </dependencies>
+</ivy-module>

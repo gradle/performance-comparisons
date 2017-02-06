@@ -1,0 +1,18 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.google.code.findbugs</groupId>
+	<artifactId>annotations</artifactId>
+	<version>2.0.1</version>
+	<packaging>jar</packaging>
+	
+	<name>FindBugs-Annotations</name>
+	
+	<licenses>
+		<license>
+			<name>GNU Lesser Public License</name>
+			
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	
+</project>

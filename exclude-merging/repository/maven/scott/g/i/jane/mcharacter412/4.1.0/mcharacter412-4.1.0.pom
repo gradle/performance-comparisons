@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>scott.g.i.jane</groupId>
+  <artifactId>mcharacter412</artifactId>
+  <version>4.1.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>scott.g.i.jane</groupId>
+      <artifactId>senlilliandehaven</artifactId>
+      <version>4.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>scott.g.i.jane</groupId>
+      <artifactId>nebula-bintray-plugin</artifactId>
+      <version>3.4.1</version>
+      <scope>runtime</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.jfrog.bintray.gradle</groupId>
+      <artifactId>gradle-bintray-plugin</artifactId>
+      <version>1.7.1</version>
+      <scope>runtime</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.ajoberstar</groupId>
+      <artifactId>gradle-git</artifactId>
+      <version>1.4.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>mcharacter412</name>
+  
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  
+  
+  
+</project>

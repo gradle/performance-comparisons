@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.bouncycastle</groupId>
+  <artifactId>bcmail-jdk16</artifactId>
+  <packaging>jar</packaging>
+  <name>Bouncy Castle CMS and S/MIME API</name>
+  <version>1.46</version>
+  
+  
+  <licenses>
+    <license>
+      <name>Bouncy Castle Licence</name>
+      
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  <dependencies>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcprov-jdk16</artifactId>
+      <version>1.46</version>
+      <type>jar</type>
+    </dependency>
+  </dependencies>
+</project>

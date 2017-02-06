@@ -1,0 +1,23 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>backport-util-concurrent</groupId>
+    <artifactId>backport-util-concurrent</artifactId>
+    <version>3.0</version>
+    <packaging>jar</packaging>
+    <name>Backport of JSR 166</name>
+    
+    
+    <licenses>
+        <license>
+            <name>Public Domain</name>
+            
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    
+    <organization>
+        <name>Dawid Kurzyniec</name>
+        
+    </organization>
+    <dependencies/>
+</project>

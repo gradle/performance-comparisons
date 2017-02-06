@@ -1,0 +1,112 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.google.code.findbugs</groupId>
+	<artifactId>annotations</artifactId>
+	<version>3.0.0</version>
+	<packaging>jar</packaging>
+	
+	<name>FindBugs-Annotations</name>
+	
+	<licenses>
+		<license>
+			<name>GNU Lesser Public License</name>
+			
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	
+
+	
+	<contributors>
+		<contributor>
+			<name>Garvin LeClaire</name>
+			<email>garvin.leclaire@gmail.com</email>
+			
+			<roles>
+				<role>Maven</role>
+			</roles>
+			<timezone>-5</timezone>
+		</contributor>
+		<contributor>
+			<name>David H. Hovemeyer</name>
+			<email>dhovemey@ycp.edu</email>
+			
+			<roles>
+				<role>project founder</role>
+			</roles>
+			<timezone>-5</timezone>
+		</contributor>
+		<contributor>
+			<name>Nay Ayewah</name>
+			<email></email>
+			
+			<roles>
+				<role></role>
+			</roles>
+			<timezone>-5</timezone>
+		</contributor>
+		<contributor>
+			<name>Ben Langmead</name>
+			<email></email>
+			
+			<roles>
+				<role></role>
+			</roles>
+			<timezone>-5</timezone>
+		</contributor>
+		<contributor>
+			<name>Tomas Pollak</name>
+			<email></email>
+			
+			<roles>
+				<role>Eclipse plugin tests</role>
+			</roles>
+			<timezone>-5</timezone>
+		</contributor>
+		<contributor>
+			<name>Phil Crosby</name>
+			<email></email>
+			
+			<roles>
+				<role></role>
+			</roles>
+			<timezone>-5</timezone>
+		</contributor>
+		<contributor>
+			<name>Peter Friese</name>
+			<email></email>
+			
+			<roles>
+				<role>Eclipse plugin</role>
+			</roles>
+			<timezone>-5</timezone>
+		</contributor>
+		<contributor>
+			<name>Dave Brosius</name>
+			<email></email>
+			
+			<roles>
+				<role></role>
+			</roles>
+			<timezone>-5</timezone>
+		</contributor>
+		<contributor>
+			<name>Brian Goetz</name>
+			<email></email>
+			
+			<roles>
+				<role></role>
+			</roles>
+			<timezone>-5</timezone>
+		</contributor>
+		<contributor>
+			<name>Rohan Lloyd</name>
+			<email></email>
+			
+			<roles>
+				<role></role>
+			</roles>
+			<timezone>-5</timezone>
+		</contributor>
+	</contributors>
+</project>

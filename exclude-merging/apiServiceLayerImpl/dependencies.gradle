@@ -1,0 +1,12 @@
+dependencies {
+    compileOnly group:"javax.servlet", name:"javax.servlet-api", version:"latest.${dependencyReleaseStatus}"
+    compileOnly group:"org.codehaus.groovy", name:"groovy-all", version:"latest.${dependencyReleaseStatus}"
+
+    compile group: 'io.reactivex', name: 'rxjava',             version:"latest.${dependencyReleaseStatus}"
+    compile group: 'io.reactivex', name: 'rxgroovy',           version:"latest.${dependencyReleaseStatus}"
+    compile group: 'io.reactivex', name: 'rxclojure',          version:"latest.${dependencyReleaseStatus}"
+    compile group: 'io.reactivex', name: 'rxjava-math',        version:"latest.${dependencyReleaseStatus}"
+
+    compile group: 'junit',        name: 'junit',               version:"latest.${dependencyReleaseStatus}"
+    compile group: 'org.hamcrest', name: 'hamcrest-library',    version:"latest.${dependencyReleaseStatus}"
+}

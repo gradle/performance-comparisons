@@ -1,0 +1,9 @@
+dependencies {
+    compileOnly group:"org.codehaus.groovy", name:"groovy-all", version:"latest.${dependencyReleaseStatus}"
+
+    compile group: 'io.reactivex', name: 'rxjava', version:"latest.${dependencyReleaseStatus}"
+    compile group: 'io.reactivex', name: 'rxgroovy', version:"latest.${dependencyReleaseStatus}"
+    compile group: 'io.reactivex', name: 'rxjava-math', version:"latest.${dependencyReleaseStatus}"
+    compile "junit:junit:latest.release"
+}
+

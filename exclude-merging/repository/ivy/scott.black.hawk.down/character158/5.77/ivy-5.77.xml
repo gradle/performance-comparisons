@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module xmlns:e="http://ant.apache.org/ivy/extra" xmlns:n="http://dummycorp.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd" version="2.0">
+  <info organisation="scott.black.hawk.down" module="character158" revision="5.77" status="release" publication="20140827164827"></info>
+  <configurations>
+    <conf visibility="public" extends="runtime,master" description="runtime dependencies and master artifact can be used with this conf" name="default"/>
+    <conf visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies" name="master"/>
+    <conf visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths." name="compile"/>
+    <conf visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive." name="provided"/>
+    <conf visibility="public" extends="compile" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." name="runtime"/>
+    <conf visibility="private" extends="runtime" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." name="test"/>
+    <conf visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository." name="system"/>
+    <conf visibility="public" description="this configuration contains the source artifact of this module, if any." name="sources"/>
+    <conf visibility="public" description="this configuration contains the javadoc artifact of this module, if any." name="javadoc"/>
+    <conf visibility="public" description="contains all optional dependencies" name="optional"/>
+    <conf visibility="public" description="web application wars not normally depended upon." name="webapp"/>
+    <conf visibility="public" description="web application resource bundle zips." name="webresource"/>
+    <conf visibility="public" description="resource bundle zips." name="resources"/>
+    <conf visibility="private" extends="test,provided" description="local configuration" name="local"/>
+  </configurations>
+  <publications defaultconf="master">
+    <artifact name="character158" type="jar" ext="jar"/>
+    <artifact name="character158" conf="javadoc" type="javadoc" ext="zip"/>
+  </publications>
+  <dependencies defaultconfmapping="compile->default;runtime->default;test->default;provided->default">
+    <dependency org="scott.black.hawk.down" name="character200" revConstraint="latest.release" conf="compile->default" rev="2.738.3"/>
+    <dependency org="com.google.guava" name="guava" conf="compile->default" rev="14.0.1"/>
+    <dependency org="com.google.inject" name="guice" conf="compile->default" rev="3.0"/>
+    <dependency org="com.google.inject.extensions" name="guice-multibindings" conf="compile->default" rev="3.0"/>
+    <dependency org="com.google.inject.extensions" name="guice-servlet" conf="compile->default" rev="3.0"/>
+    <dependency org="javax.inject" name="javax.inject" revConstraint="latest.release" conf="compile->default" rev="1"/>
+    <override rev="2.738.3" module="character200" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="character214" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="character205" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="character14" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="character231" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="cryptexclient" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="crypto-common" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="character338" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="character39" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="character20" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="character387" org="scott.black.hawk.down"/>
+    <override rev="2.401" module="character318" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="character15" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="character203" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="character371" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="character208" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="character0" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="character385" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="character279" org="scott.black.hawk.down"/>
+    <override rev="2.738.3" module="character25" org="scott.black.hawk.down"/>
+    <override module="guava" rev="14.0.1" org="com.google.guava"/>
+    <override module="guice" rev="3.0" org="com.google.inject"/>
+    <override module="guice-multibindings" rev="3.0" org="com.google.inject.extensions"/>
+    <override module="guice-servlet" rev="3.0" org="com.google.inject.extensions"/>
+    <override module="javax.inject" rev="1" org="javax.inject"/>
+  </dependencies>
+</ivy-module>

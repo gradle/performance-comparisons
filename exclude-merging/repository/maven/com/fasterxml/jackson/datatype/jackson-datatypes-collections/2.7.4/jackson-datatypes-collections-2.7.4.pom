@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion> 
+  <parent>
+    <groupId>com.fasterxml.jackson</groupId>
+    <artifactId>jackson-parent</artifactId>
+    <version>2.7</version>
+  </parent>
+  <groupId>com.fasterxml.jackson.datatype</groupId>
+  <artifactId>jackson-datatypes-collections</artifactId>
+  <name>Jackson datatypes: collections</name>
+  <version>2.7.4</version>
+  <packaging>pom</packaging>
+  
+
+  <modules>
+    <module>guava</module>
+    <module>hppc</module>
+    <module>pcollections</module>
+  </modules>
+
+  
+  
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <version.jackson.core>2.7.4</version.jackson.core>
+
+    <!-- 23-Feb-2016, tatu: Try to keep JDK6 runtime for 2.7 at least -->
+    <javac.src.version>1.6</javac.src.version>
+    <javac.target.version>1.6</javac.target.version>
+
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+	<groupId>com.fasterxml.jackson.core</groupId>
+	<artifactId>jackson-core</artifactId>
+	<version>${version.jackson.core}</version>
+      </dependency>
+      <dependency>
+	<groupId>com.fasterxml.jackson.core</groupId>
+	<artifactId>jackson-databind</artifactId>
+	<version>${version.jackson.core}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+</project>

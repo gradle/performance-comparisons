@@ -1,0 +1,81 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.apache</groupId>
+        <artifactId>apache</artifactId>
+        <version>10</version>
+    </parent>
+    <groupId>org.apache.struts</groupId>
+    <artifactId>struts-master</artifactId>
+    <version>9</version>
+    <packaging>pom</packaging>
+    <name>Apache Struts</name>
+
+    
+
+    
+    
+    <inceptionYear>2000</inceptionYear>
+
+    <mailingLists>
+        <mailingList>
+            <name>Struts User List</name>
+            <subscribe>user-subscribe@struts.apache.org</subscribe>
+            <unsubscribe>user-unsubscribe@struts.apache.org</unsubscribe>
+            <post>user@struts.apache.org</post>
+            <archive>http://mail-archives.apache.org/mod_mbox/struts-user/</archive>
+            <otherArchives>
+                <otherArchive>http://struts.apache.org/mail.html#Archives</otherArchive>
+            </otherArchives>
+        </mailingList>
+        <mailingList>
+            <name>Struts Developer List</name>
+            <subscribe>dev-subscribe@struts.apache.org</subscribe>
+            <unsubscribe>dev-unsubscribe@struts.apache.org</unsubscribe>
+            <post>dev@struts.apache.org</post>
+            <archive>http://mail-archives.apache.org/mod_mbox/struts-dev/</archive>
+            <otherArchives>
+                <otherArchive>http://struts.apache.org/dev/dev-mail.html#Archives</otherArchive>
+            </otherArchives>
+        </mailingList>
+        <mailingList>
+            <name>Struts Commits List</name>
+            <subscribe>commits-subscribe@struts.apache.org</subscribe>
+            <unsubscribe>commits-unsubscribe@struts.apache.org</unsubscribe>
+            <archive>http://mail-archives.apache.org/mod_mbox/struts-commits/</archive>
+            <otherArchives>
+                <otherArchive>http://struts.apache.org/dev/dev-mail.html#Archives</otherArchive>
+            </otherArchives>
+        </mailingList>
+        <mailingList>
+            <name>Struts Issues List</name>
+            <subscribe>issues-subscribe@struts.apache.org</subscribe>
+            <unsubscribe>issues-unsubscribe@struts.apache.org</unsubscribe>
+            <archive>http://mail-archives.apache.org/mod_mbox/struts-issues/</archive>
+            <otherArchives>
+                <otherArchive>http://struts.apache.org/dev/dev-mail.html#Archives</otherArchive>
+            </otherArchives>
+        </mailingList>
+    </mailingLists>
+
+    
+    <distributionManagement>
+        <site>
+            <id>apache-site</id>
+            <name>Apache Struts Website</name>
+            
+        </site>
+    </distributionManagement>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.2.1</version>
+                <configuration>
+                    <releaseProfiles>release</releaseProfiles>
+                    <goals>deploy</goals>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

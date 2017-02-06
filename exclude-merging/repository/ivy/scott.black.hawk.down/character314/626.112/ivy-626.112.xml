@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="scott.black.hawk.down" module="character314" revision="626.112" status="candidate" publication="20160901012421"></info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" extends="runtime" name="test"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character314" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character314" type="sources" ext="jar" conf="sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+    <artifact name="character314" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies>
+    <dependency org="scott.black.hawk.down" name="character13" rev="626.112" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character190" rev="626.112" conf="runtime-&gt;default"/>
+    <dependency org="commons-httpclient" name="commons-httpclient" rev="3.1" conf="runtime-&gt;default"/>
+    <dependency org="commons-lang" name="commons-lang" rev="2.6" conf="runtime-&gt;default"/>
+    <dependency org="commons-logging" name="commons-logging" rev="1.2" conf="runtime-&gt;default"/>
+    <dependency org="com.google.guava" name="guava" rev="19.0" conf="runtime-&gt;default"/>
+    <dependency org="log4j" name="log4j" rev="1.2.17" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character103" rev="733676" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character338" rev="3.2.2" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character200" rev="3.2.2" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character31" rev="1.197.0" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character160" rev="1.218.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character382" rev="1.455" conf="runtime-&gt;default">
+      <exclude org="scott.black.hawk.down" module="character13"/>
+    </dependency>
+  </dependencies>
+</ivy-module>

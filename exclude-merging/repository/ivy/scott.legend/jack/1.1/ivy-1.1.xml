@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="scott.legend" module="jack" revision="1.1" status="release" publication="20160620210652"></info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" extends="runtime" name="test"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="jack" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="jack" type="sources" ext="jar" conf="sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+    <artifact name="jack" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies>
+    <dependency org="javax.inject" name="javax.inject" rev="1" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="javax.servlet" name="javax.servlet-api" rev="3.0.1" conf="runtime-&gt;default"/>
+    <dependency org="tarantino.jackie.brown" name="melanie" rev="2.0.6" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="io.swagger" name="swagger-jaxrs" rev="1.5.9" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.webjars" name="swagger-ui" rev="2.1.4" conf="runtime-&gt;default"/>
+  </dependencies>
+</ivy-module>

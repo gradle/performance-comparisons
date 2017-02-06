@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="scott.black.hawk.down" module="character171" revision="1.17" status="release" publication="20160727174320"></info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" extends="runtime" name="test"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character171" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character171" type="sources" ext="jar" conf="sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies>
+    <dependency org="scott.black.hawk.down" name="character200" rev="3.1.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="tarantino.boulevard.de.la.mort" name="stuntmanmike" rev="0.12.8" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="johnmaddox" rev="1.652.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character287" rev="2.1.693" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character24" rev="2.1.694" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character160" rev="1.218.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character92" rev="2.97.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character50" rev="1.38.4" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="johngrimes" rev="1.54.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character81" rev="2.43" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character292" rev="1.14" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.testng" name="testng" rev="6.9.11" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.slf4j" name="slf4j-api" rev="1.7.21" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.21" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.apache.logging.log4j" name="log4j" rev="2.5" conf="runtime-&gt;default" revConstraint="latest.release"/>
+  </dependencies>
+</ivy-module>

@@ -1,0 +1,6 @@
+resolveDependencies {
+   tasks = ["resolveDependencies"]
+}
+assemble {
+   tasks = ["assemble"]
+}

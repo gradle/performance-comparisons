@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="scott.black.hawk.down" module="character34" revision="58.39" status="candidate" publication="20160902221200"></info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" extends="runtime" name="test"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character34" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character34" type="sources" ext="jar" conf="sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+    <artifact name="character34" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies>
+    <dependency org="scott.black.hawk.down" name="character360" rev="1.444.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character304" rev="1.171.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character401" rev="1.241.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character259" rev="57.358" conf="runtime-&gt;default" revConstraint="latest.candidate"/>
+    <dependency org="scott.black.hawk.down" name="character96" rev="57.102" conf="runtime-&gt;default" revConstraint="latest.candidate"/>
+    <dependency org="scott.black.hawk.down" name="character400" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="johngrimes" rev="1.55.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character68" rev="1.6" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="jeffstruecker" rev="1.258.0" conf="runtime-&gt;default" revConstraint="latest.candidate"/>
+    <dependency org="scott.black.hawk.down" name="character159" rev="19.61" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character234" rev="1.271.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character341" rev="1.69" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character156" rev="1.07" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character339" rev="1.224.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character45" rev="600.7" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character372" rev="3.48.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character311" rev="51.515.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character332" rev="120.56" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character108" rev="1.1452.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character9" rev="1.58.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="johnmaddox" rev="1.695.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character73" rev="1.342" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character338" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character200" rev="3.2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character126" rev="1.359.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character380" rev="1.273" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character306" rev="1.116.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character187" rev="1.51" conf="runtime-&gt;default" revConstraint="latest.candidate"/>
+    <dependency org="scott.black.hawk.down" name="character4" rev="1.59" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="com.ibm.icu" name="icu4j" rev="54.1.1" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.apache.struts" name="struts2-core" rev="2.3.24" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.apache.struts" name="struts2-spring-plugin" rev="2.3.20" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.codehaus.jackson" name="jackson-mapper-asl" rev="1.9.13" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character365" rev="1.30" conf="runtime-&gt;default" revConstraint="latest.release"/>
+  </dependencies>
+</ivy-module>

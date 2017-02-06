@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <prerequisites>
+    <maven>3.0.0</maven>
+  </prerequisites>
+
+  <groupId>com.jcraft</groupId>
+  <artifactId>jsch.agentproxy</artifactId>
+  <version>0.0.7</version>
+  <packaging>pom</packaging>
+  <name>jsch-agent-proxy: a parent of modules</name>
+
+  
+
+  <organization>
+    <name>JCraft,Inc.</name>
+    
+  </organization>
+
+  
+
+  <modules>
+    <module>jsch-agent-proxy-core</module>
+    <module>jsch-agent-proxy-connector-factory</module>
+    <module>jsch-agent-proxy-jsch</module>
+    <module>jsch-agent-proxy-sshj</module>
+    <module>jsch-agent-proxy-pageant</module>
+    <module>jsch-agent-proxy-sshagent</module>
+    <module>jsch-agent-proxy-usocket-jna</module>
+<!--
+    <module>jsch-agent-proxy-usocket-junixsocket</module>
+-->
+    <module>jsch-agent-proxy-usocket-nc</module>
+    <module>jsch-agent-proxy-svnkit-trilead-ssh2</module>
+  </modules>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <jsch.version>0.1.49</jsch.version>
+    <jna.version>3.4.0</jna.version>
+    <trilead.version>1.0.0-build217</trilead.version>
+  </properties>
+
+  
+
+  <licenses>
+    <license>
+      <name>Revised BSD</name>
+      
+    </license>
+  </licenses>
+
+  
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
+        <configuration>
+          <source>1.5</source>
+          <target>1.5</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-javadocs</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-gpg-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>sign-artifacts</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>sign</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>maven-bundle-plugin</artifactId>
+        <version>2.3.7</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+         <artifactId>wagon-ssh-external</artifactId>
+         <version>1.0-alpha-5</version>
+      </extension>
+    </extensions>
+  </build>
+
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>6</version>
+  </parent>
+</project>

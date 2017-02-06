@@ -1,0 +1,38 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>stax</groupId>
+  <artifactId>stax-api</artifactId>
+  <name>StAX API</name>
+  <version>1.0.1</version>
+  
+  
+  <issueManagement>
+    
+  </issueManagement>
+  <ciManagement>
+    <notifiers>
+      <notifier>
+        <configuration>
+          <address>dev@stax.codehaus.org</address>
+        </configuration>
+      </notifier>
+    </notifiers>
+  </ciManagement>
+  <inceptionYear>2005</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <mailingLists>
+    <mailingList>
+      <name>StAX Builders List</name>
+      <subscribe>stax_builders-subscribe@yahoogroups.com</subscribe>
+      <unsubscribe>stax_builders-unsubscribe@yahoogroups.com</unsubscribe>
+      <archive>http://groups.yahoo.com/group/stax_builders/</archive>
+    </mailingList>
+  </mailingLists>
+  
+</project>

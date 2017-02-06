@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra" xmlns:n="http://dummycorp.com">
+  <info organisation="scott.black.hawk.down" module="character122" revision="1.286.0" status="release" publication="20151019201118"></info>
+  <configurations>
+    <conf name="compile" visibility="public"/>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="dependencyReport" visibility="public"/>
+    <conf name="master" visibility="public"/>
+    <conf name="resources" visibility="public"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf name="sources" visibility="public"/>
+    <conf name="system" visibility="public"/>
+    <conf name="test" visibility="public" extends="runtime"/>
+    <conf name="webapp" visibility="public"/>
+    <conf name="webresource" visibility="public"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character122" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character122" type="sources" ext="jar" conf="sources" e:classifier="sources"/>
+    <artifact name="character122" type="txt" ext="txt" conf="dependencyReport" e:classifier="dependencyreport"/>
+  </publications>
+  <dependencies defaultconfmapping="%-&gt;default">
+    <dependency org="rome" name="rome" rev="1.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="jaxen" name="jaxen" rev="1.1.6" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.slf4j" name="slf4j-simple" rev="1.7.12" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="oro" name="oro" rev="2.0.8" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="net.sf.json-lib" name="json-lib" rev="2.3" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="jdom" name="jdom" rev="1.0" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="commons-collections" name="commons-collections" rev="3.2.1" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="commons-configuration" name="commons-configuration" rev="1.10" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="commons-io" name="commons-io" rev="2.4" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="commons-lang" name="commons-lang" rev="2.6" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="com.sun.jersey.contribs" name="jersey-apache-client" rev="1.19" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="com.sun.jersey" name="jersey-client" rev="1.19" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.codehaus.jackson" name="jackson-mapper-asl" rev="1.9.13" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.codehaus.jackson" name="jackson-core-asl" rev="1.9.13" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.reflections" name="reflections" rev="0.9.10" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.slf4j" name="slf4j-api" rev="1.7.12" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="org.testng" name="testng" rev="6.8.21" conf="runtime-&gt;default" revConstraint="latest.release"/>
+  </dependencies>
+</ivy-module>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="scott.black.hawk.down" module="character402" revision="1.486.0" status="release" publication="20160902014018"></info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime,master"/>
+    <conf name="runtime" visibility="public" extends="compile"/>
+    <conf visibility="public" name="compile"/>
+    <conf visibility="public" name="javadoc"/>
+    <conf visibility="public" name="master"/>
+    <conf visibility="public" name="sources"/>
+    <conf visibility="public" extends="runtime" name="test"/>
+    <conf name="optional" visibility="public"/>
+    <conf name="provided" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="character402" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="character402" type="sources" ext="jar" conf="sources" m:classifier="sources" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies>
+    <dependency org="scott.black.hawk.down" name="character106" rev="1.486.0" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character384" rev="1.486.0" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character238" rev="1.486.0" conf="runtime-&gt;default"/>
+    <dependency org="com.google.inject" name="guice" rev="4.0" conf="runtime-&gt;default"/>
+    <dependency org="scott.black.hawk.down" name="character341" rev="1.69" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <dependency org="scott.black.hawk.down" name="character17" rev="1.31" conf="runtime-&gt;default" revConstraint="latest.release"/>
+  </dependencies>
+</ivy-module>

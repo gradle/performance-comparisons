@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<metadata>
+	<groupId>com.google.apis</groupId>
+	<artifactId>google-api-services-androidpublisher</artifactId>
+	<version>v2-rev25-1.21.0</version>
+	<versioning>
+		<release>v2-rev25-1.21.0</release>
+		<versions>
+ 			<version>v2-rev25-1.21.0</version>
+		</versions>
+		<lastUpdated>20160912145752</lastUpdated>
+	</versioning>
+</metadata>

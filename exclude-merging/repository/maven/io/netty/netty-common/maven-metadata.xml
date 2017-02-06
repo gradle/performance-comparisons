@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<metadata>
+	<groupId>io.netty</groupId>
+	<artifactId>netty-common</artifactId>
+	<version>4.1.5.Final</version>
+	<versioning>
+		<release>4.1.5.Final</release>
+		<versions>
+ 			<version>4.0.14.Final</version>
+			<version>4.0.28.Final</version>
+			<version>4.0.33.Final</version>
+			<version>4.1.0.Beta8</version>
+			<version>4.1.0.Final</version>
+			<version>4.1.5.Final</version>
+		</versions>
+		<lastUpdated>20160912145755</lastUpdated>
+	</versioning>
+</metadata>
