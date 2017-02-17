@@ -17,7 +17,7 @@ Follow the instructions required to install the [Gradle profiler](https://github
 ## Note about Maven performance scenarios
 
 You will notice that for Apache Maven, we run `clean compile` instead of compile. It may, at first glance, look like
-an unfair comparison, but it's not for a simple reason: both incremental builds and incremental compilation are broken
+an unfair comparison, but it's for an important reason: both incremental builds and incremental compilation are broken
 with Maven:
 
 - incremental builds only recompile the class files which timestamps have changed, missing the dependents of those classes.
@@ -25,6 +25,4 @@ This is a serious issue because it leads to bad class files and can lead to `NoS
 See [this class](https://github.com/apache/maven-shared/blob/trunk/maven-shared-incremental/src/main/java/org/apache/maven/shared/incremental/IncrementalBuildHelper.java)
 - incremental compilation is also broken in many ways. An example of serious bug can be [found here](https://issues.apache.org/jira/browse/MCOMPILER-209).
 
-It's also worth noting that we first made measurements with `compile` only (in fairness), but Gradle was always significantly faster,
-except for the "multi-project" case, which is totally broken in Maven (it doesn't recompile downstream dependencies).
 
