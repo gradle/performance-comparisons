@@ -9,6 +9,27 @@ buildscript {
     }
 }
 
+class MP implements ComponentMetadataSupplier {
+        Map<String, String> status = [:]
+         
+        void supply(ComponentMetadataSupplierDetails details) {
+            def id = details.id
+            if (status.isEmpty()) {
+                details.repositoryResourceAccessor.withResource("versions.txt") {
+                    it.withReader { reader ->
+                        reader.eachLine { line ->
+                            if (line) {
+                               def (module, st) = line.split(';')
+                               status[module] = st
+                            }
+                        }
+                    }
+                }
+            }
+            details.result.status = status[id.toString()]
+            details.result.statusScheme = ['integration', 'milestone', 'candidate', 'release']
+        }
+}
 
 allprojects {
     apply plugin: 'java'
@@ -18,6 +39,10 @@ allprojects {
         def repositoryBase = project.hasProperty("useHttp") ? "http://localhost:8000" : "${rootProject.projectDir}/repository"
         ivy {
             url "$repositoryBase/ivy"
+            if (project.findProperty('useSupplier')) {
+               println "Using custom metadata supplier"
+               metadataSupplier(MP)
+            }
         }
         maven {
             url "$repositoryBase/maven"
@@ -29,9 +54,15 @@ allprojects {
 
     apply plugin: 'nebula.resolution-rules'
 
+    configurations {
+       simpletest
+    }
+
     dependencies {
         resolutionRules name: 'gradle-resolution-rules-0.28.0'
         resolutionRules name: 'resolution-rules-0.12.0'
+         
+        simpletest('scott.black.hawk.down:character330:latest.release') { transitive = false }
 
         components.all { ComponentMetadataDetails details ->
             details.statusScheme = ['snapshot', 'integration', 'candidate', 'release']
@@ -52,6 +83,12 @@ allprojects {
                 details.changing = true
             }
         }
+    }
+    
+    if (project.findProperty('refresh')) {
+        configurations.all {
+            resolutionStrategy.cacheDynamicVersionsFor 0, "seconds"
+        }    
     }
 }
 
@@ -76,6 +113,8 @@ allprojects {
     def aid = ['x', 'y', 'z', 'k', 't', 'u']
     // manage all exclusions in one place
     configurations.all {
+        if (it.name != 'simpletest') {
+    
         exclude group: 'javax.servlet', module: 'servlet'
         exclude group: 'javax.servlet', module: 'servlet-api'
         exclude group: 'weblogic', module: 'wlfullclient'
@@ -143,6 +182,8 @@ allprojects {
 
         i++
         exclude group: gid[i % gid.size()], module: aid[i % (aid.size())]
+        
+        }
     }
 }
 
@@ -221,10 +262,47 @@ project(':api-platform') {
 allprojects {
     task resolveDependencies {
         doLast {
-            ['compile', 'testCompile', 'runtime', 'testRuntime'].each {
+            def configs = project.findProperty('confs')?project.getProperty('confs').split(','):['compile', 'testCompile', 'runtime', 'testRuntime']
+            configs.each {
                 configurations."$it".files
             }
         }
     }
 }
 
+def hashing = gradle.class.classLoader.loadClass('com.google.common.hash.Hashing')
+
+task updateStatus {
+   ext.outputFile = file('repository/ivy/versions.txt')
+   ext.outputFileSignature = file('repository/ivy/versions.txt.sha1')
+   inputs.dir('repository/ivy')
+   outputs.file(ext.outputFile)
+   outputs.file(ext.outputFileSignature)
+   doLast {
+       if (ext.outputFile.exists()) { ext.outputFile.delete() }
+       ext.outputFile.withWriter { writer ->
+          file('repository/ivy').eachFile { groupFile ->
+                def group = groupFile.name
+                if (groupFile.directory) {
+                   groupFile.eachFile { moduleFile ->
+                       def module = moduleFile.name
+                       moduleFile.eachFile { versionFile ->
+                          def version = versionFile.name
+                          def versionIvy = new File(versionFile, "ivy-${version}.xml")
+                          if (versionIvy.exists()) {
+                             def p = versionIvy.text =~ /status="(.+?)"/
+                             if (p.find()) {
+                                writer.writeLine "$group:$module:$version;${p.group(1)}"
+                             }
+                          }
+                       }
+                   }
+                }
+          }
+       }
+       ext.outputFileSignature.withWriter { writer ->
+          def md = hashing.sha1()
+          writer << md.hashBytes(ext.outputFile.bytes).toString()
+       }
+   }
+}

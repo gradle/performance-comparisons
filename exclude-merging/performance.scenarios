@@ -1,6 +1,12 @@
 resolveDependencies {
    tasks = ["resolveDependencies"]
+   gradle-args = ["-Prefresh=true", "-PuseHttp=true"]
+}
+resolveDependenciesWithProvider {
+   tasks = ["resolveDependencies"]
+   gradle-args = ["-Prefresh=true", "-PuseHttp=true", "-PuseSupplier=true"]
 }
 assemble {
    tasks = ["assemble"]
+   gradle-args = ["-PuseHttp=true"]
 }
