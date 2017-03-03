@@ -10,18 +10,22 @@ buildscript {
 }
 
 class MP implements ComponentMetadataSupplier {
-        Map<String, String> status = [:]
-         
+        private final RepositoryResourceAccessor repositoryResourceAccessor
+
+        @javax.inject.Inject
+        public MP(RepositoryResourceAccessor accessor) {
+            this.repositoryResourceAccessor = accessor
+        }
+        
         void supply(ComponentMetadataSupplierDetails details) {
             def id = details.id
-            if (status.isEmpty()) {
-                details.repositoryResourceAccessor.withResource("versions.txt") {
-                    it.withReader { reader ->
-                        reader.eachLine { line ->
-                            if (line) {
-                               def (module, st) = line.split(';')
-                               status[module] = st
-                            }
+            def status = [:]
+            repositoryResourceAccessor.withResource("versions.txt") {
+                it.withReader { reader ->
+                    reader.eachLine { line ->
+                        if (line) {
+                           def (module, st) = line.split(';')
+                           status[module] = st
                         }
                     }
                 }
