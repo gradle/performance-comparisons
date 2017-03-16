@@ -17,7 +17,7 @@ class MP implements ComponentMetadataSupplier {
             this.repositoryResourceAccessor = accessor
         }
         
-        void supply(ComponentMetadataSupplierDetails details) {
+        void execute(ComponentMetadataSupplierDetails details) {
             def id = details.id
             def status = [:]
             repositoryResourceAccessor.withResource("versions.txt") {
