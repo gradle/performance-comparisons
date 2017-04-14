@@ -36,7 +36,7 @@
     <dependency org="org.xerial.snappy" name="snappy-java" rev="1.1.0-M3" conf="compile-&gt;default"/>
     <dependency org="org.slf4j" name="slf4j-api" rev="1.7.2" conf="compile-&gt;default"/>
     <dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.2" conf="compile-&gt;default">
-      <exclude org="org.hibernate" module="*" name="*" type="*" ext="*" conf="compile" matcher="exact"/>
+      <exclude org="org.hibernate" module="*" name="*" type="*" ext="*" conf="compile" matcher="regexp"/>
     </dependency>
     <dependency org="log4j" name="log4j" rev="1.2.17" conf="compile-&gt;default"/>
     <dependency org="commons-codec" name="commons-codec" rev="1.3" conf="compile-&gt;default"/>
@@ -44,16 +44,16 @@
     <dependency org="junit" name="junit" rev="4.12" conf="testCompile-&gt;default"/>
     <dependency org="org.hamcrest" name="hamcrest-library" rev="1.3" conf="testCompile-&gt;default"/>
     <dependency org="org.mockito" name="mockito-core" rev="1.8.5" conf="testCompile-&gt;default"/>
-    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="archives" matcher="exact"/>
-    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="compile" matcher="exact"/>
-    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="default" matcher="exact"/>
-    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="javadoc" matcher="exact"/>
-    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="master" matcher="exact"/>
-    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="provided" matcher="exact"/>
-    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="runtime" matcher="exact"/>
-    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="signatures" matcher="exact"/>
-    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="sources" matcher="exact"/>
-    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="testCompile" matcher="exact"/>
-    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="testRuntime" matcher="exact"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="archives" matcher="regexp"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="compile" matcher="regexp"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="default" matcher="regexp"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="javadoc" matcher="regexp"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="master" matcher="regexp"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="provided" matcher="regexp"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="runtime" matcher="regexp"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="signatures" matcher="regexp"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="sources" matcher="regexp"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="testCompile" matcher="regexp"/>
+    <exclude org="com.netflix.rxjava" module="rxjava-core" artifact="*" type="*" ext="*" conf="testRuntime" matcher="regexp"/>
   </dependencies>
 </ivy-module>
