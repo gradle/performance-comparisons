@@ -15,7 +15,7 @@ allprojects {
     apply plugin: 'nebula.resolution-rules'
 
     repositories {
-        def port = project.hasProperty('httpPort') ? project.findProperty('httpPort') : '8000'
+        def httpPort = project.hasProperty('httpPort') ? project.findProperty('httpPort') : '8000'
         def repositoryBase = project.hasProperty("useHttp") ? "http://localhost:${httpPort}" : "${rootProject.projectDir}/repository"
         ivy {
             url "$repositoryBase/ivy"
