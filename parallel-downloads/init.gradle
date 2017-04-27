@@ -1,5 +1,13 @@
+def mirror = new File('repository')
+
+if (!mirror.exists()) {
+   println "Mirror not found, using Maven Central"
+   gradle.allprojects {
+       it.setProperty('mavenRepoURL', 'https://repo1.maven.org/maven2')
+   }
+}
+
 gradle.buildFinished {
-     def mirror = rootProject.file('repository')
      if (!mirror.exists()) {
       // mirror Gradle cache as a Maven repository
       def cache = rootProject.file("${gradle.gradleUserHomeDir}/caches/modules-2/files-2.1")
