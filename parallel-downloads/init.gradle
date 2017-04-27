@@ -1,0 +1,24 @@
+gradle.buildFinished {
+     def mirror = rootProject.file('repository')
+     if (!mirror.exists()) {
+      // mirror Gradle cache as a Maven repository
+      def cache = rootProject.file("${gradle.gradleUserHomeDir}/caches/modules-2/files-2.1")
+      cache.eachFileRecurse { f ->
+         if (f.name.endsWith('.pom')) {
+             def parts = f.absolutePath.split(File.separator)
+             def (group, artifact, version) = [parts[-5], parts[-4], parts[-3]]
+             println "Mirroring $group $artifact $version"
+             def targetDir = rootProject.file("$mirror/${group.replace('.', File.separator)}/$artifact/$version")
+             targetDir.mkdirs()
+             new File(targetDir, f.name).bytes = f.bytes
+             def jarName = (f.name - '.pom') + '.jar'
+             def lookup = f.parentFile.parentFile
+             lookup.eachFileRecurse { maybeJar ->
+               if (maybeJar.name == jarName) {
+                  new File(targetDir, jarName).bytes = maybeJar.bytes
+               }
+             }
+         }
+      }
+   }
+}

@@ -1,0 +1,11 @@
+subprojects {
+    task resolveDependencies {
+        doLast {
+            def configs = project.findProperty('confs')?project.getProperty('confs').split(','):['compile', 'testCompile', 'runtime', 'testRuntime']
+            configs.each {
+                configurations."$it".files
+            }
+        }
+    }
+}
+

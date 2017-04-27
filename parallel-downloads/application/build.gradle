@@ -1,0 +1,25 @@
+buildscript {
+    ext { springBootVersion = '1.5.2.RELEASE' }
+    repositories { maven { url project.findProperty('mavenRepoURL') } }
+    dependencies { classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}") }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+
+jar {
+    baseName = 'gs-multi-module-application'
+    version = '0.0.1-SNAPSHOT'
+}
+sourceCompatibility = 1.8
+
+repositories { maven { url project.findProperty('mavenRepoURL') } }
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-actuator')
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile project(':library')
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+}
+
