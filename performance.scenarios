@@ -1,0 +1,31 @@
+cleanBuild {
+  tasks = ["clean", "build"]
+  maven {
+    targets = ["clean", "test", "package", "-T", "4"]
+  }
+}
+
+cleanBuildCached {
+  tasks = ["clean", "build"]
+  maven {
+    targets = ["clean", "test", "package", "-T", "4"]
+  }
+  gradle-args = ["--build-cache"]
+}
+
+incrementalCompile {
+  tasks = ["compileJava"]
+   maven {
+    targets = ["clean", "compile"]
+  }
+  apply-non-abi-change-to = "src/main/java/org/apache/commons/lang3/JavaVersion.java"
+}
+
+incrementalTest {
+  tasks = ["build"]
+  apply-non-abi-change-to = "src/main/java/org/apache/commons/lang3/JavaVersion.java"
+   maven {
+    targets = ["test"]
+  }
+}
+
