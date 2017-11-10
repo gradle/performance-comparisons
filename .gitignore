@@ -2,4 +2,4 @@ target
 build
 gradle-user-home
 .gradle
-
+.idea
