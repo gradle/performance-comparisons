@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.google.api-client</groupId>
+    <artifactId>google-api-client-parent</artifactId>
+    <version>1.22.0</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+  <artifactId>google-api-client-android</artifactId>
+  <name>Android Platform Extensions to the Google APIs Client Library for Java.</name>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <configuration>
+          <links>
+            <link>http://download.oracle.com/javase/1.5.0/docs/api/</link>
+          </links>
+          <doctitle>${project.name} ${project.version}</doctitle>
+          <windowtitle>${project.artifactId} ${project.version}</windowtitle>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-source-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>source-jar</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android</groupId>
+      <artifactId>android</artifactId>
+      <version>4.1.1.4</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.api-client</groupId>
+      <artifactId>google-api-client</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.google.http-client</groupId>
+      <artifactId>google-http-client-android</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.google-play-services</groupId>
+      <artifactId>google-play-services</artifactId>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>
