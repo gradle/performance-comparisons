@@ -22,7 +22,7 @@
       <exclude org="org.slf4j"/>
     </dependency>
     <dependency org="scott.black.hawk.down" name="caseyjoyce" rev="1.55.19" conf="runtime-&gt;default" revConstraint="latest.release"/>
-    <dependency org="scott.black.hawk.down" name="cryptexclient" rev="2.1099.1" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <!--<dependency org="scott.black.hawk.down" name="cryptexclient" rev="2.1099.1" conf="runtime-&gt;default" revConstraint="latest.release"/>-->
     <dependency org="org.slf4j" name="slf4j-api" rev="1.7.21" conf="runtime-&gt;default" revConstraint="latest.release"/>
   </dependencies>
 </ivy-module>

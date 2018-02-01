@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<!-- $Rev: 937361 $ $Date: 2010-04-23 12:46:16 -0400 (Fri, 23 Apr 2010) $ -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.apache.geronimo.genesis</groupId>
+        <artifactId>genesis-java5-flava</artifactId>
+        <version>2.0</version>
+    </parent>
+
+    <groupId>org.apache.geronimo.bundles</groupId>
+    <artifactId>bundles-parent</artifactId>
+    <packaging>pom</packaging>
+    <name>Geronimo Repackaged Bundles</name>
+    <version>1.0</version>
+
+    <description>
+        Provides OSGi bundle equivalents to open source components
+    </description>
+
+    <scm>
+        <connection>scm:svn:http://svn.apache.org/repos/asf/geronimo/bundles/tags/bundles-parent-1.0</connection>
+        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/geronimo/bundles/tags/bundles-parent-1.0</developerConnection>
+        <url>http://svn.apache.org/viewvc/geronimo/bundles/tags/bundles-parent-1.0</url>
+    </scm>
+
+    <url>http://geronimo.apache.org/maven/${siteId}/${version}</url>
+    <distributionManagement>
+        <site>
+            <id>apache-website</id>
+            <url>${site.deploy.url}/maven/${siteId}/${version}</url>
+        </site>
+    </distributionManagement>
+
+    <properties>
+        <siteId>bundles</siteId>
+        <projectName>Apache Geronimo Bundles</projectName>
+        <!--
+              |
+              | Geronimo OSGi properties
+              |
+              | Note: when modules can override these properties.
+              |
+              -->
+        <geronimo.osgi.import.pkg>*</geronimo.osgi.import.pkg>
+        <geronimo.osgi.export.pkg>*</geronimo.osgi.export.pkg>
+        <geronimo.osgi.private.pkg />
+        <geronimo.osgi.export>!META-INF*,${geronimo.osgi.export.pkg}*;version=${geronimo.osgi.export.version}</geronimo.osgi.export>
+        <geronimo.osgi.export.version>${project.version}</geronimo.osgi.export.version>
+        <geronimo.osgi.import>!META-INF*,${geronimo.osgi.import.pkg}</geronimo.osgi.import>
+        <geronimo.osgi.symbolic.name>${groupId}.${artifactId}</geronimo.osgi.symbolic.name>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-idea-plugin</artifactId>
+                <configuration>
+                    <jdkName>1.5</jdkName>
+                    <linkModules>true</linkModules>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <version>2.0.1</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <Implementation-Title>${project.name}</Implementation-Title>
+                        <Implementation-Version>${project.version}</Implementation-Version>
+                        <Bundle-DocURL>${project.url}</Bundle-DocURL>
+                    </instructions>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.1</version>
+                <configuration>
+                    <archive>
+                        <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
+                    </archive>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <configuration>
+                    <targetJdk>1.5</targetJdk>
+                </configuration>
+            </plugin>
+        </plugins>
+    </reporting>
+
+</project>

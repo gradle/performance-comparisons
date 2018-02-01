@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>bundles-pom</artifactId>
+    <groupId>org.apache.servicemix.bundles</groupId>
+    <version>4</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.apache.servicemix.bundles</groupId>
+  <artifactId>org.apache.servicemix.bundles.commons-csv</artifactId>
+  <packaging>bundle</packaging>
+  <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
+  <version>1.0-r706900_3</version>
+  <description>This bundle simply wraps ${pkgArtifactId}-${pkgVersion}.jar.</description>
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.commons-csv-1.0-r706900_3</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.commons-csv-1.0-r706900_3</developerConnection>
+    <url>http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.commons-csv-1.0-r706900_3</url>
+  </scm>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-shade-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <artifactSet>
+                <includes>
+                  <include>${pkgGroupId}:${pkgArtifactId}</include>
+                </includes>
+              </artifactSet>
+              <filters>
+                <filter>
+                  <artifact>${pkgGroupId}:${pkgArtifactId}</artifact>
+                  <excludes>
+                    <exclude>**</exclude>
+                  </excludes>
+                </filter>
+              </filters>
+              <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
+              <createDependencyReducedPom>true</createDependencyReducedPom>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  <repositories>
+    <repository>
+      <id>servicemix</id>
+      <name>Apache ServiceMix Repository</name>
+      <url>http://svn.apache.org/repos/asf/servicemix/m2-repo</url>
+    </repository>
+  </repositories>
+  <properties>
+    <pkgVersion>1.0-r706899</pkgVersion>
+    <servicemix.osgi.import.pkg>!org.apache.commons.csv*,
+            *</servicemix.osgi.import.pkg>
+    <servicemix.osgi.export.pkg>org.apache.commons.csv</servicemix.osgi.export.pkg>
+    <pkgArtifactId>commons-csv</pkgArtifactId>
+    <pkgGroupId>org.apache.commons</pkgGroupId>
+  </properties>
+</project>
+

@@ -43,7 +43,7 @@
     <dependency org="scott.black.hawk.down" name="character45" rev="600.13" conf="runtime-&gt;default" revConstraint="latest.release"/>
     <dependency org="scott.black.hawk.down" name="character330" rev="1.1464" conf="runtime-&gt;default" revConstraint="latest.release"/>
     <dependency org="scott.black.hawk.down" name="character316" rev="90.0.150" conf="runtime-&gt;default" revConstraint="latest.release"/>
-    <dependency org="scott.black.hawk.down" name="mp4tools" rev="90.0.154" conf="runtime-&gt;default" revConstraint="latest.release"/>
+    <!--<dependency org="scott.black.hawk.down" name="mp4tools" rev="90.0.154" conf="runtime-&gt;default" revConstraint="latest.release"/>-->
     <dependency org="scott.black.hawk.down" name="character50" rev="1.38.4" conf="runtime-&gt;default" revConstraint="latest.release"/>
     <dependency org="scott.black.hawk.down" name="character410" rev="24.25" conf="runtime-&gt;default" revConstraint="latest.release"/>
     <dependency org="com.jayway.jsonpath" name="json-path" rev="2.2.0" conf="runtime-&gt;default" revConstraint="latest.release"/>

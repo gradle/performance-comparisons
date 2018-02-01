@@ -20,6 +20,6 @@
   <dependencies>
     <dependency org="com.google.code.findbugs" name="annotations" rev="3.0.1" conf="runtime-&gt;default"/>
     <dependency org="abrams.star.trek" name="jamestkirk" rev="0.2.5" conf="runtime-&gt;default" revConstraint="latest.release"/>
-    <dependency org="scott.black.hawk.down" name="reloaded-commons" rev="90.0.56" conf="runtime-&gt;default" revConstraint="90.+"/>
+    <!--<dependency org="scott.black.hawk.down" name="reloaded-commons" rev="90.0.56" conf="runtime-&gt;default" revConstraint="90.+"/>-->
   </dependencies>
 </ivy-module>

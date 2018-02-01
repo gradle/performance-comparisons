@@ -18,7 +18,7 @@
     <artifact name="character174" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc" xmlns:m="http://ant.apache.org/ivy/maven"/>
   </publications>
   <dependencies>
-    <dependency org="scott.black.hawk.down" name="reloaded-commons" rev="90.0.62" conf="runtime-&gt;default" revConstraint="90.+"/>
+    <!--<dependency org="scott.black.hawk.down" name="reloaded-commons" rev="90.0.62" conf="runtime-&gt;default" revConstraint="90.+"/>-->
     <dependency org="com.google.code.findbugs" name="annotations" rev="3.0.1" conf="runtime-&gt;default"/>
   </dependencies>
 </ivy-module>
