@@ -35,10 +35,13 @@ class MP implements ComponentMetadataSupplier {
         }
 }
 
+boolean useExcludes = !project.hasProperty('noExcludes')
+
 allprojects {
     apply plugin: 'java'
-    apply plugin: 'nebula.resolution-rules'
-
+    if (useExcludes) {
+       apply plugin: 'nebula.resolution-rules'
+    }
     repositories {
         def httpPort = project.hasProperty('httpPort') ? project.findProperty('httpPort') : '8000'
         def repositoryBase = project.hasProperty("useHttp") ? "http://localhost:${httpPort}" : "${rootProject.projectDir}/repository"
@@ -57,16 +60,20 @@ allprojects {
         }
     }
 
-    apply plugin: 'nebula.resolution-rules'
-
+    if (useExcludes) {
+       apply plugin: 'nebula.resolution-rules'
+    }
+    
     configurations {
        simpletest
     }
 
     dependencies {
-        resolutionRules name: 'gradle-resolution-rules-0.28.0'
-        resolutionRules name: 'resolution-rules-0.12.0'
-         
+        if (useExcludes) {
+           resolutionRules name: 'gradle-resolution-rules-0.28.0'
+           resolutionRules name: 'resolution-rules-0.12.0'
+        }
+        
         simpletest('scott.black.hawk.down:character330:latest.release') { transitive = false }
 
         components.all { ComponentMetadataDetails details ->
@@ -99,10 +106,8 @@ allprojects {
 
 int i = 0
 
-boolean useExcludes = !project.hasProperty('noExcludes')
-
 if (!useExcludes) {
-   println "Not using excludes"
+   println "Not using excludes, nor dependency rules plugin"
 }
 
 allprojects {
