@@ -2,9 +2,10 @@ rootProject.name='apiserver'
 
 if ((startParameter.projectProperties.containsKey('improvedPomSupport') && startParameter.projectProperties['improvedPomSupport']=='true')) {
     try {
-        enableFaturePreview('IMPROVED_POM_SUPPORT')
+        enableFeaturePreview('IMPROVED_POM_SUPPORT')
     } catch (Exception e) {
         // Ignore - indicates version of Gradle before 4.6
+        e.printStackTrace()
     }
 }
 
