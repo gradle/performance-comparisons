@@ -1,0 +1,2 @@
+tarantino.boulevard.de.la.mort:stuntmanmike:0.8.1-SNAPSHOT;snapshot
+tarantino.boulevard.de.la.mort:stuntmanmike:0.8.0;release

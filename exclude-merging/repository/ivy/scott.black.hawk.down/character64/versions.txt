@@ -1,0 +1,2 @@
+scott.black.hawk.down:character64:1.64.0;release
+scott.black.hawk.down:character64:1.70.0;release

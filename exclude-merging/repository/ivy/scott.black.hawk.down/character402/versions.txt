@@ -1,0 +1,3 @@
+scott.black.hawk.down:character402:1.487.0-rc.1;candidate
+scott.black.hawk.down:character402:1.486.0;release
+scott.black.hawk.down:character402:1.487.0-rc.2;candidate

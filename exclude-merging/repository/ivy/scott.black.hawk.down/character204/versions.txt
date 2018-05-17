@@ -1,0 +1,2 @@
+scott.black.hawk.down:character204:89.1;candidate
+scott.black.hawk.down:character204:97.0;release

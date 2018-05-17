@@ -9,32 +9,6 @@ buildscript {
     }
 }
 
-class MP implements ComponentMetadataSupplier {
-        private final RepositoryResourceAccessor repositoryResourceAccessor
-
-        @javax.inject.Inject
-        public MP(RepositoryResourceAccessor accessor) {
-            this.repositoryResourceAccessor = accessor
-        }
-        
-        void execute(ComponentMetadataSupplierDetails details) {
-            def id = details.id
-            def status = [:]
-            repositoryResourceAccessor.withResource("versions.txt") {
-                it.withReader { reader ->
-                    reader.eachLine { line ->
-                        if (line) {
-                           def (module, st) = line.split(';')
-                           status[module] = st
-                        }
-                    }
-                }
-            }
-            details.result.status = status[id.toString()]
-            details.result.statusScheme = ['integration', 'milestone', 'candidate', 'release']
-        }
-}
-
 boolean useExcludes = !project.hasProperty('noExcludes')
 
 allprojects {
@@ -47,9 +21,9 @@ allprojects {
         def repositoryBase = project.hasProperty("useHttp") ? "http://localhost:${httpPort}" : "${rootProject.projectDir}/repository"
         ivy {
             url "$repositoryBase/ivy"
-            if (project.findProperty('useSupplier') && project.getProperty('useSupplier')=='true') {
-               println "Using custom metadata supplier"
-               metadataSupplier(MP)
+            if (project.findProperty('useSupplier') && project.getProperty('useSupplier')) {
+               println "Using custom metadata supplier: ${project.getProperty('useSupplier')}"
+               metadataSupplier(Class.forName(project.getProperty('useSupplier')))
             }
         }
         maven {
@@ -97,7 +71,8 @@ allprojects {
         }
     }
     
-    if (project.findProperty('refresh')) {
+    if (rootProject.findProperty('refresh')) {
+        println "Setting cache for dynamic versions to 0 second"
         configurations.all {
             resolutionStrategy.cacheDynamicVersionsFor 0, "seconds"
         }    
@@ -294,8 +269,7 @@ task updateStatus {
    ext.outputFile = file('repository/ivy/versions.txt')
    ext.outputFileSignature = file('repository/ivy/versions.txt.sha1')
    inputs.dir('repository/ivy')
-   outputs.file(ext.outputFile)
-   outputs.file(ext.outputFileSignature)
+   outputs.dir('repository/ivy')
    doLast {
        if (ext.outputFile.exists()) { ext.outputFile.delete() }
        ext.outputFile.withWriter { writer ->
@@ -304,16 +278,21 @@ task updateStatus {
                 if (groupFile.directory) {
                    groupFile.eachFile { moduleFile ->
                        def module = moduleFile.name
-                       moduleFile.eachFile { versionFile ->
-                          def version = versionFile.name
-                          def versionIvy = new File(versionFile, "ivy-${version}.xml")
-                          if (versionIvy.exists()) {
-                             def p = versionIvy.text =~ /status="(.+?)"/
-                             if (p.find()) {
-                                writer.writeLine "$group:$module:$version;${p.group(1)}"
+                       def perModuleFileWriter = new File(moduleFile, 'versions.txt').withWriter { perVersion ->
+                          moduleFile.eachFile { versionFile ->
+                             def version = versionFile.name
+                             def versionIvy = new File(versionFile, "ivy-${version}.xml")
+                             if (versionIvy.exists()) {
+                                def p = versionIvy.text =~ /status="(.+?)"/
+                                if (p.find()) {
+                                   writer.writeLine "$group:$module:$version;${p.group(1)}"
+                                   perVersion.writeLine "$group:$module:$version;${p.group(1)}"
+                                }
                              }
                           }
                        }
+                       def md = hashing.sha1()
+                       new File(moduleFile, 'versions.txt.sha1').text = md.hashBytes(new File(moduleFile, 'versions.txt').bytes).toString()
                    }
                 }
           }

@@ -1,0 +1,2 @@
+scott.black.hawk.down:character116:1.17.0;release
+scott.black.hawk.down:character116:1.18.0;snapshot

@@ -1,0 +1,6 @@
+scott.black.hawk.down:character76:1.42.0;candidate
+scott.black.hawk.down:character76:1.27.0;release
+scott.black.hawk.down:character76:1.44.0;candidate
+scott.black.hawk.down:character76:1.31.0;release
+scott.black.hawk.down:character76:1.43.0;candidate
+scott.black.hawk.down:character76:1.41.0;release

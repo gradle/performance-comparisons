@@ -1,0 +1,16 @@
+scott.black.hawk.down:character134:1.817;candidate
+scott.black.hawk.down:character134:1.815;candidate
+scott.black.hawk.down:character134:1.819;candidate
+scott.black.hawk.down:character134:1.823;candidate
+scott.black.hawk.down:character134:1.723;release
+scott.black.hawk.down:character134:1.827;candidate
+scott.black.hawk.down:character134:1.818;candidate
+scott.black.hawk.down:character134:1.822;candidate
+scott.black.hawk.down:character134:1.821;candidate
+scott.black.hawk.down:character134:1.825;candidate
+scott.black.hawk.down:character134:1.826;candidate
+scott.black.hawk.down:character134:1.820;candidate
+scott.black.hawk.down:character134:1.814;release
+scott.black.hawk.down:character134:1.824;candidate
+scott.black.hawk.down:character134:1.816;candidate
+scott.black.hawk.down:character134:1.828;candidate

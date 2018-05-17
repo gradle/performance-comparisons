@@ -1,0 +1,2 @@
+scott.thelma.and.louise:thelmayvonnedickinson:0.2.3;release
+scott.thelma.and.louise:thelmayvonnedickinson:1.0-SNAPSHOT;snapshot

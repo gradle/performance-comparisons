@@ -1,0 +1,4 @@
+tarantino.pulp.fiction:honeybunny:1.3.20;release
+tarantino.pulp.fiction:honeybunny:1.4.0-RC5;release
+tarantino.pulp.fiction:honeybunny:1.4.0-RC6;release
+tarantino.pulp.fiction:honeybunny:1.4.0-RC4;release

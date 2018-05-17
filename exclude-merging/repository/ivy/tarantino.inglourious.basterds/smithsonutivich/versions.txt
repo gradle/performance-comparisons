@@ -1,0 +1,2 @@
+tarantino.inglourious.basterds:smithsonutivich:0.7.2;release
+tarantino.inglourious.basterds:smithsonutivich:0.7.0;release

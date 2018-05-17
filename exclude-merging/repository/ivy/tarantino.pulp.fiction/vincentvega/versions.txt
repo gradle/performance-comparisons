@@ -1,0 +1,7 @@
+tarantino.pulp.fiction:vincentvega:1.3.20;release
+tarantino.pulp.fiction:vincentvega:1.4.0-RC2;release
+tarantino.pulp.fiction:vincentvega:1.4.0-RC5;release
+tarantino.pulp.fiction:vincentvega:1.4.0-RC3;release
+tarantino.pulp.fiction:vincentvega:1.4.0-RC6;release
+tarantino.pulp.fiction:vincentvega:1.4.0-RC4;release
+tarantino.pulp.fiction:vincentvega:1.4.0-RC1;release

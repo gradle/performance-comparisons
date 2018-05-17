@@ -1,0 +1,1 @@
+tarantino.django.unchained:django:0.0.7;release
