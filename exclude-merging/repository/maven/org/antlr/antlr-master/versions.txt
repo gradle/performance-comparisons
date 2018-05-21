@@ -1,0 +1,3 @@
+org.antlr:antlr-master:3.5;release
+org.antlr:antlr-master:3.2;release
+org.antlr:antlr-master:3.4;release

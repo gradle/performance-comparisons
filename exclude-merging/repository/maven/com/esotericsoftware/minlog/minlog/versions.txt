@@ -1,0 +1,1 @@
+com.esotericsoftware.minlog:minlog:1.2;release

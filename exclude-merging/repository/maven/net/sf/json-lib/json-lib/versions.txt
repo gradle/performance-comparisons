@@ -1,0 +1,2 @@
+net.sf.json-lib:json-lib:2.3;release
+net.sf.json-lib:json-lib:2.2.3;release

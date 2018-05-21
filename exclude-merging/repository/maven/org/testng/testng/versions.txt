@@ -1,0 +1,2 @@
+org.testng:testng:6.8.1;release
+org.testng:testng:6.9.11;release

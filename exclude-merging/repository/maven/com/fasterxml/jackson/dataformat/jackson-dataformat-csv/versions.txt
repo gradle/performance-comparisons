@@ -1,0 +1,2 @@
+com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.8.2;release
+com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.8.1;release

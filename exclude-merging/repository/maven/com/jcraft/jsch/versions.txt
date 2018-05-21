@@ -1,0 +1,2 @@
+com.jcraft:jsch:0.1.50;release
+com.jcraft:jsch:0.1.53;release

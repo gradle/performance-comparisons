@@ -1,0 +1,4 @@
+org.ow2.asm:asm-parent:5.0.1;release
+org.ow2.asm:asm-parent:5.0.4;release
+org.ow2.asm:asm-parent:5.0.3;release
+org.ow2.asm:asm-parent:5.0.2;release

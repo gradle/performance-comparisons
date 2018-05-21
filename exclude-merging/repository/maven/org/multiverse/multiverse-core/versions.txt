@@ -1,0 +1,1 @@
+org.multiverse:multiverse-core:0.7.0;release

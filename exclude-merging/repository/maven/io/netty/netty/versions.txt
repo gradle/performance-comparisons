@@ -1,0 +1,2 @@
+io.netty:netty:3.7.0.Final;release
+io.netty:netty:3.9.0.Final;release

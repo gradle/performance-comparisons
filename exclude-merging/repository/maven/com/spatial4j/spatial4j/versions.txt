@@ -1,0 +1,1 @@
+com.spatial4j:spatial4j:0.4.1;release

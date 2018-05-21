@@ -1,0 +1,3 @@
+org.aspectj:aspectjweaver:1.7.1;release
+org.aspectj:aspectjweaver:1.6.8;release
+org.aspectj:aspectjweaver:1.8.8;release

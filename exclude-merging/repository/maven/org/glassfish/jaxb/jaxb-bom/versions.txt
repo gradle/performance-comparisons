@@ -1,0 +1,1 @@
+org.glassfish.jaxb:jaxb-bom:2.2.11;release

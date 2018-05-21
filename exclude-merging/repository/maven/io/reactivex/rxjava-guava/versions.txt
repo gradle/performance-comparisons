@@ -1,0 +1,1 @@
+io.reactivex:rxjava-guava:1.0.2;release

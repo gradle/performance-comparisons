@@ -1,0 +1,3 @@
+org.codehaus.jackson:jackson-core-asl:1.9.13;release
+org.codehaus.jackson:jackson-core-asl:1.8.3;release
+org.codehaus.jackson:jackson-core-asl:1.9.12;release

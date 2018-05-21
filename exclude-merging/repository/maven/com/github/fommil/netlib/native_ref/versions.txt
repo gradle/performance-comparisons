@@ -1,0 +1,1 @@
+com.github.fommil.netlib:native_ref:1.1;release

@@ -1,0 +1,5 @@
+io.netty:netty-transport:4.1.0.Final;release
+io.netty:netty-transport:4.1.5.Final;release
+io.netty:netty-transport:4.0.33.Final;release
+io.netty:netty-transport:4.0.28.Final;release
+io.netty:netty-transport:4.0.14.Final;release

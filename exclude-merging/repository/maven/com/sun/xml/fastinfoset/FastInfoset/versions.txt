@@ -1,0 +1,1 @@
+com.sun.xml.fastinfoset:FastInfoset:1.2.12;release

@@ -1,0 +1,3 @@
+com.google.inject:guice-parent:4.0;release
+com.google.inject:guice-parent:4.1.0;release
+com.google.inject:guice-parent:3.0;release

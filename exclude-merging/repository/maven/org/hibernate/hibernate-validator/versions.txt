@@ -1,0 +1,3 @@
+org.hibernate:hibernate-validator:4.1.0.Final;release
+org.hibernate:hibernate-validator:4.3.2.Final;release
+org.hibernate:hibernate-validator:4.3.0.Final;release

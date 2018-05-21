@@ -8,10 +8,12 @@ import org.gradle.api.artifacts.CacheableRule
 @CacheableRule
 class AllVersionsAtOnceCached implements ComponentMetadataSupplier {
         private final RepositoryResourceAccessor repositoryResourceAccessor
+        private final boolean maven
 
         @javax.inject.Inject
-        public AllVersionsAtOnceCached(RepositoryResourceAccessor accessor) {
+        public AllVersionsAtOnceCached(RepositoryResourceAccessor accessor, boolean maven) {
             this.repositoryResourceAccessor = accessor
+            this.maven = maven
         }
         
         void execute(ComponentMetadataSupplierDetails details) {
@@ -29,8 +31,11 @@ class AllVersionsAtOnceCached implements ComponentMetadataSupplier {
                     }
                 }
             }
-            details.result.status = status[id.toString()]
-            details.result.statusScheme = ['integration', 'milestone', 'candidate', 'release']
+            def st = status[id.toString()]
+            if (st) {
+               details.result.status = status[id.toString()]
+               details.result.statusScheme = ['integration', 'milestone', 'candidate', 'release']
+            }
         }
 }
 

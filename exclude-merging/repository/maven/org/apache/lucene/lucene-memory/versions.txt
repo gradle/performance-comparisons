@@ -1,0 +1,1 @@
+org.apache.lucene:lucene-memory:4.7.0;release

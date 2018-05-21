@@ -1,0 +1,2 @@
+org.mortbay.jetty:jetty-parent:10;release
+org.mortbay.jetty:jetty-parent:7;release

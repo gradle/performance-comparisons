@@ -1,0 +1,2 @@
+org.apache.commons:commons-compress:1.8;release
+org.apache.commons:commons-compress:1.6;release

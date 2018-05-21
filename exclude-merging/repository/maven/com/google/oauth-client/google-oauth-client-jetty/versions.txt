@@ -1,0 +1,2 @@
+com.google.oauth-client:google-oauth-client-jetty:1.21.0;release
+com.google.oauth-client:google-oauth-client-jetty:1.22.0;release

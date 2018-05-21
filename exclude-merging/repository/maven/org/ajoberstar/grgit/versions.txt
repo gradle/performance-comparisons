@@ -1,0 +1,1 @@
+org.ajoberstar:grgit:1.5.0;release

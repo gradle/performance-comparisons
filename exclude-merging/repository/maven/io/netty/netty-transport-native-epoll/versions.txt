@@ -1,0 +1,4 @@
+io.netty:netty-transport-native-epoll:4.1.0.Final;release
+io.netty:netty-transport-native-epoll:4.1.0.Beta8;release
+io.netty:netty-transport-native-epoll:4.1.5.Final;release
+io.netty:netty-transport-native-epoll:4.0.28.Final;release

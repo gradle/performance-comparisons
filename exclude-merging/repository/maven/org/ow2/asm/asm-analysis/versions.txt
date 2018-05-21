@@ -1,0 +1,2 @@
+org.ow2.asm:asm-analysis:5.0.1;release
+org.ow2.asm:asm-analysis:5.0.4;release

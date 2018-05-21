@@ -1,0 +1,2 @@
+org.apache.ant:ant-junit:1.9.4;release
+org.apache.ant:ant-junit:1.8.3;release

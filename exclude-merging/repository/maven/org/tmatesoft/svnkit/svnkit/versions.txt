@@ -1,0 +1,1 @@
+org.tmatesoft.svnkit:svnkit:1.8.12;release

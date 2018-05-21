@@ -1,0 +1,1 @@
+org.codehaus.plexus:plexus-utils:2.0.6;release

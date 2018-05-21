@@ -1,0 +1,1 @@
+javax.websocket:javax.websocket-all:1.0;release

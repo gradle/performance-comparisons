@@ -1,0 +1,1 @@
+de.regnis.q.sequence:sequence-library:1.0.3;release

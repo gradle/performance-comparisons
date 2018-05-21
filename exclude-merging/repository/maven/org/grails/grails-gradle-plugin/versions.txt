@@ -1,0 +1,1 @@
+org.grails:grails-gradle-plugin:2.2.0.RC1;release

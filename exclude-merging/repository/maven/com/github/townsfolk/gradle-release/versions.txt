@@ -1,0 +1,1 @@
+com.github.townsfolk:gradle-release:1.2;release

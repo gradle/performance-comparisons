@@ -1,0 +1,7 @@
+com.fasterxml.jackson:jackson-parent:2.6.2;release
+com.fasterxml.jackson:jackson-parent:2.7-1;release
+com.fasterxml.jackson:jackson-parent:2.4;release
+com.fasterxml.jackson:jackson-parent:2.6.1;release
+com.fasterxml.jackson:jackson-parent:2.7;release
+com.fasterxml.jackson:jackson-parent:2.5.1;release
+com.fasterxml.jackson:jackson-parent:2.8;release

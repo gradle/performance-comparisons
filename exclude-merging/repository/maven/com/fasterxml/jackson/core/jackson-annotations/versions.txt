@@ -1,0 +1,6 @@
+com.fasterxml.jackson.core:jackson-annotations:2.8.2;release
+com.fasterxml.jackson.core:jackson-annotations:2.8.0;release
+com.fasterxml.jackson.core:jackson-annotations:2.4.1;release
+com.fasterxml.jackson.core:jackson-annotations:2.7.4;release
+com.fasterxml.jackson.core:jackson-annotations:2.8.1;release
+com.fasterxml.jackson.core:jackson-annotations:2.7.5;release

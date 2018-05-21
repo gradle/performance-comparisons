@@ -1,0 +1,2 @@
+javax.validation:validation-api:1.1.0.Final;release
+javax.validation:validation-api:1.0.0.GA;release

@@ -1,0 +1,5 @@
+org.yaml:snakeyaml:1.17;release
+org.yaml:snakeyaml:1.12;release
+org.yaml:snakeyaml:1.11;release
+org.yaml:snakeyaml:1.15;release
+org.yaml:snakeyaml:1.6;release

@@ -1,0 +1,1 @@
+com.google.code.findbugs:bcel-findbugs:6.0;release

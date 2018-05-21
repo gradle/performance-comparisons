@@ -1,0 +1,1 @@
+com.ncr.teradata:tdgssconfig:14.10.00.26;release

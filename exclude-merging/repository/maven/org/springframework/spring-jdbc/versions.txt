@@ -1,0 +1,2 @@
+org.springframework:spring-jdbc:3.2.0.RELEASE;release
+org.springframework:spring-jdbc:4.2.5.RELEASE;release

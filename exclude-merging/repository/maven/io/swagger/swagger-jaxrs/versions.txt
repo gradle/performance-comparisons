@@ -1,0 +1,1 @@
+io.swagger:swagger-jaxrs:1.5.9;release

@@ -1,0 +1,1 @@
+javax.jdo:jdo2-api:2.3-eb;release

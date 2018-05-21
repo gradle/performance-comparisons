@@ -1,0 +1,2 @@
+com.fasterxml.jackson.datatype:jackson-datatypes-collections:2.8.2;release
+com.fasterxml.jackson.datatype:jackson-datatypes-collections:2.7.4;release

@@ -1,0 +1,6 @@
+org.slf4j:slf4j-parent:1.7.12;release
+org.slf4j:slf4j-parent:1.7.5;release
+org.slf4j:slf4j-parent:1.6.4;release
+org.slf4j:slf4j-parent:1.7.21;release
+org.slf4j:slf4j-parent:1.7.0;release
+org.slf4j:slf4j-parent:1.7.2;release

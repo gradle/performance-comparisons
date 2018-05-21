@@ -1,0 +1,3 @@
+javassist:javassist:3.12.1.GA;release
+javassist:javassist:3.6.0.GA;release
+javassist:javassist:3.11.0.GA;release

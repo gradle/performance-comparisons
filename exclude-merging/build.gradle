@@ -14,7 +14,7 @@ boolean useExcludes = !project.hasProperty('noExcludes')
 allprojects {
     apply plugin: 'java'
     if (useExcludes) {
-       apply plugin: 'nebula.resolution-rules'
+        apply plugin: 'nebula.resolution-rules'
     }
     repositories {
         def httpPort = project.hasProperty('httpPort') ? project.findProperty('httpPort') : '8000'
@@ -22,12 +22,20 @@ allprojects {
         ivy {
             url "$repositoryBase/ivy"
             if (project.findProperty('useSupplier') && project.getProperty('useSupplier')) {
-               println "Using custom metadata supplier: ${project.getProperty('useSupplier')}"
-               metadataSupplier(Class.forName(project.getProperty('useSupplier')))
+                println "Using custom metadata supplier on Ivy repo: ${project.getProperty('useSupplier')}"
+                setMetadataSupplier(Class.forName(project.getProperty('useSupplier'))) {
+                    params(false)
+                }
             }
         }
         maven {
             url "$repositoryBase/maven"
+            if (project.findProperty('useSupplier') && project.getProperty('useSupplier') && GradleVersion.current().baseVersion.compareTo(GradleVersion.version('4.9'))>=0) {
+                println "Using custom metadata supplier on Maven repo: ${project.getProperty('useSupplier')}"
+                setMetadataSupplier(Class.forName(project.getProperty('useSupplier'))) {
+                    params(true)
+                }
+            }
         }
         flatDir {
             dirs rootProject.file('rules')
@@ -35,19 +43,19 @@ allprojects {
     }
 
     if (useExcludes) {
-       apply plugin: 'nebula.resolution-rules'
+        apply plugin: 'nebula.resolution-rules'
     }
-    
+
     configurations {
-       simpletest
+        simpletest
     }
 
     dependencies {
         if (useExcludes) {
-           resolutionRules name: 'gradle-resolution-rules-0.28.0'
-           resolutionRules name: 'resolution-rules-0.12.0'
+            resolutionRules name: 'gradle-resolution-rules-0.28.0'
+            resolutionRules name: 'resolution-rules-0.12.0'
         }
-        
+
         simpletest('scott.black.hawk.down:character330:latest.release') { transitive = false }
 
         components.all { ComponentMetadataDetails details ->
@@ -70,19 +78,19 @@ allprojects {
             }
         }
     }
-    
+
     if (rootProject.findProperty('refresh')) {
         println "Setting cache for dynamic versions to 0 second"
         configurations.all {
             resolutionStrategy.cacheDynamicVersionsFor 0, "seconds"
-        }    
+        }
     }
 }
 
 int i = 0
 
 if (!useExcludes) {
-   println "Not using excludes, nor dependency rules plugin"
+    println "Not using excludes, nor dependency rules plugin"
 }
 
 allprojects {
@@ -99,84 +107,84 @@ allprojects {
             }
         }
     }
-    
+
     if (useExcludes) {
-       def gid = ['foo', 'bar', 'baz']
-       def aid = ['x', 'y', 'z', 'k', 't', 'u']
-       // manage all exclusions in one place
-       configurations.all {
-           if (it.name != 'simpletest') {
-       
-           exclude group: 'javax.servlet', module: 'servlet'
-           exclude group: 'javax.servlet', module: 'servlet-api'
-           exclude group: 'weblogic', module: 'wlfullclient'
-           exclude group: 'scott.black.hawk.down', module: 'map-title'
-           exclude group: 'scott.black.hawk.down', module: 'rentalhistory'
-           exclude group: 'scott.black.hawk.down', module: 'rentalhistory-client'
-           exclude group: 'scott.black.hawk.down', module: 'rentalhistory-common'
-           exclude group: 'org.mockito', module: 'mockito-all'
-           //exclude group: 'scott.black.hawk.down', module: 'character235'
-           exclude group: 'scott.black.hawk.down', module: 'queue'
-           exclude group: 'kafka', module: 'core'
-           exclude group: 'amazon', module: 'hadoop-core-emr'
-           exclude group: 'javax.el', module: 'el-api'
-           exclude group: 'javax.servlet.jsp.jstl', module: 'jstl-api'
-           exclude group: 'javax.servlet.jsp', module: 'jsp-api'
-           exclude group: 'org.mortbay.jetty', module: 'servlet-api'
-           exclude group: 'org.glassfish.web', module: 'jstl-impl'
-           exclude group: 'org.scribe', module: 'scribe'
-           exclude group: '', module: 'content'
-           exclude group: 'org.springframework', module: 'spring'
-           exclude group: 'org.apache.geronimo.specs', module: 'geronimo-activation_1.1_spec'
-           exclude group: 'org.apache.geronimo.specs', module: 'geronimo-annotation_1.0_spec'
-           exclude group: 'org.apache.geronimo.specs', module: 'geronimo-jaxws_2.1_spec'
-           exclude group: 'org.apache.geronimo.specs', module: 'geronimo-stax-api_1.0_spec'
-           exclude group: 'org.apache.geronimo.specs', module: 'geronimo-ws-metadata_2.0_spec'
-           exclude group: 'org.apache.cxf', module: 'cxf'
-           exclude group: 'org.apache.geronimo.bundles', module: 'json'
-           exclude group: 'com.google.guava', module: 'guava-jdk5'
-           //junit:junit-dep has become obsolete.
-           exclude group: 'junit', module: 'junit-dep'
-           //used by traceagent
-           exclude group: 'javassist', module: 'javassist'
-           exclude group: 'xerces', module: 'xerces'
-           exclude group: 'jtidy', module: 'jtidy'
-           exclude group: 'org.apache.servicemix.bundles', module: 'org.apache.servicemix.bundles.commons-csv'
-           // these are pulled in from playback-features and not needed
-           exclude group: 'scott.black.hawk.down', module: 'reloaded-commons'
-           exclude group: 'scott.black.hawk.down', module: 'mp4tools'
+        def gid = ['foo', 'bar', 'baz']
+        def aid = ['x', 'y', 'z', 'k', 't', 'u']
+        // manage all exclusions in one place
+        configurations.all {
+            if (it.name != 'simpletest') {
 
-           // use the individual jars
-           exclude group: 'cglib', module: 'cglib-nodep'
-           exclude group: 'org.ow2.asm', module: 'asm-all'
-           exclude group: 'org.ow2.asm', module: 'asm-debug-all'
-           exclude group: 'io.netty', module: 'netty-all'
+                exclude group: 'javax.servlet', module: 'servlet'
+                exclude group: 'javax.servlet', module: 'servlet-api'
+                exclude group: 'weblogic', module: 'wlfullclient'
+                exclude group: 'scott.black.hawk.down', module: 'map-title'
+                exclude group: 'scott.black.hawk.down', module: 'rentalhistory'
+                exclude group: 'scott.black.hawk.down', module: 'rentalhistory-client'
+                exclude group: 'scott.black.hawk.down', module: 'rentalhistory-common'
+                exclude group: 'org.mockito', module: 'mockito-all'
+                //exclude group: 'scott.black.hawk.down', module: 'character235'
+                exclude group: 'scott.black.hawk.down', module: 'queue'
+                exclude group: 'kafka', module: 'core'
+                exclude group: 'amazon', module: 'hadoop-core-emr'
+                exclude group: 'javax.el', module: 'el-api'
+                exclude group: 'javax.servlet.jsp.jstl', module: 'jstl-api'
+                exclude group: 'javax.servlet.jsp', module: 'jsp-api'
+                exclude group: 'org.mortbay.jetty', module: 'servlet-api'
+                exclude group: 'org.glassfish.web', module: 'jstl-impl'
+                exclude group: 'org.scribe', module: 'scribe'
+                exclude group: '', module: 'content'
+                exclude group: 'org.springframework', module: 'spring'
+                exclude group: 'org.apache.geronimo.specs', module: 'geronimo-activation_1.1_spec'
+                exclude group: 'org.apache.geronimo.specs', module: 'geronimo-annotation_1.0_spec'
+                exclude group: 'org.apache.geronimo.specs', module: 'geronimo-jaxws_2.1_spec'
+                exclude group: 'org.apache.geronimo.specs', module: 'geronimo-stax-api_1.0_spec'
+                exclude group: 'org.apache.geronimo.specs', module: 'geronimo-ws-metadata_2.0_spec'
+                exclude group: 'org.apache.cxf', module: 'cxf'
+                exclude group: 'org.apache.geronimo.bundles', module: 'json'
+                exclude group: 'com.google.guava', module: 'guava-jdk5'
+                //junit:junit-dep has become obsolete.
+                exclude group: 'junit', module: 'junit-dep'
+                //used by traceagent
+                exclude group: 'javassist', module: 'javassist'
+                exclude group: 'xerces', module: 'xerces'
+                exclude group: 'jtidy', module: 'jtidy'
+                exclude group: 'org.apache.servicemix.bundles', module: 'org.apache.servicemix.bundles.commons-csv'
+                // these are pulled in from playback-features and not needed
+                exclude group: 'scott.black.hawk.down', module: 'reloaded-commons'
+                exclude group: 'scott.black.hawk.down', module: 'mp4tools'
 
-           // force to use io.reactivex
-           exclude group: 'com.netflix.rxjava'
+                // use the individual jars
+                exclude group: 'cglib', module: 'cglib-nodep'
+                exclude group: 'org.ow2.asm', module: 'asm-all'
+                exclude group: 'org.ow2.asm', module: 'asm-debug-all'
+                exclude group: 'io.netty', module: 'netty-all'
 
-           // force to use io.reactivex:rxnetty-*
-           exclude group: 'io.reactivex', module: 'rxnetty'
+                // force to use io.reactivex
+                exclude group: 'com.netflix.rxjava'
 
-           exclude group: 'scott.black.hawk.down', module: 'cryptexclient'
-           exclude group: 'scott.black.hawk.down', module: 'crypto-common'
-           exclude group: 'com.github.fommil.netlib'
+                // force to use io.reactivex:rxnetty-*
+                exclude group: 'io.reactivex', module: 'rxnetty'
 
-           // prefer bcprov-jdk16
-           exclude group: 'org.bouncycastle', module: 'bcprov-jdk15on'
+                exclude group: 'scott.black.hawk.down', module: 'cryptexclient'
+                exclude group: 'scott.black.hawk.down', module: 'crypto-common'
+                exclude group: 'com.github.fommil.netlib'
 
-           // exclude slf4j-simple so we ensure we are using a real implementation
-           exclude group: 'org.slf4j', module: 'slf4j-simple'
+                // prefer bcprov-jdk16
+                exclude group: 'org.bouncycastle', module: 'bcprov-jdk15on'
 
-           // accessors-smart includes re-packaged ASM classes
-           exclude group: 'net.minidev', module: 'accessors-smart'
-           exclude group: 'net.minidev', module: 'json-smart'
+                // exclude slf4j-simple so we ensure we are using a real implementation
+                exclude group: 'org.slf4j', module: 'slf4j-simple'
 
-           i++
-           exclude group: gid[i % gid.size()], module: aid[i % (aid.size())]
-           
-           }
-       }
+                // accessors-smart includes re-packaged ASM classes
+                exclude group: 'net.minidev', module: 'accessors-smart'
+                exclude group: 'net.minidev', module: 'json-smart'
+
+                i++
+                exclude group: gid[i % gid.size()], module: aid[i % (aid.size())]
+
+            }
+        }
     }
 }
 
@@ -255,7 +263,7 @@ project(':api-platform') {
 allprojects {
     task resolveDependencies {
         doLast {
-            def configs = project.findProperty('confs')?project.getProperty('confs').split(','):['compile', 'testCompile', 'runtime', 'testRuntime']
+            def configs = project.findProperty('confs') ? project.getProperty('confs').split(',') : ['compile', 'testCompile', 'runtime', 'testRuntime']
             configs.each {
                 configurations."$it".files
             }
@@ -265,41 +273,110 @@ allprojects {
 
 def hashing = gradle.class.classLoader.loadClass('com.google.common.hash.Hashing')
 
-task updateStatus {
-   ext.outputFile = file('repository/ivy/versions.txt')
-   ext.outputFileSignature = file('repository/ivy/versions.txt.sha1')
-   inputs.dir('repository/ivy')
-   outputs.dir('repository/ivy')
-   doLast {
-       if (ext.outputFile.exists()) { ext.outputFile.delete() }
-       ext.outputFile.withWriter { writer ->
-          file('repository/ivy').eachFile { groupFile ->
+task updateIvyStatus {
+    ext.outputFile = file('repository/ivy/versions.txt')
+    ext.outputFileSignature = file('repository/ivy/versions.txt.sha1')
+    inputs.dir('repository/ivy')
+    outputs.dir('repository/ivy')
+    doLast {
+        if (ext.outputFile.exists()) {
+            ext.outputFile.delete()
+        }
+        ext.outputFile.withWriter { writer ->
+            file('repository/ivy').eachFile { groupFile ->
                 def group = groupFile.name
                 if (groupFile.directory) {
-                   groupFile.eachFile { moduleFile ->
-                       def module = moduleFile.name
-                       def perModuleFileWriter = new File(moduleFile, 'versions.txt').withWriter { perVersion ->
-                          moduleFile.eachFile { versionFile ->
-                             def version = versionFile.name
-                             def versionIvy = new File(versionFile, "ivy-${version}.xml")
-                             if (versionIvy.exists()) {
-                                def p = versionIvy.text =~ /status="(.+?)"/
-                                if (p.find()) {
-                                   writer.writeLine "$group:$module:$version;${p.group(1)}"
-                                   perVersion.writeLine "$group:$module:$version;${p.group(1)}"
+                    groupFile.eachFile { moduleFile ->
+                        def module = moduleFile.name
+                        new File(moduleFile, 'versions.txt').withWriter { perVersion ->
+                            moduleFile.eachFile { versionFile ->
+                                if (versionFile.directory) {
+                                    def version = versionFile.name
+                                    def versionIvy = new File(versionFile, "ivy-${version}.xml")
+                                    if (versionIvy.exists()) {
+                                        def p = versionIvy.text =~ /status="(.+?)"/
+                                        if (p.find()) {
+                                            writer.writeLine "$group:$module:$version;${p.group(1)}"
+                                            perVersion.writeLine "$group:$module:$version;${p.group(1)}"
+                                        }
+                                    }
                                 }
-                             }
-                          }
-                       }
-                       def md = hashing.sha1()
-                       new File(moduleFile, 'versions.txt.sha1').text = md.hashBytes(new File(moduleFile, 'versions.txt').bytes).toString()
-                   }
+                            }
+                        }
+                        def md = hashing.sha1()
+                        new File(moduleFile, 'versions.txt.sha1').text = md.hashBytes(new File(moduleFile, 'versions.txt').bytes).toString()
+                    }
                 }
-          }
-       }
-       ext.outputFileSignature.withWriter { writer ->
-          def md = hashing.sha1()
-          writer << md.hashBytes(ext.outputFile.bytes).toString()
-       }
-   }
+            }
+        }
+        ext.outputFileSignature.withWriter { writer ->
+            def md = hashing.sha1()
+            writer << md.hashBytes(ext.outputFile.bytes).toString()
+        }
+    }
+}
+
+task updateMavenStatus {
+    ext.outputFile = file('repository/maven/versions.txt')
+    ext.outputFileSignature = file('repository/maven/versions.txt.sha1')
+    inputs.dir('repository/maven')
+    outputs.dir('repository/maven')
+    doLast {
+        if (ext.outputFile.exists()) {
+            ext.outputFile.delete()
+        }
+        ext.outputFile.withWriter { writer ->
+            visitMavenRepo([], file('repository/maven'), writer)
+        }
+        ext.outputFileSignature.withWriter { writer ->
+            def md = hashing.sha1()
+            writer << md.hashBytes(ext.outputFile.bytes).toString()
+        }
+    }
+}
+
+private void visitMavenRepo(List<String> path, File currentDir, Writer singleVersionFileWriter) {
+    File mavenMetadata = new File(currentDir, 'maven-metadata.xml')
+    if (currentDir.directory) {
+        if (mavenMetadata.exists() || looksLikeVersionDir(currentDir)) {
+            // this is a directory of versions, and the name corresponds to an artifact id
+            visitListOfVersions(path, currentDir, singleVersionFileWriter)
+        } else {
+            currentDir.eachFile {
+                if (it.directory) {
+                    visitMavenRepo(path + it.name, it, singleVersionFileWriter)
+                }
+            }
+        }
+    }
+}
+
+private boolean looksLikeVersionDir(File currentDir) {
+    def files = currentDir.listFiles()
+    for (int i = 0; i < files.length; i++) {
+        if (files[i].directory) {
+            if (files[i].listFiles().any { it.name.endsWith('.pom') }) {
+                return true
+            }
+        }
+    }
+    return false
+}
+
+private void visitListOfVersions(List<String> path, File artifactDirectory, Writer singleVersionFileWriter) {
+    def hashing = gradle.class.classLoader.loadClass('com.google.common.hash.Hashing')
+    String group = path[0..<path.size() - 1].join('.')
+    String artifactId = artifactDirectory.name
+    def versionsFile = new File(artifactDirectory, 'versions.txt')
+    versionsFile.withWriter { perModule ->
+        artifactDirectory.listFiles().each {
+            if (it.directory) {
+                String version = it.name
+                String status = version.endsWith('-SNAPSHOT') ? 'integration' : 'release'
+                singleVersionFileWriter.writeLine "$group:$artifactId:$version;$status"
+                perModule.writeLine "$group:$artifactId:$version;$status"
+            }
+        }
+    }
+    new File(artifactDirectory, 'versions.txt.sha1').text = hashing.sha1().hashBytes(versionsFile.bytes).toString()
 }

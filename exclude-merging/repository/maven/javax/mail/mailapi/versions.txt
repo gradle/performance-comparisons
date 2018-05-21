@@ -1,0 +1,1 @@
+javax.mail:mailapi:1.4.3;release

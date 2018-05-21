@@ -1,0 +1,2 @@
+com.sun.jersey.contribs:jersey-contribs:1.19;release
+com.sun.jersey.contribs:jersey-contribs:1.19.1;release

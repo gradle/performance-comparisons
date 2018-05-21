@@ -6,10 +6,12 @@ import org.gradle.api.artifacts.repositories.RepositoryResourceAccessor
 @CompileStatic
 class AllVersionsAtOnce implements ComponentMetadataSupplier {
         private final RepositoryResourceAccessor repositoryResourceAccessor
+        private final boolean maven
 
         @javax.inject.Inject
-        public AllVersionsAtOnce(RepositoryResourceAccessor accessor) {
+        public AllVersionsAtOnce(RepositoryResourceAccessor accessor, boolean maven) {
             this.repositoryResourceAccessor = accessor
+            this.maven = maven
         }
         
         void execute(ComponentMetadataSupplierDetails details) {
@@ -27,8 +29,11 @@ class AllVersionsAtOnce implements ComponentMetadataSupplier {
                     }
                 }
             }
-            details.result.status = status[id.toString()]
-            details.result.statusScheme = ['integration', 'milestone', 'candidate', 'release']
+            def st = status[id.toString()]
+            if (st) {
+               details.result.status = status[id.toString()]
+               details.result.statusScheme = ['integration', 'milestone', 'candidate', 'release']
+            }
         }
 }
 

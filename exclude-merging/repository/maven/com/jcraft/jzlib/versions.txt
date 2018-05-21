@@ -1,0 +1,3 @@
+com.jcraft:jzlib:1.1.2;release
+com.jcraft:jzlib:1.1.3;release
+com.jcraft:jzlib:1.1.1;release

@@ -1,0 +1,2 @@
+org.scala-lang:scala-library:2.10.5;release
+org.scala-lang:scala-library:2.10.6;release

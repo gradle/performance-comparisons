@@ -1,0 +1,2 @@
+org.apache.struts:struts2-plugins:2.3.24;release
+org.apache.struts:struts2-plugins:2.3.20;release

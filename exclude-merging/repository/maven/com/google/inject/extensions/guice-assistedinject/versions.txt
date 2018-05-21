@@ -1,0 +1,2 @@
+com.google.inject.extensions:guice-assistedinject:4.1.0;release
+com.google.inject.extensions:guice-assistedinject:3.0;release

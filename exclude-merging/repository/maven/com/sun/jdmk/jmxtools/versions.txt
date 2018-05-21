@@ -1,0 +1,1 @@
+com.sun.jdmk:jmxtools:1.2.1;release

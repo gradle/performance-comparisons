@@ -1,0 +1,2 @@
+org.codehaus.gpars:gpars:1.2.1;release
+org.codehaus.gpars:gpars:1.0.0;release

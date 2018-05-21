@@ -1,0 +1,3 @@
+org.codehaus.groovy.modules.http-builder:http-builder:0.6;release
+org.codehaus.groovy.modules.http-builder:http-builder:0.7.2;release
+org.codehaus.groovy.modules.http-builder:http-builder:0.7.1;release

@@ -1,0 +1,2 @@
+org.tukaani:xz:1.5;release
+org.tukaani:xz:1.4;release

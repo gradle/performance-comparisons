@@ -1,0 +1,4 @@
+org.apache.geronimo.genesis:genesis:2.0;release
+org.apache.geronimo.genesis:genesis:2.1;release
+org.apache.geronimo.genesis:genesis:1.2;release
+org.apache.geronimo.genesis:genesis:1.1;release

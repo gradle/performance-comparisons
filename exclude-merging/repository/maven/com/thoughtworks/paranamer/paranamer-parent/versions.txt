@@ -1,0 +1,1 @@
+com.thoughtworks.paranamer:paranamer-parent:2.5.7;release

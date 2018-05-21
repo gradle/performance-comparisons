@@ -1,0 +1,3 @@
+org.codehaus.groovy:groovy-all:2.3.6;release
+org.codehaus.groovy:groovy-all:2.4.7;release
+org.codehaus.groovy:groovy-all:2.4.5;release

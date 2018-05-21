@@ -1,0 +1,2 @@
+com.datastax.cassandra:cassandra-driver-parent:2.0.6;release
+com.datastax.cassandra:cassandra-driver-parent:3.0.2;release

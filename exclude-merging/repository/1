@@ -1,0 +1,1241 @@
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/codehaus/groovy/groovy-all/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character10/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character274/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/fasterxml/jackson/core/jackson-core/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/io/reactivex/rxjava/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/io/netty/netty-transport-native-epoll/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/io/reactivex/rxgroovy/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/amazonaws/aws-java-sdk-sns/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/tarantino.pulp.fiction/vincentvega/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/fasterxml/jackson/core/jackson-databind/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character401/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character302/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/io/reactivex/rxclojure/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/io/reactivex/rxjava-math/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/net/jcip/jcip-annotations/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/tarantino/pulp/fiction/vincentvega/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/junit/junit/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/tarantino.pulp.fiction/pumpkin/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character249/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/spockframework/spock-core/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/cglib/cglib/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/mockito/mockito-core/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/tarantino/pulp/fiction/pumpkin/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character169/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character108/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/tarantino.pulp.fiction/honeybunny/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/tarantino/pulp/fiction/honeybunny/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/hamcrest/hamcrest-library/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character286/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character76/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character97/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/restlet/org.restlet/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.gladiator/maximusdecimusmeridius/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character366/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/noelios/restlet/com.noelios.restlet/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.gladiator/antoniusproximo/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/noelios/restlet/ext/servlet_2/5/com.noelios.restlet.ext.servlet_2.5/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character400/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/net/sourceforge/cobertura/cobertura/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.gladiator/commodus/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/noelios/restlet/ext/httpclient_3/1/com.noelios.restlet.ext.httpclient_3.1/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/google/guava/guava/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character360/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/commons-io/commons-io/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/bloidonia/groovy-common-extensions/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/io/reactivex/rxjava-debug/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.thelma.and.louise/louiseelizabethsawyer/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/springframework/spring-context/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/json/json/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character122/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/commons-codec/commons-codec/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character363/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/sun/jdmk/jmxtools/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character45/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/thelma/and/louise/louiseelizabethsawyer/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character127/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.thelma.and.louise/thelmayvonnedickinson/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/springframework/spring-context-support/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character110/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/springframework/spring-core/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/thelma/and/louise/thelmayvonnedickinson/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/springframework/spring-aop/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/org.codehaus.groovy/groovy-all/2.4.1/ivy-2.4.1.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/org.codehaus.groovy/groovy-all/2.4.1/groovy-all-2.4.1.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/springframework/spring-expression/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/org/codehaus/groovy/groovy-all/2.4.1/groovy-all-2.4.1.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/codehaus/groovy/groovy-all/2.4.1/groovy-all-2.4.1.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/springframework/spring-jdbc/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.thelma.and.louise/detectivehalslocumb/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/thelma/and/louise/detectivehalslocumb/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character278/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character387/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/jdom/jdom/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/springframework/spring-test/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character23/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character385/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character49/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character311/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character12/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character81/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character378/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character151/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character160/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/johngrimes/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character177/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character377/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character113/1.70/ivy-1.70.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character105/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character113/1.70/character113-1.70.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character50/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/caseyjoyce/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/springframework/spring-tx/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character113/1.70/character113-1.70.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character113/1.70/character113-1.70.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/springframework/spring-web/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character384/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.american.gangster/franklucas/0.4.7.28/ivy-0.4.7.28.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character41/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.american.gangster/franklucas/0.4.7.28/franklucas-0.4.7.28.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/american/gangster/franklucas/0.4.7.28/franklucas-0.4.7.28.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/american/gangster/franklucas/0.4.7.28/franklucas-0.4.7.28.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character186/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/edyurek/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character308/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/tarantino.boulevard.de.la.mort/stuntmanmike/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.american.gangster/detnicktrupo/0.4.7.28/ivy-0.4.7.28.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.american.gangster/detnicktrupo/0.4.7.28/detnicktrupo-0.4.7.28.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character237/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character238/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/american/gangster/detnicktrupo/0.4.7.28/detnicktrupo-0.4.7.28.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character47/60.0/ivy-60.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/american/gangster/detnicktrupo/0.4.7.28/detnicktrupo-0.4.7.28.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character47/60.0/character47-60.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character396/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/tarantino/boulevard/de/la/mort/stuntmanmike/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/american/gangster/detnicktrupo/0.4.7.28/detnicktrupo-0.4.7.28.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character402/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character47/60.0/character47-60.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/richardkowalewski/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/american/gangster/detnicktrupo/0.4.7.28/detnicktrupo-0.4.7.28.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character5/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character47/60.0/character47-60.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character47/60.0/character47-60.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character134/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/tarantino.the.hateful.eight/majormarquiswarren/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character9/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character47/60.0/character47-60.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character135/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/tarantino/the/hateful/eight/majormarquiswarren/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character258/60.0/ivy-60.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character258/60.0/character258-60.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character258/60.0/ivy-60.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character34/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character315/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character258/60.0/character258-60.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character258/60.0/character258-60.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/tarantino.jackie.brown/jackiebrown/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character310/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character258/60.0/character258-60.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character54/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character258/60.0/character258-60.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/tarantino/jackie/brown/jackiebrown/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character240/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character102/60.0/ivy-60.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character258/60.0/character258-60.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character343/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/fasterxml/jackson/core/jackson-annotations/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character102/60.0/character102-60.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character251/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character102/60.0/ivy-60.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character225/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character102/60.0/character102-60.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/fasterxml/jackson/datatype/jackson-datatype-guava/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character269/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character102/60.0/character102-60.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character102/60.0/character102-60.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character266/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/fasterxml/jackson/datatype/jackson-datatype-json-org/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character200/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character102/60.0/character102-60.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.matchstick.men/roywaller/1.17/ivy-1.17.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character101/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/fasterxml/jackson/module/jackson-module-afterburner/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character102/60.0/character102-60.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character371/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.matchstick.men/roywaller/1.17/roywaller-1.17.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/google/code/gson/gson/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character192/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.matchstick.men/roywaller/1.17/ivy-1.17.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/matchstick/men/roywaller/1.17/roywaller-1.17.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character39/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character153/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.matchstick.men/roywaller/1.17/roywaller-1.17.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character254/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/matchstick/men/roywaller/1.17/roywaller-1.17.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character15/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/matchstick/men/roywaller/1.17/roywaller-1.17.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character114/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character181/1.1.48/ivy-1.1.48.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/matchstick/men/roywaller/1.17/roywaller-1.17.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character25/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character94/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character181/1.1.48/character181-1.1.48.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character168/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character181/1.1.48/ivy-1.1.48.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character208/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character181/1.1.48/character181-1.1.48.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character181/1.1.48/character181-1.1.48.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character181/1.1.48/character181-1.1.48.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character181/1.1.48/character181-1.1.48.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character96/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character0/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character181/1.1.48/character181-1.1.48.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.legend/darkness/1.23/ivy-1.23.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character259/57.358/ivy-57.358.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.legend/darkness/1.23/darkness-1.23.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character259/57.358/character259-57.358.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.legend/darkness/1.23/ivy-1.23.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character182/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character203/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character259/57.358/character259-57.358.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.legend/darkness/1.23/darkness-1.23.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character31/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character20/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character259/57.358/character259-57.358.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/legend/darkness/1.23/darkness-1.23.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character323/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/legend/darkness/1.23/darkness-1.23.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character279/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character283/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character278/1.35.0/ivy-1.35.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character324/230.38/ivy-230.38.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character341/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character304/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character278/1.35.0/character278-1.35.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character324/230.38/character324-230.38.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character259/57.358/ivy-57.358.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/legend/darkness/1.23/darkness-1.23.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character205/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character372/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character278/1.35.0/character278-1.35.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character324/230.38/character324-230.38.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character259/57.358/character259-57.358.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/legend/darkness/1.23/darkness-1.23.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character338/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character85/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character278/1.35.0/character278-1.35.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character324/230.38/character324-230.38.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character259/57.358/character259-57.358.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character214/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character297/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character108/1.1451.0/ivy-1.1451.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character259/57.358/character259-57.358.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character324/230.38/character324-230.38.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character108/1.1451.0/character108-1.1451.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character164/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character231/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character324/230.38/character324-230.38.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character108/1.1451.0/character108-1.1451.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character213/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character108/1.1451.0/character108-1.1451.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character108/1.1451.0/character108-1.1451.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character108/1.1451.0/character108-1.1451.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character14/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character338/3.3.0-dev.2.uncommitted+70c3760/ivy-3.3.0-dev.2.uncommitted+70c3760.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character120/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character338/3.3.0-dev.2.uncommitted+70c3760/character338-3.3.0-dev.2.uncommitted+70c3760.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character338/3.3.0-dev.2.uncommitted+70c3760/ivy-3.3.0-dev.2.uncommitted+70c3760.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character338/3.3.0-dev.2.uncommitted+70c3760/character338-3.3.0-dev.2.uncommitted+70c3760.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character338/3.3.0-dev.2.uncommitted+70c3760/character338-3.3.0-dev.2.uncommitted+70c3760.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character338/3.3.0-dev.2.uncommitted+70c3760/character338-3.3.0-dev.2.uncommitted+70c3760.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character338/3.3.0-dev.2.uncommitted+70c3760/character338-3.3.0-dev.2.uncommitted+70c3760.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character338/3.3.0-dev.2.uncommitted+70c3760/character338-3.3.0-dev.2.uncommitted+70c3760.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character284/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/jamiesmith/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character339/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/johnwaddell/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character368/600.7/ivy-600.7.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character356/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character368/600.7/character368-600.7.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character289/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character368/600.7/character368-600.7.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character368/600.7/character368-600.7.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character301/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character330/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character368/600.7/character368-600.7.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/net.spy/spymemcached/2.11.4+4/ivy-2.11.4+4.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character40/600.7/ivy-600.7.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character66/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character368/600.7/character368-600.7.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/net.spy/spymemcached/2.11.4+4/spymemcached-2.11.4+4.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/net.spy/spymemcached/2.11.4+4/ivy-2.11.4+4.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character40/600.7/character40-600.7.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character58/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/net/spy/spymemcached/2.11.4+4/spymemcached-2.11.4+4.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character40/600.7/ivy-600.7.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/net.spy/spymemcached/2.11.4+4/spymemcached-2.11.4+4.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character40/600.7/character40-600.7.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/net/spy/spymemcached/2.11.4+4/spymemcached-2.11.4+4.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character116/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character40/600.7/character40-600.7.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/net/spy/spymemcached/2.11.4+4/spymemcached-2.11.4+4.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character40/600.7/character40-600.7.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character42/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character40/600.7/character40-600.7.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/net/spy/spymemcached/2.11.4+4/spymemcached-2.11.4+4.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character70/600.7/ivy-600.7.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character40/600.7/character40-600.7.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character348/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character131/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character70/600.7/character70-600.7.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/org.codehaus.jackson/jackson-core-asl/1.9.2/ivy-1.9.2.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character70/600.7/ivy-600.7.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character188/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/org.codehaus.jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character70/600.7/character70-600.7.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character230/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character70/600.7/character70-600.7.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character70/600.7/character70-600.7.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character70/600.7/character70-600.7.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character216/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/dominickpilla/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character16/600.7/ivy-600.7.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character16/600.7/character16-600.7.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character70/600.7/character70-600.7.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character175/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character61/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character16/600.7/character16-600.7.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character16/600.7/character16-600.7.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character16/600.7/character16-600.7.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character16/600.7/character16-600.7.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character350/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character136/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character368/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character345/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character11/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character382/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character129/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character72/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character287/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character75/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character24/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character149/4.37.0/ivy-4.37.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character190/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character149/4.37.0/character149-4.37.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character149/4.37.0/ivy-4.37.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character149/4.37.0/character149-4.37.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character149/4.37.0/character149-4.37.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character13/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character149/4.37.0/character149-4.37.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character149/4.37.0/character149-4.37.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character149/4.37.0/character149-4.37.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/com.amazon/aws-java-sdk/1.3.11/ivy-1.3.11.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character314/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/com.amazon/aws-java-sdk/1.3.11/aws-java-sdk-1.3.11.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/com.amazon/aws-java-sdk/1.3.11/ivy-1.3.11.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/com.amazon/aws-java-sdk/1.3.11/aws-java-sdk-1.3.11.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character388/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/com/amazon/aws-java-sdk/1.3.11/aws-java-sdk-1.3.11.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/amazon/aws-java-sdk/1.3.11/aws-java-sdk-1.3.11.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/com/amazon/aws-java-sdk/1.3.11/aws-java-sdk-1.3.11.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character130/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character306/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/amazon/aws-java-sdk/1.3.11/aws-java-sdk-1.3.11.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character342/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character303/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character95/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character268/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character27/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character275/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character374/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character305/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character361/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/net/sf/trove4j/trove4j/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/jeffstruecker/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character281/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character159/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character399/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character158/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character154/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/johnmaddox/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character82/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character243/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character88/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character409/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character406/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/apache/httpcomponents/httpclient/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/apache/httpcomponents/httpcore/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character199/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/apache/httpcomponents/httpmime/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.conquest.of.paradise/christophercolumbus/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/xerces/xercesImpl/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character128/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/xml-apis/xml-apis/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character354/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/eclipse/jetty/jetty-util/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character197/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character115/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character272/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/sun/xml/bind/jaxb-core/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character391/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/sun/xml/bind/jaxb-impl/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character84/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/javax/xml/bind/jaxb-api/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character295/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character375/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character375/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character217/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character394/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character219/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/google/inject/guice/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/google/inject/extensions/guice-assistedinject/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/com.fasterxml.jackson.module/jackson-module-afterburner/2.8.1/ivy-2.8.1.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/google/inject/extensions/guice-grapher/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/com.fasterxml.jackson.module/jackson-module-afterburner/2.8.1/jackson-module-afterburner-2.8.1.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/google/inject/extensions/guice-multibindings/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/com/fasterxml/jackson/module/jackson-module-afterburner/2.8.1/jackson-module-afterburner-2.8.1.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/google/inject/extensions/guice-servlet/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/fasterxml/jackson/module/jackson-module-afterburner/2.8.1/jackson-module-afterburner-2.8.1.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/google/inject/extensions/guice-throwingproviders/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character132/1.309.0/ivy-1.309.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/assertj/assertj-core/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character132/1.309.0/character132-1.309.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character132/1.309.0/character132-1.309.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character132/1.309.0/character132-1.309.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/org.codehaus.groovy/groovy-all/2.2.1/ivy-2.2.1.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/org.xerial.snappy/snappy-java/1.0.5/ivy-1.0.5.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character376/0.95.0-dev.0.uncommitted+708baa2/ivy-0.95.0-dev.0.uncommitted+708baa2.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/org.codehaus.groovy/groovy-all/2.2.1/groovy-all-2.2.1.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/org.xerial.snappy/snappy-java/1.0.5/snappy-java-1.0.5.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character376/0.95.0-dev.0.uncommitted+708baa2/character376-0.95.0-dev.0.uncommitted+708baa2.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/org/codehaus/groovy/groovy-all/2.2.1/groovy-all-2.2.1.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/org/xerial/snappy/snappy-java/1.0.5/snappy-java-1.0.5.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character376/0.95.0-dev.0.uncommitted+708baa2/character376-0.95.0-dev.0.uncommitted+708baa2.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/pledger-client/1.2/ivy-1.2.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/codehaus/groovy/groovy-all/2.2.1/groovy-all-2.2.1.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/xerial/snappy/snappy-java/1.0.5/snappy-java-1.0.5.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character376/0.95.0-dev.0.uncommitted+708baa2/character376-0.95.0-dev.0.uncommitted+708baa2.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/pledger-client/1.2/pledger-client-1.2.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character376/0.95.0-dev.0.uncommitted+708baa2/character376-0.95.0-dev.0.uncommitted+708baa2.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/pledger-client/1.2/pledger-client-1.2.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character376/0.95.0-dev.0.uncommitted+708baa2/character376-0.95.0-dev.0.uncommitted+708baa2.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/pledger-client/1.2/pledger-client-1.2.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character104/1.20/ivy-1.20.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character104/1.20/character104-1.20.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character104/1.20/ivy-1.20.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character157/60.0/ivy-60.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character104/1.20/character104-1.20.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character104/1.20/character104-1.20.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character157/60.0/character157-60.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character104/1.20/character104-1.20.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character104/1.20/character104-1.20.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character157/60.0/character157-60.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character104/1.20/character104-1.20.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character157/60.0/character157-60.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character143/1.174.0/ivy-1.174.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character143/1.174.0/character143-1.174.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character143/1.174.0/ivy-1.174.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character373/159.0/ivy-159.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character92/1.19.0/ivy-1.19.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character143/1.174.0/character143-1.174.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character143/1.174.0/character143-1.174.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character373/159.0/character373-159.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character92/1.19.0/character92-1.19.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character143/1.174.0/character143-1.174.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character143/1.174.0/character143-1.174.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character373/159.0/character373-159.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character92/1.19.0/character92-1.19.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character143/1.174.0/character143-1.174.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character373/159.0/character373-159.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character92/1.19.0/character92-1.19.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character92/1.19.0/character92-1.19.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/org.codehaus.groovy/groovy-all/2.3.1/ivy-2.3.1.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character92/1.19.0/character92-1.19.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character44/2.457/ivy-2.457.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/org.codehaus.groovy/groovy-all/2.3.1/groovy-all-2.3.1.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character44/2.457/character44-2.457.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character44/2.457/ivy-2.457.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/org/codehaus/groovy/groovy-all/2.3.1/groovy-all-2.3.1.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character358/142.0/ivy-142.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character44/2.457/character44-2.457.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character44/2.457/character44-2.457.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/codehaus/groovy/groovy-all/2.3.1/groovy-all-2.3.1.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character358/142.0/character358-142.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character44/2.457/character44-2.457.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character44/2.457/character44-2.457.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character358/142.0/character358-142.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character355/2.25/ivy-2.25.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character44/2.457/character44-2.457.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character358/142.0/character358-142.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character355/2.25/character355-2.25.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character355/2.25/ivy-2.25.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character355/2.25/character355-2.25.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character355/2.25/character355-2.25.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character355/2.25/ivy-2.25.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character355/2.25/character355-2.25.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character397/142.0/ivy-142.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character355/2.25/character355-2.25.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character355/2.25/character355-2.25.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character39/3.2.4-rc.4/ivy-3.2.4-rc.4.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character397/142.0/character397-142.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character355/2.25/character355-2.25.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character355/2.25/character355-2.25.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character39/3.2.4-rc.4/character39-3.2.4-rc.4.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character397/142.0/character397-142.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character39/3.2.4-rc.4/ivy-3.2.4-rc.4.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character355/2.25/character355-2.25.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character39/3.2.4-rc.4/character39-3.2.4-rc.4.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character397/142.0/character397-142.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character39/3.2.4-rc.4/character39-3.2.4-rc.4.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character39/3.2.4-rc.4/character39-3.2.4-rc.4.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character39/3.2.4-rc.4/character39-3.2.4-rc.4.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/jellyvision-sal/9.0/ivy-9.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/edc/0.3.0/ivy-0.3.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character39/3.2.4-rc.4/character39-3.2.4-rc.4.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character39/3.2.4-rc.4/character39-3.2.4-rc.4.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/jellyvision-sal/9.0/jellyvision-sal-9.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/edc/0.3.0/edc-0.3.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/edc/0.3.0/ivy-0.3.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character39/3.2.4-rc.4/character39-3.2.4-rc.4.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/jellyvision-sal/9.0/jellyvision-sal-9.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/edc/0.3.0/edc-0.3.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/edc/0.3.0/edc-0.3.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/jellyvision-sal/9.0/jellyvision-sal-9.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/edc/0.3.0/edc-0.3.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/edc/0.3.0/edc-0.3.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character292/1.13/ivy-1.13.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/edc/0.3.0/edc-0.3.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/edc/0.3.0/edc-0.3.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character292/1.13/character292-1.13.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/edc/0.3.0/edc-0.3.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character292/1.13/ivy-1.13.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character292/1.13/character292-1.13.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character292/1.13/character292-1.13.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character292/1.13/character292-1.13.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character292/1.13/character292-1.13.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character292/1.13/character292-1.13.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character292/1.13/character292-1.13.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/com.googlecode.java-diff-utils/diffutils/1.3.0/ivy-1.3.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character292/1.13/character292-1.13.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character292/1.13/character292-1.13.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/com.googlecode.java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character292/1.13/character292-1.13.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character333/1.18.0/ivy-1.18.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character333/1.18.0/character333-1.18.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character333/1.18.0/ivy-1.18.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character333/1.18.0/character333-1.18.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character333/1.18.0/character333-1.18.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character333/1.18.0/ivy-1.18.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character333/1.18.0/character333-1.18.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character333/1.18.0/character333-1.18.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character333/1.18.0/character333-1.18.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character333/1.18.0/character333-1.18.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character333/1.18.0/character333-1.18.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/io.reactivex/rxjava/1.1.9/ivy-1.1.9.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character333/1.18.0/character333-1.18.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character333/1.18.0/character333-1.18.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character62/88.507/ivy-88.507.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/io.reactivex/rxjava/1.1.9/rxjava-1.1.9.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character333/1.18.0/character333-1.18.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character62/88.507/character62-88.507.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character62/88.507/ivy-88.507.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/io/reactivex/rxjava/1.1.9/rxjava-1.1.9.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character62/88.507/character62-88.507.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character62/88.507/character62-88.507.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/io/reactivex/rxjava/1.1.9/rxjava-1.1.9.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character62/88.507/character62-88.507.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character62/88.507/character62-88.507.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character62/88.507/character62-88.507.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character62/88.507/character62-88.507.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character62/88.507/character62-88.507.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character37/2.1.824/ivy-2.1.824.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character37/2.1.824/character37-2.1.824.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character37/2.1.824/ivy-2.1.824.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character37/2.1.824/character37-2.1.824.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character37/2.1.824/character37-2.1.824.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character37/2.1.824/ivy-2.1.824.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character37/2.1.824/character37-2.1.824.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character37/2.1.824/character37-2.1.824.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character37/2.1.824/character37-2.1.824.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character37/2.1.824/ivy-2.1.824.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character247/1.208.0/ivy-1.208.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character37/2.1.824/character37-2.1.824.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character37/2.1.824/character37-2.1.824.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character37/2.1.824/character37-2.1.824.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character247/1.208.0/character247-1.208.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character247/1.208.0/ivy-1.208.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character37/2.1.824/character37-2.1.824.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character37/2.1.824/character37-2.1.824.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character247/1.208.0/character247-1.208.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character247/1.208.0/character247-1.208.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character37/2.1.824/character37-2.1.824.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character247/1.208.0/character247-1.208.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character247/1.208.0/character247-1.208.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character48/1.664.0/ivy-1.664.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character247/1.208.0/character247-1.208.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character247/1.208.0/character247-1.208.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character48/1.664.0/character48-1.664.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character48/1.664.0/ivy-1.664.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character247/1.208.0/character247-1.208.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character247/1.208.0/character247-1.208.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character48/1.664.0/character48-1.664.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character48/1.664.0/character48-1.664.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character247/1.208.0/character247-1.208.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character48/1.664.0/character48-1.664.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character48/1.664.0/character48-1.664.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character48/1.664.0/character48-1.664.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character48/1.664.0/character48-1.664.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/org.json/json/20140107/ivy-20140107.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character48/1.664.0/character48-1.664.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character48/1.664.0/character48-1.664.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character52/5.195/ivy-5.195.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/org.json/json/20140107/json-20140107.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character48/1.664.0/character48-1.664.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character52/5.195/character52-5.195.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character52/5.195/ivy-5.195.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/json/json/20140107/json-20140107.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character52/5.195/character52-5.195.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character52/5.195/character52-5.195.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/json/json/20140107/json-20140107.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character52/5.195/character52-5.195.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character52/5.195/character52-5.195.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character52/5.195/character52-5.195.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character52/5.195/character52-5.195.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/org.apache.logging.log4j/log4j/2.6.2/ivy-2.6.2.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/com.google.inject/guice-assistedinject/3.0/ivy-3.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character52/5.195/character52-5.195.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/org.apache.logging.log4j/log4j/2.6.2/log4j-2.6.2.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/org.apache.logging.log4j/log4j/2.6.2/ivy-2.6.2.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/com.google.inject/guice-assistedinject/3.0/guice-assistedinject-3.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/org.apache.logging.log4j/log4j/2.6.2/log4j-2.6.2.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/com/google/inject/guice-assistedinject/3.0/guice-assistedinject-3.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/google/inject/guice-assistedinject/3.0/guice-assistedinject-3.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character171/1.18/ivy-1.18.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character171/1.18/character171-1.18.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character171/1.18/ivy-1.18.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/apache/logging/log4j/log4j/2.6.2/log4j-2.6.2.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character171/1.18/character171-1.18.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character171/1.18/character171-1.18.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character171/1.18/character171-1.18.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/javassist/javassist/versions.txt HTTP/1.1" 200 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character171/1.18/character171-1.18.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character38/3.0/ivy-3.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character171/1.18/character171-1.18.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character171/1.18/character171-1.18.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character38/3.0/character38-3.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character38/3.0/ivy-3.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character171/1.18/character171-1.18.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character38/3.0/character38-3.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character38/3.0/character38-3.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character38/3.0/character38-3.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character38/3.0/character38-3.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character38/3.0/character38-3.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character38/3.0/character38-3.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.conquest.of.paradise/gabrielsanchez/1.0.379/ivy-1.0.379.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character38/3.0/character38-3.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.conquest.of.paradise/gabrielsanchez/1.0.379/gabrielsanchez-1.0.379.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.conquest.of.paradise/gabrielsanchez/1.0.379/ivy-1.0.379.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character92/2.96.0/ivy-2.96.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/conquest/of/paradise/gabrielsanchez/1.0.379/gabrielsanchez-1.0.379.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.conquest.of.paradise/gabrielsanchez/1.0.379/gabrielsanchez-1.0.379.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.conquest.of.paradise/gabrielsanchez/1.0.379/ivy-1.0.379.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character92/2.96.0/character92-2.96.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/conquest/of/paradise/gabrielsanchez/1.0.379/gabrielsanchez-1.0.379.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/conquest/of/paradise/gabrielsanchez/1.0.379/gabrielsanchez-1.0.379.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.conquest.of.paradise/gabrielsanchez/1.0.379/gabrielsanchez-1.0.379.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character92/2.96.0/character92-2.96.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/conquest/of/paradise/gabrielsanchez/1.0.379/gabrielsanchez-1.0.379.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character1/1.8/ivy-1.8.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/conquest/of/paradise/gabrielsanchez/1.0.379/gabrielsanchez-1.0.379.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character92/2.96.0/character92-2.96.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character1/1.8/character1-1.8.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character1/1.8/ivy-1.8.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/conquest/of/paradise/gabrielsanchez/1.0.379/gabrielsanchez-1.0.379.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character1/1.8/character1-1.8.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character1/1.8/character1-1.8.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character1/1.8/character1-1.8.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character1/1.8/character1-1.8.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character224/1.50/ivy-1.50.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character1/1.8/character1-1.8.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character1/1.8/character1-1.8.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character224/1.50/character224-1.50.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character224/1.50/ivy-1.50.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character1/1.8/character1-1.8.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character224/1.50/character224-1.50.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character224/1.50/character224-1.50.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character224/1.50/character224-1.50.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character224/1.50/character224-1.50.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character250/1.50/ivy-1.50.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character224/1.50/character224-1.50.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character224/1.50/character224-1.50.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/com.amazonaws/aws-java-sdk/1.11.6/ivy-1.11.6.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character250/1.50/character250-1.50.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character250/1.50/ivy-1.50.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character224/1.50/character224-1.50.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/com.amazonaws/aws-java-sdk/1.11.6/aws-java-sdk-1.11.6.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character250/1.50/character250-1.50.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character250/1.50/character250-1.50.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/com/amazonaws/aws-java-sdk/1.11.6/aws-java-sdk-1.11.6.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character250/1.50/character250-1.50.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character250/1.50/character250-1.50.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/amazonaws/aws-java-sdk/1.11.6/aws-java-sdk-1.11.6.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character250/1.50/character250-1.50.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character250/1.50/character250-1.50.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character92/2.78.1/ivy-2.78.1.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character250/1.50/character250-1.50.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character92/2.78.1/character92-2.78.1.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character92/2.78.1/ivy-2.78.1.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character92/2.78.1/character92-2.78.1.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character92/2.78.1/character92-2.78.1.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.black.hawk.down/character92/2.78.1/ivy-2.78.1.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character92/2.78.1/character92-2.78.1.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/com.fasterxml.jackson.datatype/jackson-datatype-guava/2.2.0/ivy-2.2.0.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character92/2.78.1/character92-2.78.1.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.black.hawk.down/character92/2.78.1/character92-2.78.1.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/com.fasterxml.jackson.datatype/jackson-datatype-guava/2.2.0/jackson-datatype-guava-2.2.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character92/2.78.1/character92-2.78.1.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/black/hawk/down/character92/2.78.1/character92-2.78.1.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.2.0/jackson-datatype-guava-2.2.0.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/black/hawk/down/character92/2.78.1/character92-2.78.1.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.2.0/jackson-datatype-guava-2.2.0.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/io.netty/netty/3.6.6.Final/ivy-3.6.6.Final.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/io.netty/netty/3.6.6.Final/netty-3.6.6.Final.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/io/netty/netty/3.6.6.Final/netty-3.6.6.Final.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/scott.body.of.lies/aisha/1.13.1/ivy-1.13.1.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/scott.body.of.lies/aisha/1.13.1/aisha-1.13.1.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/body/of/lies/aisha/1.13.1/aisha-1.13.1.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/body/of/lies/aisha/1.13.1/aisha-1.13.1.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/scott/body/of/lies/aisha/1.13.1/aisha-1.13.1.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/scott/body/of/lies/aisha/1.13.1/aisha-1.13.1.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/org.apache.httpcomponents/httpclient/4.3.4/ivy-4.3.4.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/org.apache.httpcomponents/httpclient/4.3.4/httpclient-4.3.4.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/org.apache.httpcomponents/httpcore/4.2.4/ivy-4.2.4.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/org.apache.httpcomponents/httpcore/4.2.4/httpcore-4.2.4.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/org.apache.httpcomponents/httpcore/4.2.4/ivy-4.2.4.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/org.apache.httpcomponents/httpcore/4.2.4/httpcore-4.2.4.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /ivy/org.antlr/antlr-runtime/3.2/ivy-3.2.xml HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /ivy/org.antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "GET /maven/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.pom HTTP/1.1" 404 -
+127.0.0.1 - - [21/May/2018 19:47:32] code 404, message File not found
+127.0.0.1 - - [21/May/2018 19:47:32] "HEAD /maven/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar HTTP/1.1" 404 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/usr/lib/python2.7/SimpleHTTPServer.py", line 235, in <module>
+    test()
+  File "/usr/lib/python2.7/SimpleHTTPServer.py", line 231, in test
+    BaseHTTPServer.test(HandlerClass, ServerClass)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 610, in test
+    httpd.serve_forever()
+  File "/usr/lib/python2.7/SocketServer.py", line 231, in serve_forever
+    poll_interval)
+  File "/usr/lib/python2.7/SocketServer.py", line 150, in _eintr_retry
+    return func(*args)
+KeyboardInterrupt

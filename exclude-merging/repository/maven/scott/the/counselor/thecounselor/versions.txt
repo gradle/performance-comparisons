@@ -1,0 +1,1 @@
+scott.the.counselor:thecounselor:1.5.2;release

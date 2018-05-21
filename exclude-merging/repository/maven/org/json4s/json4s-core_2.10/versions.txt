@@ -1,0 +1,1 @@
+org.json4s:json4s-core_2.10:3.2.4;release

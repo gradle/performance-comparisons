@@ -1,0 +1,2 @@
+com.google.api-client:google-api-client-android:1.21.0;release
+com.google.api-client:google-api-client-android:1.22.0;release

@@ -1,0 +1,1 @@
+org.apache.lucene:lucene-suggest:4.7.0;release

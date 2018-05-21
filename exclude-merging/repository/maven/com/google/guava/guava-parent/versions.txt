@@ -1,0 +1,3 @@
+com.google.guava:guava-parent:14.0.1;release
+com.google.guava:guava-parent:15.0;release
+com.google.guava:guava-parent:19.0;release

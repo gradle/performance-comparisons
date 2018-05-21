@@ -1,0 +1,2 @@
+com.google.api-client:google-api-client-java6:1.21.0;release
+com.google.api-client:google-api-client-java6:1.22.0;release

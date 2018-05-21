@@ -1,0 +1,3 @@
+tarantino.jackie.brown:melanie:2.1.4;release
+tarantino.jackie.brown:melanie:2.1.5;release
+tarantino.jackie.brown:melanie:2.0.6;release

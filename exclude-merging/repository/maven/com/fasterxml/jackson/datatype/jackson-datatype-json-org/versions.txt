@@ -1,0 +1,1 @@
+com.fasterxml.jackson.datatype:jackson-datatype-json-org:2.8.2;release

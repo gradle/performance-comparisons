@@ -1,0 +1,1 @@
+net.objectlab.kit:datecalc-joda:1.2.0;release

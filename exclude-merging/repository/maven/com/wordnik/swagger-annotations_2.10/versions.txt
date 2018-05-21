@@ -1,0 +1,1 @@
+com.wordnik:swagger-annotations_2.10:1.3.0;release

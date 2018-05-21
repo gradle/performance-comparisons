@@ -1,0 +1,10 @@
+org.apache:apache:10;release
+org.apache:apache:3;release
+org.apache:apache:7;release
+org.apache:apache:6;release
+org.apache:apache:8;release
+org.apache:apache:16;release
+org.apache:apache:9;release
+org.apache:apache:15;release
+org.apache:apache:4;release
+org.apache:apache:13;release

@@ -1,0 +1,1 @@
+net.minidev:minidev-parent:2.2;release

@@ -1,0 +1,1 @@
+com.github.fge:jackson-coreutils:1.8;release

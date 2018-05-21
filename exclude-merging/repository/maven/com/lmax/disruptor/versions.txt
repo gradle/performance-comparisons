@@ -1,0 +1,2 @@
+com.lmax:disruptor:3.3.2;release
+com.lmax:disruptor:3.0.1;release

@@ -1,0 +1,2 @@
+org.mortbay.jetty:jetty-util:6.1.14;release
+org.mortbay.jetty:jetty-util:6.1.26;release

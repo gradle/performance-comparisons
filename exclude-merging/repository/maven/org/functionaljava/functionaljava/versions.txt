@@ -1,0 +1,1 @@
+org.functionaljava:functionaljava:2.23;release

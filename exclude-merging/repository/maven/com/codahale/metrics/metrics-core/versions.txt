@@ -1,0 +1,1 @@
+com.codahale.metrics:metrics-core:3.0.2;release

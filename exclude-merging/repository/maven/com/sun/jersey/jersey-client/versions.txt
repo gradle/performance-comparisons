@@ -1,0 +1,2 @@
+com.sun.jersey:jersey-client:1.19;release
+com.sun.jersey:jersey-client:1.19.1;release

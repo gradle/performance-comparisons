@@ -1,0 +1,1 @@
+com.github.fge:uri-template:0.9;release

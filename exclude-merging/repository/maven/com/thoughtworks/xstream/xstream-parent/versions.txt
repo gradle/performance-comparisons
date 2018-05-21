@@ -1,0 +1,2 @@
+com.thoughtworks.xstream:xstream-parent:1.4.9-propergol1;release
+com.thoughtworks.xstream:xstream-parent:1.3.1;release

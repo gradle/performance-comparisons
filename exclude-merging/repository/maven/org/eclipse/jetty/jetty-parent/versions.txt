@@ -1,0 +1,2 @@
+org.eclipse.jetty:jetty-parent:14;release
+org.eclipse.jetty:jetty-parent:25;release

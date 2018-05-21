@@ -1,0 +1,2 @@
+com.google.inject:guice:4.0;release
+com.google.inject:guice:4.1.0;release

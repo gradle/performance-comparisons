@@ -1,0 +1,2 @@
+org.apache.zookeeper:zookeeper:3.4.6;release
+org.apache.zookeeper:zookeeper:3.4.7-nflx.1;release

@@ -1,0 +1,1 @@
+org.jvnet:animal-sniffer-annotation:1.0;release

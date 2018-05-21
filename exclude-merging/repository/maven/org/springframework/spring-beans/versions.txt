@@ -1,0 +1,2 @@
+org.springframework:spring-beans:2.5.6;release
+org.springframework:spring-beans:4.2.5.RELEASE;release

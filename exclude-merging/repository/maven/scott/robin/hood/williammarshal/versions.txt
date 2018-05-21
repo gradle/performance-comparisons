@@ -1,0 +1,2 @@
+scott.robin.hood:williammarshal:0.40.0;release
+scott.robin.hood:williammarshal:0.38.1;release

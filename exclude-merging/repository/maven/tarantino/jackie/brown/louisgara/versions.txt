@@ -1,0 +1,3 @@
+tarantino.jackie.brown:louisgara:2.1.4;release
+tarantino.jackie.brown:louisgara:2.1.5;release
+tarantino.jackie.brown:louisgara:2.0.0;release

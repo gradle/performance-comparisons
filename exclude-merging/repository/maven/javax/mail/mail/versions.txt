@@ -1,0 +1,2 @@
+javax.mail:mail:1.4.7;release
+javax.mail:mail:1.4.4;release

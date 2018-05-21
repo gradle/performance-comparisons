@@ -1,0 +1,1 @@
+net.sourceforge.cobertura:cobertura:2.1.1;release

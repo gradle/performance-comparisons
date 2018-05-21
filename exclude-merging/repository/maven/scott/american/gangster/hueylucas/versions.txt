@@ -1,0 +1,2 @@
+scott.american.gangster:hueylucas:0.4.15.18;release
+scott.american.gangster:hueylucas:0.4.10.7;release

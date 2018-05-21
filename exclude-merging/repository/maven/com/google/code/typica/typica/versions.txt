@@ -1,0 +1,2 @@
+com.google.code.typica:typica:1.5.2a;release
+com.google.code.typica:typica:1.5.1;release

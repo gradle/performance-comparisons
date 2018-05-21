@@ -1,0 +1,2 @@
+com.amazonaws:aws-java-sdk-cognitoidentity:1.11.28;release
+com.amazonaws:aws-java-sdk-cognitoidentity:1.11.18;release

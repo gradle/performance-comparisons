@@ -1,0 +1,2 @@
+org.apache.geronimo.genesis:genesis-java5-flava:2.0;release
+org.apache.geronimo.genesis:genesis-java5-flava:2.1;release

@@ -1,0 +1,1 @@
+com.datastax.cassandra:cassandra-driver-extras:3.0.2;release

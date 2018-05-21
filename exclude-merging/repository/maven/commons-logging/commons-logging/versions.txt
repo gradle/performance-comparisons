@@ -1,0 +1,3 @@
+commons-logging:commons-logging:1.2;release
+commons-logging:commons-logging:1.1.3;release
+commons-logging:commons-logging:1.1.1;release

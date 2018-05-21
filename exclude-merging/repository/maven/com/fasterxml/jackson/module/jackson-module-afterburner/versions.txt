@@ -1,0 +1,2 @@
+com.fasterxml.jackson.module:jackson-module-afterburner:2.8.2;release
+com.fasterxml.jackson.module:jackson-module-afterburner:2.7.5;release

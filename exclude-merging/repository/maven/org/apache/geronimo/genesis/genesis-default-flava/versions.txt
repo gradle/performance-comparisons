@@ -1,0 +1,2 @@
+org.apache.geronimo.genesis:genesis-default-flava:2.0;release
+org.apache.geronimo.genesis:genesis-default-flava:2.1;release

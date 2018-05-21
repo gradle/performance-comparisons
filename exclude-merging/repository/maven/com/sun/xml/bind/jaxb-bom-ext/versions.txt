@@ -1,0 +1,1 @@
+com.sun.xml.bind:jaxb-bom-ext:2.2.11;release

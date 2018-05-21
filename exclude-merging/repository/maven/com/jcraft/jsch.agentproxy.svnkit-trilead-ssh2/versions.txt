@@ -1,0 +1,1 @@
+com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2:0.0.7;release

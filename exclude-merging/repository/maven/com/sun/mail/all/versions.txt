@@ -1,0 +1,2 @@
+com.sun.mail:all:1.4.7;release
+com.sun.mail:all:1.4.4;release

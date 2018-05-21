@@ -1,0 +1,1 @@
+javax.persistence:persistence-api:1.0;release

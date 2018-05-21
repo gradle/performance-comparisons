@@ -1,0 +1,1 @@
+com.google.http-client:google-http-client-appengine:1.22.0;release

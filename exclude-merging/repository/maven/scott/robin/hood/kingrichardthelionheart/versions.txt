@@ -1,0 +1,2 @@
+scott.robin.hood:kingrichardthelionheart:0.40.0;release
+scott.robin.hood:kingrichardthelionheart:0.38.1;release

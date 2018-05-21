@@ -1,0 +1,2 @@
+com.jcraft:jsch.agentproxy:0.0.7;release
+com.jcraft:jsch.agentproxy:0.0.9;release

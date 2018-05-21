@@ -1,0 +1,5 @@
+org.sonatype.oss:oss-parent:3;release
+org.sonatype.oss:oss-parent:5;release
+org.sonatype.oss:oss-parent:7;release
+org.sonatype.oss:oss-parent:6;release
+org.sonatype.oss:oss-parent:9;release

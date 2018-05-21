@@ -1,0 +1,3 @@
+scott.blade.runner:rickdeckard:2.0.2;release
+scott.blade.runner:rickdeckard:2.2.0;release
+scott.blade.runner:rickdeckard:2.1.1;release

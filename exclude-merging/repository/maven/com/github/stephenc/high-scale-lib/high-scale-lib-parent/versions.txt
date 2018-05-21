@@ -1,0 +1,1 @@
+com.github.stephenc.high-scale-lib:high-scale-lib-parent:1.1.2;release

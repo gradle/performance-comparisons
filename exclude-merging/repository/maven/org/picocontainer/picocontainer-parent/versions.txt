@@ -1,0 +1,1 @@
+org.picocontainer:picocontainer-parent:2.14.1;release

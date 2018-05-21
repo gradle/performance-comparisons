@@ -1,0 +1,1 @@
+javax.transaction:transaction-api:1.1;release

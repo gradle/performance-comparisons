@@ -1,0 +1,4 @@
+commons-codec:commons-codec:20070823;release
+commons-codec:commons-codec:1.9;release
+commons-codec:commons-codec:1.7;release
+commons-codec:commons-codec:1.10;release

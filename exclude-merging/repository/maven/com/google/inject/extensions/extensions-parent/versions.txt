@@ -1,0 +1,2 @@
+com.google.inject.extensions:extensions-parent:4.1.0;release
+com.google.inject.extensions:extensions-parent:3.0;release

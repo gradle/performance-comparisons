@@ -1,0 +1,1 @@
+com.google.guava:guava-jdk5:17.0;release

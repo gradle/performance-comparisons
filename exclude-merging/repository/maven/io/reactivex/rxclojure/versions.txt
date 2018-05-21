@@ -1,0 +1,1 @@
+io.reactivex:rxclojure:1.0.0;release

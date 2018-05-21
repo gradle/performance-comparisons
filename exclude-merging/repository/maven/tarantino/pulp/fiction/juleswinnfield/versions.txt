@@ -1,0 +1,2 @@
+tarantino.pulp.fiction:juleswinnfield:1.5.1;release
+tarantino.pulp.fiction:juleswinnfield:1.5.4;release

@@ -1,0 +1,2 @@
+org.apache.lucene:lucene-analyzers-common:4.4.0;release
+org.apache.lucene:lucene-analyzers-common:4.7.0;release

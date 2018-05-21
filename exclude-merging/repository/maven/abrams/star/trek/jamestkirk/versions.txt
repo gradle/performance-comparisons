@@ -1,0 +1,1 @@
+abrams.star.trek:jamestkirk:0.2.5;release

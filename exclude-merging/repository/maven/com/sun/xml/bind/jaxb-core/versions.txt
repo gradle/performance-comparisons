@@ -1,0 +1,2 @@
+com.sun.xml.bind:jaxb-core:2.2.11;release
+com.sun.xml.bind:jaxb-core:2.2.7;release

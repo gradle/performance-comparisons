@@ -1,0 +1,2 @@
+org.eclipse.jgit:org.eclipse.jgit-parent:4.1.1.201511131810-r;release
+org.eclipse.jgit:org.eclipse.jgit-parent:4.4.1.201607150455-r;release

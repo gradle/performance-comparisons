@@ -1,0 +1,2 @@
+org.apache.solr:solr-parent:4.7.0;release
+org.apache.solr:solr-parent:1.4.0;release

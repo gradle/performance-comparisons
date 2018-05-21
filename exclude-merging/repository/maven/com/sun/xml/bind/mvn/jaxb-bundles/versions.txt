@@ -1,0 +1,1 @@
+com.sun.xml.bind.mvn:jaxb-bundles:2.2.11;release

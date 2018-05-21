@@ -1,0 +1,1 @@
+com.google.inject.extensions:guice-grapher:4.1.0;release

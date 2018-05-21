@@ -1,0 +1,3 @@
+scott.robin.hood:sirwalterloxley:0.40.0;release
+scott.robin.hood:sirwalterloxley:0.38.1;release
+scott.robin.hood:sirwalterloxley:0.35.1;release

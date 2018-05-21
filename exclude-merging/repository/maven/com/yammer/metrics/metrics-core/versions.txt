@@ -1,0 +1,1 @@
+com.yammer.metrics:metrics-core:2.2.0;release

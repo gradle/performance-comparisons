@@ -1,0 +1,8 @@
+com.fasterxml:oss-parent:27;release
+com.fasterxml:oss-parent:26;release
+com.fasterxml:oss-parent:24;release
+com.fasterxml:oss-parent:19;release
+com.fasterxml:oss-parent:16;release
+com.fasterxml:oss-parent:25;release
+com.fasterxml:oss-parent:12;release
+com.fasterxml:oss-parent:23;release

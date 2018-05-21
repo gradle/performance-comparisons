@@ -1,0 +1,1 @@
+com.jamesmurty:java-xmlbuilder:0.4;release

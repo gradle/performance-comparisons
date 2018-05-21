@@ -1,0 +1,1 @@
+net.java.dev.jna:jna-platform:4.1.0;release

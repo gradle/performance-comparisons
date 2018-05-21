@@ -1,0 +1,3 @@
+org.codehaus.jackson:jackson-jaxrs:1.9.11;release
+org.codehaus.jackson:jackson-jaxrs:1.9.13;release
+org.codehaus.jackson:jackson-jaxrs:1.9.2;release

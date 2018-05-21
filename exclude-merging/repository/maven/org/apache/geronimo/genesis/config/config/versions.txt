@@ -1,0 +1,2 @@
+org.apache.geronimo.genesis.config:config:1.2;release
+org.apache.geronimo.genesis.config:config:1.1;release

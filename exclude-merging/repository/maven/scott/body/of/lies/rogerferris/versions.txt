@@ -1,0 +1,3 @@
+scott.body.of.lies:rogerferris:1.12.8;release
+scott.body.of.lies:rogerferris:1.12.15;release
+scott.body.of.lies:rogerferris:1.14.2;release

@@ -1,0 +1,1 @@
+io.searchbox:jest-common:0.1.7;release

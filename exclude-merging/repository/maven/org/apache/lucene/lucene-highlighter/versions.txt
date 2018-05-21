@@ -1,0 +1,1 @@
+org.apache.lucene:lucene-highlighter:4.7.0;release

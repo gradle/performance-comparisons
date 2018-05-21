@@ -1,0 +1,2 @@
+com.google.protobuf:protobuf-parent:3.0.0;release
+com.google.protobuf:protobuf-parent:3.0.0-beta-3;release

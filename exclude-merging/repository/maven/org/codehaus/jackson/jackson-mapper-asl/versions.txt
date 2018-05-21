@@ -1,0 +1,2 @@
+org.codehaus.jackson:jackson-mapper-asl:1.9.13;release
+org.codehaus.jackson:jackson-mapper-asl:1.9.12;release

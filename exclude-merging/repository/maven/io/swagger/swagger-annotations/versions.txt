@@ -1,0 +1,1 @@
+io.swagger:swagger-annotations:1.5.9;release

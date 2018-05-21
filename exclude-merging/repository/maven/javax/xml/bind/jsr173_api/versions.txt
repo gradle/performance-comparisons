@@ -1,0 +1,1 @@
+javax.xml.bind:jsr173_api:1.0;release

@@ -1,0 +1,3 @@
+net.sf.jopt-simple:jopt-simple:4.6;release
+net.sf.jopt-simple:jopt-simple:4.9;release
+net.sf.jopt-simple:jopt-simple:3.2;release

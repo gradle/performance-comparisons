@@ -1,0 +1,2 @@
+org.xerial.snappy:snappy-java:1.1.0-M3;release
+org.xerial.snappy:snappy-java:1.1.1.6;release

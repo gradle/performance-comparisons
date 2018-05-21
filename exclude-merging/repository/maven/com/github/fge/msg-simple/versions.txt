@@ -1,0 +1,1 @@
+com.github.fge:msg-simple:1.1;release

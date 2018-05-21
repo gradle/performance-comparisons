@@ -1,0 +1,1 @@
+com.google.inject.extensions:guice-throwingproviders:4.1.0;release

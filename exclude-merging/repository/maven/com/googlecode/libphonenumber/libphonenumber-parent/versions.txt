@@ -1,0 +1,2 @@
+com.googlecode.libphonenumber:libphonenumber-parent:6.2;release
+com.googlecode.libphonenumber:libphonenumber-parent:7.0.6;release
