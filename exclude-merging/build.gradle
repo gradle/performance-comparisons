@@ -10,6 +10,11 @@ buildscript {
 }
 
 boolean useExcludes = !project.hasProperty('noExcludes')
+boolean isAtLeastGradle49 = GradleVersion.current().baseVersion.compareTo(GradleVersion.version('4.9')) >= 0
+boolean useSupplier = project.findProperty('useSupplier') && project.getProperty('useSupplier')
+boolean useLister = project.findProperty('useLister') && project.getProperty('useLister')
+Class<?> supplierClass = useSupplier ? Class.forName(project.getProperty('useSupplier')) : null
+Class<?> listerClass = useLister ? Class.forName(project.getProperty('useLister')) : null
 
 allprojects {
     apply plugin: 'java'
@@ -21,18 +26,30 @@ allprojects {
         def repositoryBase = project.hasProperty("useHttp") ? "http://localhost:${httpPort}" : "${rootProject.projectDir}/repository"
         ivy {
             url "$repositoryBase/ivy"
-            if (project.findProperty('useSupplier') && project.getProperty('useSupplier')) {
-                println "Using custom metadata supplier on Ivy repo: ${project.getProperty('useSupplier')}"
-                setMetadataSupplier(Class.forName(project.getProperty('useSupplier'))) {
+            if (useSupplier) {
+                println "Using custom metadata supplier on Ivy repo: ${supplierClass}"
+                setMetadataSupplier(supplierClass) {
+                    params(false)
+                }
+            }
+            if (useLister && isAtLeastGradle49) {
+                println "Using custom version lister on Ivy repo: ${listerClass}"
+                setComponentVersionsLister(listerClass) {
                     params(false)
                 }
             }
         }
         maven {
             url "$repositoryBase/maven"
-            if (project.findProperty('useSupplier') && project.getProperty('useSupplier') && GradleVersion.current().baseVersion.compareTo(GradleVersion.version('4.9'))>=0) {
-                println "Using custom metadata supplier on Maven repo: ${project.getProperty('useSupplier')}"
-                setMetadataSupplier(Class.forName(project.getProperty('useSupplier'))) {
+            if (useSupplier && isAtLeastGradle49) {
+                println "Using custom metadata supplier on Maven repo: ${supplierClass}"
+                setMetadataSupplier(supplierClass) {
+                    params(true)
+                }
+            }
+            if (useLister && isAtLeastGradle49) {
+                println "Using custom version lister on Maven repo: ${listerClass}"
+                setComponentVersionsLister(listerClass) {
                     params(true)
                 }
             }
