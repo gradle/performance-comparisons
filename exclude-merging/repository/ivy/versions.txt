@@ -1797,6 +1797,7 @@ scott.black.hawk.down:character269:192.0;snapshot
 scott.black.hawk.down:character197:46.67;snapshot
 scott.black.hawk.down:character197:47.0;snapshot
 scott.black.hawk.down:character197:46.66;release
+scott.black.hawk.down:character375:1.47.0;release
 scott.black.hawk.down:character375:1.50.0;snapshot
 scott.black.hawk.down:character375:1.49.0;release
 scott.black.hawk.down:character141:2.333;release

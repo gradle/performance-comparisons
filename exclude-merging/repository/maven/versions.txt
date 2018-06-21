@@ -103,11 +103,13 @@ org.multiverse:multiverse-core:0.7.0;release
 org.multiverse:multiverse:0.7.0;release
 org.slf4j:slf4j-log4j12:1.7.7;release
 org.slf4j:slf4j-log4j12:1.7.21;release
+org.slf4j:slf4j-log4j12:1.7.2;release
 org.slf4j:slf4j-api:1.7.12;release
 org.slf4j:slf4j-api:1.7.5;release
 org.slf4j:slf4j-api:1.6.4;release
 org.slf4j:slf4j-api:1.7.21;release
 org.slf4j:slf4j-api:1.7.0;release
+org.slf4j:slf4j-api:1.7.2;release
 org.slf4j:slf4j-simple:1.7.21;release
 org.slf4j:jcl-over-slf4j:1.7.2;release
 org.slf4j:slf4j-parent:1.7.12;release
@@ -507,6 +509,7 @@ scott.robin.hood:princejohn:0.40.0;release
 scott.robin.hood:sirwalterloxley:0.40.0;release
 scott.robin.hood:sirwalterloxley:0.38.1;release
 scott.robin.hood:sirwalterloxley:0.35.1;release
+scott.robin.hood:sirwalterloxley:0.35.0;release
 scott.robin.hood:williammarshal:0.40.0;release
 scott.robin.hood:williammarshal:0.38.1;release
 scott.robin.hood:marionloxley:0.40.0;release
@@ -617,6 +620,7 @@ abrams.mission.impossible.three:lutherstickell:2.8.0;release
 abrams.mission.impossible.three:lindseyfarris:1.0.28;release
 abrams.mission.impossible.three:declangormley:2.8.0;release
 abrams.mission.impossible.three:declangormley:2.7.1;release
+abrams.mission.impossible.three:declangormley:2.7.5;release
 abrams.mission.impossible.three:juliameade:2.7.1;release
 abrams.mission.impossible.three:juliameade:2.7.5;release
 abrams.mission.impossible.three:johnmusgrave:1.0.28;release
