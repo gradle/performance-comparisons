@@ -1,6 +1,21 @@
 resolveDependencies {
    tasks = ["resolveDependencies"]
 }
+resolveDependenciesWithRules {
+   tasks = ["resolveDependencies"]
+   gradle-args = ["-PuseRules=true"]
+}
+
+resolveDependenciesHttp {
+   tasks = ["resolveDependencies"]
+   gradle-args = ["-PuseHttp=true"]
+}
+resolveDependenciesHttpWithRules {
+   tasks = ["resolveDependencies"]
+   gradle-args = ["-PuseRules=true", "-PuseHttp=true"]
+}
+
+
 assemble {
    tasks = ["assemble"]
 }
