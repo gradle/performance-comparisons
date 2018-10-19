@@ -78,29 +78,7 @@ allprojects {
 
         simpletest('scott.black.hawk.down:character330:latest.release') { transitive = false }
 
-        if (useRules) {
-            components.all(rules.StatusRule)
-        } else {
-            components.all { ComponentMetadataDetails details ->
-                details.statusScheme = ['snapshot', 'integration', 'candidate', 'release']
-
-                def version = details.id.version
-                if (version =~ /(?i).+(-|\.)(CANDIDATE|RC|BETA).*/) {
-                    details.status = 'candidate'
-                }
-                if (version =~ /(?i).+(-|\.)SNAPSHOT.*/) {
-                    details.status = 'snapshot'
-                }
-                // Seen coming from maven
-                if (details.status == null) {
-                    details.status = 'release'
-                }
-
-                if (details.status == 'snapshot' || details.status == 'integration') {
-                    details.changing = true
-                }
-            }
-        }
+        components.all(rules.StatusRule)
     }
 
     if (rootProject.findProperty('refresh')) {
@@ -139,81 +117,13 @@ allprojects {
         if (useRules) {
             dependencies {
                 components {
-                    all(rules.ExcludeRule)
+                    all(rules.ExcludeCachableRule)
                 }
             }
         } else {
-            configurations.all {
-                if (it.name != 'simpletest') {
-
-                    exclude group: 'javax.servlet', module: 'servlet'
-                    exclude group: 'javax.servlet', module: 'servlet-api'
-                    exclude group: 'weblogic', module: 'wlfullclient'
-                    exclude group: 'scott.black.hawk.down', module: 'map-title'
-                    exclude group: 'scott.black.hawk.down', module: 'rentalhistory'
-                    exclude group: 'scott.black.hawk.down', module: 'rentalhistory-client'
-                    exclude group: 'scott.black.hawk.down', module: 'rentalhistory-common'
-                    exclude group: 'org.mockito', module: 'mockito-all'
-                    //exclude group: 'scott.black.hawk.down', module: 'character235'
-                    exclude group: 'scott.black.hawk.down', module: 'queue'
-                    exclude group: 'kafka', module: 'core'
-                    exclude group: 'amazon', module: 'hadoop-core-emr'
-                    exclude group: 'javax.el', module: 'el-api'
-                    exclude group: 'javax.servlet.jsp.jstl', module: 'jstl-api'
-                    exclude group: 'javax.servlet.jsp', module: 'jsp-api'
-                    exclude group: 'org.mortbay.jetty', module: 'servlet-api'
-                    exclude group: 'org.glassfish.web', module: 'jstl-impl'
-                    exclude group: 'org.scribe', module: 'scribe'
-                    exclude group: '', module: 'content'
-                    exclude group: 'org.springframework', module: 'spring'
-                    exclude group: 'org.apache.geronimo.specs', module: 'geronimo-activation_1.1_spec'
-                    exclude group: 'org.apache.geronimo.specs', module: 'geronimo-annotation_1.0_spec'
-                    exclude group: 'org.apache.geronimo.specs', module: 'geronimo-jaxws_2.1_spec'
-                    exclude group: 'org.apache.geronimo.specs', module: 'geronimo-stax-api_1.0_spec'
-                    exclude group: 'org.apache.geronimo.specs', module: 'geronimo-ws-metadata_2.0_spec'
-                    exclude group: 'org.apache.cxf', module: 'cxf'
-                    exclude group: 'org.apache.geronimo.bundles', module: 'json'
-                    exclude group: 'com.google.guava', module: 'guava-jdk5'
-                    //junit:junit-dep has become obsolete.
-                    exclude group: 'junit', module: 'junit-dep'
-                    //used by traceagent
-                    exclude group: 'javassist', module: 'javassist'
-                    exclude group: 'xerces', module: 'xerces'
-                    exclude group: 'jtidy', module: 'jtidy'
-                    exclude group: 'org.apache.servicemix.bundles', module: 'org.apache.servicemix.bundles.commons-csv'
-                    // these are pulled in from playback-features and not needed
-                    exclude group: 'scott.black.hawk.down', module: 'reloaded-commons'
-                    exclude group: 'scott.black.hawk.down', module: 'mp4tools'
-
-                    // use the individual jars
-                    exclude group: 'cglib', module: 'cglib-nodep'
-                    exclude group: 'org.ow2.asm', module: 'asm-all'
-                    exclude group: 'org.ow2.asm', module: 'asm-debug-all'
-                    exclude group: 'io.netty', module: 'netty-all'
-
-                    // force to use io.reactivex
-                    exclude group: 'com.netflix.rxjava'
-
-                    // force to use io.reactivex:rxnetty-*
-                    exclude group: 'io.reactivex', module: 'rxnetty'
-
-                    exclude group: 'scott.black.hawk.down', module: 'cryptexclient'
-                    exclude group: 'scott.black.hawk.down', module: 'crypto-common'
-                    exclude group: 'com.github.fommil.netlib'
-
-                    // prefer bcprov-jdk16
-                    exclude group: 'org.bouncycastle', module: 'bcprov-jdk15on'
-
-                    // exclude slf4j-simple so we ensure we are using a real implementation
-                    exclude group: 'org.slf4j', module: 'slf4j-simple'
-
-                    // accessors-smart includes re-packaged ASM classes
-                    exclude group: 'net.minidev', module: 'accessors-smart'
-                    exclude group: 'net.minidev', module: 'json-smart'
-
-                    i++
-                    exclude group: gid[i % gid.size()], module: aid[i % (aid.size())]
-
+            dependencies {
+                components {
+                    all(rules.ExcludeRule)
                 }
             }
         }
