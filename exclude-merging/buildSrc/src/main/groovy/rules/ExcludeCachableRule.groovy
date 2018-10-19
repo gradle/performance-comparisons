@@ -9,12 +9,13 @@ import org.gradle.api.artifacts.repositories.RepositoryResourceAccessor
 import javax.inject.Inject
 
 @CompileStatic
-class ExcludeRule implements ComponentMetadataRule {
+@CacheableRule
+class ExcludeCachableRule implements ComponentMetadataRule {
 
     private final RepositoryResourceAccessor accessor
 
     @Inject
-    ExcludeRule(RepositoryResourceAccessor accessor) {
+    ExcludeCachableRule(RepositoryResourceAccessor accessor) {
         this.accessor = accessor
     }
 
