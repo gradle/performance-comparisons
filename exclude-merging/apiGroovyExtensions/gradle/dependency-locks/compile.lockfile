@@ -1,0 +1,9 @@
+# This is a Gradle generated file for dependency locking.
+# Manual edits can break the build and are not advised.
+# This file is expected to be part of source control.
+io.reactivex:rxgroovy:1.0.3
+io.reactivex:rxjava-math:1.0.0
+io.reactivex:rxjava:1.1.10
+junit:junit:4.12
+org.codehaus.groovy:groovy-all:2.4.5
+org.hamcrest:hamcrest-core:1.3

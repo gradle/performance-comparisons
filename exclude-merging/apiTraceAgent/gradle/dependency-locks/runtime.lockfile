@@ -1,0 +1,7 @@
+# This is a Gradle generated file for dependency locking.
+# Manual edits can break the build and are not advised.
+# This file is expected to be part of source control.
+com.fasterxml.jackson.core:jackson-annotations:2.8.0
+com.fasterxml.jackson.core:jackson-core:2.8.2
+com.fasterxml.jackson.core:jackson-databind:2.8.2
+org.javassist:javassist:3.20.0-GA

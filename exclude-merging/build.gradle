@@ -12,6 +12,7 @@ buildscript {
 }
 
 boolean useExcludes = !project.hasProperty('noExcludes')
+boolean useLocking = project.hasProperty('useLocking')
 boolean isAtLeastGradle49 = GradleVersion.current().baseVersion.compareTo(GradleVersion.version('4.9')) >= 0
 boolean useSupplier = project.findProperty('useSupplier') && project.getProperty('useSupplier')
 boolean useLister = project.findProperty('useLister') && project.getProperty('useLister')
@@ -67,6 +68,12 @@ allprojects {
 
     configurations {
         simpletest
+    }
+
+    if (useLocking) {
+        ['compile', 'testCompile', 'runtime', 'testRuntime'].each {
+            configurations."$it".resolutionStrategy.activateDependencyLocking()
+        }
     }
 
     dependencies {
