@@ -26,7 +26,7 @@ allprojects {
     }
     repositories {
         def httpPort = project.hasProperty('httpPort') ? project.findProperty('httpPort') : '8000'
-        def repositoryBase = project.hasProperty("useHttp") ? "http://localhost:${httpPort}" : "${rootProject.projectDir}/repository"
+        def repositoryBase = project.hasProperty("useHttp") ? "http://127.0.0.1:${httpPort}" : "${rootProject.projectDir}/repository"
         ivy {
             url "$repositoryBase/ivy"
             if (useSupplier) {
