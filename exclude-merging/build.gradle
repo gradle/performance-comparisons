@@ -105,8 +105,19 @@ allprojects {
             }
         }
 
-        if (useSubgraphConstraints) {
-            components.all(SubgraphConstraintsRule)
+        components.all { ComponentMetadataDetails details ->
+            details.allVariants {
+                withDependencies {
+                    def seen = []
+                    it.each {
+                        def moduleId = "${it.group}:${it.name}"
+                        if (!seen.contains(moduleId) && useSubgraphConstraints) {
+                            it.version { forSubgraph() }
+                        }
+                        seen += moduleId
+                    }
+                }
+            }
         }
     }
 
@@ -410,22 +421,4 @@ private void visitListOfVersions(List<String> path, File artifactDirectory, Writ
         }
     }
     new File(artifactDirectory, 'versions.txt.sha1').text = hashing.sha1().hashBytes(versionsFile.bytes).toString()
-}
-
-class SubgraphConstraintsRule implements ComponentMetadataRule {
-    @Override
-    void execute(ComponentMetadataContext context) {
-        context.details.allVariants {
-            withDependencies {
-                def seen = []
-                it.each {
-                    def moduleId = "${it.group}:${it.name}"
-                    if (!seen.contains(moduleId)) {
-                        it.version { forSubgraph() }
-                    }
-                    seen += moduleId
-                }
-            }
-        }
-    }
 }
