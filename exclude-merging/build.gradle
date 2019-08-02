@@ -11,9 +11,9 @@ buildscript {
     }
 }
 
-boolean useExcludes = !project.hasProperty('noExcludes')
 boolean useLocking = project.hasProperty('useLocking')
 boolean useSubgraphConstraints = project.hasProperty('useSubgraphConstraints') && GradleVersion.current().baseVersion.compareTo(GradleVersion.version('5.6')) > 0
+boolean useExcludes = !useSubgraphConstraints
 boolean isAtLeastGradle49 = GradleVersion.current().baseVersion.compareTo(GradleVersion.version('4.9')) >= 0
 boolean useSupplier = project.findProperty('useSupplier') && project.getProperty('useSupplier')
 boolean useLister = project.findProperty('useLister') && project.getProperty('useLister')
