@@ -417,8 +417,13 @@ class SubgraphConstraintsRule implements ComponentMetadataRule {
     void execute(ComponentMetadataContext context) {
         context.details.allVariants {
             withDependencies {
+                def seen = []
                 it.each {
-                    it.version { forSubgraph() }
+                    def moduleId = "${it.group}:${it.name}"
+                    if (!seen.contains(moduleId)) {
+                        it.version { forSubgraph() }
+                    }
+                    seen += moduleId
                 }
             }
         }
