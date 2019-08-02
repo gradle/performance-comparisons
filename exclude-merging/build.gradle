@@ -13,6 +13,7 @@ buildscript {
 
 boolean useExcludes = !project.hasProperty('noExcludes')
 boolean useLocking = project.hasProperty('useLocking')
+boolean useSubgraphConstraints = project.hasProperty('useSubgraphConstraints')
 boolean isAtLeastGradle49 = GradleVersion.current().baseVersion.compareTo(GradleVersion.version('4.9')) >= 0
 boolean useSupplier = project.findProperty('useSupplier') && project.getProperty('useSupplier')
 boolean useLister = project.findProperty('useLister') && project.getProperty('useLister')
@@ -102,6 +103,10 @@ allprojects {
             if (details.status == 'snapshot' || details.status == 'integration') {
                 details.changing = true
             }
+        }
+
+        if (useSubgraphConstraints) {
+            components.all(SubgraphConstraintsRule)
         }
     }
 
@@ -405,4 +410,17 @@ private void visitListOfVersions(List<String> path, File artifactDirectory, Writ
         }
     }
     new File(artifactDirectory, 'versions.txt.sha1').text = hashing.sha1().hashBytes(versionsFile.bytes).toString()
+}
+
+class SubgraphConstraintsRule implements ComponentMetadataRule {
+    @Override
+    void execute(ComponentMetadataContext context) {
+        context.details.allVariants {
+            withDependencies {
+                it.each {
+                    it.version { forSubgraph() }
+                }
+            }
+        }
+    }
 }
