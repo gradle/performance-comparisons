@@ -45,6 +45,10 @@ allprojects {
         }
         maven {
             url "$repositoryBase/maven"
+            metadataSources {
+                mavenPom()
+                artifact() // the test repository is missing 'maven-metadata.xml' files and directory listings need to be used to discover dynamic versions
+            }
             if (useSupplier && isAtLeastGradle49) {
                 println "Using custom metadata supplier on Maven repo: ${supplierClass}"
                 setMetadataSupplier(supplierClass) {
