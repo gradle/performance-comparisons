@@ -1,2 +1,2 @@
-commons-configuration:commons-configuration:1.8;release
 commons-configuration:commons-configuration:1.10;release
+commons-configuration:commons-configuration:1.8;release

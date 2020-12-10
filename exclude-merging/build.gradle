@@ -17,8 +17,18 @@ boolean useSubgraphConstraints = project.hasProperty('useSubgraphConstraints') &
 boolean isAtLeastGradle49 = GradleVersion.current().baseVersion.compareTo(GradleVersion.version('4.9')) >= 0
 boolean useSupplier = project.findProperty('useSupplier') && project.getProperty('useSupplier')
 boolean useLister = project.findProperty('useLister') && project.getProperty('useLister')
+boolean useHttp = project.hasProperty("useHttp")
 Class<?> supplierClass = useSupplier ? Class.forName(project.getProperty('useSupplier')) : null
 Class<?> listerClass = useLister ? Class.forName(project.getProperty('useLister')) : null
+
+println """
+Excludes            : ${useExcludes}
+Locking             : ${useLocking}
+Subgraph constraints: ${useSubgraphConstraints}
+Supplier            : ${useSupplier}
+Lister              : ${useLister}
+HTTP                : ${useHttp}
+"""
 
 allprojects {
     apply plugin: 'java'
@@ -27,7 +37,7 @@ allprojects {
     }
     repositories {
         def httpPort = project.hasProperty('httpPort') ? project.findProperty('httpPort') : '8000'
-        def repositoryBase = project.hasProperty("useHttp") ? "http://127.0.0.1:${httpPort}" : "${rootProject.projectDir}/repository"
+        def repositoryBase = useHttp ? "http://127.0.0.1:${httpPort}" : "${rootProject.projectDir}/repository"
         ivy {
             url "$repositoryBase/ivy"
             if (useSupplier) {
@@ -76,7 +86,7 @@ allprojects {
     }
 
     if (useLocking) {
-        ['compile', 'testCompile', 'runtime', 'testRuntime'].each {
+        ['compileClasspath', 'testCompileClasspath', 'runtimeClasspath', 'testRuntimeClasspath'].each {
             configurations."$it".resolutionStrategy.activateDependencyLocking()
         }
     }
@@ -231,62 +241,62 @@ subprojects {
 
 project(':api-trace-agent') {
     dependencies {
-        //compile project(':api-trace-common')
+        //implementation project(':api-trace-common')
     }
 }
 
 project(':api') {
     dependencies {
-        compile project(':api-service-layer-run')
-        compile project(':api-groovy-extensions')
-        compile project(':api-trace-agent')
-        compile project(':api-dependencies')
+        implementation project(':api-service-layer-run')
+        implementation project(':api-groovy-extensions')
+        implementation project(':api-trace-agent')
+        implementation project(':api-dependencies')
     }
 }
 
 project(':api-test') {
     dependencies {
-        compile project(':api-service-layer-endpoints')
-        compile project(':api-service-layer')
+        implementation project(':api-service-layer-endpoints')
+        implementation project(':api-service-layer')
     }
 }
 
 project(':api-service-layer') {
     dependencies {
-        compile project(':api-service-layer-endpoints')
-        //compile project(':api-trace-common')
+        implementation project(':api-service-layer-endpoints')
+        //implementation project(':api-trace-common')
     }
 }
 
 project(':api-service-layer-impl') {
     dependencies {
-        compile project(':api-test')
-        compile project(':api-service-layer')
-        testCompile project(':api-service-layer-run')
-        compile project(':api-dependencies')
-        //compile project(':api-trace-common')
+        implementation project(':api-test')
+        implementation project(':api-service-layer')
+        testImplementation project(':api-service-layer-run')
+        implementation project(':api-dependencies')
+        //implementation project(':api-trace-common')
     }
 }
 
 project(':api-service-layer-run') {
     dependencies {
-        compile project(':api-service-layer-endpoints')
-        compile project(':api-dependencies')
+        implementation project(':api-service-layer-endpoints')
+        implementation project(':api-dependencies')
     }
 }
 
 project(':api-dependencies') {
     dependencies {
-        compile project(':api-test')
-        compile project(':api-service-layer')
-        compile project(':api-platform')
-        compile project(':api-service-layer-endpoints')
+        implementation project(':api-test')
+        implementation project(':api-service-layer')
+        implementation project(':api-platform')
+        implementation project(':api-service-layer-endpoints')
     }
 }
 
 project(':api-service-layer-endpoints') {
     dependencies {
-        compile project(':api-platform')
+        implementation project(':api-platform')
     }
 }
 
@@ -298,7 +308,7 @@ project(':api-platform') {
 allprojects {
     task resolveDependencies {
         doLast {
-            def configs = project.findProperty('confs') ? project.getProperty('confs').split(',') : ['compile', 'testCompile', 'runtime', 'testRuntime']
+            def configs = project.findProperty('confs') ? project.getProperty('confs').split(',') : ['compileClasspath', 'testCompileClasspath', 'runtimeClasspath', 'testRuntimeClasspath']
             configs.each {
                 configurations."$it".files
             }

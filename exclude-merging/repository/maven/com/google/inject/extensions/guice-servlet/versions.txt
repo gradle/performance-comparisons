@@ -1,2 +1,3 @@
-com.google.inject.extensions:guice-servlet:4.1.0;release
 com.google.inject.extensions:guice-servlet:3.0;release
+com.google.inject.extensions:guice-servlet:4.1.0;release
+com.google.inject.extensions:guice-servlet:4.0;release

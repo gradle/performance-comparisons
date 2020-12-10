@@ -1,2 +1,4 @@
-com.fasterxml.jackson.jaxrs:jackson-jaxrs-providers:2.8.2;release
+com.fasterxml.jackson.jaxrs:jackson-jaxrs-providers:2.3.0;release
 com.fasterxml.jackson.jaxrs:jackson-jaxrs-providers:2.4.5;release
+com.fasterxml.jackson.jaxrs:jackson-jaxrs-providers:2.8.2;release
+com.fasterxml.jackson.jaxrs:jackson-jaxrs-providers:2.4.6;release

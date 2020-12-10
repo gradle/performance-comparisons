@@ -1,10 +1,10 @@
 dependencies {
-    compile "org.javassist:javassist:latest.release"
-    compile "com.fasterxml.jackson.core:jackson-core:latest.release"
-    compile "com.fasterxml.jackson.core:jackson-databind:latest.release"
-    testCompile "junit:junit:latest.release"
-    testCompile "commons-io:commons-io:latest.release"
-    testCompile "org.mockito:mockito-core:latest.release"
+    implementation "org.javassist:javassist:latest.release"
+    implementation "com.fasterxml.jackson.core:jackson-core:latest.release"
+    implementation "com.fasterxml.jackson.core:jackson-databind:latest.release"
+    testImplementation "junit:junit:latest.release"
+    testImplementation "commons-io:commons-io:latest.release"
+    testImplementation "org.mockito:mockito-core:latest.release"
 }
 
 

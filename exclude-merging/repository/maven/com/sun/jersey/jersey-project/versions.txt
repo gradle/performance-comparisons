@@ -1,2 +1,2 @@
-com.sun.jersey:jersey-project:1.19;release
 com.sun.jersey:jersey-project:1.19.1;release
+com.sun.jersey:jersey-project:1.19;release

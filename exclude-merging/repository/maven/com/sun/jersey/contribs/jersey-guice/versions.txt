@@ -1,2 +1,2 @@
-com.sun.jersey.contribs:jersey-guice:1.19;release
 com.sun.jersey.contribs:jersey-guice:1.19.1;release
+com.sun.jersey.contribs:jersey-guice:1.19;release

@@ -1,1 +1,2 @@
 scott.exodus.gods.and.kings:moses:4.45.0;release
+scott.exodus.gods.and.kings:moses:4.33.0;release

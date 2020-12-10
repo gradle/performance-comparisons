@@ -1,2 +1,3 @@
-scott.black.hawk.down:character368:600.13;release
 scott.black.hawk.down:character368:600.1;release
+scott.black.hawk.down:character368:600.13;release
+scott.black.hawk.down:character368:600.7;release
