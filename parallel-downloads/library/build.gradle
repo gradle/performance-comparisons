@@ -6,11 +6,9 @@ buildscript {
     }
 }
 
-plugins { id "io.spring.dependency-management" version "1.0.0.RELEASE" }
+ext { springBootVersion = '2.4.1' }
 
-ext { springBootVersion = '1.5.2.RELEASE' }
-
-apply plugin: 'java'
+apply plugin: 'java-library'
 apply plugin: 'eclipse'
 
 jar {
@@ -26,12 +24,10 @@ repositories {
 }
 
 dependencies {
-    compile('org.springframework.boot:spring-boot-starter')
-    testCompile('org.springframework.boot:spring-boot-starter-test')
+    api platform("org.springframework.boot:spring-boot-dependencies:${springBootVersion}")
+    implementation('org.springframework.boot:spring-boot-starter')
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 
-dependencyManagement {
-    imports { mavenBom("org.springframework.boot:spring-boot-dependencies:${springBootVersion}") }
-}
 
 

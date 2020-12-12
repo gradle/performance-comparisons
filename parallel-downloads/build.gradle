@@ -1,6 +1,6 @@
 subprojects {
     tasks.register("resolveDependencies") {
-            def configs = project.findProperty('confs')?project.getProperty('confs').split(','):['compile', 'testCompile', 'runtime', 'testRuntime']
+            def configs = project.findProperty('confs')?project.getProperty('confs').split(','):['compileClasspath', 'testCompileClasspath', 'runtimeClasspath', 'testRuntimeClasspath']
             configs.each { config ->
                 inputs.files configurations."$config"
             }

@@ -1,5 +1,5 @@
 buildscript {
-    ext { springBootVersion = '1.5.2.RELEASE' }
+    ext { springBootVersion = '2.4.1' }
     repositories { maven { url project.findProperty('mavenRepoURL') } }
     dependencies { classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}") }
 }
@@ -17,9 +17,9 @@ sourceCompatibility = 1.8
 repositories { maven { url project.findProperty('mavenRepoURL') } }
 
 dependencies {
-    compile('org.springframework.boot:spring-boot-starter-actuator')
-    compile('org.springframework.boot:spring-boot-starter-web')
-    compile project(':library')
-    testCompile('org.springframework.boot:spring-boot-starter-test')
+    implementation('org.springframework.boot:spring-boot-starter-actuator')
+    implementation('org.springframework.boot:spring-boot-starter-web')
+    implementation project(':library')
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 
