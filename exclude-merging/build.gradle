@@ -7,7 +7,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath "com.netflix.nebula:gradle-resolution-rules-plugin:2.0.0"
+        classpath "com.netflix.nebula:gradle-resolution-rules-plugin:3.0.0"
     }
 }
 
