@@ -236,7 +236,6 @@ allprojects {
 subprojects {
     // unlocked dependencies
     ext.dependencyReleaseStatus = System.getProperty('dependencyReleaseStatus', project.hasProperty("dependencyReleaseStatus") ? dependencyReleaseStatus : 'release')
-    apply from: "dependencies.gradle"
 }
 
 project(':api-trace-agent') {
