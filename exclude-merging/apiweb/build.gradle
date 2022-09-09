@@ -5,7 +5,7 @@ dependencies {
 
     testImplementation group:"com.google.guava", name:"guava", version:"latest.${dependencyReleaseStatus}"
     implementation group:'scott.black.hawk.down', name:'character302', version:"latest.release"
-    implementation group:'scott.black.hawk.down', name:'character249', version:"latest.release", force:true
+    implementation 'scott.black.hawk.down:character249:latest.release!!'
     implementation group:'scott.black.hawk.down', name:'character169', version: "latest.${dependencyReleaseStatus}"
     implementation group:'scott.black.hawk.down', name:'character76', version: "latest.${dependencyReleaseStatus}"
     implementation group:"org.restlet", name:"org.restlet", version:"latest.candidate"
