@@ -13,18 +13,11 @@ buildscript {
 
 boolean useExcludes = !project.hasProperty('noExcludes')
 boolean useLocking = project.hasProperty('useLocking')
-boolean isAtLeastGradle49 = GradleVersion.current().baseVersion.compareTo(GradleVersion.version('4.9')) >= 0
-boolean useSupplier = project.findProperty('useSupplier') && project.getProperty('useSupplier')
-boolean useLister = project.findProperty('useLister') && project.getProperty('useLister')
 boolean useHttp = project.hasProperty("useHttp")
-Class<?> supplierClass = useSupplier ? Class.forName(project.getProperty('useSupplier')) : null
-Class<?> listerClass = useLister ? Class.forName(project.getProperty('useLister')) : null
 
 println """
 Excludes            : ${useExcludes}
 Locking             : ${useLocking}
-Supplier            : ${useSupplier}
-Lister              : ${useLister}
 HTTP                : ${useHttp}
 """
 
@@ -38,36 +31,12 @@ allprojects {
         def repositoryBase = useHttp ? "http://127.0.0.1:${httpPort}" : "${rootProject.projectDir}/repository"
         ivy {
             url "$repositoryBase/ivy"
-            if (useSupplier) {
-                println "Using custom metadata supplier on Ivy repo: ${supplierClass}"
-                setMetadataSupplier(supplierClass) {
-                    params(false)
-                }
-            }
-            if (useLister && isAtLeastGradle49) {
-                println "Using custom version lister on Ivy repo: ${listerClass}"
-                setComponentVersionsLister(listerClass) {
-                    params(false)
-                }
-            }
         }
         maven {
             url "$repositoryBase/maven"
             metadataSources {
                 mavenPom()
                 artifact() // the test repository is missing 'maven-metadata.xml' files and directory listings need to be used to discover dynamic versions
-            }
-            if (useSupplier && isAtLeastGradle49) {
-                println "Using custom metadata supplier on Maven repo: ${supplierClass}"
-                setMetadataSupplier(supplierClass) {
-                    params(true)
-                }
-            }
-            if (useLister && isAtLeastGradle49) {
-                println "Using custom version lister on Maven repo: ${listerClass}"
-                setComponentVersionsLister(listerClass) {
-                    params(true)
-                }
             }
         }
         flatDir {
@@ -101,10 +70,10 @@ allprojects {
             details.statusScheme = ['snapshot', 'integration', 'candidate', 'release']
 
             def version = details.id.version
-            if (version =~ /(?i).+(-|\.)(CANDIDATE|RC|BETA).*/) {
+            if (version.contains("CANDIDATE") || version.contains("RC") || version.contains("BETA")) {
                 details.status = 'candidate'
             }
-            if (version =~ /(?i).+(-|\.)SNAPSHOT.*/) {
+            if (version.contains("SNAPSHOT")) {
                 details.status = 'snapshot'
             }
             // Seen coming from maven
@@ -115,13 +84,6 @@ allprojects {
             if (details.status == 'snapshot' || details.status == 'integration') {
                 details.changing = true
             }
-        }
-    }
-
-    if (rootProject.findProperty('refresh')) {
-        println "Setting cache for dynamic versions to 0 second"
-        configurations.all {
-            resolutionStrategy.cacheDynamicVersionsFor 0, "seconds"
         }
     }
 }
@@ -229,7 +191,7 @@ allprojects {
 
 subprojects {
     // unlocked dependencies
-    ext.dependencyReleaseStatus = System.getProperty('dependencyReleaseStatus', project.hasProperty("dependencyReleaseStatus") ? dependencyReleaseStatus : 'release')
+    ext.dependencyReleaseStatus = 'release'
 }
 
 project(':api-trace-agent') {
@@ -301,120 +263,10 @@ project(':api-platform') {
 allprojects {
     task resolveDependencies {
         doLast {
-            def configs = project.findProperty('confs') ? project.getProperty('confs').split(',') : ['compileClasspath', 'testCompileClasspath', 'runtimeClasspath', 'testRuntimeClasspath']
+            def configs = ['compileClasspath', 'testCompileClasspath', 'runtimeClasspath', 'testRuntimeClasspath']
             configs.each {
                 configurations."$it".files
             }
         }
     }
-}
-
-def hashing = gradle.class.classLoader.loadClass('com.google.common.hash.Hashing')
-
-task updateIvyStatus {
-    ext.outputFile = file('repository/ivy/versions.txt')
-    ext.outputFileSignature = file('repository/ivy/versions.txt.sha1')
-    inputs.dir('repository/ivy')
-    outputs.dir('repository/ivy')
-    doLast {
-        if (ext.outputFile.exists()) {
-            ext.outputFile.delete()
-        }
-        ext.outputFile.withWriter { writer ->
-            file('repository/ivy').eachFile { groupFile ->
-                def group = groupFile.name
-                if (groupFile.directory) {
-                    groupFile.eachFile { moduleFile ->
-                        def module = moduleFile.name
-                        new File(moduleFile, 'versions.txt').withWriter { perVersion ->
-                            moduleFile.eachFile { versionFile ->
-                                if (versionFile.directory) {
-                                    def version = versionFile.name
-                                    def versionIvy = new File(versionFile, "ivy-${version}.xml")
-                                    if (versionIvy.exists()) {
-                                        def p = versionIvy.text =~ /status="(.+?)"/
-                                        if (p.find()) {
-                                            writer.writeLine "$group:$module:$version;${p.group(1)}"
-                                            perVersion.writeLine "$group:$module:$version;${p.group(1)}"
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        def md = hashing.sha1()
-                        new File(moduleFile, 'versions.txt.sha1').text = md.hashBytes(new File(moduleFile, 'versions.txt').bytes).toString()
-                    }
-                }
-            }
-        }
-        ext.outputFileSignature.withWriter { writer ->
-            def md = hashing.sha1()
-            writer << md.hashBytes(ext.outputFile.bytes).toString()
-        }
-    }
-}
-
-task updateMavenStatus {
-    ext.outputFile = file('repository/maven/versions.txt')
-    ext.outputFileSignature = file('repository/maven/versions.txt.sha1')
-    inputs.dir('repository/maven')
-    outputs.dir('repository/maven')
-    doLast {
-        if (ext.outputFile.exists()) {
-            ext.outputFile.delete()
-        }
-        ext.outputFile.withWriter { writer ->
-            visitMavenRepo([], file('repository/maven'), writer)
-        }
-        ext.outputFileSignature.withWriter { writer ->
-            def md = hashing.sha1()
-            writer << md.hashBytes(ext.outputFile.bytes).toString()
-        }
-    }
-}
-
-private void visitMavenRepo(List<String> path, File currentDir, Writer singleVersionFileWriter) {
-    File mavenMetadata = new File(currentDir, 'maven-metadata.xml')
-    if (currentDir.directory) {
-        if (mavenMetadata.exists() || looksLikeVersionDir(currentDir)) {
-            // this is a directory of versions, and the name corresponds to an artifact id
-            visitListOfVersions(path, currentDir, singleVersionFileWriter)
-        } else {
-            currentDir.eachFile {
-                if (it.directory) {
-                    visitMavenRepo(path + it.name, it, singleVersionFileWriter)
-                }
-            }
-        }
-    }
-}
-
-private boolean looksLikeVersionDir(File currentDir) {
-    def files = currentDir.listFiles()
-    for (int i = 0; i < files.length; i++) {
-        if (files[i].directory) {
-            if (files[i].listFiles().any { it.name.endsWith('.pom') }) {
-                return true
-            }
-        }
-    }
-    return false
-}
-
-private void visitListOfVersions(List<String> path, File artifactDirectory, Writer singleVersionFileWriter) {
-    def hashing = gradle.class.classLoader.loadClass('com.google.common.hash.Hashing')
-    String group = path[0..<path.size() - 1].join('.')
-    String artifactId = artifactDirectory.name
-    def versionsFile = new File(artifactDirectory, 'versions.txt')
-    versionsFile.withWriter { perModule ->
-        artifactDirectory.listFiles().each {
-            if (it.directory) {
-                String version = it.name
-                String status = version.endsWith('-SNAPSHOT') ? 'integration' : 'release'
-                singleVersionFileWriter.writeLine "$group:$artifactId:$version;$status"
-                perModule.writeLine "$group:$artifactId:$version;$status"
-            }
-        }
-    }
-    new File(artifactDirectory, 'versions.txt.sha1').text = hashing.sha1().hashBytes(versionsFile.bytes).toString()
 }
