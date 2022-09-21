@@ -262,11 +262,10 @@ project(':api-platform') {
 
 allprojects {
     task resolveDependencies {
+        def configs = ['compileClasspath', 'testCompileClasspath', 'runtimeClasspath', 'testRuntimeClasspath']
+	dependsOn configs.collect { configurations.getByName(it) }
         doLast {
-            def configs = ['compileClasspath', 'testCompileClasspath', 'runtimeClasspath', 'testRuntimeClasspath']
-            configs.each {
-                configurations."$it".files
-            }
+	    configs.each { configurations.getByName(it).files }
         }
     }
 }
