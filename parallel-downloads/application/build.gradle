@@ -9,8 +9,8 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 
 jar {
-    baseName = 'gs-multi-module-application'
-    version = '0.0.1-SNAPSHOT'
+    archiveBaseName = 'gs-multi-module-application'
+    archiveVersion = '0.0.1-SNAPSHOT'
 }
 sourceCompatibility = 1.8
 
