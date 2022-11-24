@@ -6,7 +6,7 @@ buildscript {
     }
 }
 
-ext { springBootVersion = '2.4.1' }
+ext { springBootVersion = '2.7.5' }
 
 apply plugin: 'java-library'
 apply plugin: 'eclipse'
