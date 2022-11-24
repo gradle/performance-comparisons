@@ -1,5 +1,5 @@
 buildscript {
-    ext { springBootVersion = '2.4.1' }
+    ext { springBootVersion = '2.7.5' }
     repositories { maven { url project.findProperty('mavenRepoURL') } }
     dependencies { classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}") }
 }
