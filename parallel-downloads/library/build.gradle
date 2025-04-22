@@ -6,7 +6,7 @@ buildscript {
     }
 }
 
-ext { springBootVersion = '2.7.5' }
+ext { springBootVersion = '3.4.4' }
 
 apply plugin: 'java-library'
 apply plugin: 'eclipse'
@@ -15,7 +15,10 @@ jar {
     archiveBaseName = 'gs-multi-module-library'
     archiveVersion = '0.0.1-SNAPSHOT'
 }
-sourceCompatibility = 1.8
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+}
 
 repositories {
     maven {
