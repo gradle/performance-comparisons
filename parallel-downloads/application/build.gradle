@@ -1,5 +1,5 @@
 buildscript {
-    ext { springBootVersion = '2.7.5' }
+    ext { springBootVersion = '3.4.4' }
     repositories { maven { url project.findProperty('mavenRepoURL') } }
     dependencies { classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}") }
 }
@@ -12,7 +12,10 @@ jar {
     archiveBaseName = 'gs-multi-module-application'
     archiveVersion = '0.0.1-SNAPSHOT'
 }
-sourceCompatibility = 1.8
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+}
 
 repositories { maven { url project.findProperty('mavenRepoURL') } }
 
