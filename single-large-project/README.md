@@ -19,5 +19,5 @@ For Apache Maven:
 ```
 export MAVEN_HOME=/path/to/apache-maven
 export MAVEN_OPTS="-Xms2g -Xmx2g"
-gradle-profiler gradle-profiler --scenario-file performance.scenarios --project-dir . --benchmark --maven
+gradle-profiler --scenario-file performance.scenarios --project-dir . --benchmark --maven
 ```
